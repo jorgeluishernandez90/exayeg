@@ -11,8 +11,8 @@
             { "id": "reglas-ortograficas", "nombre": "Reglas ortográficas", "disponible": true },
             { "id": "acentuacion", "nombre": "Acentuación", "disponible": true },
             { "id": "signos-puntuacion", "nombre": "Signos de puntuación", "disponible": true },
-            { "id": "redaccion", "nombre": "Redacción", "disponible": false },
-            { "id": "vicios-lenguaje", "nombre": "Vicios del lenguaje", "disponible": false },
+            { "id": "redaccion", "nombre": "Redacción", "disponible": true },
+            { "id": "vicios-lenguaje", "nombre": "Vicios del lenguaje", "disponible": true },
             { "id": "texto-informativo", "nombre": "Texto informativo", "disponible": false },
             { "id": "texto-argumentativo", "nombre": "Texto argumentativo", "disponible": false }
           ]
