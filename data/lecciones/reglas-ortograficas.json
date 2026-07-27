@@ -65,17 +65,17 @@
     },
     {
       "formato": "completamiento",
+      "enunciado": "El presidente del Consejo ______apacita a los funcionarios de casilla para prote______er la boleta y garanti______ar el resguardo de las actas.",
+      "opciones": ["c, g, z", "s, j, s", "z, g, s"],
+      "respuesta_correcta": 0,
+      "explicacion": "Las formas correctas son 'capacita' (con C), 'proteger' (con G) y 'garantizar' (con Z); las otras combinaciones no existen en español."
+    },
+    {
+      "formato": "completamiento",
       "enunciado": "El funcionario debe ______ imparcial durante todo el proceso.",
       "opciones": ["permanecer", "permaneser", "permanezer"],
       "respuesta_correcta": 0,
       "explicacion": "Los verbos terminados en '-ecer' se escriben con C."
-    },
-    {
-      "formato": "cuestionamiento-directo",
-      "enunciado": "¿Qué palabra está escrita correctamente?",
-      "opciones": ["Protejer", "Proteger", "Protegir"],
-      "respuesta_correcta": 1,
-      "explicacion": "Los verbos terminados en '-ger' se escriben con G, salvo 'tejer'."
     },
     {
       "formato": "completamiento",

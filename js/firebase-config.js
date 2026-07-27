@@ -13,12 +13,12 @@
 // ------------------------------------------------------------------
 
 const firebaseConfig = {
-  // apiKey: "...",
-  // authDomain: "...",
-  // projectId: "...",
-  // storageBucket: "...",
-  // messagingSenderId: "...",
-  // appId: "..."
+  apiKey: "AIzaSyDJI2k1s0bN0UQUv18nkLCAwuPs3dYXQow",
+  authDomain: "guia-exayeg.firebaseapp.com",
+  projectId: "guia-exayeg",
+  storageBucket: "guia-exayeg.firebasestorage.app",
+  messagingSenderId: "596074551011",
+  appId: "1:596074551011:web:8968efd82b8b2d3ed117d6"
 };
 
 window.FIREBASE_CONFIG = firebaseConfig;

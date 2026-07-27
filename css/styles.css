@@ -1,18 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,500;0,600;0,700;1,500&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500&display=swap');
 
 :root{
-  --vino: #6E1E3A;
-  --vino-oscuro: #4A1327;
-  --pergamino: #F3EEE2;
-  --pergamino-osc: #E9E1CE;
-  --tinta: #241F1C;
-  --tinta-suave: #5B534B;
-  --laton: #B08D57;
-  --verde-acta: #3F6C51;
-  --rojo-error: #A3333D;
-  --borde: #D8CDB4;
+  --vino: #5D3A73;
+  --vino-oscuro: #3B2249;
+  --pergamino: #F2F0F5;
+  --pergamino-osc: #E6E1EC;
+  --tinta: #2B2733;
+  --tinta-suave: #675F70;
+  --laton: #C97FA0;
+  --verde-acta: #4C7A63;
+  --rojo-error: #A34363;
+  --borde: #DAD3E3;
   --radio: 4px;
-  --sombra: 0 2px 10px rgba(74,19,39,0.12);
+  --sombra: 0 2px 10px rgba(59,34,73,0.14);
 }
 
 *{box-sizing:border-box;}

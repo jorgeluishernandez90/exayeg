@@ -9,7 +9,7 @@
           "nombre": "Competencia comunicativa",
           "subtemas": [
             { "id": "reglas-ortograficas", "nombre": "Reglas ortográficas", "disponible": true },
-            { "id": "acentuacion", "nombre": "Acentuación", "disponible": false },
+            { "id": "acentuacion", "nombre": "Acentuación", "disponible": true },
             { "id": "signos-puntuacion", "nombre": "Signos de puntuación", "disponible": false },
             { "id": "redaccion", "nombre": "Redacción", "disponible": false },
             { "id": "vicios-lenguaje", "nombre": "Vicios del lenguaje", "disponible": false },
