@@ -1,0 +1,115 @@
+{
+  "id": "signos-puntuacion",
+  "titulo": "Signos de puntuación",
+  "area": "Competencia comunicativa",
+  "introduccion": "Esta subárea evalúa el uso correcto de la coma, el punto y coma, los dos puntos y el punto, así como los errores más comunes que cambian el sentido de una oración cuando se puntúa mal.",
+  "explicacion": [
+    "La coma (,): separa elementos de una enumeración (boletas, actas, urnas y mamparas); se usa antes y después de un vocativo o de un inciso explicativo (El consejero, quien llevaba diez años en el cargo, presidió la sesión); y se coloca antes de conjunciones adversativas como 'pero', 'aunque' o 'sino' (Llegó a tiempo, pero sin la documentación). NO se debe colocar coma entre el sujeto y el verbo de una oración, aun si el sujeto es largo.",
+    "El punto y coma (;): separa elementos de una enumeración cuando estos ya contienen comas internas (Asistieron el presidente, quien coordinó la sesión; la secretaria, encargada del acta; y dos vocales); también separa oraciones independientes pero relacionadas en sentido, sobre todo cuando la segunda empieza con un conector como 'sin embargo' o 'por lo tanto'.",
+    "Los dos puntos (:): se usan antes de una enumeración anunciada en el texto (Se requieren tres documentos: identificación, comprobante de domicilio y CURP); después del saludo en cartas y oficios (Estimado consejero:); y antes de una cita textual.",
+    "El punto (.): cierra un enunciado con sentido completo. El punto y seguido separa oraciones dentro de un mismo párrafo; el punto y aparte inicia un párrafo nuevo; el punto final cierra un texto completo. Después del punto siempre se escribe mayúscula, salvo en abreviaturas seguidas de otra palabra.",
+    "Errores frecuentes: la 'coma que separa sujeto y verbo' (Los integrantes del consejo distrital, se reunieron a las 9:00 — incorrecto) es de los errores más señalados en los exámenes; también la ausencia de coma antes de conectores adversativos, y la confusión entre punto y coma cuando la enumeración es simple (ahí basta con comas)."
+  ],
+  "ejemplos": [
+    { "incorrecto": "El presidente del consejo, informó los resultados.", "correcto": "El presidente del consejo informó los resultados.", "nota": "No debe haber coma entre el sujeto ('el presidente del consejo') y el verbo ('informó')." },
+    { "incorrecto": "Se recibieron actas boletas y sobres.", "correcto": "Se recibieron actas, boletas y sobres.", "nota": "Los elementos de una enumeración simple se separan con coma." },
+    { "incorrecto": "El escrutinio terminó tarde sin embargo, todo salió bien.", "correcto": "El escrutinio terminó tarde; sin embargo, todo salió bien.", "nota": "Antes de 'sin embargo' que conecta dos oraciones se usa punto y coma, y después siempre coma." }
+  ],
+  "material_consulta": [
+    { "titulo": "Real Academia Española, Ortografía de la lengua española", "url": "https://www.rae.es" },
+    { "titulo": "RAE — Diccionario panhispánico de dudas, uso de la coma", "url": "https://www.rae.es/dpd/coma" },
+    { "titulo": "RAE — Diccionario panhispánico de dudas, uso del punto", "url": "https://www.rae.es/dpd/punto" }
+  ],
+  "preguntas": [
+    {
+      "formato": "cuestionamiento-directo",
+      "enunciado": "¿Cuál de las siguientes oraciones está puntuada correctamente?",
+      "opciones": [
+        "Los integrantes del consejo, se reunieron a las nueve de la mañana.",
+        "Los integrantes del consejo se reunieron, a las nueve de la mañana.",
+        "Los integrantes del consejo se reunieron a las nueve de la mañana."
+      ],
+      "respuesta_correcta": 2,
+      "explicacion": "No debe colocarse coma entre el sujeto y el verbo, ni entre el verbo y su complemento, cuando no hay un inciso explicativo."
+    },
+    {
+      "formato": "completamiento",
+      "enunciado": "Se requieren tres documentos______ identificación oficial, CURP y comprobante de domicilio.",
+      "opciones": [":", ";", ","],
+      "respuesta_correcta": 0,
+      "explicacion": "Los dos puntos se usan para anunciar una enumeración que el texto ya anticipó."
+    },
+    {
+      "formato": "cuestionamiento-directo",
+      "enunciado": "¿Cuál oración usa correctamente el punto y coma?",
+      "opciones": [
+        "Asistieron el presidente, quien coordinó la sesión; la secretaria, encargada del acta; y dos vocales.",
+        "Asistieron el presidente; quien coordinó la sesión, la secretaria; encargada del acta, y dos vocales.",
+        "Asistieron el presidente, quien coordinó la sesión, la secretaria, encargada del acta, y dos vocales."
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "Cuando los elementos de una enumeración ya llevan comas internas, se separan entre sí con punto y coma para evitar confusión."
+    },
+    {
+      "formato": "completamiento",
+      "enunciado": "El escrutinio terminó tarde______ sin embargo, todo salió conforme al procedimiento.",
+      "opciones": [";", ",", ":"],
+      "respuesta_correcta": 0,
+      "explicacion": "Antes de un conector como 'sin embargo' que une dos oraciones independientes se usa punto y coma."
+    },
+    {
+      "formato": "cuestionamiento-directo",
+      "enunciado": "¿En qué opción el vocativo está correctamente delimitado por comas?",
+      "opciones": [
+        "Consejero le informo que el acta ya está lista.",
+        "Consejero, le informo que el acta ya está lista.",
+        "Consejero le informo, que el acta ya está lista."
+      ],
+      "respuesta_correcta": 1,
+      "explicacion": "El vocativo ('Consejero') se separa del resto de la oración con una coma."
+    },
+    {
+      "formato": "completamiento",
+      "enunciado": "Estimado consejero______ Le escribo para confirmar mi asistencia a la capacitación.",
+      "opciones": [":", ",", ";"],
+      "respuesta_correcta": 0,
+      "explicacion": "Después del saludo en cartas y oficios se usan dos puntos, no coma."
+    },
+    {
+      "formato": "cuestionamiento-directo",
+      "enunciado": "¿Cuál oración contiene un inciso explicativo correctamente delimitado?",
+      "opciones": [
+        "El consejero, que llevaba diez años en el cargo presidió la sesión.",
+        "El consejero que llevaba diez años en el cargo, presidió la sesión.",
+        "El consejero, que llevaba diez años en el cargo, presidió la sesión."
+      ],
+      "respuesta_correcta": 2,
+      "explicacion": "Un inciso explicativo se delimita con una coma antes y otra después."
+    },
+    {
+      "formato": "completamiento",
+      "enunciado": "Se recibieron actas______ boletas______ y sobres antes del cierre.",
+      "opciones": [", ,", "; ;", ": :"],
+      "respuesta_correcta": 0,
+      "explicacion": "En una enumeración simple, sin comas internas en cada elemento, basta con comas."
+    },
+    {
+      "formato": "cuestionamiento-directo",
+      "enunciado": "¿Qué opción usa correctamente la conjunción adversativa 'pero'?",
+      "opciones": [
+        "Llegó a tiempo pero, sin la documentación completa.",
+        "Llegó a tiempo, pero sin la documentación completa.",
+        "Llegó a tiempo, pero, sin la documentación completa."
+      ],
+      "respuesta_correcta": 1,
+      "explicacion": "Antes de conjunciones adversativas como 'pero' se coloca una coma; no se pone coma después de 'pero' salvo que introduzca un inciso."
+    },
+    {
+      "formato": "completamiento",
+      "enunciado": "El consejo sesionó______ aunque no todos los integrantes asistieron.",
+      "opciones": [",", ";", ":"],
+      "respuesta_correcta": 0,
+      "explicacion": "Antes de la conjunción adversativa 'aunque' se coloca una coma cuando introduce una oración subordinada al final."
+    }
+  ]
+}
