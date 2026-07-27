@@ -1,0 +1,102 @@
+{
+  "id": "reglas-ortograficas",
+  "titulo": "Reglas ortográficas",
+  "area": "Competencia comunicativa",
+  "introduccion": "En el examen, esta subárea evalúa que reconozcas la escritura correcta de las palabras: uso de letras que se prestan a confusión (b/v, s/c/z, g/j, h), mayúsculas y la escritura de números y siglas. No se trata de memorizar reglas aisladas, sino de reconocer patrones frecuentes.",
+  "explicacion": [
+    "Uso de B y V: se escribe con B después de las sílabas 'al', 'ar' y 'bu-, bur-, bus-' (absoluto, arbusto, buscar); en los pretéritos imperfectos de los verbos terminados en -ar (caminaba) y del verbo ir (iba); y en las terminaciones -bilidad, -bundo, -bunda (amabilidad), salvo civilidad y movilidad. Se escribe con V después de las sílabas 'ad-', 'sub-' y 'ob-' (advertir, subvención) y en los adjetivos terminados en -avo, -ave, -evo, -eve, -ivo (octavo, suave, longevo, leve, activo).",
+    "Uso de la H: se escribe H en palabras que empiezan con 'hidr-', 'hosp-', 'hiper-', 'hipo-' y 'herm-' (hidratante, hospital, hipermercado, hipócrita, hermético), y en todas las formas de los verbos haber, hacer, hablar y habitar. También en interjecciones como '¡hola!' y '¡eh!'.",
+    "Uso de G y J: se escribe G antes de las combinaciones 'ge' y 'gi' en la mayoría de los casos (general, ágil), salvo excepciones frecuentes como 'jefe', 'jirafa', 'berenjena' o 'garaje'. Los verbos terminados en '-ger' y '-gir' se escriben con G (proteger, dirigir), excepto tejer y crujir.",
+    "Uso de mayúsculas: se escriben con mayúscula inicial los nombres propios, los sustantivos y adjetivos que forman parte del nombre de instituciones, entidades u organismos (Instituto Electoral del Estado de Guanajuato), y la primera palabra de un escrito o después de punto. No se escriben con mayúscula los días de la semana, los meses ni las estaciones del año, salvo que inicien una oración.",
+    "Homófonos frecuentes: son palabras que se pronuncian igual pero se escriben distinto y tienen significado diferente, por ejemplo 'ha' (del verbo haber) y 'a' (preposición); 'hay' (del verbo haber), 'ahí' (lugar) y '¡ay!' (interjección); 'vaya' (del verbo ir), 'valla' (cerca) y 'baya' (fruto)."
+  ],
+  "ejemplos": [
+    { "incorrecto": "El comité *aprovó* el dictamen.", "correcto": "El comité aprobó el dictamen.", "nota": "Aprobar se escribe con B por ser un derivado de 'probar'." },
+    { "incorrecto": "La sesión fue *echa* pública.", "correcto": "La sesión fue hecha pública.", "nota": "'Hecha' viene del verbo hacer, siempre se escribe con H." },
+    { "incorrecto": "*Havía* poca luz en la sala.", "correcto": "Había poca luz en la sala.", "nota": "Todas las formas del verbo haber se escriben con H." }
+  ],
+  "material_consulta": [
+    { "titulo": "Real Academia Española, Ortografía de la lengua española", "url": "https://www.rae.es" },
+    { "titulo": "Diccionario panhispánico de dudas (RAE)", "url": "https://www.rae.es/dpd/" }
+  ],
+  "preguntas": [
+    {
+      "formato": "cuestionamiento-directo",
+      "enunciado": "¿En cuál de las siguientes opciones las tres palabras están escritas correctamente?",
+      "opciones": ["Absolver, subvención, octavo", "Absolber, subvención, octabo", "Absolver, subbención, octavo"],
+      "respuesta_correcta": 0,
+      "explicacion": "Las tres siguen las reglas: 'ab-' + B, 'sub-' + V, terminación '-avo' con V."
+    },
+    {
+      "formato": "completamiento",
+      "enunciado": "El presidente del Consejo ______ la sesión a las nueve de la mañana.",
+      "opciones": ["havía instalado", "había instalado", "abía instalado"],
+      "respuesta_correcta": 1,
+      "explicacion": "Es una forma del verbo haber, que siempre se escribe con H."
+    },
+    {
+      "formato": "cuestionamiento-directo",
+      "enunciado": "¿Qué opción contiene el uso correcto de mayúsculas?",
+      "opciones": [
+        "El Consejo sesionará el Lunes en la sede del Instituto.",
+        "El consejo sesionará el lunes en la sede del Instituto.",
+        "El Consejo sesionará el lunes en la sede del instituto."
+      ],
+      "respuesta_correcta": 1,
+      "explicacion": "'Consejo' como parte del nombre de la institución va con mayúscula, pero los días de la semana ('lunes') se escriben con minúscula."
+    },
+    {
+      "formato": "completamiento",
+      "enunciado": "Los representantes de partido ______ ejercer su derecho de réplica durante la jornada.",
+      "opciones": ["ban a", "van ha", "van a"],
+      "respuesta_correcta": 2,
+      "explicacion": "'Van' es del verbo ir (con V) y 'a' es preposición, sin H."
+    },
+    {
+      "formato": "cuestionamiento-directo",
+      "enunciado": "¿Cuál oración usa correctamente los homófonos?",
+      "opciones": [
+        "Hay una valla de opciones para votar, ¡ay que decidir bien!",
+        "Ahí una baya de opciones para votar, ¡hay que decidir bien!",
+        "Hay una gama de opciones para votar, ¡hay que decidir bien!"
+      ],
+      "respuesta_correcta": 2,
+      "explicacion": "Ambos usos de 'hay' (del verbo haber) son correctos en este contexto; las otras opciones confunden los homófonos."
+    },
+    {
+      "formato": "completamiento",
+      "enunciado": "El funcionario debe ______ imparcial durante todo el proceso.",
+      "opciones": ["permanecer", "permaneser", "permanezer"],
+      "respuesta_correcta": 0,
+      "explicacion": "Los verbos terminados en '-ecer' se escriben con C."
+    },
+    {
+      "formato": "cuestionamiento-directo",
+      "enunciado": "¿Qué palabra está escrita correctamente?",
+      "opciones": ["Protejer", "Proteger", "Protegir"],
+      "respuesta_correcta": 1,
+      "explicacion": "Los verbos terminados en '-ger' se escriben con G, salvo 'tejer'."
+    },
+    {
+      "formato": "completamiento",
+      "enunciado": "La ciudadanía ______ acudir a votar el día de la jornada electoral.",
+      "opciones": ["deve", "debe", "deba"],
+      "respuesta_correcta": 1,
+      "explicacion": "'Debe' (del verbo deber) se escribe con B, no existe la forma 'deve'."
+    },
+    {
+      "formato": "cuestionamiento-directo",
+      "enunciado": "¿Cuál de las siguientes palabras NO sigue la regla general de 'ge/gi' con G?",
+      "opciones": ["Jirafa", "Ágil", "General"],
+      "respuesta_correcta": 0,
+      "explicacion": "'Jirafa' es una excepción frecuente a la regla; se escribe con J aunque le sigue 'i'."
+    },
+    {
+      "formato": "completamiento",
+      "enunciado": "El consejo distrital ______ la totalidad de las actas antes del cómputo.",
+      "opciones": ["revisó", "rebisó", "rreviso"],
+      "respuesta_correcta": 0,
+      "explicacion": "'Revisó' se escribe con V simple; no existe doble R al inicio de palabra."
+    }
+  ]
+}

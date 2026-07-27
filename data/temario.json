@@ -1,0 +1,88 @@
+{
+  "modulos": [
+    {
+      "id": "competencias-basicas",
+      "nombre": "Competencias básicas",
+      "areas": [
+        {
+          "id": "comunicativa",
+          "nombre": "Competencia comunicativa",
+          "subtemas": [
+            { "id": "reglas-ortograficas", "nombre": "Reglas ortográficas", "disponible": true },
+            { "id": "acentuacion", "nombre": "Acentuación", "disponible": false },
+            { "id": "signos-puntuacion", "nombre": "Signos de puntuación", "disponible": false },
+            { "id": "redaccion", "nombre": "Redacción", "disponible": false },
+            { "id": "vicios-lenguaje", "nombre": "Vicios del lenguaje", "disponible": false },
+            { "id": "texto-informativo", "nombre": "Texto informativo", "disponible": false },
+            { "id": "texto-argumentativo", "nombre": "Texto argumentativo", "disponible": false }
+          ]
+        },
+        {
+          "id": "matematica",
+          "nombre": "Competencia matemática",
+          "subtemas": [
+            { "id": "aritmetica", "nombre": "Aritmética", "disponible": false },
+            { "id": "teoria-conjuntos", "nombre": "Teoría de conjuntos", "disponible": false },
+            { "id": "sucesiones", "nombre": "Sucesiones", "disponible": false },
+            { "id": "espacio-forma", "nombre": "Espacio y forma", "disponible": false },
+            { "id": "algebra", "nombre": "Álgebra", "disponible": false },
+            { "id": "probabilidad", "nombre": "Probabilidad", "disponible": false },
+            { "id": "estadistica", "nombre": "Estadística", "disponible": false }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "conocimientos-politico-electorales",
+      "nombre": "Conocimientos político-electorales",
+      "areas": [
+        {
+          "id": "sistemas-electorales",
+          "nombre": "Sistemas electorales",
+          "subtemas": [
+            { "id": "sistema-electoral-mexicano", "nombre": "Sistema electoral mexicano", "disponible": false }
+          ]
+        },
+        {
+          "id": "ieeg",
+          "nombre": "Instituto Electoral del Estado de Guanajuato",
+          "subtemas": [
+            { "id": "organos-ieeg", "nombre": "Órganos estatales, municipales y distritales", "disponible": false },
+            { "id": "funcionamiento-consejo", "nombre": "Funcionamiento del Consejo", "disponible": false }
+          ]
+        },
+        {
+          "id": "proceso-electoral",
+          "nombre": "Proceso electoral",
+          "subtemas": [
+            { "id": "preparacion-proceso", "nombre": "Preparación del proceso", "disponible": false },
+            { "id": "jornada-electoral", "nombre": "Jornada electoral", "disponible": false },
+            { "id": "resultados-eleccion", "nombre": "Resultados de la elección", "disponible": false }
+          ]
+        },
+        {
+          "id": "casillas-electorales",
+          "nombre": "Casillas electorales",
+          "subtemas": [
+            { "id": "marco-geografico-electoral", "nombre": "Marco geográfico electoral", "disponible": false },
+            { "id": "ubicacion-casillas", "nombre": "Procedimiento de ubicación de casillas", "disponible": false }
+          ]
+        },
+        {
+          "id": "asistencia-electoral",
+          "nombre": "Asistencia electoral",
+          "subtemas": [
+            { "id": "cadena-custodia", "nombre": "Cadena de custodia", "disponible": false }
+          ]
+        },
+        {
+          "id": "procedimientos-sancionadores",
+          "nombre": "Procedimientos sancionadores",
+          "subtemas": [
+            { "id": "procedimiento-especial-sancionador", "nombre": "Procedimiento especial sancionador", "disponible": false }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Guía de estudio · Consejeras y Consejeros Electorales IEEG</title>
+<link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+<div class="app">
+  <aside class="sidebar">
+    <p class="brand">Guía IEEG</p>
+    <span class="brand-sub">Concurso público · Consejerías electorales</span>
+
+    <div class="auth-box" id="auth-box">
+      <span class="auth-status" id="auth-status">Estudiando como invitado. Tu avance solo se guarda en este navegador.</span>
+      <button class="btn" id="btn-login" style="display:none;">Iniciar sesión con Google</button>
+      <button class="btn secundario" id="btn-logout" style="display:none;">Cerrar sesión</button>
+    </div>
+
+    <div class="progreso-resumen" id="progreso-resumen">Avance: 0 de 1 lecciones disponibles</div>
+
+    <nav class="temario" id="temario"></nav>
+  </aside>
+
+  <main id="main-content">
+    <div class="bienvenida">
+      <h1>Bienvenido a tu guía de estudio</h1>
+      <p>Elige un tema del menú para empezar. Cada lección tiene una explicación breve, ejemplos y un simulacro de 10 preguntas en el mismo formato del examen del IEEG/Ceneval.</p>
+    </div>
+  </main>
+</div>
+
+<!-- Firebase (opcional). Si no llenas js/firebase-config.js, la app funciona igual usando el navegador. -->
+<script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-auth-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore-compat.js"></script>
+<script src="js/firebase-config.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
