@@ -1,0 +1,152 @@
+{
+  "id": "estadistica",
+  "titulo": "Estadística",
+  "area": "Competencia matemática",
+  "introduccion": "La estadística resume y describe conjuntos de datos con unos pocos números representativos. Esta subárea evalúa el cálculo de media, mediana y moda, y la lectura correcta de tablas y gráficas.",
+  "explicacion": [
+    "Media (promedio): se calcula sumando todos los valores del conjunto de datos y dividiendo el resultado entre la cantidad de valores que hay. Ejemplo paso a paso: un grupo de 5 personas tiene las siguientes edades: 20, 22, 25, 28, 30. Suma: 20+22+25+28+30 = 125. Cantidad de datos: 5. Media = 125 ÷ 5 = 25.",
+    "Mediana: es el valor que queda exactamente en medio cuando los datos se ordenan de menor a mayor. Si hay una cantidad impar de datos, la mediana es el valor central. Ejemplo paso a paso: con los datos 20, 22, 25, 28, 30 (ya ordenados y son 5 datos, cantidad impar), la mediana es el valor de en medio: 25. Si hay una cantidad PAR de datos, la mediana es el promedio de los dos valores centrales. Ejemplo: con los datos 4, 8, 10, 14 (4 datos), los dos valores centrales son 8 y 10; la mediana es (8+10)÷2 = 9.",
+    "Moda: es el valor que se repite con más frecuencia (más veces) en el conjunto de datos. Puede haber más de una moda, o ninguna si todos los valores se repiten la misma cantidad de veces. Ejemplo paso a paso: en el conjunto 3, 5, 5, 7, 8, 5, 9, el número 5 aparece tres veces, más que cualquier otro; por lo tanto, la moda es 5.",
+    "Rango: es la diferencia entre el valor más grande y el valor más chico de un conjunto de datos; indica qué tan dispersos están los datos. Ejemplo paso a paso: con los datos 20, 22, 25, 28, 30, el valor mayor es 30 y el menor es 20; el rango es 30 − 20 = 10.",
+    "Lectura de tablas y gráficas: en el examen es común que te den una tabla o gráfica de barras/pastel con datos ya organizados, y tengas que leer un valor directo, sumar categorías, o calcular qué porcentaje representa una parte del total (repasa la subárea de Aritmética para el cálculo de porcentajes). El error más común es leer mal el eje de una gráfica o confundir la categoría con su valor.",
+    "Medidas de dispersión — rango y desviación media: además del rango (visto arriba), otra forma sencilla de medir qué tan dispersos están los datos respecto a la media es la desviación media: se calcula la distancia de cada dato a la media (sin importar el signo), y se saca el promedio de esas distancias. Ejemplo paso a paso: con los datos 4, 6, 8, 10, 12 (media = 8), las distancias a la media son: |4−8|=4, |6−8|=2, |8−8|=0, |10−8|=2, |12−8|=4. Promedio de esas distancias: (4+2+0+2+4)÷5 = 12÷5 = 2.4. Esa es la desviación media: mientras más grande, más dispersos están los datos.",
+    "Medidas de dispersión — varianza y desviación estándar: son más precisas que la desviación media porque, en vez de solo quitar el signo, elevan al cuadrado cada distancia a la media. La varianza es el promedio de esas distancias al cuadrado; la desviación estándar es la raíz cuadrada de la varianza (para regresar a las unidades originales). Ejemplo paso a paso con los mismos datos 4, 6, 8, 10, 12 (media=8): distancias al cuadrado: (4−8)²=16, (6−8)²=4, (8−8)²=0, (10−8)²=4, (12−8)²=16. Suma: 16+4+0+4+16=40. Varianza = 40÷5 = 8. Desviación estándar = √8 ≈ 2.83.",
+    "Frecuencias — absoluta, relativa y acumulada: la frecuencia absoluta es simplemente cuántas veces aparece cada valor o categoría en el conjunto de datos. La frecuencia relativa es esa cantidad dividida entre el total de datos (indica qué proporción representa, igual que un porcentaje). La frecuencia acumulada es la suma progresiva de las frecuencias absolutas, de la primera categoría hasta la que se esté revisando. Ejemplo paso a paso: en una encuesta a 20 personas sobre su edad, 5 tienen 'menos de 20 años', 8 tienen 'entre 20 y 30', y 7 tienen 'más de 30'. Frecuencia absoluta de 'menos de 20': 5. Frecuencia relativa de 'menos de 20': 5÷20 = 0.25 (25%). Frecuencia acumulada hasta 'entre 20 y 30': se suman las dos primeras categorías: 5+8 = 13.",
+    "Límites de clase (en tablas de frecuencia con datos agrupados en intervalos): cuando hay muchos datos distintos, conviene agruparlos en intervalos o 'clases' (por ejemplo, edades de 18-25, 26-33, 34-41...). Cada intervalo tiene un límite inferior (el valor más chico que puede tener ese grupo) y un límite superior (el valor más grande). Ejemplo paso a paso: en el intervalo '26-33 años', el límite inferior es 26 y el límite superior es 33; cualquier dato entre esos dos números (incluyéndolos) pertenece a esa clase. El punto medio de un intervalo se llama 'marca de clase'; para el intervalo 26-33, la marca de clase es (26+33)÷2 = 29.5."
+  ],
+  "ejemplos": [
+    { "incorrecto": "La mediana de 4, 8, 10, 14 es 10 (tomando el valor de en medio 'a ojo').", "correcto": "La mediana es 9: como hay 4 datos (cantidad par), se promedian los dos valores centrales (8 y 10): (8+10)÷2 = 9.", "nota": "Con cantidad par de datos, la mediana casi nunca es uno de los valores originales; hay que promediar los dos de en medio." },
+    { "incorrecto": "La moda siempre existe y siempre es un solo valor.", "correcto": "Puede haber más de una moda (datos 'bimodales') o ninguna moda si ningún valor se repite más que los demás.", "nota": "No hay que forzar una respuesta de moda si todos los valores aparecen la misma cantidad de veces." },
+    { "incorrecto": "La desviación estándar se calcula igual que el rango.", "correcto": "El rango solo resta el valor mayor menos el menor; la desviación estándar promedia qué tan lejos está cada dato de la media, elevando al cuadrado esas distancias.", "nota": "Son dos medidas de dispersión distintas: el rango es más simple pero menos informativo que la desviación estándar." },
+    { "incorrecto": "La frecuencia relativa se expresa como un conteo entero, igual que la absoluta.", "correcto": "La frecuencia relativa es una proporción (entre 0 y 1) o un porcentaje, resultado de dividir la frecuencia absoluta entre el total.", "nota": "Frecuencia absoluta = cuántas veces; frecuencia relativa = qué proporción del total representa esa cantidad." }
+  ],
+  "material_consulta": [
+    { "titulo": "Durazo, Probabilidad y Estadística (COBACH Sonora)", "url": "https://www.cobachsonora.edu.mx/files/semestre5-2016/probabilidadyestadistica.pdf" },
+    { "titulo": "Carrasco y Marván, Matemáticas 3 (Serie Espiral del saber)", "url": "https://oficial.santillana.com.mx/secundaria/libromedia/mat/mt3_es/mobile.html" }
+  ],
+  "preguntas": [
+    {
+      "formato": "cuestionamiento-directo",
+      "enunciado": "¿Cuál es la media de los siguientes datos: 10, 15, 20, 25, 30?",
+      "opciones": ["20", "18", "25"],
+      "respuesta_correcta": 0,
+      "explicacion": "Suma: 10+15+20+25+30=100; entre 5 datos: 100÷5=20."
+    },
+    {
+      "formato": "cuestionamiento-directo",
+      "enunciado": "¿Cuál es la mediana de los siguientes datos ya ordenados: 3, 7, 9, 12, 15?",
+      "opciones": ["9", "12", "7"],
+      "respuesta_correcta": 0,
+      "explicacion": "Con 5 datos (cantidad impar), la mediana es el valor central: 9."
+    },
+    {
+      "formato": "cuestionamiento-directo",
+      "enunciado": "¿Cuál es la mediana de los siguientes datos ya ordenados: 2, 4, 6, 8?",
+      "opciones": ["5", "6", "4"],
+      "respuesta_correcta": 0,
+      "explicacion": "Con 4 datos (cantidad par), se promedian los dos centrales (4 y 6): (4+6)÷2=5."
+    },
+    {
+      "formato": "cuestionamiento-directo",
+      "enunciado": "¿Cuál es la moda del conjunto: 4, 6, 6, 8, 9, 6, 10?",
+      "opciones": ["6", "9", "10"],
+      "respuesta_correcta": 0,
+      "explicacion": "El número 6 aparece tres veces, más que cualquier otro valor."
+    },
+    {
+      "formato": "cuestionamiento-directo",
+      "enunciado": "¿Cuál es el rango del conjunto de datos: 12, 18, 25, 9, 30?",
+      "opciones": ["21", "30", "9"],
+      "respuesta_correcta": 0,
+      "explicacion": "El valor mayor es 30 y el menor es 9; rango = 30 − 9 = 21."
+    },
+    {
+      "formato": "cuestionamiento-directo",
+      "enunciado": "En una gráfica de pastel, una categoría ocupa 90° de los 360° totales del círculo. ¿Qué porcentaje del total representa?",
+      "opciones": ["25%", "90%", "36%"],
+      "respuesta_correcta": 0,
+      "explicacion": "90 ÷ 360 = 0.25, es decir 25% del total."
+    },
+    {
+      "formato": "cuestionamiento-directo",
+      "enunciado": "Un grupo de 6 personas tiene las siguientes calificaciones: 7, 8, 8, 9, 9, 9. ¿Cuál es la moda?",
+      "opciones": ["9", "8", "7"],
+      "respuesta_correcta": 0,
+      "explicacion": "El valor 9 aparece tres veces, más que 8 (dos veces) y 7 (una vez)."
+    },
+    {
+      "formato": "cuestionamiento-directo",
+      "enunciado": "Con los mismos datos (7, 8, 8, 9, 9, 9), ¿cuál es la media?",
+      "opciones": ["8.33", "8", "9"],
+      "respuesta_correcta": 0,
+      "explicacion": "Suma: 7+8+8+9+9+9=50; entre 6 datos: 50÷6≈8.33."
+    },
+    {
+      "formato": "cuestionamiento-directo",
+      "enunciado": "¿Cuál de las siguientes afirmaciones sobre la mediana es correcta?",
+      "opciones": [
+        "Con una cantidad impar de datos ordenados, la mediana es el valor central.",
+        "La mediana siempre es igual a la media.",
+        "La mediana solo se puede calcular si los datos NO están ordenados."
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "Es la definición correcta; la mediana y la media suelen ser distintas, y los datos deben estar ordenados para encontrarla."
+    },
+    {
+      "formato": "cuestionamiento-directo",
+      "enunciado": "Una tabla muestra que, de 200 encuestados, 50 prefieren la opción A. ¿Qué porcentaje representa la opción A?",
+      "opciones": ["25%", "50%", "20%"],
+      "respuesta_correcta": 0,
+      "explicacion": "50 ÷ 200 = 0.25, es decir 25%."
+    },
+    {
+      "formato": "cuestionamiento-directo",
+      "enunciado": "Con los datos 5, 7, 9, 11, 13 (media = 9), ¿cuál es la desviación media (promedio de las distancias absolutas a la media)?",
+      "opciones": ["2.4", "4", "9"],
+      "respuesta_correcta": 0,
+      "explicacion": "Distancias: |5−9|=4, |7−9|=2, |9−9|=0, |11−9|=2, |13−9|=4. Suma=12; promedio=12÷5=2.4."
+    },
+    {
+      "formato": "cuestionamiento-directo",
+      "enunciado": "Con los datos 2, 4, 6, 8, 10 (media = 6), ¿cuál es la varianza?",
+      "opciones": ["8", "4", "40"],
+      "respuesta_correcta": 0,
+      "explicacion": "Distancias al cuadrado: 16, 4, 0, 4, 16; suma=40; varianza=40÷5=8."
+    },
+    {
+      "formato": "cuestionamiento-directo",
+      "enunciado": "Si la varianza de un conjunto de datos es 25, ¿cuál es su desviación estándar?",
+      "opciones": ["5", "25", "12.5"],
+      "respuesta_correcta": 0,
+      "explicacion": "La desviación estándar es la raíz cuadrada de la varianza: √25 = 5."
+    },
+    {
+      "formato": "cuestionamiento-directo",
+      "enunciado": "En una encuesta a 40 personas, 10 prefirieron la opción 'A'. ¿Cuál es la frecuencia relativa de la opción 'A'?",
+      "opciones": ["0.25", "10", "0.4"],
+      "respuesta_correcta": 0,
+      "explicacion": "Frecuencia relativa = frecuencia absoluta ÷ total = 10 ÷ 40 = 0.25."
+    },
+    {
+      "formato": "cuestionamiento-directo",
+      "enunciado": "En una tabla de frecuencias, la categoría 'menos de 20 años' tiene frecuencia absoluta 6, y 'entre 20 y 30' tiene 9. ¿Cuál es la frecuencia acumulada hasta 'entre 20 y 30'?",
+      "opciones": ["15", "9", "6"],
+      "respuesta_correcta": 0,
+      "explicacion": "La frecuencia acumulada suma progresivamente: 6 + 9 = 15."
+    },
+    {
+      "formato": "cuestionamiento-directo",
+      "enunciado": "En una tabla de frecuencias agrupadas, un intervalo de clase es '34-41'. ¿Cuáles son su límite inferior y su límite superior?",
+      "opciones": ["Inferior: 34, superior: 41", "Inferior: 41, superior: 34", "Inferior: 37.5 (solo hay marca de clase)"],
+      "respuesta_correcta": 0,
+      "explicacion": "El límite inferior es el valor más chico del intervalo (34) y el límite superior es el más grande (41)."
+    },
+    {
+      "formato": "cuestionamiento-directo",
+      "enunciado": "¿Cuál es la marca de clase (punto medio) del intervalo '50-60'?",
+      "opciones": ["55", "50", "60"],
+      "respuesta_correcta": 0,
+      "explicacion": "La marca de clase es el promedio de los dos límites: (50+60)÷2 = 55."
+    }
+  ]
+}

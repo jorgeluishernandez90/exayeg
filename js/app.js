@@ -186,7 +186,7 @@ async function abrirLeccion(subtemaId) {
 
     <section class="bloque quiz" id="quiz-section">
       <div class="quiz-intro">
-        <h2 style="margin-bottom:0;border:none;padding-left:0;">Simulacro · 10 preguntas</h2>
+        <h2 style="margin-bottom:0;border:none;padding-left:0;">Simulacro · ${leccion.preguntas.length} preguntas</h2>
         <button class="btn" id="btn-empezar-quiz">Comenzar</button>
       </div>
       <div id="quiz-contenedor"></div>

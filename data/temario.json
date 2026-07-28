@@ -22,12 +22,12 @@
           "nombre": "Competencia matemática",
           "subtemas": [
             { "id": "aritmetica", "nombre": "Aritmética", "disponible": true },
-            { "id": "teoria-conjuntos", "nombre": "Teoría de conjuntos", "disponible": false },
-            { "id": "sucesiones", "nombre": "Sucesiones", "disponible": false },
-            { "id": "espacio-forma", "nombre": "Espacio y forma", "disponible": false },
-            { "id": "algebra", "nombre": "Álgebra", "disponible": false },
-            { "id": "probabilidad", "nombre": "Probabilidad", "disponible": false },
-            { "id": "estadistica", "nombre": "Estadística", "disponible": false }
+            { "id": "teoria-conjuntos", "nombre": "Teoría de conjuntos", "disponible": true },
+            { "id": "sucesiones", "nombre": "Sucesiones", "disponible": true },
+            { "id": "espacio-forma", "nombre": "Espacio y forma", "disponible": true },
+            { "id": "algebra", "nombre": "Álgebra", "disponible": true },
+            { "id": "probabilidad", "nombre": "Probabilidad", "disponible": true },
+            { "id": "estadistica", "nombre": "Estadística", "disponible": true }
           ]
         }
       ]

@@ -1,0 +1,96 @@
+{
+  "id": "probabilidad",
+  "titulo": "Probabilidad",
+  "area": "Competencia matemática",
+  "introduccion": "La probabilidad mide qué tan posible es que ocurra un evento, expresada como un número entre 0 (imposible) y 1 (seguro), o como porcentaje. Esta subárea evalúa el cálculo de probabilidad simple, de eventos complementarios y de eventos combinados.",
+  "explicacion": [
+    "Probabilidad simple (clásica): se calcula dividiendo el número de resultados favorables (los que nos interesan) entre el número total de resultados posibles. Fórmula: P = casos favorables ÷ casos posibles. Ejemplo paso a paso: al lanzar un dado normal de 6 caras, ¿cuál es la probabilidad de que salga un número par? Los casos favorables son {2, 4, 6}, es decir 3 casos. Los casos posibles son {1,2,3,4,5,6}, es decir 6 casos en total. P = 3/6 = 1/2 = 0.5, o 50%.",
+    "Espacio muestral: es la lista de TODOS los resultados posibles de un experimento. Ejemplo: al lanzar una moneda, el espacio muestral es {águila, sol}, es decir, solo 2 resultados posibles.",
+    "Evento complementario: es 'que NO ocurra' el evento que nos interesa. La probabilidad de un evento más la de su complemento siempre suman 1 (o 100%). Ejemplo paso a paso: si la probabilidad de que llueva mañana es 0.3 (30%), la probabilidad de que NO llueva es 1 − 0.3 = 0.7 (70%).",
+    "Eventos independientes (probabilidad de que ocurran dos cosas seguidas): cuando dos eventos no se afectan entre sí (por ejemplo, lanzar un dado dos veces), la probabilidad de que ambos ocurran es el PRODUCTO (multiplicación) de sus probabilidades individuales. Ejemplo paso a paso: ¿cuál es la probabilidad de sacar 'águila' en una moneda Y sacar un 6 en un dado, en un solo intento de cada uno? P(águila) = 1/2. P(6 en el dado) = 1/6. Como son independientes, se multiplican: P = 1/2 × 1/6 = 1/12.",
+    "Diferencia entre 'y' (ambos ocurren) y 'o' (al menos uno ocurre): cuando se pregunta por la probabilidad de que pase A 'y' B, generalmente se multiplican las probabilidades (si son independientes). Cuando se pregunta por A 'o' B (y no pueden pasar los dos al mismo tiempo), generalmente se suman las probabilidades. Ejemplo: al lanzar un dado, la probabilidad de que salga 2 'o' salga 5 es P(2) + P(5) = 1/6 + 1/6 = 2/6 = 1/3."
+  ],
+  "ejemplos": [
+    { "incorrecto": "La probabilidad de sacar un as de una baraja de 52 cartas es 1/52 dividido entre 4.", "correcto": "Hay 4 ases en una baraja de 52 cartas, entonces P = 4/52 = 1/13.", "nota": "Primero se cuenta cuántos casos favorables hay (los 4 ases), y luego se divide entre el total de casos posibles (52 cartas)." },
+    { "incorrecto": "Si P(lluvia) = 0.4, entonces P(no lluvia) también es 0.4.", "correcto": "P(no lluvia) = 1 − 0.4 = 0.6.", "nota": "Un evento y su complemento siempre suman exactamente 1 (o 100%), nunca son iguales salvo que ambos sean 0.5." }
+  ],
+  "material_consulta": [
+    { "titulo": "Durazo, Probabilidad y Estadística (COBACH Sonora)", "url": "https://www.cobachsonora.edu.mx/files/semestre5-2016/probabilidadyestadistica.pdf" }
+  ],
+  "preguntas": [
+    {
+      "formato": "cuestionamiento-directo",
+      "enunciado": "Al lanzar un dado normal de 6 caras, ¿cuál es la probabilidad de obtener un número mayor a 4?",
+      "opciones": ["1/3", "1/2", "2/3"],
+      "respuesta_correcta": 0,
+      "explicacion": "Los casos favorables son {5, 6}, es decir 2 de 6 casos posibles: P = 2/6 = 1/3."
+    },
+    {
+      "formato": "cuestionamiento-directo",
+      "enunciado": "En una bolsa hay 5 canicas rojas y 3 azules. Si se saca una al azar, ¿cuál es la probabilidad de que sea azul?",
+      "opciones": ["3/8", "5/8", "3/5"],
+      "respuesta_correcta": 0,
+      "explicacion": "Hay 3 canicas azules de un total de 8 (5+3): P = 3/8."
+    },
+    {
+      "formato": "cuestionamiento-directo",
+      "enunciado": "Si la probabilidad de que un examen tenga preguntas de opción múltiple es 0.85, ¿cuál es la probabilidad de que NO las tenga?",
+      "opciones": ["0.15", "0.85", "0.5"],
+      "respuesta_correcta": 0,
+      "explicacion": "El evento complementario es 1 − 0.85 = 0.15."
+    },
+    {
+      "formato": "cuestionamiento-directo",
+      "enunciado": "¿Cuál es la probabilidad de obtener 'sol' al lanzar una moneda Y obtener un 3 al lanzar un dado, en un solo intento de cada uno?",
+      "opciones": ["1/12", "1/6", "1/2"],
+      "respuesta_correcta": 0,
+      "explicacion": "Son eventos independientes: P(sol)=1/2, P(3)=1/6. Se multiplican: 1/2 × 1/6 = 1/12."
+    },
+    {
+      "formato": "cuestionamiento-directo",
+      "enunciado": "En una baraja de 52 cartas, ¿cuál es la probabilidad de sacar una carta que sea de corazones?",
+      "opciones": ["1/4", "1/13", "1/52"],
+      "respuesta_correcta": 0,
+      "explicacion": "Hay 13 cartas de corazones de 52 en total: P = 13/52 = 1/4."
+    },
+    {
+      "formato": "cuestionamiento-directo",
+      "enunciado": "Al lanzar un dado, ¿cuál es la probabilidad de que salga un 2 O un 4?",
+      "opciones": ["1/3", "1/6", "2/3"],
+      "respuesta_correcta": 0,
+      "explicacion": "Como no pueden ocurrir ambos a la vez, se suman: P(2)+P(4) = 1/6+1/6 = 2/6 = 1/3."
+    },
+    {
+      "formato": "cuestionamiento-directo",
+      "enunciado": "En un grupo de 30 personas, 18 usan lentes. Si se elige a una persona al azar, ¿cuál es la probabilidad de que NO use lentes?",
+      "opciones": ["2/5", "3/5", "18/30"],
+      "respuesta_correcta": 0,
+      "explicacion": "18 de 30 usan lentes (P=18/30=3/5); el complemento (no usar lentes) es 1 − 3/5 = 2/5."
+    },
+    {
+      "formato": "cuestionamiento-directo",
+      "enunciado": "¿Cuál es el espacio muestral al lanzar una moneda dos veces seguidas?",
+      "opciones": [
+        "{águila-águila, águila-sol, sol-águila, sol-sol}",
+        "{águila, sol}",
+        "{águila-águila, sol-sol}"
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "Al lanzar dos veces, hay 4 combinaciones posibles: cada lanzamiento tiene 2 resultados, y 2×2=4."
+    },
+    {
+      "formato": "cuestionamiento-directo",
+      "enunciado": "Con el espacio muestral de lanzar una moneda dos veces, ¿cuál es la probabilidad de obtener 'águila' en ambos lanzamientos?",
+      "opciones": ["1/4", "1/2", "2/4"],
+      "respuesta_correcta": 0,
+      "explicacion": "Solo hay 1 combinación favorable (águila-águila) de 4 posibles: P = 1/4. También se puede calcular multiplicando: 1/2 × 1/2 = 1/4."
+    },
+    {
+      "formato": "cuestionamiento-directo",
+      "enunciado": "Una urna tiene 10 papeletas numeradas del 1 al 10. ¿Cuál es la probabilidad de sacar un número múltiplo de 3?",
+      "opciones": ["3/10", "1/3", "4/10"],
+      "respuesta_correcta": 0,
+      "explicacion": "Los múltiplos de 3 entre 1 y 10 son {3, 6, 9}, es decir 3 casos favorables de 10 posibles: P = 3/10."
+    }
+  ]
+}
