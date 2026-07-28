@@ -1,0 +1,102 @@
+{
+  "id": "acentuacion",
+  "titulo": "Acentuación",
+  "area": "Competencia comunicativa",
+  "introduccion": "Esta subárea evalúa que reconozcas cuándo una palabra lleva tilde según su clasificación por sílaba tónica, y casos especiales como la tilde diacrítica, los monosílabos y los hiatos.",
+  "explicacion": [
+    "Clasificación por sílaba tónica: las palabras agudas llevan tilde cuando terminan en N, S o vocal (canción, compás, café); las graves o llanas llevan tilde cuando NO terminan en N, S o vocal (árbol, fácil, azúcar); las esdrújulas (acento en la antepenúltima sílaba) y sobresdrújulas siempre llevan tilde (rápido, cómetelo).",
+    "Tilde diacrítica: distingue palabras que se escriben igual pero cumplen funciones gramaticales distintas. Por ejemplo: 'él' (pronombre) / 'el' (artículo); 'tú' (pronombre) / 'tu' (posesivo); 'sí' (afirmación o pronombre) / 'si' (condicional); 'más' (cantidad) / 'mas' (equivalente a 'pero'); 'aún' (todavía) / 'aun' (incluso).",
+    "Monosílabos: por regla general, los monosílabos NO llevan tilde (fue, vio, dio, fe, pan), salvo cuando la tilde diacrítica los distingue de otra palabra con distinta función, como en los ejemplos anteriores.",
+    "Diptongo, hiato y triptongo: un diptongo es la unión de una vocal cerrada (i, u) átona con una vocal abierta (a, e, o), o de dos cerradas distintas, en una misma sílaba (cielo, ruido); el hiato ocurre cuando dos vocales que podrían formar diptongo se separan en sílabas distintas porque la vocal cerrada es tónica, y en ese caso siempre lleva tilde aunque no siga las reglas generales (país, día, río, sonría).",
+    "Palabras compuestas: en las palabras compuestas por guion, cada elemento conserva su acentuación original (físico-químico); en las formadas por un adverbio terminado en '-mente', el adjetivo conserva su tilde si la tenía originalmente (fácilmente, rápidamente), pero el adverbio en sí no la necesita si el adjetivo base no la llevaba (libremente)."
+  ],
+  "ejemplos": [
+    { "incorrecto": "El consejo definira el calendario electoral.", "correcto": "El consejo definirá el calendario electoral.", "nota": "'Definirá' es aguda terminada en vocal, lleva tilde." },
+    { "incorrecto": "*Solo* el presidente firmo el acta esa noche.", "correcto": "El presidente firmó el acta esa noche.", "nota": "'Firmó' es aguda terminada en vocal; lleva tilde." },
+    { "incorrecto": "No se si el tramite ya esta listo.", "correcto": "No sé si el trámite ya está listo.", "nota": "'Sé' (verbo saber) y 'está' (verbo estar) llevan tilde; 'trámite' es esdrújula." }
+  ],
+  "material_consulta": [
+    { "titulo": "Real Academia Española, Ortografía de la lengua española", "url": "https://www.rae.es" },
+    { "titulo": "Diccionario panhispánico de dudas (RAE) — acentuación", "url": "https://www.rae.es/dpd/" }
+  ],
+  "preguntas": [
+    {
+      "formato": "cuestionamiento-directo",
+      "enunciado": "¿Cuál de las siguientes palabras es esdrújula?",
+      "opciones": ["Régimen", "Camión", "Feliz"],
+      "respuesta_correcta": 0,
+      "explicacion": "'Régimen' tiene el acento en la antepenúltima sílaba (RÉ-gi-men), por lo que es esdrújula y siempre lleva tilde."
+    },
+    {
+      "formato": "completamiento",
+      "enunciado": "El escrutinio se realizará en la sede del ______ distrital.",
+      "opciones": ["consejo", "concejo", "consego"],
+      "respuesta_correcta": 0,
+      "explicacion": "'Consejo' (órgano colegiado) es la palabra correcta en este contexto; 'concejo' se refiere a un ayuntamiento."
+    },
+    {
+      "formato": "cuestionamiento-directo",
+      "enunciado": "¿En qué oración el uso de la tilde diacrítica es correcto?",
+      "opciones": [
+        "Tu sabes que él vendrá a la sesión.",
+        "Tú sabes que el vendrá a la sesión.",
+        "Tú sabes que él vendrá a la sesión."
+      ],
+      "respuesta_correcta": 2,
+      "explicacion": "'Tú' (pronombre) lleva tilde para distinguirse de 'tu' (posesivo), y 'él' (pronombre) para distinguirse de 'el' (artículo)."
+    },
+    {
+      "formato": "completamiento",
+      "enunciado": "El funcionario explicó el procedimiento con mucha ______.",
+      "opciones": ["claridad", "claridád", "claridàd"],
+      "respuesta_correcta": 0,
+      "explicacion": "'Claridad' es aguda terminada en D, por lo tanto NO lleva tilde."
+    },
+    {
+      "formato": "cuestionamiento-directo",
+      "enunciado": "¿Cuál palabra presenta un hiato y por eso debe llevar tilde?",
+      "opciones": ["Paisaje", "Raíz", "Cielo"],
+      "respuesta_correcta": 1,
+      "explicacion": "En 'raíz' la vocal cerrada tónica 'í' rompe el posible diptongo con 'a', formando hiato, por lo que lleva tilde aunque termine en Z."
+    },
+    {
+      "formato": "completamiento",
+      "enunciado": "El acta se firmó ______ que concluyera el cómputo.",
+      "opciones": ["aun antes de", "aún antes de", "haun antes de"],
+      "respuesta_correcta": 1,
+      "explicacion": "Aquí 'aún' equivale a 'todavía', por lo que lleva tilde diacrítica."
+    },
+    {
+      "formato": "cuestionamiento-directo",
+      "enunciado": "¿Cuál de las siguientes oraciones está escrita correctamente?",
+      "opciones": [
+        "Llegamos rápidamente y con mí apoyo al conteo de votos.",
+        "Conocí a Gabriela cuándo era consejera electoral.",
+        "Es uno de los procesos más transparentes que he presenciado."
+      ],
+      "respuesta_correcta": 2,
+      "explicacion": "En la opción a) 'mí' no debe llevar tilde porque es posesivo ('mi apoyo'), no pronombre; en la b) 'cuándo' no debe llevar tilde porque no introduce una pregunta; la opción c) es correcta porque 'más' como adverbio de cantidad sí requiere tilde."
+    },
+    {
+      "formato": "completamiento",
+      "enunciado": "El representante preguntó ______ podía revisar las boletas.",
+      "opciones": ["si", "sí", "sìi"],
+      "respuesta_correcta": 0,
+      "explicacion": "Aquí 'si' introduce una pregunta indirecta (condicional/interrogativa), por lo que NO lleva tilde; 'sí' con tilde sería afirmación o pronombre."
+    },
+    {
+      "formato": "cuestionamiento-directo",
+      "enunciado": "¿Qué adverbio terminado en '-mente' está correctamente acentuado?",
+      "opciones": ["Rápidamente", "Rapidamente", "Rápidaménte"],
+      "respuesta_correcta": 0,
+      "explicacion": "El adverbio conserva la tilde del adjetivo base 'rápida', por eso se escribe 'rápidamente'."
+    },
+    {
+      "formato": "completamiento",
+      "enunciado": "El consejero quería saber ______ había más observadores registrados.",
+      "opciones": ["cuantos", "cuántos", "cuamtos"],
+      "respuesta_correcta": 1,
+      "explicacion": "'Cuántos' en una pregunta (directa o indirecta) es un interrogativo y lleva tilde diacrítica."
+    }
+  ]
+}

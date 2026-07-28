@@ -1,0 +1,127 @@
+{
+  "id": "vicios-lenguaje",
+  "titulo": "Vicios del lenguaje",
+  "area": "Competencia comunicativa",
+  "introduccion": "Los vicios del lenguaje son usos incorrectos o poco cuidados de las palabras que, aunque a veces se entienden, se apartan de la norma culta. El examen suele pedir identificar cuál vicio está presente en una oración, o cuál opción lo corrige.",
+  "explicacion": [
+    "Dequeísmo y queísmo: el dequeísmo es usar 'de que' cuando no corresponde ('Pienso de que ganará' — incorrecto; debe ser 'Pienso que ganará'). El queísmo es lo contrario: omitir la preposición 'de' cuando sí es necesaria ('Me acuerdo que llegó tarde' — incorrecto; debe ser 'Me acuerdo de que llegó tarde').",
+    "Anfibología: es la doble interpretación de una frase por su estructura ambigua, ya vista en redacción ('Vi al consejero con binoculares', ¿quién tenía los binoculares?).",
+    "Pleonasmo o redundancia: repetir una idea con palabras innecesarias ('Subir arriba', 'entrar adentro', 'volver a repetir').",
+    "Barbarismo: uso incorrecto de una palabra, ya sea por pronunciación, escritura o por extranjerismos innecesarios cuando existe una palabra equivalente en español ('haiga' en vez de 'haya'; 'parkear' en vez de 'estacionar').",
+    "Cacofonía: repetición de sonidos que resulta desagradable al oído dentro de una misma oración ('La lámpara clara iluminaba la sala' repite mucho el sonido 'la-la').",
+    "Solecismo: error en la construcción gramatical de una oración, por ejemplo en el uso incorrecto de preposiciones ('Voy a la casa de mi tía en carro' vs 'Voy en carro a la casa de mi tía' sería preferible, pero un solecismo real sería 'Voy con la casa de mi tía')."
+  ],
+  "ejemplos": [
+    { "incorrecto": "Pienso de que el consejo aprobará el dictamen.", "correcto": "Pienso que el consejo aprobará el dictamen.", "nota": "Dequeísmo: el verbo 'pensar que' no lleva la preposición 'de'." },
+    { "incorrecto": "Me acuerdo que la sesión empezó tarde.", "correcto": "Me acuerdo de que la sesión empezó tarde.", "nota": "Queísmo: el verbo 'acordarse de' sí requiere la preposición 'de'." },
+    { "incorrecto": "Hay que subir arriba para entregar el paquete electoral.", "correcto": "Hay que subir para entregar el paquete electoral.", "nota": "Pleonasmo: 'subir' ya implica ir hacia arriba." }
+  ],
+  "material_consulta": [
+    { "titulo": "El Colegio de México, Diccionario del español de México — pleonasmo", "url": "https://dem.colmex.mx/ver/pleonasmo" },
+    { "titulo": "RAE, Diccionario panhispánico de dudas", "url": "https://www.rae.es/dpd/" }
+  ],
+  "preguntas": [
+    {
+      "formato": "cuestionamiento-directo",
+      "enunciado": "¿Cuál oración presenta dequeísmo?",
+      "opciones": [
+        "Creo de que el escrutinio terminará antes de las ocho.",
+        "Creo que el escrutinio terminará antes de las ocho.",
+        "Me di cuenta de que el escrutinio terminó antes de las ocho."
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "'Creer que' no lleva la preposición 'de'; agregarla es un caso de dequeísmo."
+    },
+    {
+      "formato": "cuestionamiento-directo",
+      "enunciado": "¿Cuál oración presenta queísmo (omite una preposición necesaria)?",
+      "opciones": [
+        "Estoy seguro de que el acta está completa.",
+        "Estoy seguro que el acta está completa.",
+        "Dudo de que el acta esté completa."
+      ],
+      "respuesta_correcta": 1,
+      "explicacion": "'Estar seguro de que' requiere la preposición 'de'; omitirla es queísmo."
+    },
+    {
+      "formato": "cuestionamiento-directo",
+      "enunciado": "¿Cuál de las siguientes oraciones contiene un pleonasmo?",
+      "opciones": [
+        "El presidente entró a la sala antes que los demás.",
+        "El presidente volvió a repetir la instrucción dos veces.",
+        "El presidente repitió la instrucción una vez más."
+      ],
+      "respuesta_correcta": 1,
+      "explicacion": "'Volver a repetir' es redundante: 'repetir' ya implica hacer algo de nuevo."
+    },
+    {
+      "formato": "cuestionamiento-directo",
+      "enunciado": "¿Cuál palabra es un barbarismo (uso incorrecto) frente a su forma correcta?",
+      "opciones": ["Haiga", "Haya", "Hubiera"],
+      "respuesta_correcta": 0,
+      "explicacion": "'Haiga' no existe en el español estándar; la forma correcta del subjuntivo de 'haber' es 'haya'."
+    },
+    {
+      "formato": "cuestionamiento-directo",
+      "enunciado": "¿Cuál oración corrige correctamente el vicio del lenguaje presente en: 'Entré adentro de la casilla antes de que abriera'?",
+      "opciones": [
+        "Entré dentro de adentro de la casilla antes de que abriera.",
+        "Entré a la casilla antes de que abriera.",
+        "Entré adentro a la casilla antes de que abriera."
+      ],
+      "respuesta_correcta": 1,
+      "explicacion": "'Entrar adentro' es pleonasmo, pues 'entrar' ya implica ir hacia dentro; basta con 'entré a la casilla'."
+    },
+    {
+      "formato": "cuestionamiento-directo",
+      "enunciado": "¿Cuál de las siguientes oraciones es anfibológica (admite doble interpretación)?",
+      "opciones": [
+        "El consejero fotografió el acta con su teléfono.",
+        "Vi al representante de partido con binoculares.",
+        "El vocal entregó las boletas al presidente del consejo."
+      ],
+      "respuesta_correcta": 1,
+      "explicacion": "No queda claro si quien tenía los binoculares era el observador o el representante de partido."
+    },
+    {
+      "formato": "cuestionamiento-directo",
+      "enunciado": "¿Cuál palabra es un extranjerismo innecesario que debería sustituirse por su equivalente en español?",
+      "opciones": ["Parquear", "Estacionar", "Aparcar"],
+      "respuesta_correcta": 0,
+      "explicacion": "'Parquear' es un barbarismo derivado del inglés 'to park'; en español existen 'estacionar' y 'aparcar'."
+    },
+    {
+      "formato": "cuestionamiento-directo",
+      "enunciado": "¿Cuál oración presenta un solecismo (error de construcción gramatical)?",
+      "opciones": [
+        "Voy con la casilla a entregar el material.",
+        "Voy a la casilla a entregar el material.",
+        "Llevo el material a la casilla."
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "La preposición 'con' está usada incorrectamente; lo correcto es 'voy a la casilla', que expresa destino."
+    },
+    {
+      "formato": "cuestionamiento-directo",
+      "enunciado": "¿Cuál oración corrige el dequeísmo en: 'Espero de que la jornada transcurra sin incidentes'?",
+      "opciones": [
+        "Espero que la jornada transcurra sin incidentes.",
+        "Espero de que la jornada transcurra, sin incidentes.",
+        "Espero, de que la jornada transcurra sin incidentes."
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "El verbo 'esperar que' no requiere la preposición 'de'."
+    },
+    {
+      "formato": "cuestionamiento-directo",
+      "enunciado": "¿Cuál de las siguientes oraciones NO contiene ningún vicio del lenguaje?",
+      "opciones": [
+        "Pienso de que el cómputo iniciará puntual.",
+        "Subí arriba para revisar el paquete electoral.",
+        "Confío en que el cómputo iniciará puntual."
+      ],
+      "respuesta_correcta": 2,
+      "explicacion": "Es la única oración sin dequeísmo ni pleonasmo; 'confío en que' es la construcción correcta."
+    }
+  ]
+}
