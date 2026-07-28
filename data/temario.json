@@ -13,15 +13,15 @@
             { "id": "signos-puntuacion", "nombre": "Signos de puntuación", "disponible": true },
             { "id": "redaccion", "nombre": "Redacción", "disponible": true },
             { "id": "vicios-lenguaje", "nombre": "Vicios del lenguaje", "disponible": true },
-            { "id": "texto-informativo", "nombre": "Texto informativo", "disponible": false },
-            { "id": "texto-argumentativo", "nombre": "Texto argumentativo", "disponible": false }
+            { "id": "texto-informativo", "nombre": "Texto informativo", "disponible": true },
+            { "id": "texto-argumentativo", "nombre": "Texto argumentativo", "disponible": true }
           ]
         },
         {
           "id": "matematica",
           "nombre": "Competencia matemática",
           "subtemas": [
-            { "id": "aritmetica", "nombre": "Aritmética", "disponible": false },
+            { "id": "aritmetica", "nombre": "Aritmética", "disponible": true },
             { "id": "teoria-conjuntos", "nombre": "Teoría de conjuntos", "disponible": false },
             { "id": "sucesiones", "nombre": "Sucesiones", "disponible": false },
             { "id": "espacio-forma", "nombre": "Espacio y forma", "disponible": false },

@@ -1,0 +1,117 @@
+{
+  "id": "texto-informativo",
+  "titulo": "Texto informativo",
+  "area": "Competencia comunicativa",
+  "introduccion": "Esta subárea evalúa tu capacidad para identificar la idea principal, la estructura y el propósito de un texto que informa: noticias, comunicados, avisos o instructivos. No busca opiniones, sino datos y hechos verificables.",
+  "explicacion": [
+    "Propósito: el texto informativo busca dar a conocer hechos, datos o procedimientos de manera objetiva, sin opiniones ni intención de convencer. Responde a las preguntas qué, quién, cuándo, dónde, cómo y por qué.",
+    "Idea principal vs ideas secundarias: la idea principal es el dato central que el texto quiere comunicar; las ideas secundarias lo complementan, explican o ejemplifican, pero no son indispensables para entender el mensaje central.",
+    "Estructura: suele organizarse en orden de importancia (de lo más relevante a lo menos relevante, como en una noticia) o en orden cronológico/procedimental (como en un instructivo o comunicado de procedimiento).",
+    "Objetividad: un texto informativo evita adjetivos calificativos con carga de opinión ('un pésimo resultado') y se limita a describir hechos verificables ('el resultado fue de 45%').",
+    "Tema vs asunto: el tema es de qué trata el texto en general (ej. 'el proceso electoral'); el asunto o idea central es lo específico que se dice sobre ese tema en ese texto en particular (ej. 'el consejo aprobó el calendario del proceso electoral 2024')."
+  ],
+  "ejemplos": [
+    { "incorrecto": "El pésimo desempeño del consejo generó indignación en la ciudadanía.", "correcto": "El consejo concluyó el cómputo con un retraso de tres horas respecto al calendario previsto.", "nota": "La primera oración incluye opinión ('pésimo', 'indignación'); la segunda solo describe un hecho verificable." },
+    { "incorrecto": "Se dice que probablemente el proceso podría tener irregularidades.", "correcto": "El órgano de fiscalización revisará tres actas por presunta inconsistencia en el llenado.", "nota": "La redacción informativa evita la vaguedad y da datos concretos y verificables." }
+  ],
+  "material_consulta": [
+    { "titulo": "UNAM — Tipología Textual", "url": "https://uapa.cuaieed.unam.mx" },
+    { "titulo": "Mascioli y Romero Gauna, ¿Cómo se construye un texto informativo?", "url": "https://www.google.com/search?q=como+se+construye+un+texto+informativo+mascioli+romero+gauna" }
+  ],
+  "preguntas": [
+    {
+      "formato": "cuestionamiento-directo",
+      "enunciado": "«El Consejo Distrital sesionó el martes a las nueve de la mañana para aprobar el calendario de capacitación electoral. Asistieron los siete consejeros y dos representantes de partido.» ¿Cuál es la idea principal del texto?",
+      "opciones": [
+        "Los representantes de partido asistieron a la sesión.",
+        "El Consejo Distrital sesionó para aprobar el calendario de capacitación electoral.",
+        "La sesión fue un martes a las nueve de la mañana."
+      ],
+      "respuesta_correcta": 1,
+      "explicacion": "Es el dato central: qué se hizo y para qué; los otros dos son datos secundarios (quiénes asistieron, cuándo)."
+    },
+    {
+      "formato": "cuestionamiento-directo",
+      "enunciado": "¿Cuál de las siguientes oraciones es la más objetiva, propia de un texto informativo?",
+      "opciones": [
+        "La sesión fue un fracaso total por la mala organización del consejo.",
+        "La sesión concluyó dos horas después de lo previsto en el calendario.",
+        "Fue una sesión decepcionante que dejó mucho que desear."
+      ],
+      "respuesta_correcta": 1,
+      "explicacion": "Describe un hecho verificable sin adjetivos de opinión."
+    },
+    {
+      "formato": "cuestionamiento-directo",
+      "enunciado": "¿Cuál es la función principal de un texto informativo?",
+      "opciones": [
+        "Persuadir al lector para que adopte una postura.",
+        "Dar a conocer hechos o datos de manera objetiva.",
+        "Expresar los sentimientos del autor sobre un tema."
+      ],
+      "respuesta_correcta": 1,
+      "explicacion": "El texto informativo busca comunicar hechos verificables, no persuadir ni expresar emociones."
+    },
+    {
+      "formato": "cuestionamiento-directo",
+      "enunciado": "«El instituto electoral capacitó a 3,200 funcionarios de casilla entre marzo y mayo. La capacitación incluyó un módulo presencial y otro en línea.» ¿Qué pregunta NO responde este texto?",
+      "opciones": ["¿Cuántos funcionarios fueron capacitados?", "¿En qué periodo se capacitó?", "¿Por qué se decidió capacitar en dos modalidades?"],
+      "respuesta_correcta": 2,
+      "explicacion": "El texto da el número y el periodo, pero no explica la razón (el porqué) de las dos modalidades."
+    },
+    {
+      "formato": "cuestionamiento-directo",
+      "enunciado": "¿Cuál opción describe mejor la estructura típica de una noticia (texto informativo)?",
+      "opciones": [
+        "De la información menos importante a la más importante.",
+        "De la información más importante a la menos importante.",
+        "En estricto orden alfabético de los datos mencionados."
+      ],
+      "respuesta_correcta": 1,
+      "explicacion": "Las noticias suelen iniciar con el dato más relevante (qué pasó) y después añaden detalles complementarios."
+    },
+    {
+      "formato": "cuestionamiento-directo",
+      "enunciado": "¿Cuál de las siguientes opciones distingue correctamente 'tema' de 'idea central'?",
+      "opciones": [
+        "El tema y la idea central siempre son exactamente lo mismo.",
+        "El tema es general (de qué trata el texto); la idea central es lo específico que se dice sobre ese tema.",
+        "La idea central siempre aparece solo en la última oración del texto."
+      ],
+      "respuesta_correcta": 1,
+      "explicacion": "El tema es la categoría general, mientras que la idea central es el planteamiento específico del texto sobre ese tema."
+    },
+    {
+      "formato": "cuestionamiento-directo",
+      "enunciado": "«Se recomienda a los aspirantes llegar 30 minutos antes de la aplicación del examen y llevar una identificación oficial vigente.» ¿Qué tipo de texto informativo es este fragmento?",
+      "opciones": ["Una noticia", "Un instructivo o aviso de procedimiento", "Un texto argumentativo"],
+      "respuesta_correcta": 1,
+      "explicacion": "Da indicaciones concretas sobre cómo proceder, propio de un instructivo o aviso, no narra un hecho noticioso ni defiende una postura."
+    },
+    {
+      "formato": "cuestionamiento-directo",
+      "enunciado": "¿Cuál de las siguientes oraciones contiene una idea secundaria (no la idea principal) respecto al texto: «El consejo aprobó por unanimidad el manual de procedimientos. La sesión se realizó en la sala de juntas del instituto.»?",
+      "opciones": [
+        "El consejo aprobó el manual de procedimientos.",
+        "La aprobación fue por unanimidad.",
+        "La sesión se realizó en la sala de juntas del instituto."
+      ],
+      "respuesta_correcta": 2,
+      "explicacion": "El lugar de la sesión es un dato complementario; la idea principal es la aprobación del manual."
+    },
+    {
+      "formato": "cuestionamiento-directo",
+      "enunciado": "¿Cuál palabra es más propia de un texto informativo objetivo?",
+      "opciones": ["Lamentablemente", "Posiblemente exagerado", "Según el acta circunstanciada"],
+      "respuesta_correcta": 2,
+      "explicacion": "Remite a una fuente verificable, propia del lenguaje informativo; las otras dos expresan juicio u opinión."
+    },
+    {
+      "formato": "cuestionamiento-directo",
+      "enunciado": "¿Cuál de las siguientes preguntas NO forma parte de las que responde típicamente un texto informativo?",
+      "opciones": ["¿Qué opino yo sobre esto?", "¿Quién lo hizo?", "¿Cuándo ocurrió?"],
+      "respuesta_correcta": 0,
+      "explicacion": "Un texto informativo no expresa la opinión del autor; se centra en hechos verificables (qué, quién, cuándo, dónde, cómo, por qué)."
+    }
+  ]
+}

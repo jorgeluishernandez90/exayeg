@@ -1,0 +1,93 @@
+{
+  "id": "aritmetica",
+  "titulo": "Aritmética",
+  "area": "Competencia matemática",
+  "introduccion": "Esta subárea evalúa operaciones básicas, fracciones, porcentajes, razones, proporciones y regla de tres, casi siempre planteados como problemas de aplicación práctica (por ejemplo, sobre votos, boletas o listas nominales).",
+  "explicacion": [
+    "Jerarquía de operaciones: primero se resuelven los paréntesis, después potencias y raíces, luego multiplicaciones y divisiones (de izquierda a derecha), y al final sumas y restas (de izquierda a derecha). Ejemplo: 8 + 2 × 3 = 8 + 6 = 14, no 30.",
+    "Fracciones: para sumar o restar fracciones se necesita un común denominador; para multiplicar, se multiplican numeradores entre sí y denominadores entre sí; para dividir, se multiplica por el recíproco de la segunda fracción (se 'invierte y se multiplica').",
+    "Porcentajes: 'el X% de una cantidad' se calcula multiplicando la cantidad por X/100. Para saber qué porcentaje representa una cantidad de un total, se divide la cantidad entre el total y se multiplica por 100.",
+    "Razones y proporciones: una razón compara dos cantidades (por ejemplo, 3 de cada 5 votantes); una proporción es la igualdad entre dos razones. Se resuelve con el producto cruzado: si a/b = c/d, entonces a×d = b×c.",
+    "Regla de tres simple: sirve para encontrar un valor desconocido cuando dos magnitudes son proporcionales. Si 100 boletas requieren 2 cajas, ¿cuántas cajas se necesitan para 350 boletas? Se plantea 100/2 = 350/x y se despeja x."
+  ],
+  "ejemplos": [
+    { "incorrecto": "10 - 4 + 2 = 4 (restando primero el total de la derecha)", "correcto": "10 - 4 + 2 = 8 (de izquierda a derecha)", "nota": "Sumas y restas al mismo nivel se resuelven de izquierda a derecha, no agrupando arbitrariamente." },
+    { "incorrecto": "El 20% de 350 boletas es 7.", "correcto": "El 20% de 350 boletas es 70 (350 × 0.20 = 70).", "nota": "Multiplicar por 0.20 (o por 20/100), no dividir entre 20." }
+  ],
+  "material_consulta": [
+    { "titulo": "Baldor, Aritmética", "url": "https://www.google.com/search?q=aritmetica+baldor+pdf" },
+    { "titulo": "Colegio Nacional de Matemáticas, Matemáticas simplificadas", "url": "https://www.google.com/search?q=matematicas+simplificadas+colegio+nacional+de+matematicas" }
+  ],
+  "preguntas": [
+    {
+      "formato": "cuestionamiento-directo",
+      "enunciado": "¿Cuál es el resultado de 6 + 4 × 2 − 3?",
+      "opciones": ["17", "11", "5"],
+      "respuesta_correcta": 1,
+      "explicacion": "Primero la multiplicación: 4 × 2 = 8; luego, de izquierda a derecha: 6 + 8 = 14, y 14 − 3 = 11."
+    },
+    {
+      "formato": "cuestionamiento-directo",
+      "enunciado": "En una casilla se recibieron 450 boletas. Si el 60% fueron utilizadas, ¿cuántas boletas se usaron?",
+      "opciones": ["270", "300", "180"],
+      "respuesta_correcta": 0,
+      "explicacion": "450 × 0.60 = 270 boletas."
+    },
+    {
+      "formato": "cuestionamiento-directo",
+      "enunciado": "Si de 500 votos emitidos, 125 fueron nulos, ¿qué porcentaje de los votos fueron nulos?",
+      "opciones": ["20%", "25%", "15%"],
+      "respuesta_correcta": 1,
+      "explicacion": "125 ÷ 500 = 0.25, es decir, 25%."
+    },
+    {
+      "formato": "cuestionamiento-directo",
+      "enunciado": "Un consejo necesita 3 capacitadores por cada 40 funcionarios de casilla. Si tiene 320 funcionarios, ¿cuántos capacitadores necesita?",
+      "opciones": ["24", "20", "30"],
+      "respuesta_correcta": 0,
+      "explicacion": "Regla de tres: 3/40 = x/320 → x = (3 × 320) ÷ 40 = 24."
+    },
+    {
+      "formato": "cuestionamiento-directo",
+      "enunciado": "¿Cuál es el resultado de sumar 1/4 + 1/6?",
+      "opciones": ["5/12", "2/10", "1/5"],
+      "respuesta_correcta": 0,
+      "explicacion": "El común denominador de 4 y 6 es 12: 3/12 + 2/12 = 5/12."
+    },
+    {
+      "formato": "cuestionamiento-directo",
+      "enunciado": "Si 100 paquetes electorales requieren 4 vehículos para su traslado, ¿cuántos vehículos se requieren para 250 paquetes, manteniendo la misma proporción?",
+      "opciones": ["10", "8", "12"],
+      "respuesta_correcta": 0,
+      "explicacion": "100/4 = 250/x → x = (4 × 250) ÷ 100 = 10."
+    },
+    {
+      "formato": "cuestionamiento-directo",
+      "enunciado": "¿Cuál es el resultado de (8 + 2) × 3 − 6 ÷ 2?",
+      "opciones": ["27", "21", "12"],
+      "respuesta_correcta": 0,
+      "explicacion": "(8+2)=10; 10×3=30; 6÷2=3; 30−3=27."
+    },
+    {
+      "formato": "cuestionamiento-directo",
+      "enunciado": "Un distrito tiene una lista nominal de 80,000 personas. Si la participación fue del 45%, ¿cuántas personas votaron aproximadamente?",
+      "opciones": ["36,000", "45,000", "32,000"],
+      "respuesta_correcta": 0,
+      "explicacion": "80,000 × 0.45 = 36,000."
+    },
+    {
+      "formato": "cuestionamiento-directo",
+      "enunciado": "¿Cuál es el resultado de multiplicar 3/5 × 2/7?",
+      "opciones": ["6/35", "5/12", "6/12"],
+      "respuesta_correcta": 0,
+      "explicacion": "Se multiplican numeradores (3×2=6) y denominadores (5×7=35): 6/35."
+    },
+    {
+      "formato": "cuestionamiento-directo",
+      "enunciado": "Un candidato obtuvo 3 votos por cada 5 votos válidos emitidos en una casilla. Si hubo 400 votos válidos, ¿cuántos votos obtuvo ese candidato?",
+      "opciones": ["240", "200", "160"],
+      "respuesta_correcta": 0,
+      "explicacion": "3/5 = x/400 → x = (3 × 400) ÷ 5 = 240."
+    }
+  ]
+}

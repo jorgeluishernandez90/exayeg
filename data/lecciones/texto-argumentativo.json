@@ -1,0 +1,121 @@
+{
+  "id": "texto-argumentativo",
+  "titulo": "Texto argumentativo",
+  "area": "Competencia comunicativa",
+  "introduccion": "A diferencia del texto informativo, el argumentativo busca convencer al lector de una postura mediante razones (argumentos). El examen suele pedir identificar la tesis, distinguirla de los argumentos que la sustentan, o reconocer el tipo de argumento usado.",
+  "explicacion": [
+    "Tesis: es la idea u opinión central que el autor quiere defender o refutar. Suele plantearse al inicio o al final del texto y responde a la pregunta '¿qué quiere que yo crea o haga el autor?'.",
+    "Argumentos: son las razones que sostienen la tesis. Pueden ser de distintos tipos: de autoridad (citar a un experto o una fuente reconocida), de causa-efecto (explicar consecuencias), por ejemplificación (dar casos concretos), o estadísticos (usar datos y cifras).",
+    "Conectores argumentativos: palabras como 'por lo tanto', 'en consecuencia', 'ya que', 'debido a', 'sin embargo' y 'no obstante' organizan la relación entre la tesis y los argumentos, o marcan un contraste con posturas opuestas.",
+    "Contraargumento: es una idea que reconoce una postura contraria antes de refutarla, y suele fortalecer el texto porque muestra que el autor consideró otras perspectivas ('Aunque algunos señalan que..., en realidad...').",
+    "Diferencia clave con el texto informativo: mientras el informativo describe hechos sin tomar postura, el argumentativo interpreta esos hechos para persuadir; puede usar los mismos datos, pero con la intención de convencer, no solo de informar."
+  ],
+  "ejemplos": [
+    { "incorrecto": "El consejo sesionó el martes a las nueve.", "correcto": "El consejo debería sesionar más temprano, ya que así se evitarían los retrasos que afectan a los funcionarios de casilla.", "nota": "La segunda oración plantea una postura (tesis) y una razón (argumento de causa-efecto), a diferencia de la primera, que solo informa." },
+    { "incorrecto": "Según datos del instituto, aumentó la participación ciudadana.", "correcto": "Como lo demuestran los datos del instituto, la participación ciudadana aumentó gracias a las nuevas casillas, por lo que deben mantenerse en el próximo proceso.", "nota": "La versión argumentativa usa el dato (argumento estadístico) para sostener una conclusión y una recomendación." }
+  ],
+  "material_consulta": [
+    { "titulo": "Junta de Galicia — El argumento de autoridad", "url": "https://www.edu.xunta.gal" },
+    { "titulo": "Portal Académico CCH (UNAM) — Texto argumentativo", "url": "https://portalacademico.cch.unam.mx" }
+  ],
+  "preguntas": [
+    {
+      "formato": "cuestionamiento-directo",
+      "enunciado": "«Los horarios de capacitación deben ampliarse, pues muchos funcionarios de casilla trabajan y no pueden asistir en horario matutino.» ¿Cuál es la tesis de esta oración?",
+      "opciones": [
+        "Muchos funcionarios de casilla trabajan.",
+        "Los horarios de capacitación deben ampliarse.",
+        "La capacitación es en horario matutino."
+      ],
+      "respuesta_correcta": 1,
+      "explicacion": "Es la postura que el autor defiende; lo demás es el argumento (la razón) que la sostiene."
+    },
+    {
+      "formato": "cuestionamiento-directo",
+      "enunciado": "¿Qué tipo de argumento se usa en: «Según el Instituto Nacional Electoral, la participación ciudadana aumentó doce puntos porcentuales en el último proceso»?",
+      "opciones": ["Argumento de autoridad y estadístico", "Argumento por ejemplificación", "Contraargumento"],
+      "respuesta_correcta": 0,
+      "explicacion": "Cita a una institución reconocida (autoridad) y usa una cifra concreta (estadístico)."
+    },
+    {
+      "formato": "cuestionamiento-directo",
+      "enunciado": "¿Cuál de las siguientes oraciones introduce un contraargumento?",
+      "opciones": [
+        "El voto electrónico agiliza el conteo de resultados.",
+        "Aunque algunos señalan riesgos de seguridad, el voto electrónico agiliza el conteo de resultados.",
+        "El conteo de resultados tardó cuatro horas en total."
+      ],
+      "respuesta_correcta": 1,
+      "explicacion": "Reconoce primero una postura contraria ('riesgos de seguridad') antes de sostener la propia, lo cual es característico del contraargumento."
+    },
+    {
+      "formato": "cuestionamiento-directo",
+      "enunciado": "¿Cuál es la principal diferencia entre un texto informativo y uno argumentativo?",
+      "opciones": [
+        "El informativo usa más adjetivos que el argumentativo.",
+        "El argumentativo busca persuadir; el informativo busca dar a conocer hechos de forma objetiva.",
+        "No hay diferencia real entre ambos tipos de texto."
+      ],
+      "respuesta_correcta": 1,
+      "explicacion": "Esa es la distinción central entre ambos tipos de texto."
+    },
+    {
+      "formato": "completamiento",
+      "enunciado": "El paquete electoral llegó completo a la bodega, ______ se procedió a sellar el acta de recepción.",
+      "opciones": ["por lo tanto", "sin embargo", "aunque"],
+      "respuesta_correcta": 0,
+      "explicacion": "'Por lo tanto' conecta una causa con su consecuencia lógica, propio de un texto argumentativo bien organizado."
+    },
+    {
+      "formato": "cuestionamiento-directo",
+      "enunciado": "¿Cuál oración presenta un argumento por ejemplificación?",
+      "opciones": [
+        "Los consejos deben capacitar mejor a sus funcionarios.",
+        "En el distrito 5, la capacitación reforzada redujo los errores de llenado en un 30%, lo que demuestra su eficacia.",
+        "La capacitación es un tema importante para el instituto."
+      ],
+      "respuesta_correcta": 1,
+      "explicacion": "Usa un caso concreto (el distrito 5) para respaldar la idea general."
+    },
+    {
+      "formato": "cuestionamiento-directo",
+      "enunciado": "¿Cuál de las siguientes es la mejor definición de 'tesis' en un texto argumentativo?",
+      "opciones": [
+        "El resumen final de todos los datos presentados.",
+        "La idea central que el autor busca defender o refutar.",
+        "La fuente bibliográfica citada al final del texto."
+      ],
+      "respuesta_correcta": 1,
+      "explicacion": "La tesis es la postura u opinión que organiza todo el argumento del texto."
+    },
+    {
+      "formato": "cuestionamiento-directo",
+      "enunciado": "«El nuevo protocolo de conteo, avalado por especialistas en estadística electoral, disminuyó los errores humanos.» ¿Qué elemento hace que esta oración sea argumentativa y no solo informativa?",
+      "opciones": [
+        "Menciona un protocolo de conteo.",
+        "Usa el respaldo de especialistas (autoridad) para sostener una conclusión valorativa.",
+        "Usa la palabra 'protocolo'."
+      ],
+      "respuesta_correcta": 1,
+      "explicacion": "El respaldo de una autoridad para sostener una conclusión es lo que convierte la oración en argumentativa."
+    },
+    {
+      "formato": "cuestionamiento-directo",
+      "enunciado": "¿Qué conector sería más adecuado para introducir un contraargumento?",
+      "opciones": ["Por ejemplo", "No obstante", "Además"],
+      "respuesta_correcta": 1,
+      "explicacion": "'No obstante' marca contraste, propio de introducir una postura opuesta antes de refutarla."
+    },
+    {
+      "formato": "cuestionamiento-directo",
+      "enunciado": "¿Cuál de las siguientes oraciones es puramente informativa (sin intención argumentativa)?",
+      "opciones": [
+        "El consejo debería adoptar el nuevo protocolo cuanto antes.",
+        "El consejo aprobó el nuevo protocolo de conteo el pasado lunes.",
+        "Es evidente que el nuevo protocolo es superior al anterior."
+      ],
+      "respuesta_correcta": 1,
+      "explicacion": "Describe un hecho sin tomar postura ni buscar convencer; las otras dos expresan una opinión o recomendación."
+    }
+  ]
+}
