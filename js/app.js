@@ -145,6 +145,19 @@ function renderNav() {
   });
 }
 
+// Convierte "Tema: resto de la explicación" en un bloque con subtítulo.
+// Si el párrafo no sigue ese patrón (o el "título" es demasiado largo
+// para ser un título real), se muestra como párrafo normal.
+function renderPuntoExplicacion(texto) {
+  const idx = texto.indexOf(': ');
+  if (idx > 0 && idx < 90) {
+    const titulo = texto.slice(0, idx);
+    const resto = texto.slice(idx + 2);
+    return `<div class="punto-explicacion"><h3>${titulo}</h3><p>${resto}</p></div>`;
+  }
+  return `<div class="punto-explicacion"><p>${texto}</p></div>`;
+}
+
 // ---------------- Render de una lección ----------------
 async function abrirLeccion(subtemaId) {
   document.querySelectorAll('.subtema-link').forEach(b => b.classList.remove('activo'));
@@ -164,7 +177,7 @@ async function abrirLeccion(subtemaId) {
 
     <section class="bloque explicacion">
       <h2>Explicación</h2>
-      ${leccion.explicacion.map(p => `<p>${p}</p>`).join('')}
+      ${leccion.explicacion.map(p => renderPuntoExplicacion(p)).join('')}
     </section>
 
     <section class="bloque ejemplos">

@@ -191,6 +191,15 @@ h1.titulo-leccion{
 }
 
 .explicacion p{margin:0 0 14px;}
+.punto-explicacion{margin-bottom:20px;}
+.punto-explicacion h3{
+  font-family:'Lora',serif;
+  font-size:1rem;
+  font-weight:700;
+  color:var(--vino-oscuro);
+  margin:0 0 4px;
+}
+.punto-explicacion p{margin:0; color:var(--tinta);}
 
 .ejemplo{
   background:var(--pergamino-osc);
