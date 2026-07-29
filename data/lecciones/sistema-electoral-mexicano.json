@@ -1,0 +1,116 @@
+{
+  "id": "sistema-electoral-mexicano",
+  "titulo": "Sistema electoral mexicano",
+  "area": "Sistemas electorales",
+  "introduccion": "Esta subárea evalúa el conocimiento del sistema político y electoral mexicano, y de las principales características que corresponden a las autoridades electorales administrativas: el fundamento constitucional, la estructura del INE, y cómo se relaciona con los organismos públicos locales (OPL) como el IEEG.",
+  "explicacion": [
+    "Fundamento constitucional (Art. 41 CPEUM): la renovación de los poderes Legislativo y Ejecutivo se realiza mediante elecciones libres, auténticas y periódicas. El artículo 41 establece las bases del sistema: I) los partidos políticos como entidades de interés público, con derechos, obligaciones, prerrogativas y capacidad de postular candidaturas; y II) el financiamiento de los partidos, donde el financiamiento público debe prevalecer siempre sobre el privado.",
+    "Los tres tipos de financiamiento a partidos: 1) actividades ordinarias permanentes, que se calcula multiplicando el número total de ciudadanos inscritos en el padrón electoral por el 65% de la UMA (Unidad de Medida y Actualización); de ese monto, 30% se distribuye en partes iguales entre los partidos y 70% de acuerdo con la votación obtenida en la elección de diputados más reciente; 2) actividades tendientes a la obtención del voto, que reciben un monto adicional del 50% de las actividades ordinarias cuando hay elección de presidencia, senado y diputaciones juntas, o 30% cuando solo hay elección de diputaciones; y 3) actividades específicas, para las cuales debe destinarse un 3% del monto de actividades ordinarias.",
+    "Principios rectores de la función electoral: certeza, legalidad, independencia, imparcialidad, máxima publicidad y objetividad. Estos seis principios rigen la actuación de TODAS las autoridades electorales, tanto del INE como de los organismos públicos locales (como el IEEG).",
+    "Naturaleza y estructura del INE: es un organismo público autónomo, con personalidad jurídica y patrimonio propios, independiente en sus decisiones y funcionamiento, y profesional en su desempeño. En su integración participan el Poder Legislativo de la Unión, los partidos políticos nacionales y los ciudadanos. Cuenta con órganos de dirección, ejecutivos, técnicos y de vigilancia.",
+    "Integración del Consejo General del INE: es su órgano superior de dirección. Se integra por un consejero Presidente y diez consejeros electorales (con voz y voto), y concurren con voz pero sin voto los consejeros del Poder Legislativo, los representantes de los partidos políticos y un Secretario Ejecutivo. El consejero Presidente y los consejeros electorales duran nueve años en el cargo, no pueden ser reelectos, y son electos por el voto de las dos terceras partes de los miembros presentes de la Cámara de Diputados.",
+    "Actividades exclusivas del INE en procesos federales: la capacitación electoral, la geografía electoral (diseño de distritos y secciones), el padrón y la lista de electores, la ubicación de casillas y designación de funcionarios de mesa directiva, y el cómputo de la elección presidencial. Actividades que el INE realiza tanto en procesos federales como locales: los derechos y prerrogativas de candidatos y partidos, la preparación de la jornada electoral, la impresión de documentos y materiales electorales, los escrutinios y cómputos, la fiscalización, y las reglas sobre resultados preliminares, encuestas, observación electoral y conteos rápidos.",
+    "Facultades de los organismos públicos locales (OPL, como el IEEG): derechos y prerrogativas de candidatos y partidos locales; educación cívica; preparación de la jornada electoral; impresión de documentos y materiales; escrutinios y cómputos locales; declaración de validez y constancias en elecciones locales; cómputo de la elección del titular del Ejecutivo local (Gobernador); resultados preliminares, encuestas y conteos rápidos locales; y organización de mecanismos de participación ciudadana previstos en la legislación local.",
+    "Relación INE-OPL: tres facultades especiales que permiten al INE intervenir en procesos locales. La ASUNCIÓN es que el INE asuma directamente TODAS las actividades de la función electoral que le corresponden a un OPL; requiere que se demuestre grave riesgo social a la paz pública, o falta de condiciones políticas idóneas por injerencia de poderes públicos; se solicita por al menos cuatro consejeros del OPL o la mayoría, y se aprueba con al menos ocho votos del Consejo General del INE. La ATRACCIÓN es que el INE atraiga a su conocimiento un asunto específico de un OPL para fijar un criterio de interpretación; también requiere ocho votos del CG del INE. La DELEGACIÓN es lo contrario a la asunción: el INE delega en el OPL atribuciones que originalmente le corresponderían al INE, para que el OPL las ejerza; el INE puede reasumirlas en cualquier momento, y también requiere ocho votos."
+  ],
+  "ejemplos": [
+    { "incorrecto": "El INE organiza directamente, sin intermediarios, todas las elecciones del país, incluidas las locales.", "correcto": "La organización de las elecciones es una función estatal que se realiza a través del INE Y de los organismos públicos locales, cada uno con sus propias facultades.", "nota": "El INE tiene facultades exclusivas y facultades compartidas con los OPL; no monopoliza toda la función electoral, salvo que ejerza asunción." },
+    { "incorrecto": "La asunción y la atracción son lo mismo: el INE toma el control total de un proceso local en ambos casos.", "correcto": "La asunción es tomar TODAS las actividades de la función electoral de un OPL; la atracción es solo atraer un asunto específico para fijar un criterio, sin tomar el control total.", "nota": "Distinguir el alcance de cada facultad es clave: asunción = todo; atracción = un asunto puntual; delegación = el sentido contrario, del INE hacia el OPL." }
+  ],
+  "material_consulta": [
+    { "titulo": "Constitución Política de los Estados Unidos Mexicanos, artículo 41", "url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/CPEUM.pdf" },
+    { "titulo": "Ley General de Instituciones y Procedimientos Electorales (LGIPE)", "url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LGIPE.pdf" }
+  ],
+  "preguntas": [
+    {
+      "formato": "cuestionamiento-directo",
+      "enunciado": "Según el artículo 41 constitucional, ¿qué tipo de financiamiento debe prevalecer sobre el otro en los partidos políticos?",
+      "opciones": ["El financiamiento privado sobre el público", "El financiamiento público sobre el privado", "Ambos deben ser exactamente iguales en monto"],
+      "respuesta_correcta": 1,
+      "explicacion": "El artículo 41 establece expresamente la prevalencia del financiamiento público sobre el privado."
+    },
+    {
+      "formato": "cuestionamiento-directo",
+      "enunciado": "¿Cuáles son los seis principios rectores de la función electoral?",
+      "opciones": [
+        "Certeza, legalidad, independencia, imparcialidad, máxima publicidad y objetividad",
+        "Democracia, transparencia, equidad, justicia, orden y eficiencia",
+        "Certeza, legalidad, mayoría, imparcialidad, publicidad y neutralidad"
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "Son los seis principios que rigen a todas las autoridades electorales, federales y locales."
+    },
+    {
+      "formato": "completamiento",
+      "enunciado": "El Consejo General del INE se integra por un consejero Presidente y ______ consejeros electorales con derecho a voz y voto.",
+      "opciones": ["diez", "seis", "siete"],
+      "respuesta_correcta": 0,
+      "explicacion": "Son diez consejeros electorales más el consejero Presidente, según la Constitución."
+    },
+    {
+      "formato": "cuestionamiento-directo",
+      "enunciado": "¿Cuántos años dura en su cargo el consejero Presidente del INE, y pueden ser reelectos?",
+      "opciones": ["Nueve años, sin reelección", "Seis años, con una reelección", "Cuatro años, sin reelección"],
+      "respuesta_correcta": 0,
+      "explicacion": "Duran nueve años en el cargo y no pueden ser reelectos."
+    },
+    {
+      "formato": "cuestionamiento-directo",
+      "enunciado": "¿Quién elige al consejero Presidente y a los consejeros electorales del INE?",
+      "opciones": [
+        "El Presidente de la República",
+        "El voto de las dos terceras partes de los miembros presentes de la Cámara de Diputados",
+        "Los propios partidos políticos por votación directa"
+      ],
+      "respuesta_correcta": 1,
+      "explicacion": "Se eligen por mayoría calificada (dos terceras partes) de los diputados presentes."
+    },
+    {
+      "formato": "relacion-elementos",
+      "enunciado": "Relacione cada facultad especial del INE con su definición correcta.",
+      "opciones": [
+        "1-Asunción/A-tomar todas las actividades de un OPL, 2-Atracción/B-atraer un asunto específico para fijar criterio",
+        "1-Asunción/B-atraer un asunto específico, 2-Atracción/A-tomar todas las actividades de un OPL",
+        "1-Asunción/A-delegar facultades al OPL, 2-Atracción/B-tomar todas las actividades de un OPL"
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "La asunción implica tomar el total de las actividades electorales de un OPL; la atracción implica atraer un asunto puntual para sentar un criterio."
+    },
+    {
+      "formato": "cuestionamiento-directo",
+      "enunciado": "¿Cuántos votos del Consejo General del INE se requieren para ejercer la asunción, la atracción o la delegación?",
+      "opciones": ["Al menos ocho votos", "Mayoría simple de tres votos", "Unanimidad de los once integrantes"],
+      "respuesta_correcta": 0,
+      "explicacion": "Las tres facultades especiales requieren al menos ocho votos del Consejo General del INE."
+    },
+    {
+      "formato": "cuestionamiento-directo",
+      "enunciado": "¿Cuál de las siguientes actividades es EXCLUSIVA del INE, incluso en procesos electorales locales?",
+      "opciones": [
+        "La declaración de validez de la elección de Gobernador",
+        "El padrón y la lista de electores",
+        "La educación cívica local"
+      ],
+      "respuesta_correcta": 1,
+      "explicacion": "El padrón y la lista de electores es una actividad exclusiva del INE; las otras dos corresponden a los OPL."
+    },
+    {
+      "formato": "cuestionamiento-directo",
+      "enunciado": "¿Cuál de las siguientes es una facultad de los organismos públicos locales (OPL) y no del INE?",
+      "opciones": [
+        "Declarar la validez de la elección del titular del Poder Ejecutivo local (Gobernador)",
+        "Diseñar y determinar los distritos electorales federales",
+        "Administrar los tiempos del Estado en radio y TV a nivel nacional"
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "El cómputo y declaración de validez de la elección de Gobernador corresponde al OPL; las otras dos son facultades del INE."
+    },
+    {
+      "formato": "completamiento",
+      "enunciado": "El financiamiento para actividades tendientes a la obtención del voto es del ______ del monto de actividades ordinarias cuando la elección es solo de diputaciones.",
+      "opciones": ["30%", "50%", "70%"],
+      "respuesta_correcta": 0,
+      "explicacion": "Es 50% cuando hay elección de presidencia, senado y diputaciones juntas, pero solo 30% cuando es exclusivamente de diputaciones."
+    }
+  ]
+}

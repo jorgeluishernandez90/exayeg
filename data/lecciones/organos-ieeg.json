@@ -1,0 +1,118 @@
+{
+  "id": "organos-ieeg",
+  "titulo": "Órganos estatales, municipales y distritales",
+  "area": "Instituto Electoral del Estado de Guanajuato",
+  "introduccion": "Esta subárea evalúa el conocimiento sobre cómo está estructurado el IEEG y cómo se integra cada uno de sus órganos: el Consejo General (estatal), los Consejos Distritales y los Consejos Municipales, incluyendo los requisitos para ser consejero y las reglas comunes a los tres.",
+  "explicacion": [
+    "El IEEG como organismo: la organización de las elecciones locales en Guanajuato es una función estatal que se realiza a través del organismo público electoral local (el IEEG) y del INE, conforme a la Constitución y la ley. La jornada comicial tiene lugar el primer domingo de junio del año que corresponda. El IEEG es autónomo en su funcionamiento e independiente en sus decisiones, y se estructura con órganos de dirección, ejecutivos y técnicos, distribuidos en tres niveles: estatal, distrital y municipal.",
+    "Consejo General (órgano estatal): es el órgano superior de dirección del IEEG, encargado de la preparación, desarrollo y vigilancia de los procesos electorales de carácter estatal, con domicilio en la ciudad de Guanajuato capital. Requisitos para ser consejero electoral: ser ciudadano mexicano por nacimiento sin otra nacionalidad; estar inscrito en el Registro Federal de Electores con credencial vigente; tener más de 30 años de edad al día de la designación; poseer título profesional de licenciatura con mínimo cinco años de antigüedad; gozar de buena reputación sin condena penal (salvo delitos no intencionales); ser guanajuatense o tener residencia efectiva de al menos cinco años; no haber sido candidato ni ocupado cargo de elección popular en los últimos cuatro años; no haber tenido cargo de dirección partidista en los últimos cuatro años; no estar inhabilitado para cargos públicos; y otros requisitos de no haber ocupado ciertos cargos de gobierno recientemente.",
+    "Consejos Distritales Electorales: son los órganos encargados de la preparación, desarrollo y vigilancia del proceso electoral en su distrito; dependen del Consejo General y funcionan durante el proceso electoral, con residencia en la cabecera de cada distrito. Se integran con un Consejero Presidente, un Secretario, dos consejeros electorales propietarios y un supernumerario, además de representantes de partidos políticos y candidaturas independientes. Son nombrados por el Consejo General, mediante convocatoria pública en la primera quincena de julio.",
+    "Consejos Municipales Electorales: son los órganos encargados de la preparación, desarrollo y vigilancia del proceso electoral municipal en su circunscripción; también dependen del Consejo General, con residencia en la cabecera de cada municipio. Se integran igual que los distritales: un presidente, un secretario, dos consejeros electorales propietarios, un supernumerario, y representantes de partidos y candidaturas independientes. Su designación sigue el mismo proceso que los distritales, con paridad de género.",
+    "Requisitos diferenciados para consejeros distritales y municipales: deben cumplir los mismos requisitos que los consejeros del Consejo General (art. 83), EXCEPTO la fracción XI (sobre no haber sido miembro del Servicio Profesional Electoral Nacional). Para los municipales, además se exceptúan las fracciones III (edad mínima de 30 años), IV (título profesional) y XI.",
+    "Disposiciones comunes a los tres niveles de órganos: 1) todos los integrantes deben rendir protesta de ley antes de tomar posesión; 2) los partidos políticos deben acreditar a sus representantes dentro de los 30 días siguientes a la sesión de instalación del consejo correspondiente, o no formarán parte del órgano durante ese proceso electoral; 3) las sesiones de todos los consejos son públicas, y se registran en versión escrita y por medios electrónicos; 4) las resoluciones y acuerdos se toman por mayoría de votos, y en caso de empate persistente, el presidente tiene voto de calidad (voto dirimente)."
+  ],
+  "ejemplos": [
+    { "incorrecto": "Los Consejos Distritales y Municipales son órganos permanentes, igual que el Consejo General, que sesionan todo el año sin importar si hay proceso electoral.", "correcto": "Los Consejos Distritales y Municipales funcionan específicamente DURANTE el proceso electoral, a diferencia del Consejo General, que es permanente.", "nota": "Esta es una diferencia clave entre el órgano estatal (permanente) y los órganos distritales/municipales (temporales, ligados al proceso electoral)." },
+    { "incorrecto": "Para ser consejero municipal se requieren exactamente los mismos requisitos que para ser consejero del Consejo General, sin ninguna excepción.", "correcto": "Los consejeros municipales están exceptuados de tres fracciones del artículo 83 (edad mínima, título profesional, y la fracción XI), a diferencia de los consejeros distritales, que solo están exceptuados de una.", "nota": "Los requisitos se van flexibilizando conforme se baja de nivel: Consejo General (todos los requisitos) > distrital (una excepción) > municipal (tres excepciones)." }
+  ],
+  "material_consulta": [
+    { "titulo": "Ley de Instituciones y Procedimientos Electorales para el Estado de Guanajuato (LIPEEG)", "url": "https://congreso-gto.s3.amazonaws.com" },
+    { "titulo": "Constitución Política para el Estado de Guanajuato", "url": "https://www.ieeg.mx/documentos/constitucion-politica-estado-guanajuato-pdf/" }
+  ],
+  "preguntas": [
+    {
+      "formato": "cuestionamiento-directo",
+      "enunciado": "¿En qué municipio tiene su domicilio el Consejo General del IEEG?",
+      "opciones": ["León", "Guanajuato capital", "Celaya"],
+      "respuesta_correcta": 1,
+      "explicacion": "El Consejo General tiene su domicilio en la ciudad de Guanajuato, capital del estado."
+    },
+    {
+      "formato": "cuestionamiento-directo",
+      "enunciado": "¿Cuál es la edad mínima para ser consejero electoral del Consejo General del IEEG?",
+      "opciones": ["25 años", "30 años", "35 años"],
+      "respuesta_correcta": 1,
+      "explicacion": "Se requiere tener más de 30 años de edad al día de la designación."
+    },
+    {
+      "formato": "cuestionamiento-directo",
+      "enunciado": "¿Con cuántos años de antigüedad mínima se requiere el título profesional de licenciatura para ser consejero electoral del Consejo General?",
+      "opciones": ["Dos años", "Cinco años", "Diez años"],
+      "respuesta_correcta": 1,
+      "explicacion": "Se requiere poseer el título con una antigüedad mínima de cinco años al día de la designación."
+    },
+    {
+      "formato": "cuestionamiento-directo",
+      "enunciado": "¿Cómo se integra un Consejo Distrital Electoral del IEEG?",
+      "opciones": [
+        "Un Consejero Presidente, un Secretario, dos consejeros electorales propietarios y un supernumerario",
+        "Un Consejero Presidente y seis consejeros electorales, igual que el Consejo General",
+        "Solo un presidente y representantes de los partidos políticos"
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "Esa es la integración establecida para los Consejos Distritales, además de los representantes partidistas."
+    },
+    {
+      "formato": "cuestionamiento-directo",
+      "enunciado": "¿Cuál es la principal diferencia de funcionamiento entre el Consejo General y los Consejos Distritales/Municipales?",
+      "opciones": [
+        "El Consejo General es temporal y los distritales/municipales son permanentes",
+        "El Consejo General es permanente y los distritales/municipales funcionan solo durante el proceso electoral",
+        "No hay ninguna diferencia entre ellos"
+      ],
+      "respuesta_correcta": 1,
+      "explicacion": "El Consejo General opera de manera permanente, mientras que los distritales y municipales solo funcionan durante el proceso electoral."
+    },
+    {
+      "formato": "cuestionamiento-directo",
+      "enunciado": "De los requisitos para ser consejero del Consejo General, ¿cuál fracción NO se exige a los consejeros distritales?",
+      "opciones": [
+        "La fracción XI, sobre no haber sido miembro del Servicio Profesional Electoral Nacional",
+        "La fracción I, sobre ser ciudadano mexicano",
+        "La fracción III, sobre la edad mínima"
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "Los consejeros distritales están exceptuados únicamente de la fracción XI del artículo 83."
+    },
+    {
+      "formato": "cuestionamiento-directo",
+      "enunciado": "¿En qué plazo deben acreditar los partidos políticos a sus representantes ante los consejos electorales, contado desde la sesión de instalación?",
+      "opciones": ["15 días", "30 días", "60 días"],
+      "respuesta_correcta": 1,
+      "explicacion": "El plazo es de 30 días siguientes a la fecha de la sesión de instalación del consejo correspondiente."
+    },
+    {
+      "formato": "cuestionamiento-directo",
+      "enunciado": "¿Qué sucede si un partido político no acredita a sus representantes dentro del plazo legal?",
+      "opciones": [
+        "No formará parte del órgano electoral respectivo durante ese proceso electoral",
+        "Pierde automáticamente su registro como partido político",
+        "Se le impone una multa económica al partido"
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "Es la consecuencia establecida por la ley: quedar fuera del órgano durante ese proceso electoral, sin implicar la pérdida del registro."
+    },
+    {
+      "formato": "cuestionamiento-directo",
+      "enunciado": "¿Qué requisito tienen en común TODOS los integrantes de los consejos (General, distritales y municipales) antes de tomar posesión de su cargo?",
+      "opciones": [
+        "Rendir la protesta de ley",
+        "Ser mayores de 40 años",
+        "Contar con estudios de posgrado"
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "Es una disposición común a los tres niveles: todos deben rendir protesta de ley antes de tomar posesión."
+    },
+    {
+      "formato": "cuestionamiento-directo",
+      "enunciado": "En caso de empate persistente en una votación de cualquiera de los consejos, ¿quién resuelve la situación?",
+      "opciones": [
+        "El presidente del consejo, con voto de calidad (dirimente)",
+        "Se cancela automáticamente el punto del orden del día",
+        "El Tribunal Electoral resuelve de inmediato"
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "Si tras someterlo a nueva deliberación el empate persiste, el presidente tiene voto dirimente para resolverlo."
+    }
+  ]
+}
