@@ -40,15 +40,15 @@
           "id": "sistemas-electorales",
           "nombre": "Sistemas electorales",
           "subtemas": [
-            { "id": "sistema-electoral-mexicano", "nombre": "Sistema electoral mexicano", "disponible": false }
+            { "id": "sistema-electoral-mexicano", "nombre": "Sistema electoral mexicano", "disponible": true }
           ]
         },
         {
           "id": "ieeg",
           "nombre": "Instituto Electoral del Estado de Guanajuato",
           "subtemas": [
-            { "id": "organos-ieeg", "nombre": "Órganos estatales, municipales y distritales", "disponible": false },
-            { "id": "funcionamiento-consejo", "nombre": "Funcionamiento del Consejo", "disponible": false }
+            { "id": "organos-ieeg", "nombre": "Órganos estatales, municipales y distritales", "disponible": true },
+            { "id": "funcionamiento-consejo", "nombre": "Funcionamiento del Consejo", "disponible": true }
           ]
         },
         {
