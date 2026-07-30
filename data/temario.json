@@ -55,31 +55,31 @@
           "id": "proceso-electoral",
           "nombre": "Proceso electoral",
           "subtemas": [
-            { "id": "preparacion-proceso", "nombre": "Preparación del proceso", "disponible": false },
-            { "id": "jornada-electoral", "nombre": "Jornada electoral", "disponible": false },
-            { "id": "resultados-eleccion", "nombre": "Resultados de la elección", "disponible": false }
+            { "id": "preparacion-proceso", "nombre": "Preparación del proceso", "disponible": true },
+            { "id": "jornada-electoral", "nombre": "Jornada electoral", "disponible": true },
+            { "id": "resultados-eleccion", "nombre": "Resultados de la elección", "disponible": true }
           ]
         },
         {
           "id": "casillas-electorales",
           "nombre": "Casillas electorales",
           "subtemas": [
-            { "id": "marco-geografico-electoral", "nombre": "Marco geográfico electoral", "disponible": false },
-            { "id": "ubicacion-casillas", "nombre": "Procedimiento de ubicación de casillas", "disponible": false }
+            { "id": "marco-geografico-electoral", "nombre": "Marco geográfico electoral", "disponible": true },
+            { "id": "ubicacion-casillas", "nombre": "Procedimiento de ubicación de casillas", "disponible": true }
           ]
         },
         {
           "id": "asistencia-electoral",
           "nombre": "Asistencia electoral",
           "subtemas": [
-            { "id": "cadena-custodia", "nombre": "Cadena de custodia", "disponible": false }
+            { "id": "cadena-custodia", "nombre": "Cadena de custodia", "disponible": true }
           ]
         },
         {
           "id": "procedimientos-sancionadores",
           "nombre": "Procedimientos sancionadores",
           "subtemas": [
-            { "id": "procedimiento-especial-sancionador", "nombre": "Procedimiento especial sancionador", "disponible": false }
+            { "id": "procedimiento-especial-sancionador", "nombre": "Procedimiento especial sancionador", "disponible": true }
           ]
         }
       ]
