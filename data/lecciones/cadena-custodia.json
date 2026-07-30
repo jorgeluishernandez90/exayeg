@@ -1,0 +1,128 @@
+{
+  "id": "cadena-custodia",
+  "titulo": "Cadena de custodia",
+  "area": "Asistencia electoral",
+  "introduccion": "Esta subárea evalúa el concepto de cadena de custodia electoral, las obligaciones de la autoridad administrativa para preservar los paquetes electorales, y los cuatro momentos clave en los que se documenta y resguarda esa cadena, desde antes de la jornada hasta un eventual traslado de paquetes.",
+  "explicacion": [
+    "Concepto: la cadena de custodia se ha reconocido en la jurisprudencia electoral (SUP-JDC-1796/2016) como una de las herramientas más importantes para asegurar la certeza de los resultados de la jornada electoral, mediante el diligente manejo, guardado y traslado de los paquetes electorales, cuidando así la evidencia que prueba quién debe acceder al poder y por qué es legítimo que lo haga.",
+    "Definición operativa: es el procedimiento para asegurar y preservar los paquetes electorales desde que salen de las casillas el día de la elección hasta la celebración de la sesión de cómputo. Se trata también de una garantía de los derechos de todos los involucrados en el proceso electoral, pues la preservación de las pruebas de lo ocurrido en una elección se deposita fundamentalmente en los materiales.",
+    "Obligaciones de la autoridad administrativa: 1) actuar diligentemente para la debida preservación, resguardo y custodia de la documentación que registra los actos y resultados electorales; 2) realizar todas las acciones establecidas en protocolos y lineamientos para no perder el rastro ni la autenticidad de los materiales electorales; y 3) adoptar las medidas jurídicas y materiales necesarias para que los paquetes sean resguardados y conservados con transparencia, debida publicidad y seguridad.",
+    "Momento 1 — previo a la jornada electoral: consiste en la entrega del paquete electoral (con la documentación que se usará en la elección) al ciudadano que actuará como presidente de la mesa directiva de casilla.",
+    "Momento 2 — a la conclusión de la jornada electoral: se guarda toda la documentación electoral en el paquete en presencia de los representantes de los partidos políticos, se sella con cinta y lo firman los funcionarios y representantes. El consejo electoral respectivo, al recibirlo, documenta fecha, hora de recepción y el estado del paquete (si tiene muestras de alteración o violación), y lo traslada a la bodega. Al final se documentan los sellos que se imponen a la bodega.",
+    "Momento 3 — durante la sesión de cómputo y, en su caso, recuento: se hace constar fecha, hora y estado de los sellos de resguardo de la bodega antes de abrirla y extraer los paquetes, preferentemente en presencia de representantes de partidos. Antes de abrir cualquier paquete para un nuevo escrutinio y cómputo, debe hacerse constar el estado en que se encuentra.",
+    "Momento 4 — en caso de traslado de paquetes a sede distinta: deben documentarse fehacientemente todos los actos del traslado, incluyendo quiénes participaron y las circunstancias de tiempo, modo y lugar, así como el estado de los sellos de resguardo de la bodega antes de la extracción de los paquetes.",
+    "Bodegas electorales — requisitos del espacio: deben estar alejadas de fuentes potenciales de incendio o explosión (gasolineras, gaseras, bodegas de materiales inflamables); retiradas de cuerpos de agua que puedan crecer por lluvias; provistas de buen sistema de drenaje; y con el nivel de piso por arriba del nivel exterior, para reducir riesgos de inundación. Se revisan instalaciones eléctricas, techos, drenaje pluvial, instalaciones sanitarias, ventanas, muros, cerraduras y pisos, y se equipan con tarimas, extintores, lámparas de emergencia y señalética."
+  ],
+  "ejemplos": [
+    { "incorrecto": "La cadena de custodia solo importa el día de la jornada electoral, una vez que se recibe el paquete en el consejo ya no hace falta documentar nada más.", "correcto": "La cadena de custodia se documenta en varios momentos: antes de la jornada, a la conclusión de la jornada, durante la sesión de cómputo o recuento, y en cualquier traslado posterior de paquetes.", "nota": "La cadena de custodia es un proceso continuo, no un solo acto; cada etapa exige su propia documentación." },
+    { "incorrecto": "La bodega electoral puede instalarse en cualquier inmueble disponible, sin requisitos específicos.", "correcto": "Debe cumplir requisitos de ubicación (lejos de riesgos de incendio o inundación) y de equipamiento (extintores, lámparas de emergencia, señalética), entre otros.", "nota": "Los requisitos buscan proteger físicamente la evidencia electoral contenida en los paquetes." }
+  ],
+  "material_consulta": [
+    { "titulo": "SUP-JDC-1796/2016, Tribunal Electoral del Poder Judicial de la Federación", "url": "https://www.te.gob.mx" },
+    { "titulo": "Reglamento de Elecciones del Instituto Nacional Electoral (REINE), Anexo 5", "url": "https://ine.mx/reglamento-de-elecciones/" }
+  ],
+  "preguntas": [
+    {
+      "formato": "cuestionamiento-directo",
+      "enunciado": "¿Qué es lo que fundamentalmente garantiza la cadena de custodia electoral, según el criterio del Tribunal Electoral en el SUP-JDC-1796/2016?",
+      "opciones": [
+        "La certeza de los resultados de la jornada electoral, mediante el diligente manejo, guardado y traslado de los paquetes electorales",
+        "La rapidez con la que se publican los resultados preliminares",
+        "El número exacto de casillas instaladas en cada distrito"
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "El criterio jurisprudencial destaca precisamente ese objetivo: asegurar la certeza del resultado electoral mediante el manejo diligente de los paquetes."
+    },
+    {
+      "formato": "cuestionamiento-directo",
+      "enunciado": "¿Desde qué momento hasta cuál se extiende, en términos operativos, la cadena de custodia de un paquete electoral?",
+      "opciones": [
+        "Desde que sale de la casilla el día de la elección hasta la celebración de la sesión de cómputo",
+        "Desde el registro de candidaturas hasta el inicio de las campañas",
+        "Únicamente durante el traslado físico entre bodegas"
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "Esa es la definición operativa: cubre todo el trayecto desde la casilla hasta la sesión de cómputo."
+    },
+    {
+      "formato": "relacion-elementos",
+      "enunciado": "Relacione cada momento de la cadena de custodia con la acción que le corresponde documentar.",
+      "opciones": [
+        "1-Previo a la jornada/A-entrega del paquete al presidente de casilla, 2-Conclusión de la jornada/B-sellado del paquete y traslado a bodega, 3-Sesión de cómputo/C-estado de los sellos de la bodega antes de abrirla",
+        "1-Previo a la jornada/B-sellado del paquete, 2-Conclusión de la jornada/C-estado de los sellos, 3-Sesión de cómputo/A-entrega del paquete",
+        "1-Previo a la jornada/C-estado de los sellos, 2-Conclusión de la jornada/A-entrega del paquete, 3-Sesión de cómputo/B-sellado del paquete"
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "Cada momento de la cadena de custodia tiene su propia acción documentada, en el orden cronológico en que ocurre la jornada electoral."
+    },
+    {
+      "formato": "cuestionamiento-directo",
+      "enunciado": "¿Qué debe documentar el consejo electoral al recibir un paquete al concluir la jornada electoral?",
+      "opciones": [
+        "La fecha, hora de recepción y el estado en que se encuentra el paquete (si tiene muestras de alteración o violación)",
+        "Únicamente el nombre del presidente de casilla que lo entrega",
+        "El número de votos que contiene, sin abrir el paquete"
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "Esa documentación es parte esencial del segundo momento de la cadena de custodia, al recibir el paquete en el consejo."
+    },
+    {
+      "formato": "cuestionamiento-directo",
+      "enunciado": "Antes de abrir cualquier paquete electoral para un nuevo escrutinio y cómputo durante la sesión de recuento, ¿qué debe hacerse constar?",
+      "opciones": [
+        "El estado que guarda el paquete electoral",
+        "El nombre completo de todos los votantes de esa casilla",
+        "El resultado final que se espera obtener"
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "Debe dejarse constancia del estado del paquete antes de abrirlo, como parte de la cadena de custodia durante el cómputo."
+    },
+    {
+      "formato": "cuestionamiento-directo",
+      "enunciado": "¿Cuál de los siguientes es un requisito de ubicación que debe cumplir una bodega electoral?",
+      "opciones": [
+        "Estar alejada de fuentes potenciales de incendio o explosión, como gasolineras o gaseras",
+        "Estar ubicada obligatoriamente en la planta baja de cualquier edificio público",
+        "Tener capacidad para más de 10,000 paquetes electorales"
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "Uno de los requisitos de ubicación es precisamente evitar colindancias con fuentes de incendio o explosión."
+    },
+    {
+      "formato": "cuestionamiento-directo",
+      "enunciado": "¿Cuál de los siguientes elementos forma parte del equipamiento recomendado para una bodega electoral?",
+      "opciones": ["Extintores de polvo químico", "Cámaras de videovigilancia obligatorias en todo momento", "Aire acondicionado industrial"],
+      "respuesta_correcta": 0,
+      "explicacion": "Entre el equipamiento se listan tarimas, extintores de polvo químico, lámparas de emergencia y señalética."
+    },
+    {
+      "formato": "completamiento",
+      "enunciado": "En caso de traslado de paquetes electorales a una sede distinta, deben documentarse fehacientemente todos los actos del traslado, incluyendo quiénes participaron y las circunstancias de ______, modo y lugar.",
+      "opciones": ["tiempo", "clima", "presupuesto"],
+      "respuesta_correcta": 0,
+      "explicacion": "La ley exige documentar tiempo, modo y lugar de cualquier traslado de paquetes, como parte de la cadena de custodia."
+    },
+    {
+      "formato": "cuestionamiento-directo",
+      "enunciado": "¿Quiénes deben estar presentes, de ser posible, cuando se sella un paquete electoral al concluir la jornada?",
+      "opciones": [
+        "Los representantes de los partidos políticos",
+        "Únicamente el presidente de la mesa directiva de casilla",
+        "El personal de seguridad pública asignado a la casilla"
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "El sellado del paquete se realiza en presencia de los representantes de los partidos políticos, para dar transparencia al acto."
+    },
+    {
+      "formato": "cuestionamiento-directo",
+      "enunciado": "¿Cuál de las siguientes es una obligación de la autoridad administrativa electoral respecto a la cadena de custodia?",
+      "opciones": [
+        "Adoptar medidas jurídicas y materiales necesarias y eficaces para que los paquetes sean resguardados con transparencia, publicidad y seguridad",
+        "Destruir los paquetes electorales inmediatamente después del cómputo",
+        "Permitir que cualquier ciudadano abra los paquetes libremente antes del cómputo"
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "Esa es una de las tres obligaciones centrales que se reconocen a la autoridad administrativa en materia de cadena de custodia."
+    }
+  ]
+}

@@ -1,0 +1,129 @@
+{
+  "id": "procedimiento-especial-sancionador",
+  "titulo": "Procedimiento especial sancionador",
+  "area": "Procedimientos sancionadores",
+  "introduccion": "Esta subárea evalúa el conocimiento del procedimiento especial sancionador (PES) del IEEG: qué conductas persigue, cómo se tramita una queja o denuncia, cómo se desarrolla la audiencia de pruebas y alegatos, y las reglas específicas para propaganda calumniosa y violencia política contra las mujeres en razón de género.",
+  "explicacion": [
+    "Definición y procedencia (Art. 6, RQDIEEG): el PES es el trámite que se da a una queja o denuncia, dentro del proceso electoral, cuando se denuncien conductas que presuntamente: a) infrinjan los párrafos séptimo y octavo del artículo 134 constitucional (uso de recursos públicos y propaganda gubernamental); b) contravengan las normas sobre propaganda política o electoral; c) constituyan actos anticipados de precampaña o campaña; d) constituyan propaganda calumniosa; o e) constituyan cualquier otra infracción que incida directa o indirectamente en el proceso electoral. Procede en todo momento, de oficio o por denuncia, respecto de hechos de violencia política contra las mujeres en razón de género.",
+    "Órganos competentes (Art. 10, RQDIEEG): son competentes para tramitar y resolver el PES el Consejo General, la Comisión, la Unidad Técnica, los consejos distritales y municipales (como órganos auxiliares), y el órgano de despacho de medidas cautelares en los consejos electorales.",
+    "Requisitos del escrito de queja o denuncia (Art. 101, RQDIEEG): debe contener nombre del quejoso con firma o huella; domicilio para notificaciones; documentos para acreditar personería; narración clara de los hechos; ofrecimiento de pruebas (o mención de las que deban requerirse); y, en su caso, las medidas cautelares solicitadas.",
+    "Trámite y plazo de admisión (Art. 103-105, RQDIEEG): recibida la queja, la autoridad sustanciadora la registra, informa al Consejo General a través de la Comisión, y determina su admisión o desechamiento en un plazo no mayor a 24 horas, pudiendo antes ordenar una investigación preliminar. Se desecha cuando no reúne los requisitos; los hechos no constituyen violación en materia de propaganda político-electoral; no se aporta ninguna prueba; o es notoriamente frívola (por ejemplo, si se basa solo en notas de opinión periodística sin otro sustento).",
+    "Desechamiento y admisión (Art. 106-114, RQDIEEG): en el desechamiento no puede haber pronunciamientos de fondo; debe notificarse en 12 horas e informarse al Tribunal Estatal, y puede impugnarse. Al admitir la denuncia, se emplaza a denunciante y denunciado a una audiencia de pruebas y alegatos, que se celebra dentro de las 48 horas posteriores al emplazamiento; en la audiencia solo se admiten pruebas documental y técnica.",
+    "Desarrollo de la audiencia de pruebas y alegatos (Art. 115-116, RQDIEEG): se lleva a cabo de manera ininterrumpida y oral, sin público ni medios de comunicación presentes. La parte denunciante expone en máximo 30 minutos; puede ofrecer pruebas supervenientes; después la parte denunciada responde en un tiempo igual; se admiten y desahogan las pruebas; las partes pueden objetarlas (hasta 10 minutos cada una); y finalmente alegan por escrito o verbalmente, una sola vez, en máximo 15 minutos cada parte. La inasistencia de las partes no impide la celebración de la audiencia.",
+    "Expediente e informe circunstanciado (Art. 117-118, RQDIEEG): concluida la audiencia, la autoridad sustanciadora turna de inmediato el expediente completo al Tribunal Estatal, junto con un informe circunstanciado que contiene la relatoría de hechos, las diligencias realizadas, las pruebas aportadas, y las conclusiones (sin que la autoridad sustanciadora se pronuncie sobre la responsabilidad ni la sanción aplicable).",
+    "Reglas especiales para propaganda calumniosa (Art. 123-125, RQDIEEG): estos procedimientos solo pueden iniciarse a instancia de la parte afectada. Se entiende por calumnia la imputación de hechos o delitos falsos con impacto en el proceso electoral; la Unidad Técnica ordena iniciar el procedimiento y propone medidas cautelares a la Comisión.",
+    "Reglas especiales para violencia política contra las mujeres en razón de género (Art. 127-132, RQDIEEG): puede iniciarse de oficio o a instancia de parte. Si es de oficio, debe recabarse el consentimiento de la presunta víctima en un plazo de tres días; sin ese consentimiento (salvo protección de derechos colectivos) no se da inicio al procedimiento. La Unidad Técnica ordena el inicio y propone medidas cautelares y de protección; cuando estas correspondan a otra autoridad, la Secretaría Ejecutiva da vista de inmediato.",
+    "Medidas cautelares y de protección (Art. 149-165, RQDIEEG): buscan evitar que conductas presuntamente transgresoras generen efectos irreparables o afecten los principios electorales; proceden en todo tiempo desde la presentación de la queja hasta el cierre de instrucción. Las medidas de protección, propias de los casos de violencia política de género, buscan evitar lesión o daño a la integridad de la víctima ante un riesgo inminente."
+  ],
+  "ejemplos": [
+    { "incorrecto": "Cualquier persona puede iniciar de oficio un procedimiento por propaganda calumniosa, sin que la víctima lo solicite.", "correcto": "Los procedimientos por propaganda calumniosa solo pueden iniciarse a instancia de la parte afectada.", "nota": "A diferencia de otros PES, este requiere expresamente que la persona calumniada presente la queja." },
+    { "incorrecto": "Un PES iniciado de oficio por violencia política de género puede continuar aunque la presunta víctima no dé su consentimiento.", "correcto": "Si se inicia de oficio, se requiere el consentimiento de la víctima en un plazo de tres días; sin él (salvo protección de derechos colectivos), no se da inicio al procedimiento.", "nota": "El consentimiento de la víctima es un requisito central para respetar su autonomía en este tipo de procedimientos." }
+  ],
+  "material_consulta": [
+    { "titulo": "Reglamento de Quejas y Denuncias del Instituto Electoral del Estado de Guanajuato (RQDIEEG)", "url": "https://api.ieeg.mx/repoinfo/Uploads/reglamento-quejas-denuncias-ieeg-22122020.pdf" }
+  ],
+  "preguntas": [
+    {
+      "formato": "cuestionamiento-directo",
+      "enunciado": "¿En qué plazo debe la autoridad sustanciadora admitir o desechar una queja o denuncia, o reservarse el pronunciamiento para ordenar diligencias?",
+      "opciones": ["24 horas posteriores a su recepción", "72 horas posteriores a su recepción", "10 días hábiles"],
+      "respuesta_correcta": 0,
+      "explicacion": "El artículo 104 del RQDIEEG fija ese plazo máximo de 24 horas."
+    },
+    {
+      "formato": "cuestionamiento-directo",
+      "enunciado": "¿Cuál de las siguientes es una causal de desechamiento de una queja o denuncia conforme al artículo 105 del RQDIEEG?",
+      "opciones": [
+        "Que sea notoriamente frívola",
+        "Que la presente un partido político en lugar de un ciudadano",
+        "Que se presente durante el proceso electoral"
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "La frivolidad manifiesta es una de las causales expresas de desechamiento previstas en el reglamento."
+    },
+    {
+      "formato": "completamiento",
+      "enunciado": "Al admitir la denuncia, la autoridad sustanciadora emplaza a las partes a una audiencia de pruebas y alegatos, que tendrá lugar dentro de las ______ horas posteriores al emplazamiento.",
+      "opciones": ["cuarenta y ocho", "veinticuatro", "setenta y dos"],
+      "respuesta_correcta": 0,
+      "explicacion": "El artículo 112 del RQDIEEG fija ese plazo de 48 horas para la celebración de la audiencia."
+    },
+    {
+      "formato": "cuestionamiento-directo",
+      "enunciado": "¿Qué tipo de pruebas se admiten en la audiencia de pruebas y alegatos del PES?",
+      "opciones": [
+        "Únicamente la documental y la técnica",
+        "Cualquier tipo de prueba, incluida la testimonial sin restricción",
+        "Solo confesionales de las partes"
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "El artículo 114 del RQDIEEG limita las pruebas admisibles en audiencia a la documental y la técnica."
+    },
+    {
+      "formato": "cuestionamiento-directo",
+      "enunciado": "¿Qué ocurre si ninguna de las partes asiste a la audiencia de pruebas y alegatos en el día y hora señalados?",
+      "opciones": [
+        "La audiencia se celebra de todas formas, pues la inasistencia no la impide",
+        "Se cancela automáticamente el procedimiento",
+        "Se pospone indefinidamente hasta que asistan"
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "El artículo 115 del RQDIEEG establece que la falta de asistencia de las partes no impide la celebración de la audiencia."
+    },
+    {
+      "formato": "cuestionamiento-directo",
+      "enunciado": "Sobre qué NO debe pronunciarse la autoridad sustanciadora en el informe circunstanciado que envía al Tribunal Estatal?",
+      "opciones": [
+        "Sobre la responsabilidad del presunto infractor y la sanción aplicable",
+        "Sobre las pruebas aportadas por las partes",
+        "Sobre las diligencias que realizó durante la investigación"
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "El artículo 118 del RQDIEEG indica que la autoridad sustanciadora se abstiene de pronunciarse sobre la responsabilidad y la sanción, pues eso corresponde resolverlo al Tribunal Estatal."
+    },
+    {
+      "formato": "cuestionamiento-directo",
+      "enunciado": "¿Quién puede iniciar un procedimiento especial sancionador relacionado con propaganda calumniosa?",
+      "opciones": [
+        "Únicamente la parte afectada por la calumnia",
+        "Cualquier ciudadano, aunque no sea la parte afectada",
+        "Solo el Consejo General de oficio"
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "El artículo 123 del RQDIEEG establece que este tipo de PES solo procede a instancia de la parte afectada."
+    },
+    {
+      "formato": "cuestionamiento-directo",
+      "enunciado": "Si un PES por violencia política contra las mujeres en razón de género se inicia de oficio, ¿qué debe hacer la Unidad Técnica antes de continuar?",
+      "opciones": [
+        "Recabar el consentimiento de la presunta víctima en un plazo de tres días",
+        "Solicitar autorización previa del partido político de la víctima",
+        "Publicar la denuncia en el Periódico Oficial del Estado"
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "El artículo 128 del RQDIEEG exige recabar ese consentimiento, salvo que se trate de la protección de derechos colectivos e intereses difusos."
+    },
+    {
+      "formato": "relacion-elementos",
+      "enunciado": "Relacione cada etapa del PES con el plazo que la ley establece para ella.",
+      "opciones": [
+        "1-Admisión o desechamiento/A-24 horas, 2-Notificación del desechamiento/B-12 horas, 3-Celebración de la audiencia tras el emplazamiento/C-48 horas",
+        "1-Admisión o desechamiento/C-48 horas, 2-Notificación del desechamiento/A-24 horas, 3-Celebración de la audiencia/B-12 horas",
+        "1-Admisión o desechamiento/B-12 horas, 2-Notificación del desechamiento/C-48 horas, 3-Celebración de la audiencia/A-24 horas"
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "Cada etapa tiene su propio plazo específico en el RQDIEEG: 24 horas para admitir o desechar, 12 horas para notificar el desechamiento, y 48 horas para celebrar la audiencia tras el emplazamiento."
+    },
+    {
+      "formato": "cuestionamiento-directo",
+      "enunciado": "¿Qué son las medidas cautelares dentro del procedimiento especial sancionador?",
+      "opciones": [
+        "Medidas dictadas para evitar que conductas presuntamente transgresoras generen efectos perniciosos e irreparables durante el proceso electoral",
+        "Las sanciones finales que impone el Tribunal Estatal Electoral",
+        "Los recursos de impugnación que se presentan contra el desechamiento"
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "El artículo 149 del RQDIEEG define así la finalidad de las medidas cautelares, distintas de las sanciones finales o de los recursos de impugnación."
+    }
+  ]
+}

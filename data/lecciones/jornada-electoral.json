@@ -1,0 +1,113 @@
+{
+  "id": "jornada-electoral",
+  "titulo": "Jornada electoral",
+  "area": "Proceso electoral",
+  "introduccion": "Esta subárea evalúa el conocimiento sobre la etapa de la jornada electoral: cómo se elaboran y entregan las boletas y el material electoral a las mesas directivas de casilla, y las reglas de seguridad y orden que rigen el día de la elección, conforme a la LIPEEG.",
+  "explicacion": [
+    "Boletas electorales — definición (Art. 222, LIPEEG): para emitir el voto se imprimen boletas conforme a los mecanismos de seguridad que aprueba el Instituto Nacional. Se contienen en blocks o cuadernos, para desprenderse de un talón foliado. También se cuenta con plantillas braille para personas con discapacidad visual.",
+    "Entrega y conteo de boletas (Art. 223, LIPEEG): el personal autorizado del Instituto Estatal entrega las boletas a los presidentes de los consejos distrital y municipal en día, hora y lugar preestablecidos; se levanta acta pormenorizada de la entrega. El mismo día o al siguiente, el presidente, secretario y consejeros electorales cuentan las boletas, registran los folios, las sellan al dorso y las agrupan según el número de electores de cada casilla. Los representantes de partidos y candidaturas independientes pueden, bajo su responsabilidad, firmar las boletas.",
+    "Entrega del material electoral a las mesas directivas de casilla (Art. 224, LIPEEG): los presidentes de los consejos electorales entregan a cada presidente de mesa directiva de casilla la documentación a usar en la jornada, dentro de los cuatro días previos al anterior de la elección y contra recibo detallado. Incluye: la lista nominal de electores; la relación de representantes de partidos y candidaturas independientes; las boletas para cada elección; las urnas (una por cada elección); el líquido indeleble; documentación y útiles de escritorio; los instructivos de funciones; y los canceles o elementos modulares para garantizar el voto secreto.",
+    "Seguridad y orden durante la jornada (Art. 228, LIPEEG): los cuerpos de seguridad pública estatal y municipal deben auxiliar a las autoridades electorales y a los presidentes de mesa directiva de casilla cuando se les requiera. El día de la elección y el precedente, las autoridades pueden limitar el horario de servicio de establecimientos que vendan bebidas embriagantes. El día de la elección, solo pueden portar armas los miembros uniformados de las fuerzas públicas encargadas del orden.",
+    "Participación de los notarios públicos (Art. 230, LIPEEG): los notarios en ejercicio mantienen abiertas sus oficinas el día de la elección y deben atender, de forma gratuita, las solicitudes de autoridades electorales, funcionarios de casilla, ciudadanos y representantes de partidos, para dar fe de hechos o certificar documentos relacionados con la elección. Cinco días antes de la elección, el colegio de notarios publica en el periódico de mayor circulación los nombres y domicilios de sus miembros.",
+    "Representantes partidistas en casilla (Art. 213, LIPEEG): una vez registrados sus candidatos, fórmulas y listas, y hasta trece días antes de la elección, los partidos políticos y candidaturas independientes tienen derecho a nombrar dos representantes propietarios y un suplente ante cada mesa directiva de casilla, así como representantes generales: uno por cada diez casillas en zonas urbanas y uno por cada cinco casillas en zonas rurales, por distrito."
+  ],
+  "ejemplos": [
+    { "incorrecto": "El material electoral se entrega a las mesas directivas de casilla el mismo día de la jornada electoral.", "correcto": "Se entrega dentro de los cuatro días previos al anterior de la elección, contra recibo detallado.", "nota": "La entrega anticipada permite que el presidente de casilla revise y resguarde el material antes del día de la votación." },
+    { "incorrecto": "El día de la elección cualquier persona puede portar armas si cuenta con permiso vigente.", "correcto": "El día de la elección solo pueden portar armas los miembros uniformados de las fuerzas públicas encargadas del orden.", "nota": "Es una restricción específica para salvaguardar la seguridad durante la jornada, sin excepciones por permisos particulares." }
+  ],
+  "material_consulta": [
+    { "titulo": "Ley de Instituciones y Procedimientos Electorales para el Estado de Guanajuato (LIPEEG), artículos 213, 222-224, 228-230", "url": "https://congreso-gto.s3.amazonaws.com" }
+  ],
+  "preguntas": [
+    {
+      "formato": "cuestionamiento-directo",
+      "enunciado": "¿Para qué grupo de electores se cuenta con plantillas braille conforme a la LIPEEG?",
+      "opciones": ["Personas con discapacidad visual", "Personas con discapacidad auditiva", "Electores residentes en el extranjero"],
+      "respuesta_correcta": 0,
+      "explicacion": "El artículo 222 de la LIPEEG prevé plantillas braille para personas con discapacidad visual."
+    },
+    {
+      "formato": "completamiento",
+      "enunciado": "El material electoral se entrega a cada presidente de mesa directiva de casilla dentro de los ______ días previos al anterior de la elección.",
+      "opciones": ["cuatro", "diez", "dos"],
+      "respuesta_correcta": 0,
+      "explicacion": "El artículo 224 de la LIPEEG fija ese plazo de entrega contra recibo detallado."
+    },
+    {
+      "formato": "cuestionamiento-directo",
+      "enunciado": "¿Cuál de los siguientes elementos NO forma parte de la documentación que se entrega a la mesa directiva de casilla según el artículo 224 de la LIPEEG?",
+      "opciones": [
+        "El líquido indeleble",
+        "Las boletas electorales de cada elección",
+        "El expediente de cómputo distrital"
+      ],
+      "respuesta_correcta": 2,
+      "explicacion": "El expediente de cómputo distrital se integra después del cómputo, no es parte del material entregado a la casilla antes de la jornada."
+    },
+    {
+      "formato": "cuestionamiento-directo",
+      "enunciado": "¿Quiénes pueden portar armas el día de la jornada electoral, según la LIPEEG?",
+      "opciones": [
+        "Únicamente los miembros uniformados de las fuerzas públicas encargadas del orden",
+        "Cualquier ciudadano con permiso vigente para portación de armas",
+        "Los representantes generales de los partidos políticos"
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "El artículo 228 de la LIPEEG restringe la portación de armas ese día exclusivamente a las fuerzas públicas uniformadas."
+    },
+    {
+      "formato": "cuestionamiento-directo",
+      "enunciado": "¿Cuál es la obligación de los notarios públicos el día de la elección conforme al artículo 230 de la LIPEEG?",
+      "opciones": [
+        "Mantener abiertas sus oficinas y atender de forma gratuita las solicitudes relacionadas con la elección",
+        "Supervisar el escrutinio y cómputo de todas las casillas de su municipio",
+        "Sustituir a los presidentes de casilla que no se presenten"
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "Los notarios deben mantener abiertas sus oficinas y dar fe de hechos o certificar documentos de forma gratuita."
+    },
+    {
+      "formato": "completamiento",
+      "enunciado": "Los partidos políticos pueden acreditar un representante general por cada ______ casillas ubicadas en zonas urbanas.",
+      "opciones": ["diez", "cinco", "veinte"],
+      "respuesta_correcta": 0,
+      "explicacion": "El artículo 213 de la LIPEEG fija esa proporción para zonas urbanas, y una por cada cinco casillas rurales."
+    },
+    {
+      "formato": "cuestionamiento-directo",
+      "enunciado": "¿Hasta cuántos días antes de la elección tienen los partidos políticos derecho a nombrar representantes ante las mesas directivas de casilla?",
+      "opciones": ["Trece días", "Treinta días", "Cinco días"],
+      "respuesta_correcta": 0,
+      "explicacion": "El artículo 213 de la LIPEEG establece ese plazo, contado a partir del registro de candidatos, fórmulas y listas."
+    },
+    {
+      "formato": "ordenamiento",
+      "enunciado": "Ordene cronológicamente las siguientes acciones relacionadas con las boletas electorales.",
+      "opciones": [
+        "1) Entrega de boletas a los presidentes de consejo distrital/municipal; 2) Conteo, sellado y agrupamiento de boletas por casilla; 3) Entrega del material electoral a la mesa directiva de casilla; 4) Uso de las boletas el día de la jornada",
+        "1) Uso de las boletas el día de la jornada; 2) Entrega de boletas a los presidentes de consejo; 3) Conteo y sellado; 4) Entrega a la mesa directiva",
+        "1) Conteo y sellado de boletas; 2) Entrega a la mesa directiva; 3) Entrega de boletas al consejo; 4) Uso el día de la jornada"
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "Ese es el orden lógico y legal: primero llegan las boletas al consejo, después se cuentan y sellan, luego se entregan a la casilla, y finalmente se usan en la jornada."
+    },
+    {
+      "formato": "cuestionamiento-directo",
+      "enunciado": "¿Quién puede limitar el horario de servicio de los establecimientos que venden bebidas embriagantes el día de la elección y el precedente?",
+      "opciones": ["Las autoridades competentes", "Únicamente el Consejo General", "El Tribunal Estatal Electoral"],
+      "respuesta_correcta": 0,
+      "explicacion": "El artículo 228 de la LIPEEG faculta a las autoridades para establecer esas medidas de orden público."
+    },
+    {
+      "formato": "cuestionamiento-directo",
+      "enunciado": "¿Quiénes pueden firmar las boletas electorales durante el proceso de conteo y sellado, si así lo desean y bajo su estricta responsabilidad?",
+      "opciones": [
+        "Los representantes de los partidos políticos y candidaturas independientes",
+        "Cualquier ciudadano que lo solicite",
+        "Únicamente el presidente del consejo electoral"
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "El artículo 223 de la LIPEEG permite esa firma bajo la estricta responsabilidad de dichos representantes."
+    }
+  ]
+}

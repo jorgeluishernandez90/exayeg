@@ -1,0 +1,121 @@
+{
+  "id": "ubicacion-casillas",
+  "titulo": "Procedimiento de ubicación de casillas",
+  "area": "Casillas electorales",
+  "introduccion": "Esta subárea evalúa los requisitos que debe cumplir un lugar para instalar una casilla, y el procedimiento y calendario que siguen las juntas y consejos distritales para determinar y publicar la ubicación final de las casillas, conforme a la LGIPE.",
+  "explicacion": [
+    "Requisitos de los lugares para ubicar casillas (Art. 255, LGIPE): las casillas deben ubicarse en lugares que reúnan los siguientes requisitos: a) fácil y libre acceso para los electores; b) que aseguren la instalación de canceles o elementos modulares que garanticen el secreto del voto; c) no ser casas habitadas por servidores públicos de confianza, federales, estatales o municipales; d) no ser inmuebles habitados o propiedad de dirigentes de partidos políticos o candidatos registrados; e) no ser establecimientos fabriles, templos o locales de culto, ni locales de partidos políticos, y f) no ser locales ocupados por cantinas, centros de vicio o similares.",
+    "Preferencia de locales (Art. 255, LGIPE): para la ubicación de las casillas se prefieren, siempre que cumplan los requisitos de fácil acceso y secreto del voto, los locales ocupados por escuelas y oficinas públicas.",
+    "Perímetro de resguardo (Art. 255, LGIPE): los consejos distritales deben observar que, en un perímetro de cincuenta metros al lugar propuesto para una casilla, no existan oficinas de órganos de partidos políticos, agrupaciones políticas, ni casas de campaña de los candidatos.",
+    "Procedimiento para determinar la ubicación (Art. 256, LGIPE): a) entre el 15 de enero y el 15 de febrero del año de la elección, las juntas distritales recorren las secciones buscando lugares que cumplan los requisitos y no incurran en las prohibiciones; b) entre el 16 y el 26 de febrero, presentan al consejo distrital una lista con los lugares propuestos; c) el consejo examina que los lugares cumplan los requisitos y hace los cambios necesarios; d) el consejo distrital, en sesión a más tardar en la segunda semana de abril, aprueba la lista definitiva de ubicación de casillas.",
+    "Publicación de la ubicación de casillas (Art. 256-257, LGIPE): el presidente del consejo distrital ordena la publicación de la lista de casillas aprobadas a más tardar el 15 de abril del año de la elección, y puede ordenar una segunda publicación con ajustes entre el 15 y el 25 de mayo. Las listas se fijan en los edificios y lugares públicos más concurridos del distrito y en medios electrónicos, y el secretario del consejo entrega copia impresa y en medio magnético a cada representante de partido político, dejando constancia de la entrega.",
+    "Vigilancia del procedimiento: los representantes de los partidos políticos ante los consejos distritales pueden vigilar el desarrollo de todo el procedimiento de determinación de la ubicación de casillas, lo que aporta transparencia y permite detectar posibles incumplimientos a los requisitos legales."
+  ],
+  "ejemplos": [
+    { "incorrecto": "Una casilla puede instalarse en la casa de un dirigente partidista si este ofrece el espacio de forma gratuita.", "correcto": "La ley prohíbe expresamente ubicar casillas en inmuebles habitados o propiedad de dirigentes de partidos políticos o candidatos registrados.", "nota": "Esta prohibición busca evitar cualquier apariencia de parcialidad en el lugar donde se emite el voto." },
+    { "incorrecto": "Cualquier local que tenga espacio suficiente puede usarse como casilla, sin más requisitos.", "correcto": "El local debe tener fácil y libre acceso, permitir instalar elementos que garanticen el secreto del voto, y no incurrir en ninguna de las prohibiciones del artículo 255 de la LGIPE (no ser casa de servidor público de confianza, templo, cantina, etc.).", "nota": "La ley fija requisitos positivos y prohibiciones específicas; no basta con que el espacio sea suficiente." }
+  ],
+  "material_consulta": [
+    { "titulo": "Ley General de Instituciones y Procedimientos Electorales (LGIPE), artículos 255-257", "url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LGIPE.pdf" }
+  ],
+  "preguntas": [
+    {
+      "formato": "cuestionamiento-directo",
+      "enunciado": "¿Cuál de los siguientes lugares está expresamente prohibido para instalar una casilla, conforme al artículo 255 de la LGIPE?",
+      "opciones": [
+        "Un local ocupado por una cantina o centro de vicio",
+        "Una escuela pública",
+        "Una oficina de gobierno de fácil acceso"
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "El artículo 255 prohíbe expresamente ubicar casillas en locales ocupados por cantinas, centros de vicio o similares."
+    },
+    {
+      "formato": "cuestionamiento-directo",
+      "enunciado": "¿Qué tipo de locales se prefieren para ubicar las casillas, si cumplen los requisitos de acceso y secreto del voto?",
+      "opciones": [
+        "Escuelas y oficinas públicas",
+        "Domicilios particulares de vecinos voluntarios",
+        "Locales comerciales cerrados temporalmente"
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "El artículo 255 de la LGIPE señala una preferencia expresa por escuelas y oficinas públicas."
+    },
+    {
+      "formato": "completamiento",
+      "enunciado": "Los consejos distritales deben verificar que en un perímetro de ______ metros al lugar propuesto no existan oficinas de partidos políticos ni casas de campaña.",
+      "opciones": ["cincuenta", "cien", "veinte"],
+      "respuesta_correcta": 0,
+      "explicacion": "El artículo 255 fija ese perímetro de cincuenta metros como medida de resguardo."
+    },
+    {
+      "formato": "cuestionamiento-directo",
+      "enunciado": "¿Puede instalarse una casilla en un templo o local destinado al culto religioso?",
+      "opciones": [
+        "No, está expresamente prohibido por la LGIPE",
+        "Sí, siempre que el sacerdote o encargado lo autorice por escrito",
+        "Sí, únicamente en casillas especiales"
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "El artículo 255, inciso e), prohíbe ubicar casillas en templos o locales de culto, sin excepción."
+    },
+    {
+      "formato": "ordenamiento",
+      "enunciado": "Ordene cronológicamente las etapas del procedimiento para determinar la ubicación de las casillas.",
+      "opciones": [
+        "1) Recorrido de las juntas distritales buscando lugares adecuados; 2) Presentación de la lista de lugares propuestos al consejo distrital; 3) Aprobación de la lista definitiva en sesión del consejo distrital; 4) Publicación de la lista de ubicación de casillas",
+        "1) Publicación de la lista de ubicación; 2) Recorrido de las juntas distritales; 3) Aprobación de la lista; 4) Presentación de la lista al consejo",
+        "1) Aprobación de la lista definitiva; 2) Publicación de la lista; 3) Recorrido de las juntas distritales; 4) Presentación al consejo"
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "Ese es el orden legal: primero se recorren las secciones, después se propone la lista al consejo, luego se aprueba, y finalmente se publica."
+    },
+    {
+      "formato": "completamiento",
+      "enunciado": "El consejo distrital debe aprobar la lista definitiva de ubicación de casillas, en sesión, a más tardar durante la ______ del mes de abril del año de la elección.",
+      "opciones": ["segunda semana", "primera quincena de mayo", "última semana de marzo"],
+      "respuesta_correcta": 0,
+      "explicacion": "El artículo 256, inciso d), de la LGIPE fija ese plazo para la aprobación de la lista de ubicación de casillas."
+    },
+    {
+      "formato": "cuestionamiento-directo",
+      "enunciado": "¿A más tardar cuándo debe ordenarse la primera publicación de la lista de ubicación de casillas aprobadas?",
+      "opciones": ["15 de abril del año de la elección", "15 de enero del año de la elección", "1 de junio del año de la elección"],
+      "respuesta_correcta": 0,
+      "explicacion": "El artículo 256, inciso e), de la LGIPE fija el 15 de abril como fecha límite para esa primera publicación."
+    },
+    {
+      "formato": "cuestionamiento-directo",
+      "enunciado": "¿A quién debe entregar el secretario del consejo distrital copia impresa y en medio magnético de la lista de ubicación de casillas?",
+      "opciones": [
+        "A cada uno de los representantes de los partidos políticos, dejando constancia de la entrega",
+        "Únicamente al presidente del Consejo General",
+        "A los medios de comunicación locales"
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "El artículo 257 de la LGIPE establece esa entrega a los representantes partidistas, con constancia."
+    },
+    {
+      "formato": "cuestionamiento-directo",
+      "enunciado": "¿Puede instalarse una casilla en la casa habitación de un servidor público de confianza estatal?",
+      "opciones": [
+        "No, la LGIPE lo prohíbe expresamente",
+        "Sí, si el servidor público firma un permiso de neutralidad",
+        "Sí, únicamente si es la única opción disponible en la sección"
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "El artículo 255, inciso c), prohíbe expresamente esa ubicación, sin excepciones por disponibilidad de otros locales."
+    },
+    {
+      "formato": "cuestionamiento-directo",
+      "enunciado": "¿Quiénes pueden vigilar el desarrollo del procedimiento de determinación de ubicación de casillas?",
+      "opciones": [
+        "Los representantes de los partidos políticos en los consejos distritales",
+        "Únicamente el Instituto Nacional Electoral, sin participación local",
+        "Cualquier ciudadano sin necesidad de acreditación"
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "La LGIPE reconoce ese derecho de vigilancia a los representantes partidistas ante los consejos distritales."
+    }
+  ]
+}

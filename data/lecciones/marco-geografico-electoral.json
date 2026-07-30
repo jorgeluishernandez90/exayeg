@@ -1,0 +1,119 @@
+{
+  "id": "marco-geografico-electoral",
+  "titulo": "Marco geográfico electoral",
+  "area": "Casillas electorales",
+  "introduccion": "Esta subárea evalúa el conocimiento de las divisiones territoriales que organizan la elección: distrito electoral, sección electoral, y los cuatro tipos de casilla que existen según las necesidades de cada sección.",
+  "explicacion": [
+    "Distrito electoral: es la división territorial en la que se elige una diputación. El distrito electoral federal es uno de los 300 en que se divide el país, resultado de dividir la población total entre 300; a cada uno corresponde una persona diputada uninominal. El distrito electoral local es la demarcación territorial que resulta de dividir la población total del estado entre el número de diputaciones de mayoría relativa que señale la Constitución Local.",
+    "Sección electoral: es la unidad base de la división electoral. Es la fracción territorial en que se dividen los distritos electorales uninominales, con la finalidad de inscribir a la ciudadanía en el padrón electoral y en la lista nominal, y de ubicar al electorado en las casillas el día de la jornada. Debe contar con al menos 100 electores e, idealmente, un máximo de 3,000 (aunque en la práctica existen secciones con más ciudadanos).",
+    "Casilla básica: se instala una en cada sección electoral para recibir la votación de hasta 750 electores.",
+    "Casilla contigua: se instala cuando el número de ciudadanos de una sección electoral es mayor a 750; se coloca una casilla adicional por cada 750 electores más, en un lugar contiguo a la básica, dividiendo la lista nominal en orden alfabético.",
+    "Casilla extraordinaria: se instala cuando las condiciones geográficas, de infraestructura o socioculturales de una sección electoral hacen difícil que todos sus electores lleguen a un mismo sitio de votación; se ubican en lugares que ofrezcan fácil acceso a los electores de esa zona.",
+    "Casilla especial: recibe a los electores que se encuentran fuera de la sección electoral que corresponde a su domicilio el día de la jornada (por ejemplo, electores en tránsito). Conforme a la LGIPE, se pueden instalar hasta diez casillas especiales por distrito electoral, y su número y ubicación los determina el consejo distrital según la densidad poblacional y las características geográficas del distrito.",
+    "Relación entre sección y casillas: en una misma sección electoral puede haber una sola casilla (básica), o varias (básica más contiguas) si el número de electores lo requiere; todas ellas atienden exclusivamente a electores inscritos en la lista nominal de esa sección, salvo las casillas especiales, que atienden a electores de cualquier sección que se encuentren fuera de su domicilio ese día."
+  ],
+  "ejemplos": [
+    { "incorrecto": "Cualquier casilla puede recibir votos de electores de cualquier sección del distrito, sin restricción.", "correcto": "Solo las casillas especiales reciben votos de electores que están fuera de la sección que corresponde a su domicilio; el resto de las casillas atienden exclusivamente a su propia sección.", "nota": "Esta distinción es clave: la regla general es que cada casilla atiende solo a su sección, y la excepción son las casillas especiales." },
+    { "incorrecto": "Una sección con 1,600 electores se atiende siempre con una sola casilla básica.", "correcto": "Como cada casilla básica o contigua atiende hasta 750 electores, una sección de 1,600 electores requeriría una casilla básica y al menos una contigua adicional.", "nota": "El límite de 750 electores por casilla obliga a instalar casillas contiguas cuando la sección supera esa cifra." }
+  ],
+  "material_consulta": [
+    { "titulo": "Reglamento de Elecciones del Instituto Nacional Electoral (REINE), Anexo 5", "url": "https://ine.mx/reglamento-de-elecciones/" },
+    { "titulo": "Ley General de Instituciones y Procedimientos Electorales (LGIPE), artículo 253", "url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LGIPE.pdf" }
+  ],
+  "preguntas": [
+    {
+      "formato": "cuestionamiento-directo",
+      "enunciado": "¿Cuál es la unidad base de la división electoral, usada para inscribir a la ciudadanía en el padrón y ubicarla en su casilla?",
+      "opciones": ["La sección electoral", "El distrito electoral", "El municipio"],
+      "respuesta_correcta": 0,
+      "explicacion": "La sección electoral es la fracción territorial más pequeña de la división electoral, base de la organización de casillas."
+    },
+    {
+      "formato": "completamiento",
+      "enunciado": "La casilla básica recibe la votación de hasta ______ electores por sección.",
+      "opciones": ["750", "1,000", "500"],
+      "respuesta_correcta": 0,
+      "explicacion": "Cada casilla básica o contigua atiende como máximo a 750 electores."
+    },
+    {
+      "formato": "cuestionamiento-directo",
+      "enunciado": "¿Cuándo se instala una casilla contigua?",
+      "opciones": [
+        "Cuando el número de ciudadanos de una sección electoral es mayor a 750",
+        "Cuando la sección tiene condiciones geográficas de difícil acceso",
+        "Cuando el elector se encuentra fuera de su sección de residencia"
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "La casilla contigua responde al exceso de electores respecto al límite de 750 por casilla; las otras dos descripciones corresponden a la extraordinaria y la especial, respectivamente."
+    },
+    {
+      "formato": "cuestionamiento-directo",
+      "enunciado": "¿Qué tipo de casilla se instala cuando las condiciones geográficas o de infraestructura de una sección dificultan que todos sus electores lleguen a un mismo sitio?",
+      "opciones": ["Casilla extraordinaria", "Casilla contigua", "Casilla especial"],
+      "respuesta_correcta": 0,
+      "explicacion": "La casilla extraordinaria responde precisamente a dificultades de acceso geográfico o de infraestructura dentro de la sección."
+    },
+    {
+      "formato": "cuestionamiento-directo",
+      "enunciado": "¿Qué electores atiende una casilla especial?",
+      "opciones": [
+        "A los electores que se encuentran fuera de la sección que corresponde a su domicilio",
+        "Únicamente a electores con alguna discapacidad",
+        "A los electores de mayor edad del distrito"
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "Las casillas especiales existen justamente para permitir el voto de quienes están fuera de su sección el día de la jornada."
+    },
+    {
+      "formato": "completamiento",
+      "enunciado": "Conforme a la LGIPE, se pueden instalar hasta ______ casillas especiales por cada distrito electoral.",
+      "opciones": ["diez", "cinco", "veinte"],
+      "respuesta_correcta": 0,
+      "explicacion": "El artículo 258 de la LGIPE fija ese número máximo por distrito."
+    },
+    {
+      "formato": "relacion-elementos",
+      "enunciado": "Relacione cada tipo de casilla con la situación que motiva su instalación.",
+      "opciones": [
+        "1-Contigua/A-más de 750 electores en la sección, 2-Extraordinaria/B-difícil acceso geográfico de la sección, 3-Especial/C-elector fuera de su sección de domicilio",
+        "1-Contigua/B-difícil acceso geográfico, 2-Extraordinaria/C-elector fuera de su sección, 3-Especial/A-más de 750 electores",
+        "1-Contigua/C-elector fuera de su sección, 2-Extraordinaria/A-más de 750 electores, 3-Especial/B-difícil acceso geográfico"
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "Cada tipo de casilla responde a un supuesto distinto: exceso de electores (contigua), dificultad de acceso (extraordinaria), o electores fuera de su sección (especial)."
+    },
+    {
+      "formato": "cuestionamiento-directo",
+      "enunciado": "¿Cómo se determina el tamaño de un distrito electoral federal?",
+      "opciones": [
+        "Dividiendo la población total del país entre 300",
+        "Dividiendo la población total del estado entre las diputaciones locales",
+        "Con base en la extensión territorial del municipio más grande"
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "El país se divide en 300 distritos electorales federales, resultado de dividir la población total entre ese número."
+    },
+    {
+      "formato": "cuestionamiento-directo",
+      "enunciado": "¿Cómo se determina un distrito electoral local?",
+      "opciones": [
+        "Dividiendo la población total del estado entre el número de diputaciones de mayoría relativa señalado en la Constitución Local",
+        "Dividiendo el número de municipios entre el número de diputaciones",
+        "Es exactamente el mismo territorio que un distrito federal"
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "El distrito electoral local se calcula con la población estatal y el número de diputaciones locales de mayoría relativa, por lo que no necesariamente coincide con los distritos federales."
+    },
+    {
+      "formato": "cuestionamiento-directo",
+      "enunciado": "¿Cuál es el rango de electores recomendado para una sección electoral?",
+      "opciones": [
+        "Al menos 100 e, idealmente, como máximo 3,000 electores",
+        "Exactamente 750 electores, sin variación",
+        "Entre 10 y 50 electores"
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "La sección debe contar con al menos 100 electores e, idealmente, no exceder los 3,000, aunque en la práctica existen secciones con más ciudadanos."
+    }
+  ]
+}
