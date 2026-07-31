@@ -4,27 +4,46 @@
   "area": "Instituto Electoral del Estado de Guanajuato",
   "introduccion": "Esta subárea evalúa cómo operan en la práctica los consejos electorales del IEEG: cuándo y cómo sesionan, qué se necesita para que una sesión sea válida (quórum), cómo se toman las decisiones (votaciones) y qué atribuciones tienen sus integrantes.",
   "explicacion": [
-    "Sesiones ordinarias y extraordinarias del Consejo General: se reúne en sesión ordinaria al menos una vez al mes. El Consejero Presidente puede convocar a sesión extraordinaria cuando lo estime necesario, o a petición de la mayoría de los consejeros electorales o de los representantes de los partidos políticos, de forma conjunta o indistinta. El Consejo General se instala para la preparación del proceso electoral dentro de la primera semana de septiembre del año anterior a las elecciones locales ordinarias; a partir de esa fecha y hasta la conclusión del proceso, sesiona por lo menos una vez al mes.",
-    "Quórum del Consejo General: para que pueda sesionar válidamente, es necesario que esté presente la MAYORÍA de sus integrantes con derecho a voto, y entre ellos debe estar el Consejero Presidente. Si el Presidente no asiste o se ausenta de forma definitiva, el propio Consejo designa a uno de los consejeros electorales presentes para que presida esa sesión. En ausencias momentáneas, el Presidente es suplido por el consejero electoral que él mismo designe.",
-    "Votaciones: las resoluciones y acuerdos se toman por MAYORÍA de votos, salvo aquellas que, conforme a la ley, requieran una mayoría calificada. En caso de empate en una votación, el asunto se somete a nueva deliberación; si el empate persiste, el Consejero Presidente tiene voto de calidad (voto dirimente) para resolverlo.",
-    "La Secretaría del Consejo General: está a cargo del Secretario Ejecutivo del Instituto Estatal, quien asiste a las sesiones. Si el Secretario Ejecutivo está ausente, sus funciones son realizadas por alguno de los integrantes de la Junta Estatal Ejecutiva que el propio Consejo General designe para esa sesión.",
-    "Funcionamiento de los Consejos Distritales: sesionan con la asistencia de la mayoría de sus integrantes con derecho a voto, entre los que debe estar su presidente. Las resoluciones se toman por mayoría de votos. Si no hay quórum, se vuelve a convocar (con notificación electrónica), y la sesión será válida con el número de integrantes que asistan en esa segunda convocatoria. Se instalan a más tardar el 15 de octubre del año previo a la elección ordinaria, y sesionan al menos una vez al mes desde su instalación hasta la conclusión del proceso.",
-    "Funcionamiento de los Consejos Municipales: siguen reglas equivalentes a las de los distritales: quórum con mayoría de integrantes con derecho a voto (incluido el presidente), resoluciones por mayoría, y si no hay quórum se convoca a nueva reunión que será válida con quienes asistan (siempre que esté el presidente). También se instalan a más tardar el 15 de octubre del año previo a la elección.",
-    "Atribuciones de los Consejos Distritales (algunas de las más relevantes): velar por la observancia de la ley; recibir y resolver solicitudes de registro de candidaturas a diputaciones por mayoría relativa; entregar a las mesas directivas de casilla la documentación y material electoral; realizar los cómputos distritales de Gobernador y diputaciones; expedir la declaratoria de validez y constancia de mayoría; organizar al menos un debate entre candidatos a diputaciones.",
-    "Atribuciones de los Consejos Municipales (algunas de las más relevantes): capacitar, seleccionar y designar a los ciudadanos que integrarán las mesas directivas de casilla; publicar las listas de ubicación e integración de las mesas directivas; recibir y resolver solicitudes de registro de planillas de ayuntamiento; realizar el cómputo municipal de la elección de presidencia municipal, sindicaturas y regidurías; expedir la declaratoria de validez y constancia de mayoría correspondiente."
+    "Sesiones ordinarias y extraordinarias del Consejo General (Art. 87, LIPEEG): Se reúne en sesión ordinaria al menos una vez al mes. El Consejero Presidente puede convocar a sesión extraordinaria cuando lo estime necesario, o a petición de la mayoría de los consejeros electorales o de los representantes de los partidos políticos, de forma conjunta o indistinta. El Consejo General se instala para la preparación del proceso electoral dentro de la primera semana de septiembre del año anterior a las elecciones locales ordinarias; a partir de esa fecha y hasta la conclusión del proceso, sesiona por lo menos una vez al mes.",
+    "Quórum del Consejo General (Art. 88, LIPEEG): Para que pueda sesionar válidamente, es necesario que esté presente la MAYORÍA de sus integrantes con derecho a voto, y entre ellos debe estar el Consejero Presidente. Si el Presidente no asiste o se ausenta de forma definitiva, el propio Consejo designa a uno de los consejeros electorales presentes para que presida esa sesión. En ausencias momentáneas, el Presidente es suplido por el consejero electoral que él mismo designe. Si no se reúne la mayoría, la sesión se celebra dentro de las veinticuatro horas siguientes con quienes asistan.",
+    "Votaciones (Art. 88, LIPEEG; Art. 57, RSOCIEEG): Las resoluciones y acuerdos se toman por MAYORÍA de votos, salvo aquellas que, conforme a la ley, requieran una mayoría calificada. En caso de empate en una votación, el asunto se somete a nueva deliberación; si el empate persiste, el Consejero Presidente tiene voto de calidad (voto dirimente) para resolverlo.",
+    "La Secretaría del Consejo General (Art. 89, LIPEEG): Está a cargo del Secretario Ejecutivo del Instituto Estatal, quien asiste a las sesiones. Si el Secretario Ejecutivo está ausente, sus funciones son realizadas por alguno de los integrantes de la Junta Estatal Ejecutiva que el propio Consejo General designe para esa sesión.",
+    "Funcionamiento de los Consejos Distritales (Art. 118, LIPEEG): Sesionan con la asistencia de la mayoría de sus integrantes con derecho a voto, entre los que debe estar su presidente. Las resoluciones se toman por mayoría de votos. Si no hay quórum, se vuelve a convocar (con notificación electrónica), y la sesión será válida con el número de integrantes que asistan en esa segunda convocatoria. Se instalan a más tardar el 15 de octubre del año previo a la elección ordinaria, y sesionan al menos una vez al mes desde su instalación hasta la conclusión del proceso.",
+    "Funcionamiento de los Consejos Municipales (Art. 127, LIPEEG):\n• Quórum: mayoría de integrantes con derecho a voto, incluido el presidente.\n• Resoluciones: se toman por mayoría de votos.\n• Sin quórum: se convoca a nueva reunión, válida con quienes asistan (siempre que esté el presidente).\n• Instalación: a más tardar el 15 de octubre del año previo a la elección.",
+    "Atribuciones de los Consejos Distritales (algunas de las más relevantes):\n• Velar por la observancia de la ley.\n• Recibir y resolver solicitudes de registro de candidaturas a diputaciones por mayoría relativa.\n• Entregar a las mesas directivas de casilla la documentación y material electoral.\n• Realizar los cómputos distritales de Gobernador y diputaciones.\n• Expedir la declaratoria de validez y constancia de mayoría.\n• Organizar al menos un debate entre candidatos a diputaciones.",
+    "Atribuciones de los Consejos Municipales (algunas de las más relevantes):\n• Capacitar, seleccionar y designar a los ciudadanos que integrarán las mesas directivas de casilla.\n• Publicar las listas de ubicación e integración de las mesas directivas.\n• Recibir y resolver solicitudes de registro de planillas de ayuntamiento.\n• Realizar el cómputo municipal de la elección de presidencia municipal, sindicaturas y regidurías.\n• Expedir la declaratoria de validez y constancia de mayoría correspondiente."
   ],
   "ejemplos": [
-    { "incorrecto": "El Consejo General puede sesionar válidamente con cualquier número de consejeros presentes, sin importar quién falte.", "correcto": "Se requiere la MAYORÍA de los integrantes con derecho a voto, y el Consejero Presidente debe estar presente (o quien lo supla en su ausencia).", "nota": "El quórum no es 'cualquier cantidad', tiene una regla específica sobre mayoría y sobre la presidencia." },
-    { "incorrecto": "Un empate en una votación del Consejo se resuelve siempre a favor de la propuesta original, sin más trámite.", "correcto": "Un empate se somete primero a nueva deliberación; si persiste, el Presidente tiene voto de calidad para resolverlo.", "nota": "Hay un procedimiento de dos pasos: primero se vuelve a discutir, y solo si el empate continúa se usa el voto dirimente." }
+    {
+      "incorrecto": "El Consejo General puede sesionar válidamente con cualquier número de consejeros presentes, sin importar quién falte.",
+      "correcto": "Se requiere la MAYORÍA de los integrantes con derecho a voto, y el Consejero Presidente debe estar presente (o quien lo supla en su ausencia).",
+      "nota": "El quórum no es 'cualquier cantidad', tiene una regla específica sobre mayoría y sobre la presidencia."
+    },
+    {
+      "incorrecto": "Un empate en una votación del Consejo se resuelve siempre a favor de la propuesta original, sin más trámite.",
+      "correcto": "Un empate se somete primero a nueva deliberación; si persiste, el Presidente tiene voto de calidad para resolverlo.",
+      "nota": "Hay un procedimiento de dos pasos: primero se vuelve a discutir, y solo si el empate continúa se usa el voto dirimente."
+    }
   ],
   "material_consulta": [
-    { "titulo": "Ley de Instituciones y Procedimientos Electorales para el Estado de Guanajuato (LIPEEG)", "url": "https://congreso-gto.s3.amazonaws.com" }
+    {
+      "titulo": "Ley de Instituciones y Procedimientos Electorales para el Estado de Guanajuato (LIPEEG), artículos 87-89, 118, 127",
+      "url": "https://docs.mexico.justia.com/estatales/guanajuato/ley-de-instituciones-y-procedimientos-electorales-para-el-estado-de-guanajuato.pdf"
+    },
+    {
+      "titulo": "Reglamento de sesiones de órganos colegiados del IEEG (RSOCIEEG), artículo 57",
+      "url": "https://api.ieeg.mx/repoinfo/Uploads/reglamento-de-sesiones-de-organos-colegiados-ieeg.pdf"
+    }
   ],
   "preguntas": [
     {
       "formato": "cuestionamiento-directo",
       "enunciado": "¿Con qué frecuencia mínima debe sesionar de forma ordinaria el Consejo General del IEEG?",
-      "opciones": ["Una vez al mes", "Una vez a la semana", "Una vez cada tres meses"],
+      "opciones": [
+        "Una vez al mes",
+        "Una vez a la semana",
+        "Una vez cada tres meses"
+      ],
       "respuesta_correcta": 0,
       "explicacion": "El Consejo General se reúne en sesión ordinaria al menos una vez al mes."
     },
@@ -53,7 +72,11 @@
     {
       "formato": "cuestionamiento-directo",
       "enunciado": "¿Cómo se toman las resoluciones y acuerdos del Consejo General, por regla general?",
-      "opciones": ["Por mayoría de votos", "Por unanimidad obligatoria", "Por decisión exclusiva del Presidente"],
+      "opciones": [
+        "Por mayoría de votos",
+        "Por unanimidad obligatoria",
+        "Por decisión exclusiva del Presidente"
+      ],
       "respuesta_correcta": 0,
       "explicacion": "La regla general es mayoría de votos, salvo los casos que la ley señale como de mayoría calificada."
     },
@@ -71,14 +94,22 @@
     {
       "formato": "cuestionamiento-directo",
       "enunciado": "¿Quién está a cargo de la Secretaría del Consejo General?",
-      "opciones": ["El Secretario Ejecutivo del Instituto Estatal", "El consejero de mayor edad", "Un representante de partido rotativo"],
+      "opciones": [
+        "El Secretario Ejecutivo del Instituto Estatal",
+        "El consejero de mayor edad",
+        "Un representante de partido rotativo"
+      ],
       "respuesta_correcta": 0,
       "explicacion": "La Secretaría del Consejo General está a cargo del Secretario Ejecutivo del IEEG."
     },
     {
       "formato": "cuestionamiento-directo",
       "enunciado": "¿A más tardar en qué fecha deben instalarse los Consejos Distritales y Municipales?",
-      "opciones": ["15 de octubre del año previo a la elección ordinaria", "1 de enero del año de la elección", "15 de junio del año de la elección"],
+      "opciones": [
+        "15 de octubre del año previo a la elección ordinaria",
+        "1 de enero del año de la elección",
+        "15 de junio del año de la elección"
+      ],
       "respuesta_correcta": 0,
       "explicacion": "Ambos tipos de consejo deben instalarse a más tardar el 15 de octubre del año previo a la elección ordinaria."
     },

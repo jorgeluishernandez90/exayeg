@@ -4,22 +4,33 @@
   "area": "Proceso electoral",
   "introduccion": "Esta subárea evalúa cómo se reciben y salvaguardan los paquetes electorales al concluir la jornada, cómo funciona el PREP, y cómo se realizan los cómputos municipales, distritales y estatales conforme a la LIPEEG, incluyendo cuándo procede el recuento total de votos.",
   "explicacion": [
-    "Recepción de paquetes electorales (Art. 231, LIPEEG): los consejos municipales o distritales reciben los paquetes en el orden en que son entregados por las mesas directivas de casilla; el presidente extiende recibo señalando la hora; dispone su depósito en orden numérico (separando las casillas especiales) en un lugar seguro hasta el día del cómputo; y bajo su responsabilidad sella las puertas de acceso en presencia de representantes de partidos y candidaturas independientes. De todo ello se levanta acta circunstanciada.",
-    "Programa de Resultados Electorales Preliminares — PREP (Art. 232, LIPEEG): es el mecanismo que provee resultados preliminares y no definitivos, de carácter estrictamente informativo, mediante la captura, digitalización y publicación de los datos de las Actas de Escrutinio y Cómputo recibidas en los Centros de Acopio y Transmisión de Datos. El Instituto Estatal se sujeta a las reglas del Instituto Nacional, bajo los principios de seguridad, transparencia, confiabilidad, credibilidad e integridad.",
-    "Captura de resultados a la llegada de los paquetes (Art. 233-234, LIPEEG): los consejos municipales o distritales capturan los resultados visibles en el exterior del paquete conforme se van recibiendo. El presidente lee en voz alta el resultado de cada acta, el secretario lo anota y suma el total; el presidente informa de inmediato al Consejo General y fija en el exterior del local los resultados preliminares para conocimiento de la ciudadanía.",
-    "Cómputo municipal — concepto y fecha (Art. 236-237, LIPEEG): es la suma que realiza el consejo municipal de los resultados de las actas de escrutinio y cómputo de casilla de la elección de ayuntamiento. Se realiza en una sola sesión, que inicia a partir de las 8:00 horas del miércoles siguiente al día de la jornada electoral.",
-    "Procedimiento del cómputo municipal (Art. 238, LIPEEG): se abren los paquetes sin alteración en orden numérico y se cotejan las actas; si coinciden, se asienta el resultado. Si no coinciden, hay errores evidentes, o falta el acta, se realiza nuevamente el escrutinio y cómputo de esa casilla. Debe repetirse el escrutinio cuando: existan errores evidentes no subsanables; los votos nulos superen la diferencia entre el primer y segundo lugar; o todos los votos hayan sido para un mismo partido.",
-    "Recuento total de votos (Art. 238, LIPEEG): si existe indicio de que la diferencia entre el candidato presunto ganador y el segundo lugar es igual o menor a un punto porcentual, y hay petición expresa del representante del partido del segundo lugar (o del candidato independiente) al inicio de la sesión, el consejo debe realizar el recuento de votos en la totalidad de las casillas. El recuento debe concluir antes del domingo siguiente al de la jornada electoral.",
-    "Asignación de regidores y constancias municipales (Art. 240-242, LIPEEG): tras el cómputo, el consejo municipal asigna regidurías de representación proporcional entre los partidos y planillas independientes que obtuvieron al menos 3% de la votación válida, aplicando cociente electoral y luego resto mayor, cuidando la paridad de género en la integración final. El presidente expide la constancia de mayoría y declaratoria de validez a la fórmula con más votos.",
-    "Cómputos distritales (Art. 247-251, LIPEEG): los consejos distritales celebran sesión a partir de las 8:00 horas del miércoles siguiente a la jornada electoral, para computar la votación de diputaciones (mayoría relativa y representación proporcional) y de Gobernador en su distrito. Siguen, en lo conducente, el mismo procedimiento que el cómputo municipal (artículo 238).",
-    "Cómputos estatales (Art. 257-264, LIPEEG): el Consejo General celebra sesión a partir de las 8:00 horas del domingo siguiente a la jornada electoral, para realizar primero el cómputo de la elección de Gobernador (sumando los cómputos distritales) y después el de diputados por representación proporcional (sumando también los cómputos distritales). El presidente del Consejo General suscribe la constancia de mayoría y validez de Gobernador, y remite al Congreso del Estado la documentación correspondiente cuando no haya recursos pendientes."
+    "Recepción de paquetes electorales (Art. 231, LIPEEG): Los consejos municipales o distritales reciben los paquetes en el orden en que son entregados por las mesas directivas de casilla; el presidente extiende recibo señalando la hora; dispone su depósito en orden numérico (separando las casillas especiales) en un lugar seguro hasta el día del cómputo; y bajo su responsabilidad sella las puertas de acceso en presencia de representantes de partidos y candidaturas independientes. De todo ello se levanta acta circunstanciada.",
+    "Programa de Resultados Electorales Preliminares — PREP (Art. 232, LIPEEG): Es el mecanismo que provee resultados preliminares y no definitivos, de carácter estrictamente informativo, mediante la captura, digitalización y publicación de los datos de las Actas de Escrutinio y Cómputo recibidas en los Centros de Acopio y Transmisión de Datos. El Instituto Estatal se sujeta a las reglas del Instituto Nacional, bajo los principios de seguridad, transparencia, confiabilidad, credibilidad e integridad.",
+    "Captura de resultados a la llegada de los paquetes (Art. 233-234, LIPEEG): Los consejos municipales o distritales capturan los resultados visibles en el exterior del paquete conforme se van recibiendo. El presidente lee en voz alta el resultado de cada acta, el secretario lo anota y suma el total; el presidente informa de inmediato al Consejo General y fija en el exterior del local los resultados preliminares para conocimiento de la ciudadanía.",
+    "Cómputo municipal — concepto y fecha (Art. 236-237, LIPEEG): Es la suma que realiza el consejo municipal de los resultados de las actas de escrutinio y cómputo de casilla de la elección de ayuntamiento. Se realiza en una sola sesión, que inicia a partir de las 8:00 horas del miércoles siguiente al día de la jornada electoral.",
+    "Procedimiento del cómputo municipal (Art. 238, LIPEEG): Se abren los paquetes sin alteración en orden numérico y se cotejan las actas; si coinciden, se asienta el resultado. Si no coinciden, hay errores evidentes, o falta el acta, se realiza nuevamente el escrutinio y cómputo de esa casilla. Debe repetirse el escrutinio cuando: existan errores evidentes no subsanables; los votos nulos superen la diferencia entre el primer y segundo lugar; o todos los votos hayan sido para un mismo partido.",
+    "Recuento total de votos (Art. 238, LIPEEG): Si existe indicio de que la diferencia entre el candidato presunto ganador y el segundo lugar es igual o menor a un punto porcentual, y hay petición expresa del representante del partido del segundo lugar (o del candidato independiente) al inicio de la sesión, el consejo debe realizar el recuento de votos en la totalidad de las casillas. El recuento debe concluir antes del domingo siguiente al de la jornada electoral.",
+    "Asignación de regidores y constancias municipales (Art. 240-242, LIPEEG): Tras el cómputo, el consejo municipal asigna regidurías de representación proporcional entre los partidos y planillas independientes que obtuvieron al menos 3% de la votación válida, aplicando cociente electoral y luego resto mayor, cuidando la paridad de género en la integración final. El presidente expide la constancia de mayoría y declaratoria de validez a la fórmula con más votos.",
+    "Cómputos distritales (Art. 247-251, LIPEEG): Los consejos distritales celebran sesión a partir de las 8:00 horas del miércoles siguiente a la jornada electoral, para computar la votación de diputaciones (mayoría relativa y representación proporcional) y de Gobernador en su distrito. Siguen, en lo conducente, el mismo procedimiento que el cómputo municipal (artículo 238).",
+    "Cómputos estatales (Art. 257-264, LIPEEG): El Consejo General celebra sesión a partir de las 8:00 horas del domingo siguiente a la jornada electoral, para realizar primero el cómputo de la elección de Gobernador (sumando los cómputos distritales) y después el de diputados por representación proporcional (sumando también los cómputos distritales). El presidente del Consejo General suscribe la constancia de mayoría y validez de Gobernador, y remite al Congreso del Estado la documentación correspondiente cuando no haya recursos pendientes."
   ],
   "ejemplos": [
-    { "incorrecto": "El cómputo municipal puede iniciarse cualquier día de la semana siguiente a la jornada electoral, a discreción del consejo.", "correcto": "Debe iniciarse a partir de las 8:00 horas del miércoles siguiente al día de la jornada electoral, en una sola sesión.", "nota": "La ley fija un día y hora específicos para dar certeza y uniformidad al procedimiento en todos los municipios." },
-    { "incorrecto": "El recuento total de votos procede automáticamente cada vez que hay una diferencia pequeña entre candidatos.", "correcto": "Procede solo si además existe petición expresa del representante del segundo lugar (o candidato independiente) al inicio de la sesión de cómputo.", "nota": "La diferencia de un punto porcentual o menos es condición necesaria, pero no basta por sí sola: se requiere también la petición expresa." }
+    {
+      "incorrecto": "El cómputo municipal puede iniciarse cualquier día de la semana siguiente a la jornada electoral, a discreción del consejo.",
+      "correcto": "Debe iniciarse a partir de las 8:00 horas del miércoles siguiente al día de la jornada electoral, en una sola sesión.",
+      "nota": "La ley fija un día y hora específicos para dar certeza y uniformidad al procedimiento en todos los municipios."
+    },
+    {
+      "incorrecto": "El recuento total de votos procede automáticamente cada vez que hay una diferencia pequeña entre candidatos.",
+      "correcto": "Procede solo si además existe petición expresa del representante del segundo lugar (o candidato independiente) al inicio de la sesión de cómputo.",
+      "nota": "La diferencia de un punto porcentual o menos es condición necesaria, pero no basta por sí sola: se requiere también la petición expresa."
+    }
   ],
   "material_consulta": [
-    { "titulo": "Ley de Instituciones y Procedimientos Electorales para el Estado de Guanajuato (LIPEEG), artículos 231-265", "url": "https://congreso-gto.s3.amazonaws.com" }
+    {
+      "titulo": "Ley de Instituciones y Procedimientos Electorales para el Estado de Guanajuato (LIPEEG), artículos 231-265",
+      "url": "https://congreso-gto.s3.amazonaws.com"
+    }
   ],
   "preguntas": [
     {
@@ -36,14 +47,22 @@
     {
       "formato": "completamiento",
       "enunciado": "El cómputo municipal se realiza en sesión que inicia a partir de las 8:00 horas del ______ siguiente al día de la jornada electoral.",
-      "opciones": ["miércoles", "domingo", "viernes"],
+      "opciones": [
+        "miércoles",
+        "domingo",
+        "viernes"
+      ],
       "respuesta_correcta": 0,
       "explicacion": "El artículo 237 de la LIPEEG fija el miércoles siguiente para el inicio del cómputo municipal (y distrital)."
     },
     {
       "formato": "completamiento",
       "enunciado": "El Consejo General celebra sesión de cómputo estatal a partir de las 8:00 horas del ______ siguiente a la jornada electoral.",
-      "opciones": ["domingo", "miércoles", "lunes"],
+      "opciones": [
+        "domingo",
+        "miércoles",
+        "lunes"
+      ],
       "respuesta_correcta": 0,
       "explicacion": "El artículo 257 de la LIPEEG fija el domingo siguiente para el inicio del cómputo estatal."
     },
@@ -83,7 +102,11 @@
     {
       "formato": "cuestionamiento-directo",
       "enunciado": "¿Qué porcentaje mínimo de la votación válida emitida debe obtener un partido o planilla independiente para participar en la asignación de regidurías de representación proporcional?",
-      "opciones": ["3%", "5%", "10%"],
+      "opciones": [
+        "3%",
+        "5%",
+        "10%"
+      ],
       "respuesta_correcta": 0,
       "explicacion": "El artículo 240 de la LIPEEG establece el umbral del 3% de la votación válida municipal."
     },

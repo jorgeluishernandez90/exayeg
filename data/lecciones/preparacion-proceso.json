@@ -4,24 +4,42 @@
   "area": "Proceso electoral",
   "introduccion": "Esta subárea evalúa el conocimiento sobre la etapa de preparación de la elección conforme a la LIPEEG: qué es el proceso electoral y sus cuatro etapas, cómo funcionan las precampañas, cómo se registran las candidaturas y cómo se desarrollan las campañas electorales, incluyendo plazos, requisitos y topes de gasto.",
   "explicacion": [
-    "Definición y etapas del proceso electoral (Art. 173-174, LIPEEG): el proceso electoral es el conjunto de actos ordenados por la Constitución Federal, la Ley General, la Constitución del Estado y la LIPEEG, realizados por los Poderes del Estado, las autoridades electorales, los partidos políticos, quienes aspiren a ser personas juzgadoras y la ciudadanía, para renovar periódicamente a los poderes Legislativo, Ejecutivo y Judicial, así como a los ayuntamientos. Tiene cuatro etapas: I. Preparación de la elección; II. Jornada electoral; III. Resultados y declaraciones de validez de las elecciones, y IV. Dictamen y declaraciones de validez de la elección (esta última solo aplica a la elección de Gobernador).",
-    "Fechas de inicio de cada etapa: la preparación de la elección inicia con la primera sesión que el Consejo General celebre durante la primera semana de septiembre del año previo a la jornada electoral. La jornada electoral inicia a las 8:00 horas del primer domingo de junio y concluye con la clausura de la casilla y la publicación de resultados en el exterior de ésta. La etapa de resultados y declaraciones de validez inicia con la remisión de la documentación a los consejos municipales y distritales, y concluye con los cómputos y declaraciones, o las resoluciones jurisdiccionales en última instancia.",
-    "Precampañas (Art. 175-176, LIPEEG): son los procesos internos de los partidos políticos para seleccionar a sus candidatos. Los partidos deben decidir sus procesos internos al menos treinta días antes y comunicarlos al Consejo General entre el 1 y el 7 de septiembre. Las precampañas inician el 8 de octubre y duran hasta 60 días para gubernatura, hasta 30 días para diputaciones y hasta 40 días para ayuntamientos. Precandidato es quien pretende ser postulado por un partido como candidato a un cargo de elección popular, dentro del proceso de selección interna de ese partido.",
-    "Tope de gastos de precampaña (Art. 179, LIPEEG): a más tardar en septiembre del año previo a la elección, el Consejo General determina los topes: I. Cuando se elijan diputados y ayuntamientos, hasta el 15% del tope de gastos de campaña de la elección de Gobernador inmediata anterior; II. Cuando se elija Gobernador, diputados y ayuntamientos juntos, hasta el 20% de ese mismo tope de referencia.",
-    "Registro de candidaturas — derecho, paridad y plazos (Art. 183-188, LIPEEG): el registro de candidaturas es derecho de los partidos políticos (propios o coaligados); para diputados, síndicos y regidores se registran fórmulas con propietario y suplente. Debe respetarse paridad vertical y horizontal, sin postular mujeres en distritos o municipios 'perdedores'. Los plazos son: diputados de mayoría relativa, del 4 al 10 de abril (consejos distritales); diputados de representación proporcional, del 11 al 17 de abril (Consejo General); Gobernador, del 18 al 24 de febrero (Consejo General); ayuntamientos, del 20 al 26 de marzo (consejos municipales).",
-    "Verificación y subsanación del registro (Art. 191, LIPEEG): recibida una solicitud de registro, el órgano electoral verifica dentro de los tres días siguientes que se cumplan los requisitos y la elegibilidad. Si falta algo, notifica al partido para que subsane en 48 horas, siempre que ocurra al menos cuatro días antes de la sesión de registro. Al noveno día del vencimiento de los plazos de registro, los órganos electorales celebran sesión para registrar las candidaturas que procedan.",
-    "Sustitución de candidaturas (Art. 193-194, LIPEEG): dentro del plazo de registro, los partidos pueden sustituir libremente a sus candidatos. Vencido el plazo, solo procede por fallecimiento, inhabilitación, incapacidad o renuncia; si las boletas ya están impresas, no se modifican. Recibida una renuncia, el Instituto Estatal requiere al candidato en 24 horas para que la ratifique (si no responde, se tiene por ratificada). Las mujeres solo pueden ser sustituidas por mujeres.",
-    "Campaña electoral — definición y tiempos (Art. 195, 203, LIPEEG): son las actividades de partidos, coaliciones y candidatos registrados para obtener el voto. Las campañas inician al día siguiente de que se apruebe el registro de candidaturas respectivo. Duran hasta 90 días para Gobernador, hasta 45 días cuando solo se eligen diputados, y hasta 60 días para ayuntamientos; deben concluir tres días antes de la jornada electoral (periodo de veda o silencio electoral, en el que tampoco se permiten actos ni difusión de propaganda).",
-    "Gastos y tope de gastos de campaña (Art. 205, LIPEEG): los gastos de campaña se clasifican en propaganda (bardas, mantas, eventos), gastos operativos (sueldos eventuales, transporte), propaganda en medios impresos, y producción de mensajes para radio y televisión. El Consejo General determina el tope de gastos de campaña a más tardar el 20 de febrero del año de la elección, con base en el valor unitario del voto (dividiendo el monto de gasto de campaña otorgado entre el padrón electoral) y su aplicación por municipio o distrito."
+    "Definición y etapas del proceso electoral (Art. 173-174, LIPEEG): El proceso electoral es el conjunto de actos ordenados por la Constitución Federal, la Ley General, la Constitución del Estado y la LIPEEG, realizados por los Poderes del Estado, las autoridades electorales, los partidos políticos, quienes aspiren a ser personas juzgadoras y la ciudadanía, para renovar periódicamente a los poderes Legislativo, Ejecutivo y Judicial, así como a los ayuntamientos. Tiene cuatro etapas: I. Preparación de la elección; II. Jornada electoral; III. Resultados y declaraciones de validez de las elecciones, y IV. Dictamen y declaraciones de validez de la elección (esta última solo aplica a la elección de Gobernador).",
+    "Fechas de inicio de cada etapa: La preparación de la elección inicia con la primera sesión que el Consejo General celebre durante la primera semana de septiembre del año previo a la jornada electoral. La jornada electoral inicia a las 8:00 horas del primer domingo de junio y concluye con la clausura de la casilla y la publicación de resultados en el exterior de ésta. La etapa de resultados y declaraciones de validez inicia con la remisión de la documentación a los consejos municipales y distritales, y concluye con los cómputos y declaraciones, o las resoluciones jurisdiccionales en última instancia.",
+    "Precampañas (Art. 175-176, LIPEEG): Son los procesos internos de los partidos políticos para seleccionar a sus candidatos. Los partidos deben decidir sus procesos internos al menos treinta días antes y comunicarlos al Consejo General entre el 1 y el 7 de septiembre. Las precampañas inician el 8 de octubre y duran hasta 60 días para gubernatura, hasta 30 días para diputaciones y hasta 40 días para ayuntamientos. Precandidato es quien pretende ser postulado por un partido como candidato a un cargo de elección popular, dentro del proceso de selección interna de ese partido.",
+    "Tope de gastos de precampaña (Art. 179, LIPEEG): A más tardar en septiembre del año previo a la elección, el Consejo General determina los topes: I. Cuando se elijan diputados y ayuntamientos, hasta el 15% del tope de gastos de campaña de la elección de Gobernador inmediata anterior; II. Cuando se elija Gobernador, diputados y ayuntamientos juntos, hasta el 20% de ese mismo tope de referencia.",
+    "Registro de candidaturas — derecho, paridad y plazos (Art. 183-188, LIPEEG): El registro de candidaturas es derecho de los partidos políticos (propios o coaligados); para diputados, síndicos y regidores se registran fórmulas con propietario y suplente. Debe respetarse paridad vertical y horizontal, sin postular mujeres en distritos o municipios 'perdedores'. Los plazos son: diputados de mayoría relativa, del 4 al 10 de abril (consejos distritales); diputados de representación proporcional, del 11 al 17 de abril (Consejo General); Gobernador, del 18 al 24 de febrero (Consejo General); ayuntamientos, del 20 al 26 de marzo (consejos municipales).",
+    "Verificación y subsanación del registro (Art. 191, LIPEEG): Recibida una solicitud de registro, el órgano electoral verifica dentro de los tres días siguientes que se cumplan los requisitos y la elegibilidad. Si falta algo, notifica al partido para que subsane en 48 horas, siempre que ocurra al menos cuatro días antes de la sesión de registro. Al noveno día del vencimiento de los plazos de registro, los órganos electorales celebran sesión para registrar las candidaturas que procedan.",
+    "Sustitución de candidaturas (Art. 193-194, LIPEEG): Dentro del plazo de registro, los partidos pueden sustituir libremente a sus candidatos. Vencido el plazo, solo procede por fallecimiento, inhabilitación, incapacidad o renuncia; si las boletas ya están impresas, no se modifican. Recibida una renuncia, el Instituto Estatal requiere al candidato en 24 horas para que la ratifique (si no responde, se tiene por ratificada). Las mujeres solo pueden ser sustituidas por mujeres.",
+    "Campaña electoral — definición y tiempos (Art. 195, 203, LIPEEG): Son las actividades de partidos, coaliciones y candidatos registrados para obtener el voto. Las campañas inician al día siguiente de que se apruebe el registro de candidaturas respectivo. Duran hasta 90 días para Gobernador, hasta 45 días cuando solo se eligen diputados, y hasta 60 días para ayuntamientos; deben concluir tres días antes de la jornada electoral (periodo de veda o silencio electoral, en el que tampoco se permiten actos ni difusión de propaganda).",
+    "Gastos y tope de gastos de campaña (Art. 205, LIPEEG): Los gastos de campaña se clasifican en propaganda (bardas, mantas, eventos), gastos operativos (sueldos eventuales, transporte), propaganda en medios impresos, y producción de mensajes para radio y televisión. El Consejo General determina el tope de gastos de campaña a más tardar el 20 de febrero del año de la elección, con base en el valor unitario del voto (dividiendo el monto de gasto de campaña otorgado entre el padrón electoral) y su aplicación por municipio o distrito."
   ],
   "ejemplos": [
-    { "incorrecto": "El proceso electoral en Guanajuato tiene tres etapas: preparación, jornada y resultados.", "correcto": "Tiene cuatro etapas: preparación de la elección, jornada electoral, resultados y declaraciones de validez, y dictamen y declaración de validez de la elección de Gobernador.", "nota": "La cuarta etapa aplica específicamente a la calificación final de la elección de Gobernador por el Congreso del Estado." },
-    { "incorrecto": "Las precampañas pueden durar el tiempo que cada partido decida, sin límite legal.", "correcto": "La LIPEEG fija límites máximos: hasta 60 días para gubernatura, 30 para diputaciones y 40 para ayuntamientos.", "nota": "Aunque los partidos deciden sus procesos internos, la ley impone topes de duración según el cargo." },
-    { "incorrecto": "Una candidata puede ser sustituida, después del plazo de registro, por un hombre si el partido lo decide.", "correcto": "Vencido el plazo de registro, las mujeres solo pueden ser sustituidas por mujeres.", "nota": "Esta regla busca proteger el principio de paridad de género en las candidaturas." }
+    {
+      "incorrecto": "El proceso electoral en Guanajuato tiene tres etapas: preparación, jornada y resultados.",
+      "correcto": "Tiene cuatro etapas: preparación de la elección, jornada electoral, resultados y declaraciones de validez, y dictamen y declaración de validez de la elección de Gobernador.",
+      "nota": "La cuarta etapa aplica específicamente a la calificación final de la elección de Gobernador por el Congreso del Estado."
+    },
+    {
+      "incorrecto": "Las precampañas pueden durar el tiempo que cada partido decida, sin límite legal.",
+      "correcto": "La LIPEEG fija límites máximos: hasta 60 días para gubernatura, 30 para diputaciones y 40 para ayuntamientos.",
+      "nota": "Aunque los partidos deciden sus procesos internos, la ley impone topes de duración según el cargo."
+    },
+    {
+      "incorrecto": "Una candidata puede ser sustituida, después del plazo de registro, por un hombre si el partido lo decide.",
+      "correcto": "Vencido el plazo de registro, las mujeres solo pueden ser sustituidas por mujeres.",
+      "nota": "Esta regla busca proteger el principio de paridad de género en las candidaturas."
+    }
   ],
   "material_consulta": [
-    { "titulo": "Ley de Instituciones y Procedimientos Electorales para el Estado de Guanajuato (LIPEEG), artículos 173-205", "url": "https://congreso-gto.s3.amazonaws.com" },
-    { "titulo": "Ley General de Instituciones y Procedimientos Electorales (LGIPE)", "url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LGIPE.pdf" }
+    {
+      "titulo": "Ley de Instituciones y Procedimientos Electorales para el Estado de Guanajuato (LIPEEG), artículos 173-205",
+      "url": "https://congreso-gto.s3.amazonaws.com"
+    },
+    {
+      "titulo": "Ley General de Instituciones y Procedimientos Electorales (LGIPE)",
+      "url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LGIPE.pdf"
+    }
   ],
   "preguntas": [
     {
@@ -38,14 +56,22 @@
     {
       "formato": "completamiento",
       "enunciado": "La etapa de preparación de la elección inicia con la primera sesión que celebre el Consejo General durante la primera semana de ______ del año previo a la jornada electoral.",
-      "opciones": ["septiembre", "enero", "junio"],
+      "opciones": [
+        "septiembre",
+        "enero",
+        "junio"
+      ],
       "respuesta_correcta": 0,
       "explicacion": "El artículo 174 de la LIPEEG fija esa fecha de inicio."
     },
     {
       "formato": "cuestionamiento-directo",
       "enunciado": "¿Cuál es la duración máxima de las precampañas para la elección de Gobernador del Estado?",
-      "opciones": ["30 días", "60 días", "90 días"],
+      "opciones": [
+        "30 días",
+        "60 días",
+        "90 días"
+      ],
       "respuesta_correcta": 1,
       "explicacion": "Las precampañas para gubernatura duran hasta 60 días, conforme al artículo 175 de la LIPEEG."
     },
@@ -85,14 +111,22 @@
     {
       "formato": "completamiento",
       "enunciado": "Las campañas electorales deben concluir ______ días antes de celebrarse la jornada electoral.",
-      "opciones": ["tres", "cinco", "diez"],
+      "opciones": [
+        "tres",
+        "cinco",
+        "diez"
+      ],
       "respuesta_correcta": 0,
       "explicacion": "El artículo 203 de la LIPEEG establece que las campañas concluyen tres días antes de la jornada electoral, iniciando así el periodo de veda."
     },
     {
       "formato": "cuestionamiento-directo",
       "enunciado": "¿Cuál es la duración máxima de la campaña electoral cuando solo se elige a diputados al Congreso del Estado?",
-      "opciones": ["45 días", "60 días", "90 días"],
+      "opciones": [
+        "45 días",
+        "60 días",
+        "90 días"
+      ],
       "respuesta_correcta": 0,
       "explicacion": "El artículo 203 de la LIPEEG fija 45 días quando solo hay elección de diputaciones."
     },
@@ -110,7 +144,11 @@
     {
       "formato": "cuestionamiento-directo",
       "enunciado": "¿A más tardar en qué fecha debe el Consejo General determinar el tope de gastos de campaña del año de la elección?",
-      "opciones": ["20 de febrero", "20 de septiembre", "15 de abril"],
+      "opciones": [
+        "20 de febrero",
+        "20 de septiembre",
+        "15 de abril"
+      ],
       "respuesta_correcta": 0,
       "explicacion": "El artículo 205 de la LIPEEG fija esa fecha límite para determinar el tope de gastos de campaña."
     }
