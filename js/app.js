@@ -158,6 +158,18 @@ function renderPuntoExplicacion(texto) {
   return `<div class="punto-explicacion"><p>${texto}</p></div>`;
 }
 
+// Dibuja el diagrama de una lección, si trae uno (campo "diagrama": {titulo, svg}).
+// Si la lección no tiene diagrama, no se muestra nada (no rompe lecciones viejas).
+function renderDiagrama(leccion) {
+  if (!leccion.diagrama || !leccion.diagrama.svg) return '';
+  const titulo = leccion.diagrama.titulo || 'Esquema';
+  return `
+    <section class="bloque diagrama-leccion">
+      <h2>${titulo}</h2>
+      <div class="diagrama-visual">${leccion.diagrama.svg}</div>
+    </section>`;
+}
+
 // ---------------- Render de una lección ----------------
 async function abrirLeccion(subtemaId) {
   document.querySelectorAll('.subtema-link').forEach(b => b.classList.remove('activo'));
@@ -174,6 +186,8 @@ async function abrirLeccion(subtemaId) {
       <h1 class="titulo-leccion">${leccion.titulo}</h1>
     </div>
     <p class="intro-leccion">${leccion.introduccion}</p>
+
+    ${renderDiagrama(leccion)}
 
     <section class="bloque explicacion">
       <h2>Explicación</h2>
