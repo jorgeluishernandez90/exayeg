@@ -3,6 +3,10 @@
   "titulo": "Aritmética",
   "area": "Competencia matemática",
   "introduccion": "Esta subárea evalúa operaciones básicas, fracciones, porcentajes, razones, proporciones y regla de tres, casi siempre planteados como problemas de aplicación práctica (por ejemplo, sobre votos, boletas o listas nominales).",
+  "diagrama": {
+    "titulo": "Jerarquía de operaciones",
+    "svg": "<svg viewBox=\"0 0 700 440\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Arial, sans-serif\">\n<rect width=\"700\" height=\"440\" fill=\"#faf5ff\"/>\n<rect x=\"40\" y=\"15\" width=\"620\" height=\"78\" rx=\"12\" fill=\"#6d28d9\"/>\n<text x=\"65\" y=\"43\" fill=\"#ffffff\" font-size=\"13\" font-weight=\"bold\">1. Paréntesis</text>\n<text x=\"65\" y=\"63\" fill=\"#f3e8ff\" font-size=\"11\">Se resuelve primero todo lo que está dentro de ( ).</text>\n<polygon points=\"340.0,101 360.0,101 350.0,117\" fill=\"#a78bfa\"/>\n<rect x=\"40\" y=\"115\" width=\"620\" height=\"78\" rx=\"12\" fill=\"#9333ea\"/>\n<text x=\"65\" y=\"143\" fill=\"#ffffff\" font-size=\"13\" font-weight=\"bold\">2. Potencias y raíces</text>\n<text x=\"65\" y=\"163\" fill=\"#f3e8ff\" font-size=\"11\">Se calculan después de los paréntesis.</text>\n<polygon points=\"340.0,201 360.0,201 350.0,217\" fill=\"#a78bfa\"/>\n<rect x=\"40\" y=\"215\" width=\"620\" height=\"78\" rx=\"12\" fill=\"#a855f7\"/>\n<text x=\"65\" y=\"243\" fill=\"#ffffff\" font-size=\"13\" font-weight=\"bold\">3. Multiplicación y división</text>\n<text x=\"65\" y=\"263\" fill=\"#f3e8ff\" font-size=\"11\">De izquierda a derecha, según aparezcan.</text>\n<polygon points=\"340.0,301 360.0,301 350.0,317\" fill=\"#a78bfa\"/>\n<rect x=\"40\" y=\"315\" width=\"620\" height=\"78\" rx=\"12\" fill=\"#c026d3\"/>\n<text x=\"65\" y=\"343\" fill=\"#ffffff\" font-size=\"13\" font-weight=\"bold\">4. Suma y resta</text>\n<text x=\"65\" y=\"363\" fill=\"#f3e8ff\" font-size=\"11\">Al final, de izquierda a derecha.</text>\n</svg>"
+  },
   "explicacion": [
     "Jerarquía de operaciones (orden en que se resuelven las cuentas): cuando una operación tiene varios signos mezclados, no se resuelve de izquierda a derecha sin más, sino en este orden: 1) lo que está dentro de paréntesis, 2) potencias y raíces, 3) multiplicaciones y divisiones (de izquierda a derecha según aparezcan), y 4) sumas y restas (de izquierda a derecha). Ejemplo paso a paso: 5 + (3 + 2) × 4. Primero el paréntesis: (3+2) = 5. Queda: 5 + 5 × 4. Ahora la multiplicación: 5 × 4 = 20. Queda: 5 + 20 = 25. Otro ejemplo sin paréntesis: 8 + 2 × 3. Aquí NO se suma primero 8+2; se hace primero la multiplicación: 2 × 3 = 6, y luego 8 + 6 = 14.",
     "Fracciones — suma y resta: solo se pueden sumar o restar directamente fracciones que tengan el mismo denominador (el número de abajo). Si los denominadores son distintos, hay que buscar un común denominador (un número que sea múltiplo de ambos) y convertir cada fracción antes de operar. Ejemplo paso a paso: 1/4 + 1/6. El menor número que es múltiplo de 4 y de 6 es 12. Convertimos: 1/4 = 3/12 (multiplicando arriba y abajo por 3) y 1/6 = 2/12 (multiplicando arriba y abajo por 2). Ahora sí se suman: 3/12 + 2/12 = 5/12.",
@@ -13,84 +17,150 @@
     "Regla de tres simple: se usa cuando dos cantidades son proporcionales (si una sube, la otra sube en la misma medida) y se conocen tres de los cuatro valores. Ejemplo paso a paso: si 100 boletas requieren 2 cajas para guardarse, ¿cuántas cajas se necesitan para 350 boletas? Se acomoda así: 100 boletas − 2 cajas / 350 boletas − x cajas. Se multiplican en cruz los valores conocidos: 350 × 2 = 700, y ese resultado se divide entre el valor que quedó solo, 100: 700 ÷ 100 = 7. Se necesitan 7 cajas."
   ],
   "ejemplos": [
-    { "incorrecto": "8 + 2 × 3 = 30 (sumando primero 8 + 2, y luego multiplicando por 3)", "correcto": "8 + 2 × 3 = 14 (primero la multiplicación 2×3=6, luego 8+6=14)", "nota": "La multiplicación siempre se resuelve antes que la suma, sin importar el orden en que aparezcan escritas." },
-    { "incorrecto": "10 − 4 + 2 = 4 (restando 4+2 primero, como si fueran un bloque)", "correcto": "10 − 4 + 2 = 8 (de izquierda a derecha: 10−4=6, luego 6+2=8)", "nota": "Sumas y restas al mismo nivel se resuelven en el orden en que aparecen, de izquierda a derecha." },
-    { "incorrecto": "1/2 + 1/3 = 2/5 (sumando numeradores y denominadores directamente)", "correcto": "1/2 + 1/3 = 5/6 (con común denominador 6: 3/6 + 2/6 = 5/6)", "nota": "Nunca se suman fracciones sumando de frente numeradores y denominadores; primero hay que igualar los denominadores." },
-    { "incorrecto": "El 20% de 350 boletas es 7.", "correcto": "El 20% de 350 boletas es 70 (350 × 0.20 = 70).", "nota": "Se multiplica por 0.20 (o por 20/100); un error común es dividir entre 20 en lugar de multiplicar." },
-    { "incorrecto": "Si 100 boletas ocupan 2 cajas, 350 boletas ocupan 3.5 cajas redondeando distinto en cada paso.", "correcto": "350 boletas ocupan 7 cajas: (350 × 2) ÷ 100 = 7.", "nota": "En la regla de tres siempre se multiplican los dos valores 'cruzados' antes de dividir entre el tercero." }
+    {
+      "incorrecto": "8 + 2 × 3 = 30 (sumando primero 8 + 2, y luego multiplicando por 3)",
+      "correcto": "8 + 2 × 3 = 14 (primero la multiplicación 2×3=6, luego 8+6=14)",
+      "nota": "La multiplicación siempre se resuelve antes que la suma, sin importar el orden en que aparezcan escritas."
+    },
+    {
+      "incorrecto": "10 − 4 + 2 = 4 (restando 4+2 primero, como si fueran un bloque)",
+      "correcto": "10 − 4 + 2 = 8 (de izquierda a derecha: 10−4=6, luego 6+2=8)",
+      "nota": "Sumas y restas al mismo nivel se resuelven en el orden en que aparecen, de izquierda a derecha."
+    },
+    {
+      "incorrecto": "1/2 + 1/3 = 2/5 (sumando numeradores y denominadores directamente)",
+      "correcto": "1/2 + 1/3 = 5/6 (con común denominador 6: 3/6 + 2/6 = 5/6)",
+      "nota": "Nunca se suman fracciones sumando de frente numeradores y denominadores; primero hay que igualar los denominadores."
+    },
+    {
+      "incorrecto": "El 20% de 350 boletas es 7.",
+      "correcto": "El 20% de 350 boletas es 70 (350 × 0.20 = 70).",
+      "nota": "Se multiplica por 0.20 (o por 20/100); un error común es dividir entre 20 en lugar de multiplicar."
+    },
+    {
+      "incorrecto": "Si 100 boletas ocupan 2 cajas, 350 boletas ocupan 3.5 cajas redondeando distinto en cada paso.",
+      "correcto": "350 boletas ocupan 7 cajas: (350 × 2) ÷ 100 = 7.",
+      "nota": "En la regla de tres siempre se multiplican los dos valores 'cruzados' antes de dividir entre el tercero."
+    }
   ],
   "material_consulta": [
-    { "titulo": "Baldor, Aritmética", "url": "https://www.google.com/search?q=aritmetica+baldor+pdf" },
-    { "titulo": "Colegio Nacional de Matemáticas, Matemáticas simplificadas", "url": "https://www.google.com/search?q=matematicas+simplificadas+colegio+nacional+de+matematicas" }
+    {
+      "titulo": "Baldor, Aritmética",
+      "url": "https://www.google.com/search?q=aritmetica+baldor+pdf"
+    },
+    {
+      "titulo": "Colegio Nacional de Matemáticas, Matemáticas simplificadas",
+      "url": "https://www.google.com/search?q=matematicas+simplificadas+colegio+nacional+de+matematicas"
+    }
   ],
   "preguntas": [
     {
       "formato": "cuestionamiento-directo",
       "enunciado": "¿Cuál es el resultado de 6 + 4 × 2 − 3?",
-      "opciones": ["17", "11", "5"],
+      "opciones": [
+        "17",
+        "11",
+        "5"
+      ],
       "respuesta_correcta": 1,
       "explicacion": "Primero la multiplicación: 4 × 2 = 8; luego, de izquierda a derecha: 6 + 8 = 14, y 14 − 3 = 11."
     },
     {
       "formato": "cuestionamiento-directo",
       "enunciado": "En una casilla se recibieron 450 boletas. Si el 60% fueron utilizadas, ¿cuántas boletas se usaron?",
-      "opciones": ["270", "300", "180"],
+      "opciones": [
+        "270",
+        "300",
+        "180"
+      ],
       "respuesta_correcta": 0,
       "explicacion": "450 × 0.60 = 270 boletas."
     },
     {
       "formato": "cuestionamiento-directo",
       "enunciado": "Si de 500 votos emitidos, 125 fueron nulos, ¿qué porcentaje de los votos fueron nulos?",
-      "opciones": ["20%", "25%", "15%"],
+      "opciones": [
+        "20%",
+        "25%",
+        "15%"
+      ],
       "respuesta_correcta": 1,
       "explicacion": "125 ÷ 500 = 0.25, es decir, 25%."
     },
     {
       "formato": "cuestionamiento-directo",
       "enunciado": "Un consejo necesita 3 capacitadores por cada 40 funcionarios de casilla. Si tiene 320 funcionarios, ¿cuántos capacitadores necesita?",
-      "opciones": ["24", "20", "30"],
+      "opciones": [
+        "24",
+        "20",
+        "30"
+      ],
       "respuesta_correcta": 0,
       "explicacion": "Regla de tres: 3/40 = x/320 → x = (3 × 320) ÷ 40 = 24."
     },
     {
       "formato": "cuestionamiento-directo",
       "enunciado": "¿Cuál es el resultado de sumar 1/4 + 1/6?",
-      "opciones": ["5/12", "2/10", "1/5"],
+      "opciones": [
+        "5/12",
+        "2/10",
+        "1/5"
+      ],
       "respuesta_correcta": 0,
       "explicacion": "El común denominador de 4 y 6 es 12: 3/12 + 2/12 = 5/12."
     },
     {
       "formato": "cuestionamiento-directo",
       "enunciado": "Si 100 paquetes electorales requieren 4 vehículos para su traslado, ¿cuántos vehículos se requieren para 250 paquetes, manteniendo la misma proporción?",
-      "opciones": ["10", "8", "12"],
+      "opciones": [
+        "10",
+        "8",
+        "12"
+      ],
       "respuesta_correcta": 0,
       "explicacion": "100/4 = 250/x → x = (4 × 250) ÷ 100 = 10."
     },
     {
       "formato": "cuestionamiento-directo",
       "enunciado": "¿Cuál es el resultado de (8 + 2) × 3 − 6 ÷ 2?",
-      "opciones": ["27", "21", "12"],
+      "opciones": [
+        "27",
+        "21",
+        "12"
+      ],
       "respuesta_correcta": 0,
       "explicacion": "(8+2)=10; 10×3=30; 6÷2=3; 30−3=27."
     },
     {
       "formato": "cuestionamiento-directo",
       "enunciado": "Un distrito tiene una lista nominal de 80,000 personas. Si la participación fue del 45%, ¿cuántas personas votaron aproximadamente?",
-      "opciones": ["36,000", "45,000", "32,000"],
+      "opciones": [
+        "36,000",
+        "45,000",
+        "32,000"
+      ],
       "respuesta_correcta": 0,
       "explicacion": "80,000 × 0.45 = 36,000."
     },
     {
       "formato": "cuestionamiento-directo",
       "enunciado": "¿Cuál es el resultado de multiplicar 3/5 × 2/7?",
-      "opciones": ["6/35", "5/12", "6/12"],
+      "opciones": [
+        "6/35",
+        "5/12",
+        "6/12"
+      ],
       "respuesta_correcta": 0,
       "explicacion": "Se multiplican numeradores (3×2=6) y denominadores (5×7=35): 6/35."
     },
     {
       "formato": "cuestionamiento-directo",
       "enunciado": "Un candidato obtuvo 3 votos por cada 5 votos válidos emitidos en una casilla. Si hubo 400 votos válidos, ¿cuántos votos obtuvo ese candidato?",
-      "opciones": ["240", "200", "160"],
+      "opciones": [
+        "240",
+        "200",
+        "160"
+      ],
       "respuesta_correcta": 0,
       "explicacion": "3/5 = x/400 → x = (3 × 400) ÷ 5 = 240."
     }

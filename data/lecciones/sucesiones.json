@@ -3,6 +3,10 @@
   "titulo": "Sucesiones",
   "area": "Competencia matemática",
   "introduccion": "Una sucesión es una lista ordenada de números (o de figuras, letras) que sigue un patrón o regla. Esta subárea evalúa que reconozcas el patrón y que puedas encontrar el siguiente elemento, o un elemento en una posición específica, sin tener que escribir toda la lista.",
+  "diagrama": {
+    "titulo": "Sucesión aritmética vs. geométrica",
+    "svg": "<svg viewBox=\"0 0 760 221\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Arial, sans-serif\">\n<rect width=\"760\" height=\"221\" fill=\"#faf5ff\"/>\n<text x=\"380.0\" y=\"28\" text-anchor=\"middle\" fill=\"#6d28d9\" font-size=\"17\" font-weight=\"bold\">Sucesión aritmética vs. geométrica</text>\n<rect x=\"0\" y=\"45\" width=\"190\" height=\"50\" fill=\"#6d28d9\"/>\n<rect x=\"190.0\" y=\"45\" width=\"190.0\" height=\"50\" fill=\"#f3f4f6\"/>\n<text x=\"285.0\" y=\"75.0\" text-anchor=\"middle\" fill=\"#374151\" font-size=\"13\" font-weight=\"bold\">Patrón</text>\n<rect x=\"380.0\" y=\"45\" width=\"190.0\" height=\"50\" fill=\"#f3f4f6\"/>\n<text x=\"475.0\" y=\"75.0\" text-anchor=\"middle\" fill=\"#374151\" font-size=\"13\" font-weight=\"bold\">Fórmula del término n</text>\n<rect x=\"570.0\" y=\"45\" width=\"190.0\" height=\"50\" fill=\"#f3f4f6\"/>\n<text x=\"665.0\" y=\"75.0\" text-anchor=\"middle\" fill=\"#374151\" font-size=\"13\" font-weight=\"bold\">Ejemplo</text>\n<rect x=\"0\" y=\"95\" width=\"190\" height=\"58\" fill=\"#faf5ff\"/>\n<text x=\"12\" y=\"115\" fill=\"#6d28d9\" font-size=\"12\" font-weight=\"bold\">Aritmética</text>\n<rect x=\"190.0\" y=\"95\" width=\"190.0\" height=\"58\" fill=\"#ffffff\" stroke=\"#e5e7eb\"/>\n<text x=\"285.0\" y=\"115\" text-anchor=\"middle\" fill=\"#374151\" font-size=\"11\">Se SUMA siempre la</text>\n<text x=\"285.0\" y=\"130\" text-anchor=\"middle\" fill=\"#374151\" font-size=\"11\">misma cantidad (d)</text>\n<rect x=\"380.0\" y=\"95\" width=\"190.0\" height=\"58\" fill=\"#ffffff\" stroke=\"#e5e7eb\"/>\n<text x=\"475.0\" y=\"115\" text-anchor=\"middle\" fill=\"#374151\" font-size=\"11\">a₁ + (n−1) × d</text>\n<rect x=\"570.0\" y=\"95\" width=\"190.0\" height=\"58\" fill=\"#ffffff\" stroke=\"#e5e7eb\"/>\n<text x=\"665.0\" y=\"115\" text-anchor=\"middle\" fill=\"#374151\" font-size=\"11\">5, 8, 11, 14, ...</text>\n<text x=\"665.0\" y=\"130\" text-anchor=\"middle\" fill=\"#374151\" font-size=\"11\">(d = 3)</text>\n<rect x=\"0\" y=\"153\" width=\"190\" height=\"58\" fill=\"#faf5ff\"/>\n<text x=\"12\" y=\"173\" fill=\"#6d28d9\" font-size=\"12\" font-weight=\"bold\">Geométrica</text>\n<rect x=\"190.0\" y=\"153\" width=\"190.0\" height=\"58\" fill=\"#fdf2f8\" stroke=\"#e5e7eb\"/>\n<text x=\"285.0\" y=\"173\" text-anchor=\"middle\" fill=\"#374151\" font-size=\"11\">Se MULTIPLICA siempre</text>\n<text x=\"285.0\" y=\"188\" text-anchor=\"middle\" fill=\"#374151\" font-size=\"11\">por la misma razón (r)</text>\n<rect x=\"380.0\" y=\"153\" width=\"190.0\" height=\"58\" fill=\"#fdf2f8\" stroke=\"#e5e7eb\"/>\n<text x=\"475.0\" y=\"173\" text-anchor=\"middle\" fill=\"#374151\" font-size=\"11\">a₁ × r^(n−1)</text>\n<rect x=\"570.0\" y=\"153\" width=\"190.0\" height=\"58\" fill=\"#fdf2f8\" stroke=\"#e5e7eb\"/>\n<text x=\"665.0\" y=\"173\" text-anchor=\"middle\" fill=\"#374151\" font-size=\"11\">2, 6, 18, 54, ...</text>\n<text x=\"665.0\" y=\"188\" text-anchor=\"middle\" fill=\"#374151\" font-size=\"11\">(r = 3)</text>\n</svg>"
+  },
   "explicacion": [
     "Qué es una sucesión y cómo encontrar el patrón: lo primero es comparar cada número con el siguiente para ver qué operación los conecta (¿se suma siempre lo mismo? ¿se multiplica? ¿el patrón cambia cada vez?). Ejemplo paso a paso: en la sucesión 3, 7, 11, 15, ... comparamos: 7−3=4, 11−7=4, 15−11=4. Como siempre se suma 4, el patrón es 'sumar 4 cada vez', y el siguiente número sería 15+4=19.",
     "Sucesión aritmética (patrón de suma constante): es aquella en la que cada término se obtiene sumando (o restando) siempre la misma cantidad, llamada 'diferencia común' (d). Para encontrar cualquier término sin escribir toda la lista, se usa la fórmula: término n = primer término + (n−1) × d. Ejemplo paso a paso: en la sucesión 5, 8, 11, 14, ... la diferencia común es d=3 (siempre se suma 3) y el primer término es 5. Si queremos el término número 10: término 10 = 5 + (10−1) × 3 = 5 + 27 = 32.",
@@ -11,81 +15,135 @@
     "Sucesiones con patrones no numéricos: también pueden formarse con letras, figuras o combinaciones. Lo importante sigue siendo encontrar qué regla conecta un elemento con el siguiente (por ejemplo, alternancia, repetición cada cierto número de elementos, o crecimiento en el número de lados de una figura)."
   ],
   "ejemplos": [
-    { "incorrecto": "En 4, 8, 16, 32... el siguiente número es 40 (sumando 8 cada vez).", "correcto": "El siguiente número es 64 (multiplicando por 2 cada vez: 4×2=8, 8×2=16, 16×2=32, 32×2=64).", "nota": "Antes de asumir que se trata de una suma, siempre hay que revisar si en realidad es una multiplicación constante." },
-    { "incorrecto": "Para hallar el término 20 de una sucesión aritmética, hay que escribir los 20 números uno por uno.", "correcto": "Se usa directamente la fórmula: término n = primer término + (n−1) × d.", "nota": "La fórmula evita tener que escribir toda la lista, sobre todo cuando se pide un término muy lejano, como el 50 o el 100." }
+    {
+      "incorrecto": "En 4, 8, 16, 32... el siguiente número es 40 (sumando 8 cada vez).",
+      "correcto": "El siguiente número es 64 (multiplicando por 2 cada vez: 4×2=8, 8×2=16, 16×2=32, 32×2=64).",
+      "nota": "Antes de asumir que se trata de una suma, siempre hay que revisar si en realidad es una multiplicación constante."
+    },
+    {
+      "incorrecto": "Para hallar el término 20 de una sucesión aritmética, hay que escribir los 20 números uno por uno.",
+      "correcto": "Se usa directamente la fórmula: término n = primer término + (n−1) × d.",
+      "nota": "La fórmula evita tener que escribir toda la lista, sobre todo cuando se pide un término muy lejano, como el 50 o el 100."
+    }
   ],
   "material_consulta": [
-    { "titulo": "Baldor, Álgebra (sección de progresiones)", "url": "https://www.google.com/search?q=algebra+baldor+progresiones+aritmeticas+y+geometricas+pdf" },
-    { "titulo": "Colegio Nacional de Matemáticas, Matemáticas simplificadas", "url": "https://www.google.com/search?q=matematicas+simplificadas+sucesiones" }
+    {
+      "titulo": "Baldor, Álgebra (sección de progresiones)",
+      "url": "https://www.google.com/search?q=algebra+baldor+progresiones+aritmeticas+y+geometricas+pdf"
+    },
+    {
+      "titulo": "Colegio Nacional de Matemáticas, Matemáticas simplificadas",
+      "url": "https://www.google.com/search?q=matematicas+simplificadas+sucesiones"
+    }
   ],
   "preguntas": [
     {
       "formato": "cuestionamiento-directo",
       "enunciado": "¿Cuál es el siguiente número en la sucesión 5, 9, 13, 17, ...?",
-      "opciones": ["21", "20", "22"],
+      "opciones": [
+        "21",
+        "20",
+        "22"
+      ],
       "respuesta_correcta": 0,
       "explicacion": "La diferencia común es 4 (9−5=4, 13−9=4, 17−13=4); el siguiente término es 17+4=21."
     },
     {
       "formato": "cuestionamiento-directo",
       "enunciado": "¿Cuál es el siguiente número en la sucesión 3, 6, 12, 24, ...?",
-      "opciones": ["48", "30", "36"],
+      "opciones": [
+        "48",
+        "30",
+        "36"
+      ],
       "respuesta_correcta": 0,
       "explicacion": "Es una sucesión geométrica con razón 2 (cada número se multiplica por 2); el siguiente término es 24×2=48."
     },
     {
       "formato": "cuestionamiento-directo",
       "enunciado": "En la sucesión aritmética 2, 5, 8, 11, ..., ¿cuál es el término número 15?",
-      "opciones": ["44", "41", "47"],
+      "opciones": [
+        "44",
+        "41",
+        "47"
+      ],
       "respuesta_correcta": 0,
       "explicacion": "d=3, primer término=2. Término 15 = 2 + (15−1)×3 = 2 + 42 = 44."
     },
     {
       "formato": "cuestionamiento-directo",
       "enunciado": "En la sucesión geométrica 1, 3, 9, 27, ..., ¿cuál es el término número 6?",
-      "opciones": ["243", "81", "729"],
+      "opciones": [
+        "243",
+        "81",
+        "729"
+      ],
       "respuesta_correcta": 0,
       "explicacion": "r=3, primer término=1. Término 6 = 1 × 3^(6−1) = 3^5 = 243."
     },
     {
       "formato": "cuestionamiento-directo",
       "enunciado": "Un consejo recibe cada mes 5 capacitaciones más que el mes anterior, empezando con 10 en enero. Si esto sigue un patrón aritmético, ¿cuántas capacitaciones tendrá en el quinto mes?",
-      "opciones": ["30", "25", "35"],
+      "opciones": [
+        "30",
+        "25",
+        "35"
+      ],
       "respuesta_correcta": 0,
       "explicacion": "d=5, primer término=10. Término 5 = 10 + (5−1)×5 = 10 + 20 = 30."
     },
     {
       "formato": "cuestionamiento-directo",
       "enunciado": "¿Cuál es la diferencia común de la sucesión 20, 17, 14, 11, ...?",
-      "opciones": ["−3", "3", "−4"],
+      "opciones": [
+        "−3",
+        "3",
+        "−4"
+      ],
       "respuesta_correcta": 0,
       "explicacion": "Cada término disminuye 3 respecto al anterior (17−20=−3), por lo que la diferencia común es −3."
     },
     {
       "formato": "cuestionamiento-directo",
       "enunciado": "¿Cuál de las siguientes sucesiones es geométrica (y no aritmética)?",
-      "opciones": ["2, 4, 8, 16, ...", "2, 4, 6, 8, ...", "2, 5, 8, 11, ..."],
+      "opciones": [
+        "2, 4, 8, 16, ...",
+        "2, 4, 6, 8, ...",
+        "2, 5, 8, 11, ..."
+      ],
       "respuesta_correcta": 0,
       "explicacion": "En 2, 4, 8, 16 cada número se multiplica por 2 (razón constante); las otras dos suman una cantidad constante, por lo que son aritméticas."
     },
     {
       "formato": "cuestionamiento-directo",
       "enunciado": "En la sucesión aritmética 100, 94, 88, 82, ..., ¿cuál es el término número 8?",
-      "opciones": ["58", "64", "52"],
+      "opciones": [
+        "58",
+        "64",
+        "52"
+      ],
       "respuesta_correcta": 0,
       "explicacion": "d=−6, primer término=100. Término 8 = 100 + (8−1)×(−6) = 100 − 42 = 58."
     },
     {
       "formato": "cuestionamiento-directo",
       "enunciado": "¿Cuál es el siguiente elemento en la sucesión de letras A, C, E, G, ...?",
-      "opciones": ["I", "H", "F"],
+      "opciones": [
+        "I",
+        "H",
+        "F"
+      ],
       "respuesta_correcta": 0,
       "explicacion": "El patrón salta una letra cada vez (A, se salta B, C, se salta D, E...); después de G, saltando H, sigue I."
     },
     {
       "formato": "cuestionamiento-directo",
       "enunciado": "Si el primer término de una sucesión geométrica es 5 y la razón es 2, ¿cuál es el cuarto término?",
-      "opciones": ["40", "35", "20"],
+      "opciones": [
+        "40",
+        "35",
+        "20"
+      ],
       "respuesta_correcta": 0,
       "explicacion": "Término 4 = 5 × 2^(4−1) = 5 × 8 = 40."
     }

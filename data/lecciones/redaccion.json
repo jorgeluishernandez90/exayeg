@@ -3,6 +3,10 @@
   "titulo": "Redacción",
   "area": "Competencia comunicativa",
   "introduccion": "Esta subárea no evalúa ortografía, sino la construcción de la idea: que la oración diga exactamente lo que se quiere decir, sin ambigüedad, sin errores de concordancia y con las palabras en el orden que mejor comunica el mensaje. El formato típico es 'identifica la oración mejor redactada' entre tres opciones que dicen 'lo mismo' pero con distinta calidad.",
+  "diagrama": {
+    "titulo": "Los 4 pilares de una buena redacción",
+    "svg": "<svg viewBox=\"0 0 900 340\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Arial, sans-serif\">\n<rect width=\"900\" height=\"340\" fill=\"#faf5ff\"/>\n<rect x=\"310.0\" y=\"15\" width=\"280\" height=\"55\" rx=\"10\" fill=\"#6d28d9\"/>\n<text x=\"450.0\" y=\"39\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"15\" font-weight=\"bold\">Buena redacción</text>\n<text x=\"450.0\" y=\"58\" text-anchor=\"middle\" fill=\"#e9d5ff\" font-size=\"10\">la oración dice justo lo que se quiere decir</text>\n<line x1=\"450.0\" y1=\"70\" x2=\"450.0\" y2=\"100\" stroke=\"#ec4899\" stroke-width=\"3\"/>\n<line x1=\"127.5\" y1=\"100\" x2=\"772.5\" y2=\"100\" stroke=\"#ec4899\" stroke-width=\"3\"/>\n<line x1=\"127.5\" y1=\"100\" x2=\"127.5\" y2=\"130\" stroke=\"#ec4899\" stroke-width=\"3\"/>\n<rect x=\"30.0\" y=\"130\" width=\"195.0\" height=\"190\" rx=\"10\" fill=\"#fdf2f8\" stroke=\"#ec4899\" stroke-width=\"2\"/>\n<text x=\"127.5\" y=\"158\" text-anchor=\"middle\" fill=\"#be185d\" font-size=\"13\" font-weight=\"bold\">Concordancia</text>\n<text x=\"127.5\" y=\"182\" text-anchor=\"middle\" fill=\"#374151\" font-size=\"10\">Sujeto-verbo y</text>\n<text x=\"127.5\" y=\"197\" text-anchor=\"middle\" fill=\"#374151\" font-size=\"10\">sustantivo-</text>\n<text x=\"127.5\" y=\"212\" text-anchor=\"middle\" fill=\"#374151\" font-size=\"10\">adjetivo deben</text>\n<text x=\"127.5\" y=\"227\" text-anchor=\"middle\" fill=\"#374151\" font-size=\"10\">coincidir</text>\n<text x=\"127.5\" y=\"242\" text-anchor=\"middle\" fill=\"#374151\" font-size=\"10\">en género, número y</text>\n<text x=\"127.5\" y=\"257\" text-anchor=\"middle\" fill=\"#374151\" font-size=\"10\">persona</text>\n<line x1=\"342.5\" y1=\"100\" x2=\"342.5\" y2=\"130\" stroke=\"#ec4899\" stroke-width=\"3\"/>\n<rect x=\"245.0\" y=\"130\" width=\"195.0\" height=\"190\" rx=\"10\" fill=\"#fdf2f8\" stroke=\"#ec4899\" stroke-width=\"2\"/>\n<text x=\"342.5\" y=\"158\" text-anchor=\"middle\" fill=\"#be185d\" font-size=\"13\" font-weight=\"bold\">Coherencia</text>\n<text x=\"342.5\" y=\"182\" text-anchor=\"middle\" fill=\"#374151\" font-size=\"10\">Las ideas se</text>\n<text x=\"342.5\" y=\"197\" text-anchor=\"middle\" fill=\"#374151\" font-size=\"10\">relacionan</text>\n<text x=\"342.5\" y=\"212\" text-anchor=\"middle\" fill=\"#374151\" font-size=\"10\">lógicamente entre</text>\n<text x=\"342.5\" y=\"227\" text-anchor=\"middle\" fill=\"#374151\" font-size=\"10\">sí,</text>\n<text x=\"342.5\" y=\"242\" text-anchor=\"middle\" fill=\"#374151\" font-size=\"10\">sin saltos de tema</text>\n<line x1=\"557.5\" y1=\"100\" x2=\"557.5\" y2=\"130\" stroke=\"#ec4899\" stroke-width=\"3\"/>\n<rect x=\"460.0\" y=\"130\" width=\"195.0\" height=\"190\" rx=\"10\" fill=\"#fdf2f8\" stroke=\"#ec4899\" stroke-width=\"2\"/>\n<text x=\"557.5\" y=\"158\" text-anchor=\"middle\" fill=\"#be185d\" font-size=\"13\" font-weight=\"bold\">Cohesión</text>\n<text x=\"557.5\" y=\"182\" text-anchor=\"middle\" fill=\"#374151\" font-size=\"10\">Conectores y</text>\n<text x=\"557.5\" y=\"197\" text-anchor=\"middle\" fill=\"#374151\" font-size=\"10\">pronombres</text>\n<text x=\"557.5\" y=\"212\" text-anchor=\"middle\" fill=\"#374151\" font-size=\"10\">enlazan las ideas</text>\n<text x=\"557.5\" y=\"227\" text-anchor=\"middle\" fill=\"#374151\" font-size=\"10\">sin</text>\n<text x=\"557.5\" y=\"242\" text-anchor=\"middle\" fill=\"#374151\" font-size=\"10\">repetir palabras de</text>\n<text x=\"557.5\" y=\"257\" text-anchor=\"middle\" fill=\"#374151\" font-size=\"10\">más</text>\n<line x1=\"772.5\" y1=\"100\" x2=\"772.5\" y2=\"130\" stroke=\"#ec4899\" stroke-width=\"3\"/>\n<rect x=\"675.0\" y=\"130\" width=\"195.0\" height=\"190\" rx=\"10\" fill=\"#fdf2f8\" stroke=\"#ec4899\" stroke-width=\"2\"/>\n<text x=\"772.5\" y=\"158\" text-anchor=\"middle\" fill=\"#be185d\" font-size=\"13\" font-weight=\"bold\">Sin ambigüedad</text>\n<text x=\"772.5\" y=\"182\" text-anchor=\"middle\" fill=\"#374151\" font-size=\"10\">La oración solo</text>\n<text x=\"772.5\" y=\"197\" text-anchor=\"middle\" fill=\"#374151\" font-size=\"10\">admite</text>\n<text x=\"772.5\" y=\"212\" text-anchor=\"middle\" fill=\"#374151\" font-size=\"10\">una interpretación</text>\n<text x=\"772.5\" y=\"227\" text-anchor=\"middle\" fill=\"#374151\" font-size=\"10\">posible</text>\n</svg>"
+  },
   "explicacion": [
     "Concordancia: el sujeto y el verbo deben coincidir en número (singular/plural) y persona; el sustantivo y sus adjetivos deben coincidir en género y número. Un error frecuente es la concordancia a distancia, cuando entre el sujeto y el verbo se mete una frase larga y se pierde la referencia (Ej. incorrecto: 'El grupo de consejeros llegaron tarde', debe ser 'llegó').",
     "Coherencia: las ideas de una oración o párrafo deben tener una relación lógica entre sí, sin contradicciones ni saltos de tema. Una oración incoherente mezcla ideas que no se conectan naturalmente.",
@@ -11,14 +15,35 @@
     "Orden lógico y economía del lenguaje: la información debe presentarse en un orden que facilite la comprensión (de lo general a lo particular, o en orden cronológico) y sin redundancias ni palabras de más ('subir arriba', 'la fecha exacta en que ocurrió el hecho' cuando basta con 'la fecha')."
   ],
   "ejemplos": [
-    { "incorrecto": "El grupo de consejeros llegaron tarde a la sesión.", "correcto": "El grupo de consejeros llegó tarde a la sesión.", "nota": "El sujeto es 'el grupo' (singular), no 'consejeros'; el verbo debe concordar con el sujeto real." },
-    { "incorrecto": "Habiendo terminado el escrutinio, se procedió, una vez que ya se había concluido, a sellar las urnas.", "correcto": "Habiendo terminado el escrutinio, se procedió a sellar las urnas.", "nota": "La frase repite la misma idea dos veces ('habiendo terminado' y 'una vez que ya se había concluido')." },
-    { "incorrecto": "El consejero le dijo al secretario que revisara su acta.", "correcto": "El consejero le dijo al secretario que revisara el acta del consejero.", "nota": "El pronombre 'su' es ambiguo: no queda claro de quién es el acta." }
+    {
+      "incorrecto": "El grupo de consejeros llegaron tarde a la sesión.",
+      "correcto": "El grupo de consejeros llegó tarde a la sesión.",
+      "nota": "El sujeto es 'el grupo' (singular), no 'consejeros'; el verbo debe concordar con el sujeto real."
+    },
+    {
+      "incorrecto": "Habiendo terminado el escrutinio, se procedió, una vez que ya se había concluido, a sellar las urnas.",
+      "correcto": "Habiendo terminado el escrutinio, se procedió a sellar las urnas.",
+      "nota": "La frase repite la misma idea dos veces ('habiendo terminado' y 'una vez que ya se había concluido')."
+    },
+    {
+      "incorrecto": "El consejero le dijo al secretario que revisara su acta.",
+      "correcto": "El consejero le dijo al secretario que revisara el acta del consejero.",
+      "nota": "El pronombre 'su' es ambiguo: no queda claro de quién es el acta."
+    }
   ],
   "material_consulta": [
-    { "titulo": "UNAM — Tipología Textual (Coordinación de Universidad Abierta)", "url": "https://uapa.cuaieed.unam.mx" },
-    { "titulo": "UNAM — Jerarquización de la información", "url": "http://uapas2.bunam.unam.mx" },
-    { "titulo": "RAE, Nueva Gramática de la lengua española (Manual)", "url": "https://www.rae.es" }
+    {
+      "titulo": "UNAM — Tipología Textual (Coordinación de Universidad Abierta)",
+      "url": "https://uapa.cuaieed.unam.mx"
+    },
+    {
+      "titulo": "UNAM — Jerarquización de la información",
+      "url": "http://uapas2.bunam.unam.mx"
+    },
+    {
+      "titulo": "RAE, Nueva Gramática de la lengua española (Manual)",
+      "url": "https://www.rae.es"
+    }
   ],
   "preguntas": [
     {

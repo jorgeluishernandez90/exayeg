@@ -3,6 +3,10 @@
   "titulo": "Texto informativo",
   "area": "Competencia comunicativa",
   "introduccion": "Esta subárea evalúa tu capacidad para identificar la idea principal, la estructura y el propósito de un texto que informa: noticias, comunicados, avisos o instructivos. No busca opiniones, sino datos y hechos verificables.",
+  "diagrama": {
+    "titulo": "Las preguntas del texto informativo",
+    "svg": "<svg viewBox=\"0 0 900 340\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Arial, sans-serif\">\n<rect width=\"900\" height=\"340\" fill=\"#faf5ff\"/>\n<rect x=\"310.0\" y=\"15\" width=\"280\" height=\"55\" rx=\"10\" fill=\"#6d28d9\"/>\n<text x=\"450.0\" y=\"39\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"15\" font-weight=\"bold\">Texto informativo</text>\n<text x=\"450.0\" y=\"58\" text-anchor=\"middle\" fill=\"#e9d5ff\" font-size=\"10\">hechos objetivos, sin opinión</text>\n<line x1=\"450.0\" y1=\"70\" x2=\"450.0\" y2=\"100\" stroke=\"#ec4899\" stroke-width=\"3\"/>\n<line x1=\"127.5\" y1=\"100\" x2=\"772.5\" y2=\"100\" stroke=\"#ec4899\" stroke-width=\"3\"/>\n<line x1=\"127.5\" y1=\"100\" x2=\"127.5\" y2=\"130\" stroke=\"#ec4899\" stroke-width=\"3\"/>\n<rect x=\"30.0\" y=\"130\" width=\"195.0\" height=\"190\" rx=\"10\" fill=\"#fdf2f8\" stroke=\"#ec4899\" stroke-width=\"2\"/>\n<text x=\"127.5\" y=\"158\" text-anchor=\"middle\" fill=\"#be185d\" font-size=\"13\" font-weight=\"bold\">¿Qué?</text>\n<text x=\"127.5\" y=\"182\" text-anchor=\"middle\" fill=\"#374151\" font-size=\"10\">El hecho central</text>\n<text x=\"127.5\" y=\"197\" text-anchor=\"middle\" fill=\"#374151\" font-size=\"10\">que se informa</text>\n<line x1=\"342.5\" y1=\"100\" x2=\"342.5\" y2=\"130\" stroke=\"#ec4899\" stroke-width=\"3\"/>\n<rect x=\"245.0\" y=\"130\" width=\"195.0\" height=\"190\" rx=\"10\" fill=\"#fdf2f8\" stroke=\"#ec4899\" stroke-width=\"2\"/>\n<text x=\"342.5\" y=\"158\" text-anchor=\"middle\" fill=\"#be185d\" font-size=\"13\" font-weight=\"bold\">¿Quién?</text>\n<text x=\"342.5\" y=\"182\" text-anchor=\"middle\" fill=\"#374151\" font-size=\"10\">Las personas u</text>\n<text x=\"342.5\" y=\"197\" text-anchor=\"middle\" fill=\"#374151\" font-size=\"10\">órganos involucrados</text>\n<line x1=\"557.5\" y1=\"100\" x2=\"557.5\" y2=\"130\" stroke=\"#ec4899\" stroke-width=\"3\"/>\n<rect x=\"460.0\" y=\"130\" width=\"195.0\" height=\"190\" rx=\"10\" fill=\"#fdf2f8\" stroke=\"#ec4899\" stroke-width=\"2\"/>\n<text x=\"557.5\" y=\"158\" text-anchor=\"middle\" fill=\"#be185d\" font-size=\"13\" font-weight=\"bold\">¿Cuándo y dónde?</text>\n<text x=\"557.5\" y=\"182\" text-anchor=\"middle\" fill=\"#374151\" font-size=\"10\">Momento y lugar</text>\n<text x=\"557.5\" y=\"197\" text-anchor=\"middle\" fill=\"#374151\" font-size=\"10\">en que ocurrió</text>\n<line x1=\"772.5\" y1=\"100\" x2=\"772.5\" y2=\"130\" stroke=\"#ec4899\" stroke-width=\"3\"/>\n<rect x=\"675.0\" y=\"130\" width=\"195.0\" height=\"190\" rx=\"10\" fill=\"#fdf2f8\" stroke=\"#ec4899\" stroke-width=\"2\"/>\n<text x=\"772.5\" y=\"158\" text-anchor=\"middle\" fill=\"#be185d\" font-size=\"13\" font-weight=\"bold\">¿Cómo y por qué?</text>\n<text x=\"772.5\" y=\"182\" text-anchor=\"middle\" fill=\"#374151\" font-size=\"10\">El procedimiento</text>\n<text x=\"772.5\" y=\"197\" text-anchor=\"middle\" fill=\"#374151\" font-size=\"10\">y la causa del hecho</text>\n</svg>"
+  },
   "explicacion": [
     "Propósito: el texto informativo busca dar a conocer hechos, datos o procedimientos de manera objetiva, sin opiniones ni intención de convencer. Responde a las preguntas qué, quién, cuándo, dónde, cómo y por qué.",
     "Idea principal vs ideas secundarias: la idea principal es el dato central que el texto quiere comunicar; las ideas secundarias lo complementan, explican o ejemplifican, pero no son indispensables para entender el mensaje central.",
@@ -11,12 +15,26 @@
     "Tema vs asunto: el tema es de qué trata el texto en general (ej. 'el proceso electoral'); el asunto o idea central es lo específico que se dice sobre ese tema en ese texto en particular (ej. 'el consejo aprobó el calendario del proceso electoral 2024')."
   ],
   "ejemplos": [
-    { "incorrecto": "El pésimo desempeño del consejo generó indignación en la ciudadanía.", "correcto": "El consejo concluyó el cómputo con un retraso de tres horas respecto al calendario previsto.", "nota": "La primera oración incluye opinión ('pésimo', 'indignación'); la segunda solo describe un hecho verificable." },
-    { "incorrecto": "Se dice que probablemente el proceso podría tener irregularidades.", "correcto": "El órgano de fiscalización revisará tres actas por presunta inconsistencia en el llenado.", "nota": "La redacción informativa evita la vaguedad y da datos concretos y verificables." }
+    {
+      "incorrecto": "El pésimo desempeño del consejo generó indignación en la ciudadanía.",
+      "correcto": "El consejo concluyó el cómputo con un retraso de tres horas respecto al calendario previsto.",
+      "nota": "La primera oración incluye opinión ('pésimo', 'indignación'); la segunda solo describe un hecho verificable."
+    },
+    {
+      "incorrecto": "Se dice que probablemente el proceso podría tener irregularidades.",
+      "correcto": "El órgano de fiscalización revisará tres actas por presunta inconsistencia en el llenado.",
+      "nota": "La redacción informativa evita la vaguedad y da datos concretos y verificables."
+    }
   ],
   "material_consulta": [
-    { "titulo": "UNAM — Tipología Textual", "url": "https://uapa.cuaieed.unam.mx" },
-    { "titulo": "Mascioli y Romero Gauna, ¿Cómo se construye un texto informativo?", "url": "https://www.google.com/search?q=como+se+construye+un+texto+informativo+mascioli+romero+gauna" }
+    {
+      "titulo": "UNAM — Tipología Textual",
+      "url": "https://uapa.cuaieed.unam.mx"
+    },
+    {
+      "titulo": "Mascioli y Romero Gauna, ¿Cómo se construye un texto informativo?",
+      "url": "https://www.google.com/search?q=como+se+construye+un+texto+informativo+mascioli+romero+gauna"
+    }
   ],
   "preguntas": [
     {
@@ -55,7 +73,11 @@
     {
       "formato": "cuestionamiento-directo",
       "enunciado": "«El instituto electoral capacitó a 3,200 funcionarios de casilla entre marzo y mayo. La capacitación incluyó un módulo presencial y otro en línea.» ¿Qué pregunta NO responde este texto?",
-      "opciones": ["¿Cuántos funcionarios fueron capacitados?", "¿En qué periodo se capacitó?", "¿Por qué se decidió capacitar en dos modalidades?"],
+      "opciones": [
+        "¿Cuántos funcionarios fueron capacitados?",
+        "¿En qué periodo se capacitó?",
+        "¿Por qué se decidió capacitar en dos modalidades?"
+      ],
       "respuesta_correcta": 2,
       "explicacion": "El texto da el número y el periodo, pero no explica la razón (el porqué) de las dos modalidades."
     },
@@ -84,7 +106,11 @@
     {
       "formato": "cuestionamiento-directo",
       "enunciado": "«Se recomienda a los aspirantes llegar 30 minutos antes de la aplicación del examen y llevar una identificación oficial vigente.» ¿Qué tipo de texto informativo es este fragmento?",
-      "opciones": ["Una noticia", "Un instructivo o aviso de procedimiento", "Un texto argumentativo"],
+      "opciones": [
+        "Una noticia",
+        "Un instructivo o aviso de procedimiento",
+        "Un texto argumentativo"
+      ],
       "respuesta_correcta": 1,
       "explicacion": "Da indicaciones concretas sobre cómo proceder, propio de un instructivo o aviso, no narra un hecho noticioso ni defiende una postura."
     },
@@ -102,14 +128,22 @@
     {
       "formato": "cuestionamiento-directo",
       "enunciado": "¿Cuál palabra es más propia de un texto informativo objetivo?",
-      "opciones": ["Lamentablemente", "Posiblemente exagerado", "Según el acta circunstanciada"],
+      "opciones": [
+        "Lamentablemente",
+        "Posiblemente exagerado",
+        "Según el acta circunstanciada"
+      ],
       "respuesta_correcta": 2,
       "explicacion": "Remite a una fuente verificable, propia del lenguaje informativo; las otras dos expresan juicio u opinión."
     },
     {
       "formato": "cuestionamiento-directo",
       "enunciado": "¿Cuál de las siguientes preguntas NO forma parte de las que responde típicamente un texto informativo?",
-      "opciones": ["¿Qué opino yo sobre esto?", "¿Quién lo hizo?", "¿Cuándo ocurrió?"],
+      "opciones": [
+        "¿Qué opino yo sobre esto?",
+        "¿Quién lo hizo?",
+        "¿Cuándo ocurrió?"
+      ],
       "respuesta_correcta": 0,
       "explicacion": "Un texto informativo no expresa la opinión del autor; se centra en hechos verificables (qué, quién, cuándo, dónde, cómo, por qué)."
     }

@@ -3,6 +3,10 @@
   "titulo": "Acentuación",
   "area": "Competencia comunicativa",
   "introduccion": "Esta subárea evalúa que reconozcas cuándo una palabra lleva tilde según su clasificación por sílaba tónica, y casos especiales como la tilde diacrítica, los monosílabos y los hiatos.",
+  "diagrama": {
+    "titulo": "Clasificación de palabras por acento",
+    "svg": "<svg viewBox=\"0 0 900 340\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Arial, sans-serif\">\n<rect width=\"900\" height=\"340\" fill=\"#faf5ff\"/>\n<rect x=\"310.0\" y=\"15\" width=\"280\" height=\"55\" rx=\"10\" fill=\"#6d28d9\"/>\n<text x=\"450.0\" y=\"39\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"15\" font-weight=\"bold\">¿Dónde va el acento?</text>\n<text x=\"450.0\" y=\"58\" text-anchor=\"middle\" fill=\"#e9d5ff\" font-size=\"10\">Cuenta las sílabas desde el final</text>\n<line x1=\"450.0\" y1=\"70\" x2=\"450.0\" y2=\"100\" stroke=\"#ec4899\" stroke-width=\"3\"/>\n<line x1=\"127.5\" y1=\"100\" x2=\"772.5\" y2=\"100\" stroke=\"#ec4899\" stroke-width=\"3\"/>\n<line x1=\"127.5\" y1=\"100\" x2=\"127.5\" y2=\"130\" stroke=\"#ec4899\" stroke-width=\"3\"/>\n<rect x=\"30.0\" y=\"130\" width=\"195.0\" height=\"190\" rx=\"10\" fill=\"#fdf2f8\" stroke=\"#ec4899\" stroke-width=\"2\"/>\n<text x=\"127.5\" y=\"158\" text-anchor=\"middle\" fill=\"#be185d\" font-size=\"13\" font-weight=\"bold\">Agudas</text>\n<text x=\"127.5\" y=\"182\" text-anchor=\"middle\" fill=\"#374151\" font-size=\"10\">Acento en la última</text>\n<text x=\"127.5\" y=\"197\" text-anchor=\"middle\" fill=\"#374151\" font-size=\"10\">sílaba</text>\n<text x=\"127.5\" y=\"212\" text-anchor=\"middle\" fill=\"#374151\" font-size=\"10\">Llevan tilde si</text>\n<text x=\"127.5\" y=\"227\" text-anchor=\"middle\" fill=\"#374151\" font-size=\"10\">terminan</text>\n<text x=\"127.5\" y=\"242\" text-anchor=\"middle\" fill=\"#374151\" font-size=\"10\">en N, S o vocal</text>\n<text x=\"127.5\" y=\"257\" text-anchor=\"middle\" fill=\"#374151\" font-size=\"10\">Ej: canción, compás,</text>\n<text x=\"127.5\" y=\"272\" text-anchor=\"middle\" fill=\"#374151\" font-size=\"10\">café</text>\n<line x1=\"342.5\" y1=\"100\" x2=\"342.5\" y2=\"130\" stroke=\"#ec4899\" stroke-width=\"3\"/>\n<rect x=\"245.0\" y=\"130\" width=\"195.0\" height=\"190\" rx=\"10\" fill=\"#fdf2f8\" stroke=\"#ec4899\" stroke-width=\"2\"/>\n<text x=\"342.5\" y=\"158\" text-anchor=\"middle\" fill=\"#be185d\" font-size=\"13\" font-weight=\"bold\">Graves / llanas</text>\n<text x=\"342.5\" y=\"182\" text-anchor=\"middle\" fill=\"#374151\" font-size=\"10\">Acento en la</text>\n<text x=\"342.5\" y=\"197\" text-anchor=\"middle\" fill=\"#374151\" font-size=\"10\">penúltima</text>\n<text x=\"342.5\" y=\"212\" text-anchor=\"middle\" fill=\"#374151\" font-size=\"10\">Llevan tilde si NO</text>\n<text x=\"342.5\" y=\"227\" text-anchor=\"middle\" fill=\"#374151\" font-size=\"10\">terminan</text>\n<text x=\"342.5\" y=\"242\" text-anchor=\"middle\" fill=\"#374151\" font-size=\"10\">en N, S o vocal</text>\n<text x=\"342.5\" y=\"257\" text-anchor=\"middle\" fill=\"#374151\" font-size=\"10\">Ej: árbol, fácil,</text>\n<text x=\"342.5\" y=\"272\" text-anchor=\"middle\" fill=\"#374151\" font-size=\"10\">azúcar</text>\n<line x1=\"557.5\" y1=\"100\" x2=\"557.5\" y2=\"130\" stroke=\"#ec4899\" stroke-width=\"3\"/>\n<rect x=\"460.0\" y=\"130\" width=\"195.0\" height=\"190\" rx=\"10\" fill=\"#fdf2f8\" stroke=\"#ec4899\" stroke-width=\"2\"/>\n<text x=\"557.5\" y=\"158\" text-anchor=\"middle\" fill=\"#be185d\" font-size=\"13\" font-weight=\"bold\">Esdrújulas</text>\n<text x=\"557.5\" y=\"182\" text-anchor=\"middle\" fill=\"#374151\" font-size=\"10\">Acento en la</text>\n<text x=\"557.5\" y=\"197\" text-anchor=\"middle\" fill=\"#374151\" font-size=\"10\">antepenúltima</text>\n<text x=\"557.5\" y=\"212\" text-anchor=\"middle\" fill=\"#374151\" font-size=\"10\">SIEMPRE llevan tilde</text>\n<text x=\"557.5\" y=\"227\" text-anchor=\"middle\" fill=\"#374151\" font-size=\"10\">Ej: rápido, régimen</text>\n<line x1=\"772.5\" y1=\"100\" x2=\"772.5\" y2=\"130\" stroke=\"#ec4899\" stroke-width=\"3\"/>\n<rect x=\"675.0\" y=\"130\" width=\"195.0\" height=\"190\" rx=\"10\" fill=\"#fdf2f8\" stroke=\"#ec4899\" stroke-width=\"2\"/>\n<text x=\"772.5\" y=\"158\" text-anchor=\"middle\" fill=\"#be185d\" font-size=\"13\" font-weight=\"bold\">Sobresdrújulas</text>\n<text x=\"772.5\" y=\"182\" text-anchor=\"middle\" fill=\"#374151\" font-size=\"10\">Acento antes de la</text>\n<text x=\"772.5\" y=\"197\" text-anchor=\"middle\" fill=\"#374151\" font-size=\"10\">antepenúltima</text>\n<text x=\"772.5\" y=\"212\" text-anchor=\"middle\" fill=\"#374151\" font-size=\"10\">SIEMPRE llevan tilde</text>\n<text x=\"772.5\" y=\"227\" text-anchor=\"middle\" fill=\"#374151\" font-size=\"10\">Ej: cómetelo,</text>\n<text x=\"772.5\" y=\"242\" text-anchor=\"middle\" fill=\"#374151\" font-size=\"10\">dígaselo</text>\n</svg>"
+  },
   "explicacion": [
     "Clasificación por sílaba tónica: las palabras agudas llevan tilde cuando terminan en N, S o vocal (canción, compás, café); las graves o llanas llevan tilde cuando NO terminan en N, S o vocal (árbol, fácil, azúcar); las esdrújulas (acento en la antepenúltima sílaba) y sobresdrújulas siempre llevan tilde (rápido, cómetelo).",
     "Tilde diacrítica: distingue palabras que se escriben igual pero cumplen funciones gramaticales distintas. Por ejemplo: 'él' (pronombre) / 'el' (artículo); 'tú' (pronombre) / 'tu' (posesivo); 'sí' (afirmación o pronombre) / 'si' (condicional); 'más' (cantidad) / 'mas' (equivalente a 'pero'); 'aún' (todavía) / 'aun' (incluso).",
@@ -11,26 +15,52 @@
     "Palabras compuestas: en las palabras compuestas por guion, cada elemento conserva su acentuación original (físico-químico); en las formadas por un adverbio terminado en '-mente', el adjetivo conserva su tilde si la tenía originalmente (fácilmente, rápidamente), pero el adverbio en sí no la necesita si el adjetivo base no la llevaba (libremente)."
   ],
   "ejemplos": [
-    { "incorrecto": "El consejo definira el calendario electoral.", "correcto": "El consejo definirá el calendario electoral.", "nota": "'Definirá' es aguda terminada en vocal, lleva tilde." },
-    { "incorrecto": "*Solo* el presidente firmo el acta esa noche.", "correcto": "El presidente firmó el acta esa noche.", "nota": "'Firmó' es aguda terminada en vocal; lleva tilde." },
-    { "incorrecto": "No se si el tramite ya esta listo.", "correcto": "No sé si el trámite ya está listo.", "nota": "'Sé' (verbo saber) y 'está' (verbo estar) llevan tilde; 'trámite' es esdrújula." }
+    {
+      "incorrecto": "El consejo definira el calendario electoral.",
+      "correcto": "El consejo definirá el calendario electoral.",
+      "nota": "'Definirá' es aguda terminada en vocal, lleva tilde."
+    },
+    {
+      "incorrecto": "*Solo* el presidente firmo el acta esa noche.",
+      "correcto": "El presidente firmó el acta esa noche.",
+      "nota": "'Firmó' es aguda terminada en vocal; lleva tilde."
+    },
+    {
+      "incorrecto": "No se si el tramite ya esta listo.",
+      "correcto": "No sé si el trámite ya está listo.",
+      "nota": "'Sé' (verbo saber) y 'está' (verbo estar) llevan tilde; 'trámite' es esdrújula."
+    }
   ],
   "material_consulta": [
-    { "titulo": "Real Academia Española, Ortografía de la lengua española", "url": "https://www.rae.es" },
-    { "titulo": "Diccionario panhispánico de dudas (RAE) — acentuación", "url": "https://www.rae.es/dpd/" }
+    {
+      "titulo": "Real Academia Española, Ortografía de la lengua española",
+      "url": "https://www.rae.es"
+    },
+    {
+      "titulo": "Diccionario panhispánico de dudas (RAE) — acentuación",
+      "url": "https://www.rae.es/dpd/"
+    }
   ],
   "preguntas": [
     {
       "formato": "cuestionamiento-directo",
       "enunciado": "¿Cuál de las siguientes palabras es esdrújula?",
-      "opciones": ["Régimen", "Camión", "Feliz"],
+      "opciones": [
+        "Régimen",
+        "Camión",
+        "Feliz"
+      ],
       "respuesta_correcta": 0,
       "explicacion": "'Régimen' tiene el acento en la antepenúltima sílaba (RÉ-gi-men), por lo que es esdrújula y siempre lleva tilde."
     },
     {
       "formato": "completamiento",
       "enunciado": "El escrutinio se realizará en la sede del ______ distrital.",
-      "opciones": ["consejo", "concejo", "consego"],
+      "opciones": [
+        "consejo",
+        "concejo",
+        "consego"
+      ],
       "respuesta_correcta": 0,
       "explicacion": "'Consejo' (órgano colegiado) es la palabra correcta en este contexto; 'concejo' se refiere a un ayuntamiento."
     },
@@ -48,21 +78,33 @@
     {
       "formato": "completamiento",
       "enunciado": "El funcionario explicó el procedimiento con mucha ______.",
-      "opciones": ["claridad", "claridád", "claridàd"],
+      "opciones": [
+        "claridad",
+        "claridád",
+        "claridàd"
+      ],
       "respuesta_correcta": 0,
       "explicacion": "'Claridad' es aguda terminada en D, por lo tanto NO lleva tilde."
     },
     {
       "formato": "cuestionamiento-directo",
       "enunciado": "¿Cuál palabra presenta un hiato y por eso debe llevar tilde?",
-      "opciones": ["Paisaje", "Raíz", "Cielo"],
+      "opciones": [
+        "Paisaje",
+        "Raíz",
+        "Cielo"
+      ],
       "respuesta_correcta": 1,
       "explicacion": "En 'raíz' la vocal cerrada tónica 'í' rompe el posible diptongo con 'a', formando hiato, por lo que lleva tilde aunque termine en Z."
     },
     {
       "formato": "completamiento",
       "enunciado": "El acta se firmó ______ que concluyera el cómputo.",
-      "opciones": ["aun antes de", "aún antes de", "haun antes de"],
+      "opciones": [
+        "aun antes de",
+        "aún antes de",
+        "haun antes de"
+      ],
       "respuesta_correcta": 1,
       "explicacion": "Aquí 'aún' equivale a 'todavía', por lo que lleva tilde diacrítica."
     },
@@ -80,21 +122,33 @@
     {
       "formato": "completamiento",
       "enunciado": "El representante preguntó ______ podía revisar las boletas.",
-      "opciones": ["si", "sí", "sìi"],
+      "opciones": [
+        "si",
+        "sí",
+        "sìi"
+      ],
       "respuesta_correcta": 0,
       "explicacion": "Aquí 'si' introduce una pregunta indirecta (condicional/interrogativa), por lo que NO lleva tilde; 'sí' con tilde sería afirmación o pronombre."
     },
     {
       "formato": "cuestionamiento-directo",
       "enunciado": "¿Qué adverbio terminado en '-mente' está correctamente acentuado?",
-      "opciones": ["Rápidamente", "Rapidamente", "Rápidaménte"],
+      "opciones": [
+        "Rápidamente",
+        "Rapidamente",
+        "Rápidaménte"
+      ],
       "respuesta_correcta": 0,
       "explicacion": "El adverbio conserva la tilde del adjetivo base 'rápida', por eso se escribe 'rápidamente'."
     },
     {
       "formato": "completamiento",
       "enunciado": "El consejero quería saber ______ había más observadores registrados.",
-      "opciones": ["cuantos", "cuántos", "cuamtos"],
+      "opciones": [
+        "cuantos",
+        "cuántos",
+        "cuamtos"
+      ],
       "respuesta_correcta": 1,
       "explicacion": "'Cuántos' en una pregunta (directa o indirecta) es un interrogativo y lleva tilde diacrítica."
     }

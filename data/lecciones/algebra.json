@@ -3,6 +3,10 @@
   "titulo": "Álgebra",
   "area": "Competencia matemática",
   "introduccion": "El álgebra usa letras (como x o y) para representar números que no conocemos todavía. Esta subárea evalúa que sepas simplificar expresiones, resolver ecuaciones de primer grado y aplicar la lógica algebraica básica para despejar una incógnita.",
+  "diagrama": {
+    "titulo": "Cómo despejar una ecuación de primer grado",
+    "svg": "<svg viewBox=\"0 0 700 440\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Arial, sans-serif\">\n<rect width=\"700\" height=\"440\" fill=\"#faf5ff\"/>\n<rect x=\"40\" y=\"15\" width=\"620\" height=\"78\" rx=\"12\" fill=\"#6d28d9\"/>\n<text x=\"65\" y=\"43\" fill=\"#ffffff\" font-size=\"13\" font-weight=\"bold\">1. Identifica qué está sumando o restando</text>\n<text x=\"65\" y=\"63\" fill=\"#f3e8ff\" font-size=\"11\">El +5 está sumando del lado de la x.</text>\n<polygon points=\"340.0,101 360.0,101 350.0,117\" fill=\"#a78bfa\"/>\n<rect x=\"40\" y=\"115\" width=\"620\" height=\"78\" rx=\"12\" fill=\"#9333ea\"/>\n<text x=\"65\" y=\"143\" fill=\"#ffffff\" font-size=\"13\" font-weight=\"bold\">2. Pásalo al otro lado con signo contrario</text>\n<text x=\"65\" y=\"163\" fill=\"#f3e8ff\" font-size=\"11\">3x = 20 − 5 → 3x = 15.</text>\n<polygon points=\"340.0,201 360.0,201 350.0,217\" fill=\"#a78bfa\"/>\n<rect x=\"40\" y=\"215\" width=\"620\" height=\"78\" rx=\"12\" fill=\"#a855f7\"/>\n<text x=\"65\" y=\"243\" fill=\"#ffffff\" font-size=\"13\" font-weight=\"bold\">3. Identifica qué está multiplicando a la x</text>\n<text x=\"65\" y=\"263\" fill=\"#f3e8ff\" font-size=\"11\">El 3 multiplica a la x.</text>\n<polygon points=\"340.0,301 360.0,301 350.0,317\" fill=\"#a78bfa\"/>\n<rect x=\"40\" y=\"315\" width=\"620\" height=\"78\" rx=\"12\" fill=\"#c026d3\"/>\n<text x=\"65\" y=\"343\" fill=\"#ffffff\" font-size=\"13\" font-weight=\"bold\">4. Pásalo dividiendo al otro lado</text>\n<text x=\"65\" y=\"363\" fill=\"#f3e8ff\" font-size=\"11\">x = 15 ÷ 3 → x = 5.</text>\n</svg>"
+  },
   "explicacion": [
     "Términos semejantes: son aquellos que tienen exactamente la misma letra (o combinación de letras) elevada al mismo exponente; solo esos se pueden sumar o restar entre sí. Ejemplo paso a paso: en la expresión 5x + 3y − 2x + 7y, los términos con 'x' son semejantes entre sí (5x y −2x), y los términos con 'y' son semejantes entre sí (3y y 7y). Se agrupan y se operan por separado: 5x − 2x = 3x, y 3y + 7y = 10y. El resultado simplificado es 3x + 10y.",
     "Jerarquía y signos al eliminar paréntesis: cuando un paréntesis está precedido por un signo menos, ese signo cambia el signo de TODO lo que está adentro al quitar el paréntesis. Ejemplo paso a paso: 8 − (3x − 5) se convierte en 8 − 3x + 5 (el −5 se vuelve +5 porque el signo menos de afuera cambió el signo de cada término de adentro), y simplificando: 13 − 3x.",
@@ -11,81 +15,135 @@
     "Productos notables (multiplicación de binomios): el caso más común es (a + b)² = a² + 2ab + b². Ejemplo paso a paso: (x + 3)² = x² + 2(x)(3) + 3² = x² + 6x + 9. Otro caso frecuente es (a + b)(a − b) = a² − b². Ejemplo: (x + 4)(x − 4) = x² − 16."
   ],
   "ejemplos": [
-    { "incorrecto": "5x + 3y − 2x + 7y = 3xy + 10 (mezclando las letras entre sí)", "correcto": "5x + 3y − 2x + 7y = 3x + 10y (agrupando por separado los términos con x y los términos con y)", "nota": "Nunca se combinan términos con letras distintas; 'x' y 'y' son variables diferentes y no se pueden sumar entre sí." },
-    { "incorrecto": "En 3x + 5 = 20, se despeja como x = 20 + 5 ÷ 3.", "correcto": "Primero se resta 5 de ambos lados: 3x = 15; después se divide entre 3: x = 5.", "nota": "Los pasos para despejar deben respetar el orden: primero deshacer lo que está sumando/restando, después lo que está multiplicando/dividiendo." }
+    {
+      "incorrecto": "5x + 3y − 2x + 7y = 3xy + 10 (mezclando las letras entre sí)",
+      "correcto": "5x + 3y − 2x + 7y = 3x + 10y (agrupando por separado los términos con x y los términos con y)",
+      "nota": "Nunca se combinan términos con letras distintas; 'x' y 'y' son variables diferentes y no se pueden sumar entre sí."
+    },
+    {
+      "incorrecto": "En 3x + 5 = 20, se despeja como x = 20 + 5 ÷ 3.",
+      "correcto": "Primero se resta 5 de ambos lados: 3x = 15; después se divide entre 3: x = 5.",
+      "nota": "Los pasos para despejar deben respetar el orden: primero deshacer lo que está sumando/restando, después lo que está multiplicando/dividiendo."
+    }
   ],
   "material_consulta": [
-    { "titulo": "Baldor, Álgebra", "url": "https://www.google.com/search?q=algebra+baldor+pdf" },
-    { "titulo": "García Madero, Matemáticas 3 (Correo del Maestro)", "url": "https://libros.conaliteg.gob.mx/2021/secundaria/S02007.htm" }
+    {
+      "titulo": "Baldor, Álgebra",
+      "url": "https://www.google.com/search?q=algebra+baldor+pdf"
+    },
+    {
+      "titulo": "García Madero, Matemáticas 3 (Correo del Maestro)",
+      "url": "https://libros.conaliteg.gob.mx/2021/secundaria/S02007.htm"
+    }
   ],
   "preguntas": [
     {
       "formato": "cuestionamiento-directo",
       "enunciado": "¿Cuál es la simplificación de 7a + 4b − 3a + b?",
-      "opciones": ["4a + 5b", "10a + 5b", "4a + 3b"],
+      "opciones": [
+        "4a + 5b",
+        "10a + 5b",
+        "4a + 3b"
+      ],
       "respuesta_correcta": 0,
       "explicacion": "Se agrupan términos semejantes: 7a−3a=4a, y 4b+b=5b. Resultado: 4a+5b."
     },
     {
       "formato": "cuestionamiento-directo",
       "enunciado": "¿Cuál es el valor de x en la ecuación 4x + 6 = 26?",
-      "opciones": ["5", "8", "4"],
+      "opciones": [
+        "5",
+        "8",
+        "4"
+      ],
       "respuesta_correcta": 0,
       "explicacion": "4x = 26−6 = 20; x = 20÷4 = 5."
     },
     {
       "formato": "cuestionamiento-directo",
       "enunciado": "¿Cuál es el resultado de simplificar 10 − (2x − 3)?",
-      "opciones": ["13 − 2x", "7 − 2x", "13 + 2x"],
+      "opciones": [
+        "13 − 2x",
+        "7 − 2x",
+        "13 + 2x"
+      ],
       "respuesta_correcta": 0,
       "explicacion": "El signo menos afuera del paréntesis cambia los signos de adentro: 10 − 2x + 3 = 13 − 2x."
     },
     {
       "formato": "cuestionamiento-directo",
       "enunciado": "¿Cuál es el valor de x en la ecuación 6x − 5 = 3x + 10?",
-      "opciones": ["5", "3", "15"],
+      "opciones": [
+        "5",
+        "3",
+        "15"
+      ],
       "respuesta_correcta": 0,
       "explicacion": "6x−3x=3x; 3x = 10+5 = 15; x = 15÷3 = 5."
     },
     {
       "formato": "cuestionamiento-directo",
       "enunciado": "¿Cuál es el desarrollo de (x + 5)²?",
-      "opciones": ["x² + 10x + 25", "x² + 25", "x² + 5x + 25"],
+      "opciones": [
+        "x² + 10x + 25",
+        "x² + 25",
+        "x² + 5x + 25"
+      ],
       "respuesta_correcta": 0,
       "explicacion": "(a+b)² = a² + 2ab + b²: x² + 2(x)(5) + 5² = x² + 10x + 25."
     },
     {
       "formato": "cuestionamiento-directo",
       "enunciado": "¿Cuál es el resultado de (x + 6)(x − 6)?",
-      "opciones": ["x² − 36", "x² + 36", "x² − 12x + 36"],
+      "opciones": [
+        "x² − 36",
+        "x² + 36",
+        "x² − 12x + 36"
+      ],
       "respuesta_correcta": 0,
       "explicacion": "Es una diferencia de cuadrados: (a+b)(a−b) = a² − b² = x² − 36."
     },
     {
       "formato": "cuestionamiento-directo",
       "enunciado": "¿Cuál es la simplificación de 9x² + 4x − 5x² + 2x?",
-      "opciones": ["4x² + 6x", "4x² + 2x", "14x² + 6x"],
+      "opciones": [
+        "4x² + 6x",
+        "4x² + 2x",
+        "14x² + 6x"
+      ],
       "respuesta_correcta": 0,
       "explicacion": "Se agrupan por separado: 9x²−5x²=4x², y 4x+2x=6x. Resultado: 4x²+6x."
     },
     {
       "formato": "cuestionamiento-directo",
       "enunciado": "¿Cuál es el valor de x en la ecuación 2(x + 3) = 16?",
-      "opciones": ["5", "8", "10"],
+      "opciones": [
+        "5",
+        "8",
+        "10"
+      ],
       "respuesta_correcta": 0,
       "explicacion": "Se distribuye el 2: 2x + 6 = 16; 2x = 10; x = 5."
     },
     {
       "formato": "cuestionamiento-directo",
       "enunciado": "¿Cuál es el resultado de simplificar 5(x − 2) − 3x?",
-      "opciones": ["2x − 10", "5x − 2 − 3x", "2x − 2"],
+      "opciones": [
+        "2x − 10",
+        "5x − 2 − 3x",
+        "2x − 2"
+      ],
       "respuesta_correcta": 0,
       "explicacion": "Distribuyendo: 5x − 10 − 3x. Agrupando términos semejantes: (5x−3x) − 10 = 2x − 10."
     },
     {
       "formato": "cuestionamiento-directo",
       "enunciado": "¿Cuál es el valor de x en la ecuación x/3 + 2 = 7?",
-      "opciones": ["15", "5", "27"],
+      "opciones": [
+        "15",
+        "5",
+        "27"
+      ],
       "respuesta_correcta": 0,
       "explicacion": "x/3 = 7−2 = 5; x = 5×3 = 15."
     }

@@ -3,6 +3,10 @@
   "titulo": "Texto argumentativo",
   "area": "Competencia comunicativa",
   "introduccion": "A diferencia del texto informativo, el argumentativo busca convencer al lector de una postura mediante razones (argumentos). El examen suele pedir identificar la tesis, distinguirla de los argumentos que la sustentan, o reconocer el tipo de argumento usado.",
+  "diagrama": {
+    "titulo": "Estructura del texto argumentativo",
+    "svg": "<svg viewBox=\"0 0 700 440\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Arial, sans-serif\">\n<rect width=\"700\" height=\"440\" fill=\"#faf5ff\"/>\n<rect x=\"40\" y=\"15\" width=\"620\" height=\"78\" rx=\"12\" fill=\"#6d28d9\"/>\n<text x=\"65\" y=\"43\" fill=\"#ffffff\" font-size=\"13\" font-weight=\"bold\">1. Tesis</text>\n<text x=\"65\" y=\"63\" fill=\"#f3e8ff\" font-size=\"11\">La idea u opinión central que el autor quiere defender o refutar.</text>\n<polygon points=\"340.0,101 360.0,101 350.0,117\" fill=\"#a78bfa\"/>\n<rect x=\"40\" y=\"115\" width=\"620\" height=\"78\" rx=\"12\" fill=\"#9333ea\"/>\n<text x=\"65\" y=\"143\" fill=\"#ffffff\" font-size=\"13\" font-weight=\"bold\">2. Argumentos</text>\n<text x=\"65\" y=\"163\" fill=\"#f3e8ff\" font-size=\"11\">Razones que la sostienen: de autoridad, causa-efecto, ejemplificación o</text>\n<text x=\"65\" y=\"179\" fill=\"#f3e8ff\" font-size=\"11\">estadísticos.</text>\n<polygon points=\"340.0,201 360.0,201 350.0,217\" fill=\"#a78bfa\"/>\n<rect x=\"40\" y=\"215\" width=\"620\" height=\"78\" rx=\"12\" fill=\"#a855f7\"/>\n<text x=\"65\" y=\"243\" fill=\"#ffffff\" font-size=\"13\" font-weight=\"bold\">3. Contraargumento (opcional)</text>\n<text x=\"65\" y=\"263\" fill=\"#f3e8ff\" font-size=\"11\">Reconoce una postura contraria antes de refutarla, fortaleciendo el texto.</text>\n<polygon points=\"340.0,301 360.0,301 350.0,317\" fill=\"#a78bfa\"/>\n<rect x=\"40\" y=\"315\" width=\"620\" height=\"78\" rx=\"12\" fill=\"#c026d3\"/>\n<text x=\"65\" y=\"343\" fill=\"#ffffff\" font-size=\"13\" font-weight=\"bold\">4. Conclusión</text>\n<text x=\"65\" y=\"363\" fill=\"#f3e8ff\" font-size=\"11\">Cierra reafirmando la tesis a partir de los argumentos presentados.</text>\n</svg>"
+  },
   "explicacion": [
     "Tesis: es la idea u opinión central que el autor quiere defender o refutar. Suele plantearse al inicio o al final del texto y responde a la pregunta '¿qué quiere que yo crea o haga el autor?'.",
     "Argumentos: son las razones que sostienen la tesis. Pueden ser de distintos tipos: de autoridad (citar a un experto o una fuente reconocida), de causa-efecto (explicar consecuencias), por ejemplificación (dar casos concretos), o estadísticos (usar datos y cifras).",
@@ -11,12 +15,26 @@
     "Diferencia clave con el texto informativo: mientras el informativo describe hechos sin tomar postura, el argumentativo interpreta esos hechos para persuadir; puede usar los mismos datos, pero con la intención de convencer, no solo de informar."
   ],
   "ejemplos": [
-    { "incorrecto": "El consejo sesionó el martes a las nueve.", "correcto": "El consejo debería sesionar más temprano, ya que así se evitarían los retrasos que afectan a los funcionarios de casilla.", "nota": "La segunda oración plantea una postura (tesis) y una razón (argumento de causa-efecto), a diferencia de la primera, que solo informa." },
-    { "incorrecto": "Según datos del instituto, aumentó la participación ciudadana.", "correcto": "Como lo demuestran los datos del instituto, la participación ciudadana aumentó gracias a las nuevas casillas, por lo que deben mantenerse en el próximo proceso.", "nota": "La versión argumentativa usa el dato (argumento estadístico) para sostener una conclusión y una recomendación." }
+    {
+      "incorrecto": "El consejo sesionó el martes a las nueve.",
+      "correcto": "El consejo debería sesionar más temprano, ya que así se evitarían los retrasos que afectan a los funcionarios de casilla.",
+      "nota": "La segunda oración plantea una postura (tesis) y una razón (argumento de causa-efecto), a diferencia de la primera, que solo informa."
+    },
+    {
+      "incorrecto": "Según datos del instituto, aumentó la participación ciudadana.",
+      "correcto": "Como lo demuestran los datos del instituto, la participación ciudadana aumentó gracias a las nuevas casillas, por lo que deben mantenerse en el próximo proceso.",
+      "nota": "La versión argumentativa usa el dato (argumento estadístico) para sostener una conclusión y una recomendación."
+    }
   ],
   "material_consulta": [
-    { "titulo": "Junta de Galicia — El argumento de autoridad", "url": "https://www.edu.xunta.gal" },
-    { "titulo": "Portal Académico CCH (UNAM) — Texto argumentativo", "url": "https://portalacademico.cch.unam.mx" }
+    {
+      "titulo": "Junta de Galicia — El argumento de autoridad",
+      "url": "https://www.edu.xunta.gal"
+    },
+    {
+      "titulo": "Portal Académico CCH (UNAM) — Texto argumentativo",
+      "url": "https://portalacademico.cch.unam.mx"
+    }
   ],
   "preguntas": [
     {
@@ -33,7 +51,11 @@
     {
       "formato": "cuestionamiento-directo",
       "enunciado": "¿Qué tipo de argumento se usa en: «Según el Instituto Nacional Electoral, la participación ciudadana aumentó doce puntos porcentuales en el último proceso»?",
-      "opciones": ["Argumento de autoridad y estadístico", "Argumento por ejemplificación", "Contraargumento"],
+      "opciones": [
+        "Argumento de autoridad y estadístico",
+        "Argumento por ejemplificación",
+        "Contraargumento"
+      ],
       "respuesta_correcta": 0,
       "explicacion": "Cita a una institución reconocida (autoridad) y usa una cifra concreta (estadístico)."
     },
@@ -62,7 +84,11 @@
     {
       "formato": "completamiento",
       "enunciado": "El paquete electoral llegó completo a la bodega, ______ se procedió a sellar el acta de recepción.",
-      "opciones": ["por lo tanto", "sin embargo", "aunque"],
+      "opciones": [
+        "por lo tanto",
+        "sin embargo",
+        "aunque"
+      ],
       "respuesta_correcta": 0,
       "explicacion": "'Por lo tanto' conecta una causa con su consecuencia lógica, propio de un texto argumentativo bien organizado."
     },
@@ -102,7 +128,11 @@
     {
       "formato": "cuestionamiento-directo",
       "enunciado": "¿Qué conector sería más adecuado para introducir un contraargumento?",
-      "opciones": ["Por ejemplo", "No obstante", "Además"],
+      "opciones": [
+        "Por ejemplo",
+        "No obstante",
+        "Además"
+      ],
       "respuesta_correcta": 1,
       "explicacion": "'No obstante' marca contraste, propio de introducir una postura opuesta antes de refutarla."
     },

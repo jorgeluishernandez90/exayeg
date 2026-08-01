@@ -3,6 +3,10 @@
   "titulo": "Signos de puntuación",
   "area": "Competencia comunicativa",
   "introduccion": "Esta subárea evalúa el uso correcto de la coma, el punto y coma, los dos puntos y el punto, así como los errores más comunes que cambian el sentido de una oración cuando se puntúa mal.",
+  "diagrama": {
+    "titulo": "Guía rápida de signos de puntuación",
+    "svg": "<svg viewBox=\"0 0 900 371\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Arial, sans-serif\">\n<rect width=\"900\" height=\"371\" fill=\"#faf5ff\"/>\n<text x=\"450.0\" y=\"28\" text-anchor=\"middle\" fill=\"#6d28d9\" font-size=\"17\" font-weight=\"bold\">Guía rápida de los signos de puntuación</text>\n<rect x=\"0\" y=\"45\" width=\"190\" height=\"50\" fill=\"#6d28d9\"/>\n<rect x=\"190.0\" y=\"45\" width=\"355.0\" height=\"50\" fill=\"#f3f4f6\"/>\n<text x=\"367.5\" y=\"75.0\" text-anchor=\"middle\" fill=\"#374151\" font-size=\"13\" font-weight=\"bold\">Se usa para...</text>\n<rect x=\"545.0\" y=\"45\" width=\"355.0\" height=\"50\" fill=\"#f3f4f6\"/>\n<text x=\"722.5\" y=\"75.0\" text-anchor=\"middle\" fill=\"#374151\" font-size=\"13\" font-weight=\"bold\">Ejemplo</text>\n<rect x=\"0\" y=\"95\" width=\"190\" height=\"75\" fill=\"#faf5ff\"/>\n<text x=\"12\" y=\"115\" fill=\"#6d28d9\" font-size=\"12\" font-weight=\"bold\">Coma ,</text>\n<rect x=\"190.0\" y=\"95\" width=\"355.0\" height=\"75\" fill=\"#ffffff\" stroke=\"#e5e7eb\"/>\n<text x=\"367.5\" y=\"115\" text-anchor=\"middle\" fill=\"#374151\" font-size=\"11\">Enumeraciones simples,</text>\n<text x=\"367.5\" y=\"130\" text-anchor=\"middle\" fill=\"#374151\" font-size=\"11\">vocativos, incisos y antes</text>\n<text x=\"367.5\" y=\"145\" text-anchor=\"middle\" fill=\"#374151\" font-size=\"11\">de 'pero/aunque/sino'</text>\n<rect x=\"545.0\" y=\"95\" width=\"355.0\" height=\"75\" fill=\"#ffffff\" stroke=\"#e5e7eb\"/>\n<text x=\"722.5\" y=\"115\" text-anchor=\"middle\" fill=\"#374151\" font-size=\"11\">Boletas, actas y urnas.</text>\n<text x=\"722.5\" y=\"130\" text-anchor=\"middle\" fill=\"#374151\" font-size=\"11\">Consejero, le informo...</text>\n<rect x=\"0\" y=\"170\" width=\"190\" height=\"75\" fill=\"#faf5ff\"/>\n<text x=\"12\" y=\"190\" fill=\"#6d28d9\" font-size=\"12\" font-weight=\"bold\">Punto y coma ;</text>\n<rect x=\"190.0\" y=\"170\" width=\"355.0\" height=\"75\" fill=\"#fdf2f8\" stroke=\"#e5e7eb\"/>\n<text x=\"367.5\" y=\"190\" text-anchor=\"middle\" fill=\"#374151\" font-size=\"11\">Enumeraciones con comas</text>\n<text x=\"367.5\" y=\"205\" text-anchor=\"middle\" fill=\"#374151\" font-size=\"11\">internas; unir oraciones</text>\n<text x=\"367.5\" y=\"220\" text-anchor=\"middle\" fill=\"#374151\" font-size=\"11\">relacionadas</text>\n<rect x=\"545.0\" y=\"170\" width=\"355.0\" height=\"75\" fill=\"#fdf2f8\" stroke=\"#e5e7eb\"/>\n<text x=\"722.5\" y=\"190\" text-anchor=\"middle\" fill=\"#374151\" font-size=\"11\">...la secretaria, encargada</text>\n<text x=\"722.5\" y=\"205\" text-anchor=\"middle\" fill=\"#374151\" font-size=\"11\">del acta; y dos vocales</text>\n<rect x=\"0\" y=\"245\" width=\"190\" height=\"58\" fill=\"#faf5ff\"/>\n<text x=\"12\" y=\"265\" fill=\"#6d28d9\" font-size=\"12\" font-weight=\"bold\">Dos puntos :</text>\n<rect x=\"190.0\" y=\"245\" width=\"355.0\" height=\"58\" fill=\"#ffffff\" stroke=\"#e5e7eb\"/>\n<text x=\"367.5\" y=\"265\" text-anchor=\"middle\" fill=\"#374151\" font-size=\"11\">Anunciar una enumeración;</text>\n<text x=\"367.5\" y=\"280\" text-anchor=\"middle\" fill=\"#374151\" font-size=\"11\">saludo en cartas</text>\n<rect x=\"545.0\" y=\"245\" width=\"355.0\" height=\"58\" fill=\"#ffffff\" stroke=\"#e5e7eb\"/>\n<text x=\"722.5\" y=\"265\" text-anchor=\"middle\" fill=\"#374151\" font-size=\"11\">Se requieren tres documentos:</text>\n<text x=\"722.5\" y=\"280\" text-anchor=\"middle\" fill=\"#374151\" font-size=\"11\">Estimado consejero:</text>\n<rect x=\"0\" y=\"303\" width=\"190\" height=\"58\" fill=\"#faf5ff\"/>\n<text x=\"12\" y=\"323\" fill=\"#6d28d9\" font-size=\"12\" font-weight=\"bold\">Punto .</text>\n<rect x=\"190.0\" y=\"303\" width=\"355.0\" height=\"58\" fill=\"#fdf2f8\" stroke=\"#e5e7eb\"/>\n<text x=\"367.5\" y=\"323\" text-anchor=\"middle\" fill=\"#374151\" font-size=\"11\">Cerrar un enunciado</text>\n<text x=\"367.5\" y=\"338\" text-anchor=\"middle\" fill=\"#374151\" font-size=\"11\">con sentido completo</text>\n<rect x=\"545.0\" y=\"303\" width=\"355.0\" height=\"58\" fill=\"#fdf2f8\" stroke=\"#e5e7eb\"/>\n<text x=\"722.5\" y=\"323\" text-anchor=\"middle\" fill=\"#374151\" font-size=\"11\">Punto y seguido / y aparte</text>\n<text x=\"722.5\" y=\"338\" text-anchor=\"middle\" fill=\"#374151\" font-size=\"11\">/ final</text>\n</svg>"
+  },
   "explicacion": [
     "La coma (,): separa elementos de una enumeración (boletas, actas, urnas y mamparas); se usa antes y después de un vocativo o de un inciso explicativo (El consejero, quien llevaba diez años en el cargo, presidió la sesión); y se coloca antes de conjunciones adversativas como 'pero', 'aunque' o 'sino' (Llegó a tiempo, pero sin la documentación). NO se debe colocar coma entre el sujeto y el verbo de una oración, aun si el sujeto es largo.",
     "El punto y coma (;): separa elementos de una enumeración cuando estos ya contienen comas internas (Asistieron el presidente, quien coordinó la sesión; la secretaria, encargada del acta; y dos vocales); también separa oraciones independientes pero relacionadas en sentido, sobre todo cuando la segunda empieza con un conector como 'sin embargo' o 'por lo tanto'.",
@@ -11,14 +15,35 @@
     "Errores frecuentes: la 'coma que separa sujeto y verbo' (Los integrantes del consejo distrital, se reunieron a las 9:00 — incorrecto) es de los errores más señalados en los exámenes; también la ausencia de coma antes de conectores adversativos, y la confusión entre punto y coma cuando la enumeración es simple (ahí basta con comas)."
   ],
   "ejemplos": [
-    { "incorrecto": "El presidente del consejo, informó los resultados.", "correcto": "El presidente del consejo informó los resultados.", "nota": "No debe haber coma entre el sujeto ('el presidente del consejo') y el verbo ('informó')." },
-    { "incorrecto": "Se recibieron actas boletas y sobres.", "correcto": "Se recibieron actas, boletas y sobres.", "nota": "Los elementos de una enumeración simple se separan con coma." },
-    { "incorrecto": "El escrutinio terminó tarde sin embargo, todo salió bien.", "correcto": "El escrutinio terminó tarde; sin embargo, todo salió bien.", "nota": "Antes de 'sin embargo' que conecta dos oraciones se usa punto y coma, y después siempre coma." }
+    {
+      "incorrecto": "El presidente del consejo, informó los resultados.",
+      "correcto": "El presidente del consejo informó los resultados.",
+      "nota": "No debe haber coma entre el sujeto ('el presidente del consejo') y el verbo ('informó')."
+    },
+    {
+      "incorrecto": "Se recibieron actas boletas y sobres.",
+      "correcto": "Se recibieron actas, boletas y sobres.",
+      "nota": "Los elementos de una enumeración simple se separan con coma."
+    },
+    {
+      "incorrecto": "El escrutinio terminó tarde sin embargo, todo salió bien.",
+      "correcto": "El escrutinio terminó tarde; sin embargo, todo salió bien.",
+      "nota": "Antes de 'sin embargo' que conecta dos oraciones se usa punto y coma, y después siempre coma."
+    }
   ],
   "material_consulta": [
-    { "titulo": "Real Academia Española, Ortografía de la lengua española", "url": "https://www.rae.es" },
-    { "titulo": "RAE — Diccionario panhispánico de dudas, uso de la coma", "url": "https://www.rae.es/dpd/coma" },
-    { "titulo": "RAE — Diccionario panhispánico de dudas, uso del punto", "url": "https://www.rae.es/dpd/punto" }
+    {
+      "titulo": "Real Academia Española, Ortografía de la lengua española",
+      "url": "https://www.rae.es"
+    },
+    {
+      "titulo": "RAE — Diccionario panhispánico de dudas, uso de la coma",
+      "url": "https://www.rae.es/dpd/coma"
+    },
+    {
+      "titulo": "RAE — Diccionario panhispánico de dudas, uso del punto",
+      "url": "https://www.rae.es/dpd/punto"
+    }
   ],
   "preguntas": [
     {
@@ -35,7 +60,11 @@
     {
       "formato": "completamiento",
       "enunciado": "Se requieren tres documentos______ identificación oficial, CURP y comprobante de domicilio.",
-      "opciones": [":", ";", ","],
+      "opciones": [
+        ":",
+        ";",
+        ","
+      ],
       "respuesta_correcta": 0,
       "explicacion": "Los dos puntos se usan para anunciar una enumeración que el texto ya anticipó."
     },
@@ -53,7 +82,11 @@
     {
       "formato": "completamiento",
       "enunciado": "El escrutinio terminó tarde______ sin embargo, todo salió conforme al procedimiento.",
-      "opciones": [";", ",", ":"],
+      "opciones": [
+        ";",
+        ",",
+        ":"
+      ],
       "respuesta_correcta": 0,
       "explicacion": "Antes de un conector como 'sin embargo' que une dos oraciones independientes se usa punto y coma."
     },
@@ -71,7 +104,11 @@
     {
       "formato": "completamiento",
       "enunciado": "Estimado consejero______ Le escribo para confirmar mi asistencia a la capacitación.",
-      "opciones": [":", ",", ";"],
+      "opciones": [
+        ":",
+        ",",
+        ";"
+      ],
       "respuesta_correcta": 0,
       "explicacion": "Después del saludo en cartas y oficios se usan dos puntos, no coma."
     },
@@ -89,7 +126,11 @@
     {
       "formato": "completamiento",
       "enunciado": "Se recibieron actas______ boletas______ y sobres antes del cierre.",
-      "opciones": [", ,", "; ;", ": :"],
+      "opciones": [
+        ", ,",
+        "; ;",
+        ": :"
+      ],
       "respuesta_correcta": 0,
       "explicacion": "En una enumeración simple, sin comas internas en cada elemento, basta con comas."
     },
@@ -107,7 +148,11 @@
     {
       "formato": "completamiento",
       "enunciado": "El consejo sesionó______ aunque no todos los integrantes asistieron.",
-      "opciones": [",", ";", ":"],
+      "opciones": [
+        ",",
+        ";",
+        ":"
+      ],
       "respuesta_correcta": 0,
       "explicacion": "Antes de la conjunción adversativa 'aunque' se coloca una coma cuando introduce una oración subordinada al final."
     }

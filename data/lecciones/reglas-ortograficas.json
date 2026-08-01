@@ -3,6 +3,10 @@
   "titulo": "Reglas ortográficas",
   "area": "Competencia comunicativa",
   "introduccion": "En el examen, esta subárea evalúa que reconozcas la escritura correcta de las palabras: uso de letras que se prestan a confusión (b/v, s/c/z, g/j, h), mayúsculas y la escritura de números y siglas. No se trata de memorizar reglas aisladas, sino de reconocer patrones frecuentes.",
+  "diagrama": {
+    "titulo": "Cuándo usar B, V, G, J, H",
+    "svg": "<svg viewBox=\"0 0 900 395\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Arial, sans-serif\">\n<rect width=\"900\" height=\"395\" fill=\"#faf5ff\"/>\n<text x=\"450.0\" y=\"28\" text-anchor=\"middle\" fill=\"#6d28d9\" font-size=\"17\" font-weight=\"bold\">Cuándo usar B, V, G, J, H</text>\n<rect x=\"0\" y=\"45\" width=\"190\" height=\"50\" fill=\"#6d28d9\"/>\n<rect x=\"190.0\" y=\"45\" width=\"355.0\" height=\"50\" fill=\"#f3f4f6\"/>\n<text x=\"367.5\" y=\"75.0\" text-anchor=\"middle\" fill=\"#374151\" font-size=\"13\" font-weight=\"bold\">Se usa cuando...</text>\n<rect x=\"545.0\" y=\"45\" width=\"355.0\" height=\"50\" fill=\"#f3f4f6\"/>\n<text x=\"722.5\" y=\"75.0\" text-anchor=\"middle\" fill=\"#374151\" font-size=\"13\" font-weight=\"bold\">Ejemplo</text>\n<rect x=\"0\" y=\"95\" width=\"190\" height=\"58\" fill=\"#faf5ff\"/>\n<text x=\"12\" y=\"115\" fill=\"#6d28d9\" font-size=\"12\" font-weight=\"bold\">B</text>\n<rect x=\"190.0\" y=\"95\" width=\"355.0\" height=\"58\" fill=\"#ffffff\" stroke=\"#e5e7eb\"/>\n<text x=\"367.5\" y=\"115\" text-anchor=\"middle\" fill=\"#374151\" font-size=\"11\">Sílabas 'al-','ar-','bu-'</text>\n<text x=\"367.5\" y=\"130\" text-anchor=\"middle\" fill=\"#374151\" font-size=\"11\">y en pretéritos de verbos -ar</text>\n<rect x=\"545.0\" y=\"95\" width=\"355.0\" height=\"58\" fill=\"#ffffff\" stroke=\"#e5e7eb\"/>\n<text x=\"722.5\" y=\"115\" text-anchor=\"middle\" fill=\"#374151\" font-size=\"11\">absoluto, arbusto,</text>\n<text x=\"722.5\" y=\"130\" text-anchor=\"middle\" fill=\"#374151\" font-size=\"11\">caminaba, iba</text>\n<rect x=\"0\" y=\"153\" width=\"190\" height=\"58\" fill=\"#faf5ff\"/>\n<text x=\"12\" y=\"173\" fill=\"#6d28d9\" font-size=\"12\" font-weight=\"bold\">V</text>\n<rect x=\"190.0\" y=\"153\" width=\"355.0\" height=\"58\" fill=\"#fdf2f8\" stroke=\"#e5e7eb\"/>\n<text x=\"367.5\" y=\"173\" text-anchor=\"middle\" fill=\"#374151\" font-size=\"11\">Después de 'ad-','sub-','ob-'</text>\n<text x=\"367.5\" y=\"188\" text-anchor=\"middle\" fill=\"#374151\" font-size=\"11\">y en adjetivos -avo,-ave,-evo,-ivo</text>\n<rect x=\"545.0\" y=\"153\" width=\"355.0\" height=\"58\" fill=\"#fdf2f8\" stroke=\"#e5e7eb\"/>\n<text x=\"722.5\" y=\"173\" text-anchor=\"middle\" fill=\"#374151\" font-size=\"11\">advertir, subvención,</text>\n<text x=\"722.5\" y=\"188\" text-anchor=\"middle\" fill=\"#374151\" font-size=\"11\">octavo, activo</text>\n<rect x=\"0\" y=\"211\" width=\"190\" height=\"58\" fill=\"#faf5ff\"/>\n<text x=\"12\" y=\"231\" fill=\"#6d28d9\" font-size=\"12\" font-weight=\"bold\">G</text>\n<rect x=\"190.0\" y=\"211\" width=\"355.0\" height=\"58\" fill=\"#ffffff\" stroke=\"#e5e7eb\"/>\n<text x=\"367.5\" y=\"231\" text-anchor=\"middle\" fill=\"#374151\" font-size=\"11\">Antes de 'ge','gi'</text>\n<text x=\"367.5\" y=\"246\" text-anchor=\"middle\" fill=\"#374151\" font-size=\"11\">(con excepciones)</text>\n<rect x=\"545.0\" y=\"211\" width=\"355.0\" height=\"58\" fill=\"#ffffff\" stroke=\"#e5e7eb\"/>\n<text x=\"722.5\" y=\"231\" text-anchor=\"middle\" fill=\"#374151\" font-size=\"11\">general, ágil,</text>\n<text x=\"722.5\" y=\"246\" text-anchor=\"middle\" fill=\"#374151\" font-size=\"11\">(exc: jefe, jirafa)</text>\n<rect x=\"0\" y=\"269\" width=\"190\" height=\"58\" fill=\"#faf5ff\"/>\n<text x=\"12\" y=\"289\" fill=\"#6d28d9\" font-size=\"12\" font-weight=\"bold\">J</text>\n<rect x=\"190.0\" y=\"269\" width=\"355.0\" height=\"58\" fill=\"#fdf2f8\" stroke=\"#e5e7eb\"/>\n<text x=\"367.5\" y=\"289\" text-anchor=\"middle\" fill=\"#374151\" font-size=\"11\">En excepciones a la regla</text>\n<text x=\"367.5\" y=\"304\" text-anchor=\"middle\" fill=\"#374151\" font-size=\"11\">de 'ge/gi'</text>\n<rect x=\"545.0\" y=\"269\" width=\"355.0\" height=\"58\" fill=\"#fdf2f8\" stroke=\"#e5e7eb\"/>\n<text x=\"722.5\" y=\"289\" text-anchor=\"middle\" fill=\"#374151\" font-size=\"11\">jefe, jirafa,</text>\n<text x=\"722.5\" y=\"304\" text-anchor=\"middle\" fill=\"#374151\" font-size=\"11\">garaje, berenjena</text>\n<rect x=\"0\" y=\"327\" width=\"190\" height=\"58\" fill=\"#faf5ff\"/>\n<text x=\"12\" y=\"347\" fill=\"#6d28d9\" font-size=\"12\" font-weight=\"bold\">H</text>\n<rect x=\"190.0\" y=\"327\" width=\"355.0\" height=\"58\" fill=\"#ffffff\" stroke=\"#e5e7eb\"/>\n<text x=\"367.5\" y=\"347\" text-anchor=\"middle\" fill=\"#374151\" font-size=\"11\">Palabras 'hidr-,hosp-,hiper-'</text>\n<text x=\"367.5\" y=\"362\" text-anchor=\"middle\" fill=\"#374151\" font-size=\"11\">y verbos haber/hacer/hablar</text>\n<rect x=\"545.0\" y=\"327\" width=\"355.0\" height=\"58\" fill=\"#ffffff\" stroke=\"#e5e7eb\"/>\n<text x=\"722.5\" y=\"347\" text-anchor=\"middle\" fill=\"#374151\" font-size=\"11\">hidratante, hospital,</text>\n<text x=\"722.5\" y=\"362\" text-anchor=\"middle\" fill=\"#374151\" font-size=\"11\">había, hecho</text>\n</svg>"
+  },
   "explicacion": [
     "Uso de B y V: se escribe con B después de las sílabas 'al', 'ar' y 'bu-, bur-, bus-' (absoluto, arbusto, buscar); en los pretéritos imperfectos de los verbos terminados en -ar (caminaba) y del verbo ir (iba); y en las terminaciones -bilidad, -bundo, -bunda (amabilidad), salvo civilidad y movilidad. Se escribe con V después de las sílabas 'ad-', 'sub-' y 'ob-' (advertir, subvención) y en los adjetivos terminados en -avo, -ave, -evo, -eve, -ivo (octavo, suave, longevo, leve, activo).",
     "Uso de la H: se escribe H en palabras que empiezan con 'hidr-', 'hosp-', 'hiper-', 'hipo-' y 'herm-' (hidratante, hospital, hipermercado, hipócrita, hermético), y en todas las formas de los verbos haber, hacer, hablar y habitar. También en interjecciones como '¡hola!' y '¡eh!'.",
@@ -11,26 +15,52 @@
     "Homófonos frecuentes: son palabras que se pronuncian igual pero se escriben distinto y tienen significado diferente, por ejemplo 'ha' (del verbo haber) y 'a' (preposición); 'hay' (del verbo haber), 'ahí' (lugar) y '¡ay!' (interjección); 'vaya' (del verbo ir), 'valla' (cerca) y 'baya' (fruto)."
   ],
   "ejemplos": [
-    { "incorrecto": "El comité *aprovó* el dictamen.", "correcto": "El comité aprobó el dictamen.", "nota": "Aprobar se escribe con B por ser un derivado de 'probar'." },
-    { "incorrecto": "La sesión fue *echa* pública.", "correcto": "La sesión fue hecha pública.", "nota": "'Hecha' viene del verbo hacer, siempre se escribe con H." },
-    { "incorrecto": "*Havía* poca luz en la sala.", "correcto": "Había poca luz en la sala.", "nota": "Todas las formas del verbo haber se escriben con H." }
+    {
+      "incorrecto": "El comité *aprovó* el dictamen.",
+      "correcto": "El comité aprobó el dictamen.",
+      "nota": "Aprobar se escribe con B por ser un derivado de 'probar'."
+    },
+    {
+      "incorrecto": "La sesión fue *echa* pública.",
+      "correcto": "La sesión fue hecha pública.",
+      "nota": "'Hecha' viene del verbo hacer, siempre se escribe con H."
+    },
+    {
+      "incorrecto": "*Havía* poca luz en la sala.",
+      "correcto": "Había poca luz en la sala.",
+      "nota": "Todas las formas del verbo haber se escriben con H."
+    }
   ],
   "material_consulta": [
-    { "titulo": "Real Academia Española, Ortografía de la lengua española", "url": "https://www.rae.es" },
-    { "titulo": "Diccionario panhispánico de dudas (RAE)", "url": "https://www.rae.es/dpd/" }
+    {
+      "titulo": "Real Academia Española, Ortografía de la lengua española",
+      "url": "https://www.rae.es"
+    },
+    {
+      "titulo": "Diccionario panhispánico de dudas (RAE)",
+      "url": "https://www.rae.es/dpd/"
+    }
   ],
   "preguntas": [
     {
       "formato": "cuestionamiento-directo",
       "enunciado": "¿En cuál de las siguientes opciones las tres palabras están escritas correctamente?",
-      "opciones": ["Absolver, subvención, octavo", "Absolber, subvención, octabo", "Absolver, subbención, octavo"],
+      "opciones": [
+        "Absolver, subvención, octavo",
+        "Absolber, subvención, octabo",
+        "Absolver, subbención, octavo"
+      ],
       "respuesta_correcta": 0,
       "explicacion": "Las tres siguen las reglas: 'ab-' + B, 'sub-' + V, terminación '-avo' con V."
     },
     {
       "formato": "completamiento",
       "enunciado": "El presidente del Consejo ______ la sesión a las nueve de la mañana.",
-      "opciones": ["havía instalado", "había instalado", "abía instalado"],
+      "opciones": [
+        "havía instalado",
+        "había instalado",
+        "abía instalado"
+      ],
       "respuesta_correcta": 1,
       "explicacion": "Es una forma del verbo haber, que siempre se escribe con H."
     },
@@ -48,7 +78,11 @@
     {
       "formato": "completamiento",
       "enunciado": "Los representantes de partido ______ ejercer su derecho de réplica durante la jornada.",
-      "opciones": ["ban a", "van ha", "van a"],
+      "opciones": [
+        "ban a",
+        "van ha",
+        "van a"
+      ],
       "respuesta_correcta": 2,
       "explicacion": "'Van' es del verbo ir (con V) y 'a' es preposición, sin H."
     },
@@ -66,35 +100,55 @@
     {
       "formato": "completamiento",
       "enunciado": "El presidente del Consejo ______apacita a los funcionarios de casilla para prote______er la boleta y garanti______ar el resguardo de las actas.",
-      "opciones": ["c, g, z", "s, j, s", "z, g, s"],
+      "opciones": [
+        "c, g, z",
+        "s, j, s",
+        "z, g, s"
+      ],
       "respuesta_correcta": 0,
       "explicacion": "Las formas correctas son 'capacita' (con C), 'proteger' (con G) y 'garantizar' (con Z); las otras combinaciones no existen en español."
     },
     {
       "formato": "completamiento",
       "enunciado": "El funcionario debe ______ imparcial durante todo el proceso.",
-      "opciones": ["permanecer", "permaneser", "permanezer"],
+      "opciones": [
+        "permanecer",
+        "permaneser",
+        "permanezer"
+      ],
       "respuesta_correcta": 0,
       "explicacion": "Los verbos terminados en '-ecer' se escriben con C."
     },
     {
       "formato": "completamiento",
       "enunciado": "La ciudadanía ______ acudir a votar el día de la jornada electoral.",
-      "opciones": ["deve", "debe", "deba"],
+      "opciones": [
+        "deve",
+        "debe",
+        "deba"
+      ],
       "respuesta_correcta": 1,
       "explicacion": "'Debe' (del verbo deber) se escribe con B, no existe la forma 'deve'."
     },
     {
       "formato": "cuestionamiento-directo",
       "enunciado": "¿Cuál de las siguientes palabras NO sigue la regla general de 'ge/gi' con G?",
-      "opciones": ["Jirafa", "Ágil", "General"],
+      "opciones": [
+        "Jirafa",
+        "Ágil",
+        "General"
+      ],
       "respuesta_correcta": 0,
       "explicacion": "'Jirafa' es una excepción frecuente a la regla; se escribe con J aunque le sigue 'i'."
     },
     {
       "formato": "completamiento",
       "enunciado": "El consejo distrital ______ la totalidad de las actas antes del cómputo.",
-      "opciones": ["revisó", "rebisó", "rreviso"],
+      "opciones": [
+        "revisó",
+        "rebisó",
+        "rreviso"
+      ],
       "respuesta_correcta": 0,
       "explicacion": "'Revisó' se escribe con V simple; no existe doble R al inicio de palabra."
     }

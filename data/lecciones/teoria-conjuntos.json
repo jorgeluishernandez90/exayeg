@@ -3,6 +3,10 @@
   "titulo": "Teoría de conjuntos",
   "area": "Competencia matemática",
   "introduccion": "Un conjunto es simplemente una colección de elementos que comparten una característica (personas, números, objetos). Esta subárea evalúa que sepas identificar, comparar y combinar conjuntos usando las operaciones básicas: unión, intersección, diferencia y complemento. Aunque suene abstracto, en la práctica se parece mucho a organizar listas de personas o cosas.",
+  "diagrama": {
+    "titulo": "Operaciones con conjuntos (diagrama de Venn)",
+    "svg": "<svg viewBox=\"0 0 700 380\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Arial, sans-serif\">\n<rect width=\"700\" height=\"380\" fill=\"#faf5ff\"/>\n<text x=\"350.0\" y=\"28\" text-anchor=\"middle\" fill=\"#6d28d9\" font-size=\"17\" font-weight=\"bold\">Operaciones con conjuntos (diagrama de Venn)</text>\n<circle cx=\"260.0\" cy=\"210.0\" r=\"140\" fill=\"#9333ea\" opacity=\"0.55\"/>\n<circle cx=\"440.0\" cy=\"210.0\" r=\"140\" fill=\"#ec4899\" opacity=\"0.55\"/>\n<text x=\"190.0\" y=\"90.0\" fill=\"#6d28d9\" font-size=\"14\" font-weight=\"bold\">Conjunto A</text>\n<text x=\"470.0\" y=\"90.0\" fill=\"#be185d\" font-size=\"14\" font-weight=\"bold\">Conjunto B</text>\n<text x=\"190.0\" y=\"210.0\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"12\" font-weight=\"bold\">Solo en A: A − B</text>\n<text x=\"350.0\" y=\"210.0\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"12\" font-weight=\"bold\">En ambos: A ∩ B</text>\n<text x=\"510.0\" y=\"210.0\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"12\" font-weight=\"bold\">Solo en B: B − A</text>\n</svg>"
+  },
   "explicacion": [
     "Notación y elementos: un conjunto se escribe entre llaves { }, y cada cosa que está adentro se llama 'elemento'. Por ejemplo, si A es el conjunto de los consejeros que asistieron el lunes: A = {Juan, María, Pedro}. Para decir que 'María pertenece al conjunto A' se usa el símbolo ∈ (María ∈ A). Si un elemento NO está en el conjunto, se usa ∉.",
     "Subconjunto: un conjunto B es subconjunto de A (se escribe B ⊂ A) si TODOS los elementos de B también están dentro de A. Ejemplo paso a paso: si A = {Juan, María, Pedro, Ana} son todos los consejeros del distrito, y B = {Juan, María} son los que llegaron temprano, entonces B ⊂ A porque tanto Juan como María también están en A.",
@@ -13,32 +17,58 @@
     "Cardinalidad: es simplemente el número de elementos que tiene un conjunto, se escribe |A|. Si A = {Juan, María, Pedro}, entonces |A| = 3."
   ],
   "ejemplos": [
-    { "incorrecto": "A ∪ B se calcula sumando el número de elementos de A más el número de elementos de B, siempre.", "correcto": "Si A y B comparten elementos, esos NO se cuentan dos veces en la unión.", "nota": "Ejemplo: si A tiene 5 elementos y B tiene 4, pero comparten 2, la unión tiene 5+4−2 = 7 elementos, no 9." },
-    { "incorrecto": "A − B es lo mismo que B − A.", "correcto": "A − B son los elementos de A que no están en B; B − A son los elementos de B que no están en A: casi siempre son conjuntos distintos.", "nota": "El orden en la resta de conjuntos sí importa, igual que en una resta normal." }
+    {
+      "incorrecto": "A ∪ B se calcula sumando el número de elementos de A más el número de elementos de B, siempre.",
+      "correcto": "Si A y B comparten elementos, esos NO se cuentan dos veces en la unión.",
+      "nota": "Ejemplo: si A tiene 5 elementos y B tiene 4, pero comparten 2, la unión tiene 5+4−2 = 7 elementos, no 9."
+    },
+    {
+      "incorrecto": "A − B es lo mismo que B − A.",
+      "correcto": "A − B son los elementos de A que no están en B; B − A son los elementos de B que no están en A: casi siempre son conjuntos distintos.",
+      "nota": "El orden en la resta de conjuntos sí importa, igual que en una resta normal."
+    }
   ],
   "material_consulta": [
-    { "titulo": "Abascal y López, Pensar en matemáticas (UAM)", "url": "https://www.google.com/search?q=pensar+en+matematicas+abascal+lopez+uam+pdf" },
-    { "titulo": "Baldor, Álgebra (sección de conjuntos)", "url": "https://www.google.com/search?q=algebra+baldor+conjuntos+pdf" }
+    {
+      "titulo": "Abascal y López, Pensar en matemáticas (UAM)",
+      "url": "https://www.google.com/search?q=pensar+en+matematicas+abascal+lopez+uam+pdf"
+    },
+    {
+      "titulo": "Baldor, Álgebra (sección de conjuntos)",
+      "url": "https://www.google.com/search?q=algebra+baldor+conjuntos+pdf"
+    }
   ],
   "preguntas": [
     {
       "formato": "cuestionamiento-directo",
       "enunciado": "Si A = {2, 4, 6, 8} y B = {4, 8, 12}, ¿cuál es A ∪ B?",
-      "opciones": ["{2, 4, 6, 8, 12}", "{4, 8}", "{2, 6, 12}"],
+      "opciones": [
+        "{2, 4, 6, 8, 12}",
+        "{4, 8}",
+        "{2, 6, 12}"
+      ],
       "respuesta_correcta": 0,
       "explicacion": "La unión junta todos los elementos de ambos conjuntos sin repetir; 4 y 8 se comparten, así que solo se escriben una vez."
     },
     {
       "formato": "cuestionamiento-directo",
       "enunciado": "Con los mismos conjuntos A = {2, 4, 6, 8} y B = {4, 8, 12}, ¿cuál es A ∩ B?",
-      "opciones": ["{4, 8}", "{2, 6, 12}", "{2, 4, 6, 8, 12}"],
+      "opciones": [
+        "{4, 8}",
+        "{2, 6, 12}",
+        "{2, 4, 6, 8, 12}"
+      ],
       "respuesta_correcta": 0,
       "explicacion": "La intersección son solo los elementos que aparecen en ambos conjuntos: 4 y 8."
     },
     {
       "formato": "cuestionamiento-directo",
       "enunciado": "Si C = {consejeros que hablan inglés} y D = {consejeros que hablan francés}, y Juan aparece en ambos conjuntos, ¿en qué operación aparecerá Juan?",
-      "opciones": ["Únicamente en C ∪ D", "En C ∩ D y también en C ∪ D", "Únicamente en C − D"],
+      "opciones": [
+        "Únicamente en C ∪ D",
+        "En C ∩ D y también en C ∪ D",
+        "Únicamente en C − D"
+      ],
       "respuesta_correcta": 1,
       "explicacion": "Si Juan está en ambos conjuntos, pertenece a la intersección, y por lo tanto también forma parte de la unión (que incluye a todos)."
     },
@@ -56,42 +86,66 @@
     {
       "formato": "cuestionamiento-directo",
       "enunciado": "Si M = {1, 2, 3} y N = {1, 2, 3, 4, 5}, ¿cuál afirmación es correcta?",
-      "opciones": ["M ⊂ N (M es subconjunto de N)", "N ⊂ M (N es subconjunto de M)", "M y N no tienen ninguna relación"],
+      "opciones": [
+        "M ⊂ N (M es subconjunto de N)",
+        "N ⊂ M (N es subconjunto de M)",
+        "M y N no tienen ninguna relación"
+      ],
       "respuesta_correcta": 0,
       "explicacion": "Todos los elementos de M (1, 2 y 3) también están en N, por lo que M es subconjunto de N."
     },
     {
       "formato": "cuestionamiento-directo",
       "enunciado": "Si P = {vocales capacitados} tiene 12 elementos y Q = {vocales certificados} tiene 8 elementos, y 5 vocales están en ambos grupos, ¿cuántos elementos tiene P ∪ Q?",
-      "opciones": ["15", "20", "13"],
+      "opciones": [
+        "15",
+        "20",
+        "13"
+      ],
       "respuesta_correcta": 0,
       "explicacion": "P ∪ Q = |P| + |Q| − |P ∩ Q| = 12 + 8 − 5 = 15. Se restan los 5 que se contarían dos veces."
     },
     {
       "formato": "cuestionamiento-directo",
       "enunciado": "Si E = {representantes que asistieron el lunes} = {Ana, Luis, Coco} y F = {representantes que asistieron el martes} = {Luis, Coco, Rita}, ¿cuál es E − F?",
-      "opciones": ["{Ana}", "{Rita}", "{Luis, Coco}"],
+      "opciones": [
+        "{Ana}",
+        "{Rita}",
+        "{Luis, Coco}"
+      ],
       "respuesta_correcta": 0,
       "explicacion": "E − F son los elementos de E que no están en F: solo Ana asistió el lunes pero no el martes."
     },
     {
       "formato": "cuestionamiento-directo",
       "enunciado": "Con los mismos conjuntos E = {Ana, Luis, Coco} y F = {Luis, Coco, Rita}, ¿cuál es F − E?",
-      "opciones": ["{Rita}", "{Ana}", "{Luis, Coco}"],
+      "opciones": [
+        "{Rita}",
+        "{Ana}",
+        "{Luis, Coco}"
+      ],
       "respuesta_correcta": 0,
       "explicacion": "F − E son los elementos de F que no están en E: solo Rita asistió el martes pero no el lunes."
     },
     {
       "formato": "cuestionamiento-directo",
       "enunciado": "¿Cuál es la cardinalidad (número de elementos) del conjunto A = {actas, boletas, urnas, mamparas}?",
-      "opciones": ["4", "3", "5"],
+      "opciones": [
+        "4",
+        "3",
+        "5"
+      ],
       "respuesta_correcta": 0,
       "explicacion": "El conjunto A tiene cuatro elementos: actas, boletas, urnas y mamparas, así que |A| = 4."
     },
     {
       "formato": "cuestionamiento-directo",
       "enunciado": "Si G = {2, 3, 5, 7} (números primos de un solo dígito) y H = {} (conjunto vacío, sin elementos), ¿cuál es G ∩ H?",
-      "opciones": ["{} (conjunto vacío)", "{2, 3, 5, 7}", "No se puede calcular"],
+      "opciones": [
+        "{} (conjunto vacío)",
+        "{2, 3, 5, 7}",
+        "No se puede calcular"
+      ],
       "respuesta_correcta": 0,
       "explicacion": "La intersección con un conjunto vacío siempre es vacía, porque no hay ningún elemento que esté en ambos."
     }

@@ -3,6 +3,10 @@
   "titulo": "Sistema electoral mexicano",
   "area": "Sistemas electorales",
   "introduccion": "Esta subárea evalúa el conocimiento del sistema político y electoral mexicano, y de las principales características que corresponden a las autoridades electorales administrativas: el fundamento constitucional, la estructura del INE, y cómo se relaciona con los organismos públicos locales (OPL) como el IEEG.",
+  "diagrama": {
+    "titulo": "Relación INE - OPL: facultades especiales",
+    "svg": "<svg viewBox=\"0 0 900 340\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Arial, sans-serif\">\n<rect width=\"900\" height=\"340\" fill=\"#faf5ff\"/>\n<rect x=\"310.0\" y=\"15\" width=\"280\" height=\"55\" rx=\"10\" fill=\"#6d28d9\"/>\n<text x=\"450.0\" y=\"39\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"15\" font-weight=\"bold\">El INE puede intervenir en procesos locales</text>\n<text x=\"450.0\" y=\"58\" text-anchor=\"middle\" fill=\"#e9d5ff\" font-size=\"10\">requieren al menos 8 votos del Consejo General del INE</text>\n<line x1=\"450.0\" y1=\"70\" x2=\"450.0\" y2=\"100\" stroke=\"#ec4899\" stroke-width=\"3\"/>\n<line x1=\"163.33333333333334\" y1=\"100\" x2=\"736.6666666666666\" y2=\"100\" stroke=\"#ec4899\" stroke-width=\"3\"/>\n<line x1=\"163.33333333333334\" y1=\"100\" x2=\"163.33333333333334\" y2=\"130\" stroke=\"#ec4899\" stroke-width=\"3\"/>\n<rect x=\"30.0\" y=\"130\" width=\"266.6666666666667\" height=\"190\" rx=\"10\" fill=\"#fdf2f8\" stroke=\"#ec4899\" stroke-width=\"2\"/>\n<text x=\"163.33333333333334\" y=\"158\" text-anchor=\"middle\" fill=\"#be185d\" font-size=\"13\" font-weight=\"bold\">Asunción</text>\n<text x=\"163.33333333333334\" y=\"182\" text-anchor=\"middle\" fill=\"#374151\" font-size=\"10\">El INE toma TODAS</text>\n<text x=\"163.33333333333334\" y=\"197\" text-anchor=\"middle\" fill=\"#374151\" font-size=\"10\">las</text>\n<text x=\"163.33333333333334\" y=\"212\" text-anchor=\"middle\" fill=\"#374151\" font-size=\"10\">actividades</text>\n<text x=\"163.33333333333334\" y=\"227\" text-anchor=\"middle\" fill=\"#374151\" font-size=\"10\">electorales</text>\n<text x=\"163.33333333333334\" y=\"242\" text-anchor=\"middle\" fill=\"#374151\" font-size=\"10\">de un OPL</text>\n<text x=\"163.33333333333334\" y=\"257\" text-anchor=\"middle\" fill=\"#374151\" font-size=\"10\">(riesgo a la paz</text>\n<text x=\"163.33333333333334\" y=\"272\" text-anchor=\"middle\" fill=\"#374151\" font-size=\"10\">pública)</text>\n<line x1=\"450.0\" y1=\"100\" x2=\"450.0\" y2=\"130\" stroke=\"#ec4899\" stroke-width=\"3\"/>\n<rect x=\"316.6666666666667\" y=\"130\" width=\"266.6666666666667\" height=\"190\" rx=\"10\" fill=\"#fdf2f8\" stroke=\"#ec4899\" stroke-width=\"2\"/>\n<text x=\"450.0\" y=\"158\" text-anchor=\"middle\" fill=\"#be185d\" font-size=\"13\" font-weight=\"bold\">Atracción</text>\n<text x=\"450.0\" y=\"182\" text-anchor=\"middle\" fill=\"#374151\" font-size=\"10\">El INE atrae un</text>\n<text x=\"450.0\" y=\"197\" text-anchor=\"middle\" fill=\"#374151\" font-size=\"10\">asunto</text>\n<text x=\"450.0\" y=\"212\" text-anchor=\"middle\" fill=\"#374151\" font-size=\"10\">específico para</text>\n<text x=\"450.0\" y=\"227\" text-anchor=\"middle\" fill=\"#374151\" font-size=\"10\">fijar</text>\n<text x=\"450.0\" y=\"242\" text-anchor=\"middle\" fill=\"#374151\" font-size=\"10\">un criterio de</text>\n<text x=\"450.0\" y=\"257\" text-anchor=\"middle\" fill=\"#374151\" font-size=\"10\">interpretación</text>\n<line x1=\"736.6666666666667\" y1=\"100\" x2=\"736.6666666666667\" y2=\"130\" stroke=\"#ec4899\" stroke-width=\"3\"/>\n<rect x=\"603.3333333333334\" y=\"130\" width=\"266.6666666666667\" height=\"190\" rx=\"10\" fill=\"#fdf2f8\" stroke=\"#ec4899\" stroke-width=\"2\"/>\n<text x=\"736.6666666666667\" y=\"158\" text-anchor=\"middle\" fill=\"#be185d\" font-size=\"13\" font-weight=\"bold\">Delegación</text>\n<text x=\"736.6666666666667\" y=\"182\" text-anchor=\"middle\" fill=\"#374151\" font-size=\"10\">El INE delega en el</text>\n<text x=\"736.6666666666667\" y=\"197\" text-anchor=\"middle\" fill=\"#374151\" font-size=\"10\">OPL</text>\n<text x=\"736.6666666666667\" y=\"212\" text-anchor=\"middle\" fill=\"#374151\" font-size=\"10\">atribuciones</text>\n<text x=\"736.6666666666667\" y=\"227\" text-anchor=\"middle\" fill=\"#374151\" font-size=\"10\">propias;</text>\n<text x=\"736.6666666666667\" y=\"242\" text-anchor=\"middle\" fill=\"#374151\" font-size=\"10\">puede reasumirlas</text>\n<text x=\"736.6666666666667\" y=\"257\" text-anchor=\"middle\" fill=\"#374151\" font-size=\"10\">en cualquier momento</text>\n</svg>"
+  },
   "explicacion": [
     "Fundamento constitucional (Art. 41 CPEUM): la renovación de los poderes Legislativo y Ejecutivo se realiza mediante elecciones libres, auténticas y periódicas. El artículo 41 establece las bases del sistema: I) los partidos políticos como entidades de interés público, con derechos, obligaciones, prerrogativas y capacidad de postular candidaturas; y II) el financiamiento de los partidos, donde el financiamiento público debe prevalecer siempre sobre el privado.",
     "Los tres tipos de financiamiento a partidos: 1) actividades ordinarias permanentes, que se calcula multiplicando el número total de ciudadanos inscritos en el padrón electoral por el 65% de la UMA (Unidad de Medida y Actualización); de ese monto, 30% se distribuye en partes iguales entre los partidos y 70% de acuerdo con la votación obtenida en la elección de diputados más reciente; 2) actividades tendientes a la obtención del voto, que reciben un monto adicional del 50% de las actividades ordinarias cuando hay elección de presidencia, senado y diputaciones juntas, o 30% cuando solo hay elección de diputaciones; y 3) actividades específicas, para las cuales debe destinarse un 3% del monto de actividades ordinarias.",
@@ -18,18 +22,36 @@
     "Delegación: es lo contrario a la asunción: el INE delega en el OPL atribuciones que originalmente le corresponderían al propio INE, para que el OPL las ejerza. El INE puede reasumir esa función en cualquier momento antes de que concluya el proceso electoral, y también requiere al menos ocho votos del Consejo General."
   ],
   "ejemplos": [
-    { "incorrecto": "El INE organiza directamente, sin intermediarios, todas las elecciones del país, incluidas las locales.", "correcto": "La organización de las elecciones es una función estatal que se realiza a través del INE Y de los organismos públicos locales, cada uno con sus propias facultades.", "nota": "El INE tiene facultades exclusivas y facultades compartidas con los OPL; no monopoliza toda la función electoral, salvo que ejerza asunción." },
-    { "incorrecto": "La asunción y la atracción son lo mismo: el INE toma el control total de un proceso local en ambos casos.", "correcto": "La asunción es tomar TODAS las actividades de la función electoral de un OPL; la atracción es solo atraer un asunto específico para fijar un criterio, sin tomar el control total.", "nota": "Distinguir el alcance de cada facultad es clave: asunción = todo; atracción = un asunto puntual; delegación = el sentido contrario, del INE hacia el OPL." }
+    {
+      "incorrecto": "El INE organiza directamente, sin intermediarios, todas las elecciones del país, incluidas las locales.",
+      "correcto": "La organización de las elecciones es una función estatal que se realiza a través del INE Y de los organismos públicos locales, cada uno con sus propias facultades.",
+      "nota": "El INE tiene facultades exclusivas y facultades compartidas con los OPL; no monopoliza toda la función electoral, salvo que ejerza asunción."
+    },
+    {
+      "incorrecto": "La asunción y la atracción son lo mismo: el INE toma el control total de un proceso local en ambos casos.",
+      "correcto": "La asunción es tomar TODAS las actividades de la función electoral de un OPL; la atracción es solo atraer un asunto específico para fijar un criterio, sin tomar el control total.",
+      "nota": "Distinguir el alcance de cada facultad es clave: asunción = todo; atracción = un asunto puntual; delegación = el sentido contrario, del INE hacia el OPL."
+    }
   ],
   "material_consulta": [
-    { "titulo": "Constitución Política de los Estados Unidos Mexicanos, artículo 41", "url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/CPEUM.pdf" },
-    { "titulo": "Ley General de Instituciones y Procedimientos Electorales (LGIPE)", "url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LGIPE.pdf" }
+    {
+      "titulo": "Constitución Política de los Estados Unidos Mexicanos, artículo 41",
+      "url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/CPEUM.pdf"
+    },
+    {
+      "titulo": "Ley General de Instituciones y Procedimientos Electorales (LGIPE)",
+      "url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LGIPE.pdf"
+    }
   ],
   "preguntas": [
     {
       "formato": "cuestionamiento-directo",
       "enunciado": "Según el artículo 41 constitucional, ¿qué tipo de financiamiento debe prevalecer sobre el otro en los partidos políticos?",
-      "opciones": ["El financiamiento privado sobre el público", "El financiamiento público sobre el privado", "Ambos deben ser exactamente iguales en monto"],
+      "opciones": [
+        "El financiamiento privado sobre el público",
+        "El financiamiento público sobre el privado",
+        "Ambos deben ser exactamente iguales en monto"
+      ],
       "respuesta_correcta": 1,
       "explicacion": "El artículo 41 establece expresamente la prevalencia del financiamiento público sobre el privado."
     },
@@ -47,14 +69,22 @@
     {
       "formato": "completamiento",
       "enunciado": "El Consejo General del INE se integra por un consejero Presidente y ______ consejeros electorales con derecho a voz y voto.",
-      "opciones": ["diez", "seis", "siete"],
+      "opciones": [
+        "diez",
+        "seis",
+        "siete"
+      ],
       "respuesta_correcta": 0,
       "explicacion": "Son diez consejeros electorales más el consejero Presidente, según la Constitución."
     },
     {
       "formato": "cuestionamiento-directo",
       "enunciado": "¿Cuántos años dura en su cargo el consejero Presidente del INE, y pueden ser reelectos?",
-      "opciones": ["Nueve años, sin reelección", "Seis años, con una reelección", "Cuatro años, sin reelección"],
+      "opciones": [
+        "Nueve años, sin reelección",
+        "Seis años, con una reelección",
+        "Cuatro años, sin reelección"
+      ],
       "respuesta_correcta": 0,
       "explicacion": "Duran nueve años en el cargo y no pueden ser reelectos."
     },
@@ -83,7 +113,11 @@
     {
       "formato": "cuestionamiento-directo",
       "enunciado": "¿Cuántos votos del Consejo General del INE se requieren para ejercer la asunción, la atracción o la delegación?",
-      "opciones": ["Al menos ocho votos", "Mayoría simple de tres votos", "Unanimidad de los once integrantes"],
+      "opciones": [
+        "Al menos ocho votos",
+        "Mayoría simple de tres votos",
+        "Unanimidad de los once integrantes"
+      ],
       "respuesta_correcta": 0,
       "explicacion": "Las tres facultades especiales requieren al menos ocho votos del Consejo General del INE."
     },
@@ -112,7 +146,11 @@
     {
       "formato": "completamiento",
       "enunciado": "El financiamiento para actividades tendientes a la obtención del voto es del ______ del monto de actividades ordinarias cuando la elección es solo de diputaciones.",
-      "opciones": ["30%", "50%", "70%"],
+      "opciones": [
+        "30%",
+        "50%",
+        "70%"
+      ],
       "respuesta_correcta": 0,
       "explicacion": "Es 50% cuando hay elección de presidencia, senado y diputaciones juntas, pero solo 30% cuando es exclusivamente de diputaciones."
     }
