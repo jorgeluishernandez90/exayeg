@@ -92,14 +92,24 @@
     },
     {
       "formato": "relacion-elementos",
-      "enunciado": "Relacione cada cargo de elección popular con el periodo de registro de candidaturas que le corresponde.",
+      "enunciado": "Relacione cada cargo de elección popular con su periodo de registro de candidaturas.",
+      "columna_izquierda": [
+        "Gobernador del Estado",
+        "Diputados de mayoría relativa",
+        "Ayuntamientos"
+      ],
+      "columna_derecha": [
+        "4 al 10 de abril",
+        "18 al 24 de febrero",
+        "20 al 26 de marzo"
+      ],
       "opciones": [
-        "1-Gobernador/A-18 al 24 de febrero, 2-Diputados de mayoría relativa/B-4 al 10 de abril, 3-Ayuntamientos/C-20 al 26 de marzo",
-        "1-Gobernador/B-4 al 10 de abril, 2-Diputados de mayoría relativa/A-18 al 24 de febrero, 3-Ayuntamientos/C-20 al 26 de marzo",
-        "1-Gobernador/C-20 al 26 de marzo, 2-Diputados de mayoría relativa/A-18 al 24 de febrero, 3-Ayuntamientos/B-4 al 10 de abril"
+        "1b, 2a, 3c",
+        "1a, 2b, 3c",
+        "1c, 2a, 3b"
       ],
       "respuesta_correcta": 0,
-      "explicacion": "El artículo 188 de la LIPEEG fija esos tres periodos, distintos entre sí y anteriores en el calendario para Gobernador."
+      "explicacion": "El artículo 188 de la LIPEEG fija esos tres periodos: Gobernador del 18 al 24 de febrero (b), diputados de mayoría relativa del 4 al 10 de abril (a), y ayuntamientos del 20 al 26 de marzo (c)."
     },
     {
       "formato": "cuestionamiento-directo",
@@ -136,14 +146,20 @@
     },
     {
       "formato": "ordenamiento",
-      "enunciado": "Ordene cronológicamente los siguientes momentos del proceso electoral, del más temprano al más tardío.",
+      "enunciado": "¿Cuál es el orden cronológico correcto de los siguientes momentos del proceso electoral?",
+      "elementos": [
+        "Registro de candidaturas a Gobernador",
+        "Comunicación de los procesos internos de precampaña al Consejo General",
+        "Inicio de las precampañas",
+        "Inicio de las campañas electorales"
+      ],
       "opciones": [
-        "1) Comunicación de procesos internos al Consejo General (1-7 de septiembre); 2) Inicio de precampañas (8 de octubre); 3) Registro de candidaturas a Gobernador (18-24 de febrero); 4) Inicio de campañas electorales",
-        "1) Inicio de precampañas; 2) Registro de candidaturas a Gobernador; 3) Comunicación de procesos internos; 4) Inicio de campañas electorales",
-        "1) Registro de candidaturas a Gobernador; 2) Comunicación de procesos internos; 3) Inicio de precampañas; 4) Inicio de campañas electorales"
+        "2, 3, 1, 4",
+        "1, 2, 3, 4",
+        "3, 2, 1, 4"
       ],
       "respuesta_correcta": 0,
-      "explicacion": "El calendario legal sigue ese orden: primero se comunican los procesos internos, luego inician las precampañas, después se registran las candidaturas y finalmente arrancan las campañas, una vez aprobado el registro."
+      "explicacion": "Primero se comunican los procesos internos (1-7 de septiembre), después inician las precampañas (8 de octubre), luego se registran las candidaturas a Gobernador (18-24 de febrero), y finalmente inician las campañas, una vez aprobado el registro."
     },
     {
       "formato": "cuestionamiento-directo",

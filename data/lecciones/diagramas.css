@@ -19,3 +19,39 @@
   height: auto;
   max-width: 900px;
 }
+
+/* ============ Reactivos de ordenamiento y relación de elementos ============ */
+.elementos-ordenamiento {
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 0.75rem 1.25rem 0.75rem 2rem;
+  margin: 0.5rem 0 1rem;
+}
+
+.elementos-ordenamiento li {
+  padding: 0.2rem 0;
+}
+
+.columnas-relacion {
+  display: flex;
+  gap: 1.5rem;
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 0.75rem 1.25rem;
+  margin: 0.5rem 0 1rem;
+  flex-wrap: wrap;
+}
+
+.columnas-relacion ol {
+  flex: 1;
+  min-width: 200px;
+  padding-left: 1.5rem;
+}
+
+.columnas-relacion li {
+  padding: 0.2rem 0;
+}
+
+.columna-let {
+  list-style-type: lower-alpha;
+}

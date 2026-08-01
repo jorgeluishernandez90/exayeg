@@ -108,13 +108,23 @@
     {
       "formato": "relacion-elementos",
       "enunciado": "Relacione cada tipo de casilla con la situación que motiva su instalación.",
+      "columna_izquierda": [
+        "Casilla contigua",
+        "Casilla extraordinaria",
+        "Casilla especial"
+      ],
+      "columna_derecha": [
+        "El elector se encuentra fuera de la sección que corresponde a su domicilio",
+        "La sección tiene más de 750 electores",
+        "La sección tiene difícil acceso geográfico, de infraestructura o sociocultural"
+      ],
       "opciones": [
-        "1-Contigua/A-más de 750 electores en la sección, 2-Extraordinaria/B-difícil acceso geográfico de la sección, 3-Especial/C-elector fuera de su sección de domicilio",
-        "1-Contigua/B-difícil acceso geográfico, 2-Extraordinaria/C-elector fuera de su sección, 3-Especial/A-más de 750 electores",
-        "1-Contigua/C-elector fuera de su sección, 2-Extraordinaria/A-más de 750 electores, 3-Especial/B-difícil acceso geográfico"
+        "1b, 2c, 3a",
+        "1a, 2b, 3c",
+        "1c, 2a, 3b"
       ],
       "respuesta_correcta": 0,
-      "explicacion": "Cada tipo de casilla responde a un supuesto distinto: exceso de electores (contigua), dificultad de acceso (extraordinaria), o electores fuera de su sección (especial)."
+      "explicacion": "Cada tipo de casilla responde a un supuesto distinto: exceso de electores (contigua-b), dificultad de acceso (extraordinaria-c), o electores fuera de su sección (especial-a)."
     },
     {
       "formato": "cuestionamiento-directo",

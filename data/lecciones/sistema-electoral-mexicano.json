@@ -102,13 +102,23 @@
     {
       "formato": "relacion-elementos",
       "enunciado": "Relacione cada facultad especial del INE con su definición correcta.",
+      "columna_izquierda": [
+        "Asunción",
+        "Atracción",
+        "Delegación"
+      ],
+      "columna_derecha": [
+        "El INE atrae un asunto específico de un OPL para fijar un criterio de interpretación",
+        "El INE delega en el OPL atribuciones que originalmente le corresponderían a sí mismo",
+        "El INE toma directamente TODAS las actividades de la función electoral de un OPL"
+      ],
       "opciones": [
-        "1-Asunción/A-tomar todas las actividades de un OPL, 2-Atracción/B-atraer un asunto específico para fijar criterio",
-        "1-Asunción/B-atraer un asunto específico, 2-Atracción/A-tomar todas las actividades de un OPL",
-        "1-Asunción/A-delegar facultades al OPL, 2-Atracción/B-tomar todas las actividades de un OPL"
+        "1c, 2a, 3b",
+        "1a, 2b, 3c",
+        "1b, 2c, 3a"
       ],
       "respuesta_correcta": 0,
-      "explicacion": "La asunción implica tomar el total de las actividades electorales de un OPL; la atracción implica atraer un asunto puntual para sentar un criterio."
+      "explicacion": "La asunción implica tomar el total de las actividades electorales de un OPL (c); la atracción, atraer un asunto puntual (a); y la delegación va en el sentido contrario, del INE hacia el OPL (b)."
     },
     {
       "formato": "cuestionamiento-directo",

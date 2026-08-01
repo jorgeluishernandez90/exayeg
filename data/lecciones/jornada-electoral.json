@@ -113,14 +113,21 @@
     },
     {
       "formato": "ordenamiento",
-      "enunciado": "Ordene cronológicamente las siguientes acciones relacionadas con las boletas electorales.",
+      "enunciado": "¿Cuál es la secuencia correcta del procedimiento de boletas electorales, desde que llegan al consejo hasta que se usan en la jornada?",
+      "elementos": [
+        "Entrega de boletas a los presidentes de consejo distrital/municipal",
+        "Uso de las boletas el día de la jornada electoral",
+        "Conteo, registro de folios y sellado del reverso de cada boleta",
+        "Entrega del material electoral a la mesa directiva de casilla",
+        "Agrupamiento de las boletas según el número de electores de cada casilla"
+      ],
       "opciones": [
-        "1) Entrega de boletas a los presidentes de consejo distrital/municipal; 2) Conteo, sellado y agrupamiento de boletas por casilla; 3) Entrega del material electoral a la mesa directiva de casilla; 4) Uso de las boletas el día de la jornada",
-        "1) Uso de las boletas el día de la jornada; 2) Entrega de boletas a los presidentes de consejo; 3) Conteo y sellado; 4) Entrega a la mesa directiva",
-        "1) Conteo y sellado de boletas; 2) Entrega a la mesa directiva; 3) Entrega de boletas al consejo; 4) Uso el día de la jornada"
+        "1, 3, 5, 4, 2",
+        "2, 1, 3, 5, 4",
+        "1, 4, 3, 5, 2"
       ],
       "respuesta_correcta": 0,
-      "explicacion": "Ese es el orden lógico y legal: primero llegan las boletas al consejo, después se cuentan y sellan, luego se entregan a la casilla, y finalmente se usan en la jornada."
+      "explicacion": "Primero llegan las boletas al consejo (1), se cuentan y sellan (3), se agrupan por casilla (5), se entregan a la mesa directiva (4), y finalmente se usan el día de la jornada (2)."
     },
     {
       "formato": "cuestionamiento-directo",

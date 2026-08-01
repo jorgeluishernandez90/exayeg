@@ -1,6 +1,6 @@
 {
   "id": "procedimiento-especial-sancionador",
-  "titulo": "Procedimiento especial sancionador",
+  "titulo": "Procedimiento especial sancionador y procedimiento sancionador ordinario",
   "area": "Procedimientos sancionadores",
   "introduccion": "Esta subárea evalúa el conocimiento del procedimiento especial sancionador (PES) del IEEG: qué conductas persigue, cómo se tramita una queja o denuncia, cómo se desarrolla la audiencia de pruebas y alegatos, y las reglas específicas para propaganda calumniosa y violencia política contra las mujeres en razón de género.",
   "diagrama": {
@@ -17,7 +17,14 @@
     "Expediente e informe circunstanciado (Art. 117-118, RQDIEEG): Concluida la audiencia, la autoridad sustanciadora turna de inmediato el expediente completo al Tribunal Estatal, junto con un informe circunstanciado que contiene la relatoría de hechos, las diligencias realizadas, las pruebas aportadas, y las conclusiones (sin que la autoridad sustanciadora se pronuncie sobre la responsabilidad ni la sanción aplicable).",
     "Reglas especiales para propaganda calumniosa (Art. 123-125, RQDIEEG): Estos procedimientos solo pueden iniciarse a instancia de la parte afectada. Se entiende por calumnia la imputación de hechos o delitos falsos con impacto en el proceso electoral; la Unidad Técnica ordena iniciar el procedimiento y propone medidas cautelares a la Comisión.",
     "Violencia política de género (Art. 127-132, RQDIEEG): Puede iniciarse de oficio o a instancia de parte. Si es de oficio, debe recabarse el consentimiento de la presunta víctima en un plazo de tres días; sin ese consentimiento (salvo protección de derechos colectivos) no se da inicio al procedimiento. La Unidad Técnica ordena el inicio y propone medidas cautelares y de protección; cuando estas correspondan a otra autoridad, la Secretaría Ejecutiva da vista de inmediato.",
-    "Medidas cautelares y de protección (Art. 149-165, RQDIEEG): Buscan evitar que conductas presuntamente transgresoras generen efectos irreparables o afecten los principios electorales; proceden en todo tiempo desde la presentación de la queja hasta el cierre de instrucción. Las medidas de protección, propias de los casos de violencia política de género, buscan evitar lesión o daño a la integridad de la víctima ante un riesgo inminente."
+    "Medidas cautelares y de protección (Art. 149-165, RQDIEEG): Buscan evitar que conductas presuntamente transgresoras generen efectos irreparables o afecten los principios electorales; proceden en todo tiempo desde la presentación de la queja hasta el cierre de instrucción. Las medidas de protección, propias de los casos de violencia política de género, buscan evitar lesión o daño a la integridad de la víctima ante un riesgo inminente.",
+    "Los dos tipos de procedimiento sancionador (Art. 6, RQDIEEG): el reglamento contempla dos vías: I. el procedimiento sancionador ordinario, y II. el procedimiento especial sancionador (ya visto), que aplica solo dentro de procesos electorales para conductas específicas (propaganda, actos anticipados, calumnia) o violencia política de género en cualquier momento. El procedimiento ordinario es la vía general para las demás infracciones a la normativa electoral.",
+    "Inicio y presentación del procedimiento ordinario (Art. 69-72, RQDIEEG): puede iniciar a instancia de parte o de oficio; cualquier persona puede presentar una queja, por escrito, de forma oral o por medios electrónicos. El escrito debe cumplir requisitos similares a los del PES, señalando de ser posible los preceptos presuntamente violados.",
+    "Trámite y plazos del procedimiento ordinario (Art. 73, 75, 77, RQDIEEG): la Unidad Técnica puede prevenir a la parte quejosa en un plazo de tres días si el escrito omite requisitos o es impreciso. El escrito debe remitirse a la Unidad Técnica dentro de las 48 horas siguientes. La Unidad Técnica cuenta con cinco días para admitir o desechar la queja — un plazo notablemente más amplio que las 24 horas del PES, acorde con su naturaleza no urgente.",
+    "Investigación en el procedimiento ordinario (Art. 79, 82, RQDIEEG): la Unidad Técnica ordena las diligencias necesarias; el plazo para la investigación no puede exceder de cuarenta días, ampliable por una sola vez hasta por un periodo igual, mediante acuerdo motivado.",
+    "Emplazamiento y contestación (Art. 86-87, RQDIEEG): concluida la investigación, se emplaza a la parte denunciada, otorgándole cinco días para contestar. El escrito de contestación debe pronunciarse expresamente sobre cada hecho imputado (afirmándolo, negándolo o declarando que lo desconoce); la omisión de contestar solo trae como consecuencia la pérdida del derecho a ofrecer pruebas, sin que ello implique presunción de veracidad de los hechos denunciados.",
+    "Pruebas admitidas en el procedimiento ordinario (Art. 56, 88-90, RQDIEEG): a diferencia del PES (que solo admite documental y técnica), en el ordinario se admiten documentales públicas y privadas, pruebas técnicas, pericial contable, presuncional legal y humana, e instrumental de actuaciones. Concluido el desahogo de pruebas, se da vista a las partes por cinco días para que manifiesten lo que a su derecho convenga.",
+    "Resolución del procedimiento ordinario (Art. 93, 95-96, RQDIEEG): la autoridad sustanciadora elabora el proyecto de resolución en un plazo de diez días desde la última vista (ampliable diez días más). La Comisión de Quejas y Denuncias analiza el proyecto y lo turna al Consejo General, que es quien finalmente lo aprueba, modifica o rechaza. A diferencia del PES, el procedimiento ordinario NO se turna al Tribunal Estatal Electoral para su resolución: el propio Instituto (Consejo General) resuelve el fondo del asunto."
   ],
   "ejemplos": [
     {
@@ -29,6 +36,11 @@
       "incorrecto": "Un PES iniciado de oficio por violencia política de género puede continuar aunque la presunta víctima no dé su consentimiento.",
       "correcto": "Si se inicia de oficio, se requiere el consentimiento de la víctima en un plazo de tres días; sin él (salvo protección de derechos colectivos), no se da inicio al procedimiento.",
       "nota": "El consentimiento de la víctima es un requisito central para respetar su autonomía en este tipo de procedimientos."
+    },
+    {
+      "incorrecto": "El procedimiento sancionador ordinario y el especial tienen exactamente los mismos plazos y el mismo tipo de resolución final.",
+      "correcto": "El ordinario tiene plazos más amplios (5 días para admitir, 40 para investigar) y lo resuelve el propio Consejo General; el especial tiene plazos urgentes (24-48 horas) y se turna al Tribunal Estatal Electoral para su resolución.",
+      "nota": "La diferencia de plazos y de autoridad resolutora es la clave para distinguir ambos procedimientos en el examen."
     }
   ],
   "material_consulta": [
@@ -128,14 +140,24 @@
     },
     {
       "formato": "relacion-elementos",
-      "enunciado": "Relacione cada etapa del PES con el plazo que la ley establece para ella.",
+      "enunciado": "Relacione cada etapa del procedimiento especial sancionador con el plazo que la ley le fija.",
+      "columna_izquierda": [
+        "Admisión o desechamiento de la queja",
+        "Notificación del desechamiento",
+        "Celebración de la audiencia tras el emplazamiento"
+      ],
+      "columna_derecha": [
+        "48 horas",
+        "12 horas",
+        "24 horas"
+      ],
       "opciones": [
-        "1-Admisión o desechamiento/A-24 horas, 2-Notificación del desechamiento/B-12 horas, 3-Celebración de la audiencia tras el emplazamiento/C-48 horas",
-        "1-Admisión o desechamiento/C-48 horas, 2-Notificación del desechamiento/A-24 horas, 3-Celebración de la audiencia/B-12 horas",
-        "1-Admisión o desechamiento/B-12 horas, 2-Notificación del desechamiento/C-48 horas, 3-Celebración de la audiencia/A-24 horas"
+        "1c, 2b, 3a",
+        "1a, 2b, 3c",
+        "1b, 2c, 3a"
       ],
       "respuesta_correcta": 0,
-      "explicacion": "Cada etapa tiene su propio plazo específico en el RQDIEEG: 24 horas para admitir o desechar, 12 horas para notificar el desechamiento, y 48 horas para celebrar la audiencia tras el emplazamiento."
+      "explicacion": "Cada etapa tiene su propio plazo en el RQDIEEG: 24 horas para admitir o desechar (c), 12 horas para notificar el desechamiento (b), y 48 horas para celebrar la audiencia tras el emplazamiento (a)."
     },
     {
       "formato": "cuestionamiento-directo",
@@ -147,6 +169,72 @@
       ],
       "respuesta_correcta": 0,
       "explicacion": "El artículo 149 del RQDIEEG define así la finalidad de las medidas cautelares, distintas de las sanciones finales o de los recursos de impugnación."
+    },
+    {
+      "formato": "cuestionamiento-directo",
+      "enunciado": "¿Cuántos tipos de procedimiento sancionador contempla el RQDIEEG?",
+      "opciones": [
+        "Dos: el ordinario y el especial sancionador",
+        "Uno solo, el especial sancionador",
+        "Tres: ordinario, especial y sumario"
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "El artículo 6 del RQDIEEG distingue el procedimiento sancionador ordinario del procedimiento especial sancionador."
+    },
+    {
+      "formato": "cuestionamiento-directo",
+      "enunciado": "¿En qué plazo debe la Unidad Técnica admitir o desechar una queja presentada por la vía del procedimiento sancionador ordinario?",
+      "opciones": [
+        "Cinco días",
+        "Veinticuatro horas",
+        "Cuarenta y ocho horas"
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "El artículo 77 del RQDIEEG fija cinco días, un plazo más amplio que las 24 horas del procedimiento especial sancionador."
+    },
+    {
+      "formato": "cuestionamiento-directo",
+      "enunciado": "¿Cuál es el plazo máximo para la investigación en el procedimiento sancionador ordinario, y puede ampliarse?",
+      "opciones": [
+        "Cuarenta días, ampliable una sola vez por un periodo igual",
+        "Diez días, sin posibilidad de ampliación",
+        "Un año, ampliable indefinidamente"
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "El artículo 82 del RQDIEEG fija ese plazo de cuarenta días, con una ampliación posible por igual periodo."
+    },
+    {
+      "formato": "cuestionamiento-directo",
+      "enunciado": "¿Qué efecto tiene que la parte denunciada NO conteste el emplazamiento en el procedimiento sancionador ordinario?",
+      "opciones": [
+        "Pierde su derecho a ofrecer pruebas, pero no genera presunción de veracidad de los hechos denunciados",
+        "Se le tiene por confesa de todos los hechos denunciados",
+        "El procedimiento se cancela automáticamente"
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "El artículo 86 del RQDIEEG aclara que la omisión de contestar solo precluye el derecho a ofrecer pruebas, sin presumir la veracidad de los hechos."
+    },
+    {
+      "formato": "cuestionamiento-directo",
+      "enunciado": "¿Quién resuelve en definitiva el procedimiento sancionador ordinario, a diferencia del procedimiento especial sancionador?",
+      "opciones": [
+        "El propio Consejo General del Instituto, a propuesta de la Comisión",
+        "El Tribunal Estatal Electoral, igual que en el PES",
+        "La Unidad Técnica, sin intervención de más órganos"
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "A diferencia del PES (que se turna al Tribunal Estatal), el procedimiento ordinario lo resuelve el Consejo General, tras el análisis del proyecto por la Comisión de Quejas y Denuncias."
+    },
+    {
+      "formato": "cuestionamiento-directo",
+      "enunciado": "¿Cuál de los siguientes medios de prueba es admisible en el procedimiento sancionador ordinario pero NO en el procedimiento especial sancionador?",
+      "opciones": [
+        "Pericial contable",
+        "Documental",
+        "Técnica"
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "El artículo 114 del RQDIEEG limita al PES a pruebas documental y técnica; el ordinario admite además pericial contable, presuncional e instrumental de actuaciones (Art. 56)."
     }
   ]
 }

@@ -80,14 +80,20 @@
     },
     {
       "formato": "ordenamiento",
-      "enunciado": "Ordene cronológicamente las etapas del procedimiento para determinar la ubicación de las casillas.",
+      "enunciado": "¿Cuál es el orden cronológico correcto del procedimiento para determinar la ubicación de las casillas?",
+      "elementos": [
+        "Aprobación de la lista definitiva en sesión del consejo distrital",
+        "Recorrido de las juntas distritales buscando lugares adecuados",
+        "Publicación de la lista de ubicación de casillas",
+        "Presentación de la lista de lugares propuestos al consejo distrital"
+      ],
       "opciones": [
-        "1) Recorrido de las juntas distritales buscando lugares adecuados; 2) Presentación de la lista de lugares propuestos al consejo distrital; 3) Aprobación de la lista definitiva en sesión del consejo distrital; 4) Publicación de la lista de ubicación de casillas",
-        "1) Publicación de la lista de ubicación; 2) Recorrido de las juntas distritales; 3) Aprobación de la lista; 4) Presentación de la lista al consejo",
-        "1) Aprobación de la lista definitiva; 2) Publicación de la lista; 3) Recorrido de las juntas distritales; 4) Presentación al consejo"
+        "2, 4, 1, 3",
+        "1, 2, 3, 4",
+        "4, 2, 1, 3"
       ],
       "respuesta_correcta": 0,
-      "explicacion": "Ese es el orden legal: primero se recorren las secciones, después se propone la lista al consejo, luego se aprueba, y finalmente se publica."
+      "explicacion": "Primero se recorren las secciones (2), se presenta la lista al consejo (4), se aprueba la lista definitiva (1), y finalmente se publica (3)."
     },
     {
       "formato": "completamiento",

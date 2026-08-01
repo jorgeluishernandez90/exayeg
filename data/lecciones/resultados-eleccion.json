@@ -117,24 +117,40 @@
     {
       "formato": "relacion-elementos",
       "enunciado": "Relacione cada tipo de cómputo con el órgano electoral que lo realiza.",
+      "columna_izquierda": [
+        "Cómputo municipal",
+        "Cómputo distrital de diputados",
+        "Cómputo estatal de Gobernador"
+      ],
+      "columna_derecha": [
+        "Consejo General",
+        "Consejo Municipal",
+        "Consejo Distrital"
+      ],
       "opciones": [
-        "1-Cómputo municipal/A-Consejo Municipal, 2-Cómputo distrital de diputados/B-Consejo Distrital, 3-Cómputo estatal de Gobernador/C-Consejo General",
-        "1-Cómputo municipal/B-Consejo Distrital, 2-Cómputo distrital de diputados/C-Consejo General, 3-Cómputo estatal de Gobernador/A-Consejo Municipal",
-        "1-Cómputo municipal/C-Consejo General, 2-Cómputo distrital de diputados/A-Consejo Municipal, 3-Cómputo estatal de Gobernador/B-Consejo Distrital"
+        "1b, 2c, 3a",
+        "1a, 2b, 3c",
+        "1c, 2a, 3b"
       ],
       "respuesta_correcta": 0,
-      "explicacion": "Cada nivel de cómputo corresponde al órgano de su mismo nivel; el estatal, al ser el de mayor jerarquía, corresponde al Consejo General."
+      "explicacion": "Cada nivel de cómputo corresponde al órgano de su mismo nivel: municipal al Consejo Municipal (b), distrital al Consejo Distrital (c), y estatal (Gobernador) al Consejo General (a)."
     },
     {
       "formato": "ordenamiento",
-      "enunciado": "Ordene cronológicamente las siguientes acciones posteriores a la jornada electoral.",
+      "enunciado": "¿Cuál es el orden cronológico correcto de las siguientes acciones posteriores a la jornada electoral?",
+      "elementos": [
+        "Sesión de cómputo estatal",
+        "Recepción y sellado de paquetes electorales en el consejo",
+        "Captura de resultados preliminares (PREP)",
+        "Sesión de cómputo municipal o distrital"
+      ],
       "opciones": [
-        "1) Recepción y sellado de paquetes electorales en el consejo; 2) Captura de resultados preliminares (PREP); 3) Sesión de cómputo municipal o distrital; 4) Sesión de cómputo estatal",
-        "1) Sesión de cómputo estatal; 2) Recepción de paquetes; 3) Captura de resultados preliminares; 4) Sesión de cómputo municipal",
-        "1) Captura de resultados preliminares; 2) Sesión de cómputo estatal; 3) Recepción de paquetes; 4) Sesión de cómputo municipal o distrital"
+        "2, 3, 4, 1",
+        "1, 2, 3, 4",
+        "3, 2, 1, 4"
       ],
       "respuesta_correcta": 0,
-      "explicacion": "Ese es el orden legal y lógico: primero se reciben y resguardan los paquetes, luego se capturan resultados preliminares, después el cómputo municipal/distrital, y al final el cómputo estatal que suma los distritales."
+      "explicacion": "Primero se reciben y sellan los paquetes (2), luego se capturan resultados preliminares (3), después el cómputo municipal/distrital (4), y al final el cómputo estatal que suma los distritales (1)."
     },
     {
       "formato": "cuestionamiento-directo",

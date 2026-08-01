@@ -1,0 +1,184 @@
+{
+  "modulos": [
+    {
+      "id": "competencias-basicas",
+      "nombre": "Competencias básicas",
+      "areas": [
+        {
+          "id": "comunicativa",
+          "nombre": "Competencia comunicativa",
+          "subtemas": [
+            {
+              "id": "reglas-ortograficas",
+              "nombre": "Reglas ortográficas",
+              "disponible": true
+            },
+            {
+              "id": "acentuacion",
+              "nombre": "Acentuación",
+              "disponible": true
+            },
+            {
+              "id": "signos-puntuacion",
+              "nombre": "Signos de puntuación",
+              "disponible": true
+            },
+            {
+              "id": "redaccion",
+              "nombre": "Redacción",
+              "disponible": true
+            },
+            {
+              "id": "vicios-lenguaje",
+              "nombre": "Vicios del lenguaje",
+              "disponible": true
+            },
+            {
+              "id": "texto-informativo",
+              "nombre": "Texto informativo",
+              "disponible": true
+            },
+            {
+              "id": "texto-argumentativo",
+              "nombre": "Texto argumentativo",
+              "disponible": true
+            }
+          ]
+        },
+        {
+          "id": "matematica",
+          "nombre": "Competencia matemática",
+          "subtemas": [
+            {
+              "id": "aritmetica",
+              "nombre": "Aritmética",
+              "disponible": true
+            },
+            {
+              "id": "teoria-conjuntos",
+              "nombre": "Teoría de conjuntos",
+              "disponible": true
+            },
+            {
+              "id": "sucesiones",
+              "nombre": "Sucesiones",
+              "disponible": true
+            },
+            {
+              "id": "espacio-forma",
+              "nombre": "Espacio y forma",
+              "disponible": true
+            },
+            {
+              "id": "algebra",
+              "nombre": "Álgebra",
+              "disponible": true
+            },
+            {
+              "id": "probabilidad",
+              "nombre": "Probabilidad",
+              "disponible": true
+            },
+            {
+              "id": "estadistica",
+              "nombre": "Estadística",
+              "disponible": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "conocimientos-politico-electorales",
+      "nombre": "Conocimientos político-electorales",
+      "areas": [
+        {
+          "id": "sistemas-electorales",
+          "nombre": "Sistemas electorales",
+          "subtemas": [
+            {
+              "id": "sistema-electoral-mexicano",
+              "nombre": "Sistema electoral mexicano",
+              "disponible": true
+            }
+          ]
+        },
+        {
+          "id": "ieeg",
+          "nombre": "Instituto Electoral del Estado de Guanajuato",
+          "subtemas": [
+            {
+              "id": "organos-ieeg",
+              "nombre": "Órganos estatales, municipales y distritales",
+              "disponible": true
+            },
+            {
+              "id": "funcionamiento-consejo",
+              "nombre": "Funcionamiento del Consejo",
+              "disponible": true
+            }
+          ]
+        },
+        {
+          "id": "proceso-electoral",
+          "nombre": "Proceso electoral",
+          "subtemas": [
+            {
+              "id": "preparacion-proceso",
+              "nombre": "Preparación del proceso",
+              "disponible": true
+            },
+            {
+              "id": "jornada-electoral",
+              "nombre": "Jornada electoral",
+              "disponible": true
+            },
+            {
+              "id": "resultados-eleccion",
+              "nombre": "Resultados de la elección",
+              "disponible": true
+            }
+          ]
+        },
+        {
+          "id": "casillas-electorales",
+          "nombre": "Casillas electorales",
+          "subtemas": [
+            {
+              "id": "marco-geografico-electoral",
+              "nombre": "Marco geográfico electoral",
+              "disponible": true
+            },
+            {
+              "id": "ubicacion-casillas",
+              "nombre": "Procedimiento de ubicación de casillas",
+              "disponible": true
+            }
+          ]
+        },
+        {
+          "id": "asistencia-electoral",
+          "nombre": "Asistencia electoral",
+          "subtemas": [
+            {
+              "id": "cadena-custodia",
+              "nombre": "Cadena de custodia",
+              "disponible": true
+            }
+          ]
+        },
+        {
+          "id": "procedimientos-sancionadores",
+          "nombre": "Procedimientos sancionadores",
+          "subtemas": [
+            {
+              "id": "procedimiento-especial-sancionador",
+              "nombre": "Procedimiento especial sancionador y procedimiento sancionador ordinario",
+              "disponible": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -64,14 +64,24 @@
     },
     {
       "formato": "relacion-elementos",
-      "enunciado": "Relacione cada momento de la cadena de custodia con la acción que le corresponde documentar.",
+      "enunciado": "Relacione cada momento de la cadena de custodia con la acción que se documenta en él.",
+      "columna_izquierda": [
+        "Previo a la jornada electoral",
+        "Conclusión de la jornada electoral",
+        "Traslado a sede distinta"
+      ],
+      "columna_derecha": [
+        "Se documentan quiénes participaron y las circunstancias de tiempo, modo y lugar",
+        "Entrega del paquete electoral al presidente de la mesa directiva de casilla",
+        "Se sella el paquete y el consejo documenta fecha, hora y estado al recibirlo"
+      ],
       "opciones": [
-        "1-Previo a la jornada/A-entrega del paquete al presidente de casilla, 2-Conclusión de la jornada/B-sellado del paquete y traslado a bodega, 3-Sesión de cómputo/C-estado de los sellos de la bodega antes de abrirla",
-        "1-Previo a la jornada/B-sellado del paquete, 2-Conclusión de la jornada/C-estado de los sellos, 3-Sesión de cómputo/A-entrega del paquete",
-        "1-Previo a la jornada/C-estado de los sellos, 2-Conclusión de la jornada/A-entrega del paquete, 3-Sesión de cómputo/B-sellado del paquete"
+        "1b, 2c, 3a",
+        "1a, 2b, 3c",
+        "1c, 2a, 3b"
       ],
       "respuesta_correcta": 0,
-      "explicacion": "Cada momento de la cadena de custodia tiene su propia acción documentada, en el orden cronológico en que ocurre la jornada electoral."
+      "explicacion": "Cada momento de la cadena de custodia tiene una acción específica: antes de la jornada se entrega el paquete (b); al concluir la jornada se sella y documenta su recepción (c); y en un traslado se documentan las circunstancias del mismo (a)."
     },
     {
       "formato": "cuestionamiento-directo",
