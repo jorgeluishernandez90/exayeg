@@ -226,6 +226,25 @@ async function abrirLeccion(subtemaId) {
   document.getElementById('btn-empezar-quiz').addEventListener('click', () => renderQuiz(leccion));
 }
 
+// Muestra la lista numerada (ordenamiento) o las dos columnas (relación de
+// elementos) que acompañan a la pregunta, antes de las opciones de respuesta.
+// Si la pregunta no trae "elementos" ni columnas, no se muestra nada (no
+// rompe las preguntas de cuestionamiento directo o completamiento).
+function renderExtraPregunta(p) {
+  if (p.elementos) {
+    return `<ol class="elementos-ordenamiento">
+      ${p.elementos.map(e => `<li>${e}</li>`).join('')}
+    </ol>`;
+  }
+  if (p.columna_izquierda && p.columna_derecha) {
+    return `<div class="columnas-relacion">
+      <ol class="columna-num">${p.columna_izquierda.map(e => `<li>${e}</li>`).join('')}</ol>
+      <ol class="columna-let">${p.columna_derecha.map(e => `<li>${e}</li>`).join('')}</ol>
+    </div>`;
+  }
+  return '';
+}
+
 // ---------------- Motor de quiz ----------------
 function renderQuiz(leccion) {
   const cont = document.getElementById('quiz-contenedor');
@@ -235,6 +254,7 @@ function renderQuiz(leccion) {
     <div class="pregunta" id="pregunta-${i}">
       <span class="num">Pregunta ${i + 1} de ${leccion.preguntas.length}</span>
       <p class="enunciado">${p.enunciado}</p>
+      ${renderExtraPregunta(p)}
       ${p.opciones.map((op, j) => `
         <label class="opcion">
           <input type="radio" name="pregunta-${i}" value="${j}">
