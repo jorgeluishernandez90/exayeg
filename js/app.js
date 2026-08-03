@@ -12,6 +12,22 @@ const mainEl = document.getElementById('main-content');
 const navEl = document.getElementById('temario');
 const resumenEl = document.getElementById('progreso-resumen');
 
+// ---------------- Menú móvil (drawer) ----------------
+const sidebarEl = document.getElementById('sidebar');
+const btnMenuMovil = document.getElementById('btn-menu-movil');
+const fondoMenuMovil = document.getElementById('fondo-menu-movil');
+
+function abrirMenuMovil() {
+  sidebarEl.classList.add('abierta');
+  fondoMenuMovil.classList.add('visible');
+}
+function cerrarMenuMovil() {
+  sidebarEl.classList.remove('abierta');
+  fondoMenuMovil.classList.remove('visible');
+}
+if (btnMenuMovil) btnMenuMovil.addEventListener('click', abrirMenuMovil);
+if (fondoMenuMovil) fondoMenuMovil.addEventListener('click', cerrarMenuMovil);
+
 // ---------------- Inicialización Firebase (opcional) ----------------
 function initFirebase() {
   const cfg = window.FIREBASE_CONFIG;
@@ -173,6 +189,7 @@ function renderDiagrama(leccion) {
 // ---------------- Render de una lección ----------------
 async function abrirLeccion(subtemaId) {
   document.querySelectorAll('.subtema-link').forEach(b => b.classList.remove('activo'));
+  cerrarMenuMovil();
   const res = await fetch(`data/lecciones/${subtemaId}.json`);
   if (!res.ok) {
     mainEl.innerHTML = `<div class="proxima-disponibilidad">Esta lección todavía no está lista.</div>`;
