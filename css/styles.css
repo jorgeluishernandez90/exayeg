@@ -39,7 +39,12 @@ a{color:var(--vino);}
 
 @media (max-width: 860px){
   .app{grid-template-columns:1fr;}
-  .sidebar{position:static; max-height:none;}
+  .sidebar{
+    position:static;
+    height:auto;
+    max-height:65vh;
+    overflow-y:auto;
+  }
 }
 
 /* ---------- Sidebar ---------- */
