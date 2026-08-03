@@ -47,7 +47,7 @@ a{color:var(--vino);}
 }
 
 @media (max-width: 860px){
-  .app{grid-template-columns:1fr;}
+  .app{display:block;}
 
   .btn-menu-movil{
     display:flex;
