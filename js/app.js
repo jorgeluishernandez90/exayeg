@@ -20,10 +20,12 @@ const fondoMenuMovil = document.getElementById('fondo-menu-movil');
 function abrirMenuMovil() {
   sidebarEl.classList.add('abierta');
   fondoMenuMovil.classList.add('visible');
+  document.body.style.overflow = 'hidden';
 }
 function cerrarMenuMovil() {
   sidebarEl.classList.remove('abierta');
   fondoMenuMovil.classList.remove('visible');
+  document.body.style.overflow = '';
 }
 if (btnMenuMovil) btnMenuMovil.addEventListener('click', abrirMenuMovil);
 if (fondoMenuMovil) fondoMenuMovil.addEventListener('click', cerrarMenuMovil);
@@ -239,6 +241,8 @@ async function abrirLeccion(subtemaId) {
 
   const link = [...document.querySelectorAll('.subtema-link')].find(b => b.textContent.includes(leccion.titulo));
   if (link) link.classList.add('activo');
+
+  window.scrollTo(0, 0);
 
   document.getElementById('btn-empezar-quiz').addEventListener('click', () => renderQuiz(leccion));
 }
