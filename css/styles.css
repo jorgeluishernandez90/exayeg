@@ -37,13 +37,61 @@ a{color:var(--vino);}
   min-height:100vh;
 }
 
+/* ---------- Botón de menú móvil (oculto en escritorio) ---------- */
+.btn-menu-movil{
+  display:none;
+}
+
+.fondo-menu-movil{
+  display:none;
+}
+
 @media (max-width: 860px){
   .app{grid-template-columns:1fr;}
+
+  .btn-menu-movil{
+    display:flex;
+    align-items:center;
+    position:sticky;
+    top:0;
+    z-index:40;
+    width:100%;
+    background:var(--vino);
+    color:#fff;
+    border:none;
+    border-bottom:1px solid var(--vino-oscuro);
+    padding:14px 20px;
+    font-family:'Inter',sans-serif;
+    font-weight:600;
+    font-size:.95rem;
+    text-align:left;
+    cursor:pointer;
+  }
+
+  .fondo-menu-movil.visible{
+    display:block;
+    position:fixed;
+    inset:0;
+    background:rgba(43,39,51,.55);
+    z-index:45;
+  }
+
   .sidebar{
-    position:static;
-    height:auto;
-    max-height:65vh;
-    overflow-y:auto;
+    position:fixed;
+    top:0;
+    left:0;
+    width:82%;
+    max-width:320px;
+    height:100vh;
+    max-height:100vh;
+    transform:translateX(-105%);
+    transition:transform .25s ease;
+    z-index:50;
+    box-shadow:6px 0 24px rgba(0,0,0,.35);
+  }
+
+  .sidebar.abierta{
+    transform:translateX(0);
   }
 }
 
