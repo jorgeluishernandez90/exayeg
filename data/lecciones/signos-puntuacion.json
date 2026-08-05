@@ -125,14 +125,14 @@
     },
     {
       "formato": "completamiento",
-      "enunciado": "Se recibieron actas______ boletas______ y sobres antes del cierre.",
+      "enunciado": "Se recibieron actas______ boletas y sobres antes del cierre.",
       "opciones": [
-        ", ,",
-        "; ;",
-        ": :"
+        ",",
+        ";",
+        ":"
       ],
       "respuesta_correcta": 0,
-      "explicacion": "En una enumeración simple, sin comas internas en cada elemento, basta con comas."
+      "explicacion": "En una enumeración simple los elementos se separan con coma ('actas, boletas'), pero en español NO se coloca coma antes de la conjunción 'y' que antecede al último elemento ('boletas y sobres')."
     },
     {
       "formato": "cuestionamiento-directo",
