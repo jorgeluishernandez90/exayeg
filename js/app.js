@@ -110,7 +110,11 @@ async function cargarTemario() {
   TEMARIO = await res.json();
   renderNav();
   actualizarResumen();
+  renderInicio();
 }
+
+const btnInicio = document.getElementById('btn-inicio');
+if (btnInicio) btnInicio.addEventListener('click', () => { renderInicio(); cerrarMenuMovil(); });
 
 function listaSubtemas() {
   const lista = [];
@@ -125,7 +129,7 @@ function actualizarResumen() {
   resumenEl.textContent = `Avance: ${completados.length} de ${disponibles.length} lecciones disponibles`;
 }
 
-// ---------------- Navegación lateral ----------------
+// ---------------- Navegación lateral (ruta tipo Duolingo) ----------------
 function renderNav() {
   if (!TEMARIO) return;
   navEl.innerHTML = '';
@@ -141,14 +145,21 @@ function renderNav() {
       ha.textContent = area.nombre;
       navEl.appendChild(ha);
 
+      // La siguiente lección disponible-y-no-completada de esta área se marca
+      // como "actual" (el punto de la ruta donde va el usuario), igual que
+      // en Duolingo: lo hecho queda atrás, lo de enfrente es el siguiente paso.
+      const siguienteId = (area.subtemas.find(s => s.disponible && !progresoLocal[s.id]) || {}).id;
+
       const ul = document.createElement('ul');
-      ul.className = 'subtemas';
+      ul.className = 'subtemas ruta';
       area.subtemas.forEach(sub => {
         const li = document.createElement('li');
+        li.className = 'nodo-ruta';
         const btn = document.createElement('button');
         const completado = !!progresoLocal[sub.id];
-        btn.className = 'subtema-link' + (!sub.disponible ? ' bloqueado' : '');
-        btn.innerHTML = `<span class="sello-mini${completado ? ' completo' : ''}">${completado ? '✓' : ''}</span> ${sub.nombre}`;
+        const esSiguiente = sub.id === siguienteId;
+        btn.className = 'subtema-link' + (!sub.disponible ? ' bloqueado' : '') + (esSiguiente ? ' siguiente' : '');
+        btn.innerHTML = `<span class="sello-mini${completado ? ' completo' : ''}">${completado ? '✓' : (sub.disponible ? '' : '🔒')}</span> ${sub.nombre}`;
         if (sub.disponible) {
           btn.addEventListener('click', () => abrirLeccion(sub.id));
         } else {
@@ -159,6 +170,49 @@ function renderNav() {
         ul.appendChild(li);
       });
       navEl.appendChild(ul);
+    });
+  });
+}
+
+// ---------------- Pantalla de inicio (tarjetas de módulo) ----------------
+function renderInicio() {
+  document.querySelectorAll('.subtema-link').forEach(b => b.classList.remove('activo'));
+  if (!TEMARIO) return;
+
+  const tarjetas = TEMARIO.modulos.map(modulo => {
+    const subtemas = [];
+    modulo.areas.forEach(a => a.subtemas.forEach(s => subtemas.push(s)));
+    const disponibles = subtemas.filter(s => s.disponible);
+    const completados = disponibles.filter(s => progresoLocal[s.id]);
+    const pct = disponibles.length ? Math.round((completados.length / disponibles.length) * 100) : 0;
+    const siguiente = disponibles.find(s => !progresoLocal[s.id]);
+
+    return `
+      <button class="module-card" data-modulo="${modulo.id}">
+        <div class="module-card-top">
+          <h3>${modulo.nombre}</h3>
+          <span class="module-card-count">${completados.length}/${disponibles.length} lecciones</span>
+        </div>
+        <div class="module-card-bar"><div class="module-card-bar-fill" style="width:${pct}%"></div></div>
+        <span class="module-card-cta">${completados.length === 0 ? 'Empezar módulo' : (pct === 100 ? 'Repasar módulo ✓' : 'Continuar: ' + (siguiente ? siguiente.nombre : ''))} →</span>
+      </button>`;
+  }).join('');
+
+  mainEl.innerHTML = `
+    <div class="bienvenida">
+      <h1>Bienvenido a tu guía de estudio</h1>
+      <p>Avanza módulo por módulo. Cada lección tiene una explicación breve, ejemplos y un simulacro de preguntas.</p>
+    </div>
+    <div class="module-grid">${tarjetas}</div>
+  `;
+
+  mainEl.querySelectorAll('.module-card').forEach(card => {
+    card.addEventListener('click', () => {
+      const modulo = TEMARIO.modulos.find(m => m.id === card.dataset.modulo);
+      const subtemas = [];
+      modulo.areas.forEach(a => a.subtemas.forEach(s => subtemas.push(s)));
+      const siguiente = subtemas.find(s => s.disponible && !progresoLocal[s.id]) || subtemas.find(s => s.disponible);
+      if (siguiente) abrirLeccion(siguiente.id);
     });
   });
 }
