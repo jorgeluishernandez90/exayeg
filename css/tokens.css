@@ -1,0 +1,77 @@
+/* ============================================================
+   TOKENS — Guía YEG · Concurso público consejerías IEEG
+   Paleta: vino editorial + latón + pergamino
+   Tipografía: Lora (display) / Inter (texto) / IBM Plex Mono (datos, folios)
+   ============================================================ */
+
+:root {
+  /* --- Color: base --- */
+  --bg: #F2F0F5;
+  --bg-alt: #E6E1EC;
+  --surface: #FFFFFF;
+  --ink: #2B2733;
+  --ink-soft: #675F70;
+  --border: #DAD3E3;
+
+  /* --- Color: marca (vino) --- */
+  --vino-900: #3B2249;
+  --vino-700: #4C2E5F;
+  --vino-600: #5D3A73;
+  --vino-500: #6E4787;
+  --vino-400: #8A64A3;
+  --laton-300: #DDA9C1;
+  --laton-100: #F5E6ED;
+
+  /* --- Color: acentos funcionales --- */
+  --ok-600: #4C7A63;
+  --ok-100: #E7F0EA;
+  --err-600: #A34363;
+  --err-100: #F5E4E5;
+  --warn-600: #A3701A;
+
+  /* --- Tipografía --- */
+  --font-display: 'Lora', 'Georgia', serif;
+  --font-body: 'Inter', -apple-system, sans-serif;
+  --font-mono: 'IBM Plex Mono', 'Courier New', monospace;
+
+  /* --- Escala tipográfica --- */
+  --fs-xs: 0.75rem;
+  --fs-sm: 0.875rem;
+  --fs-base: 1rem;
+  --fs-md: 1.125rem;
+  --fs-lg: 1.375rem;
+  --fs-xl: 1.75rem;
+  --fs-2xl: 2.25rem;
+  --fs-3xl: 3rem;
+
+  /* --- Espaciado --- */
+  --sp-1: 4px;
+  --sp-2: 8px;
+  --sp-3: 12px;
+  --sp-4: 16px;
+  --sp-5: 24px;
+  --sp-6: 32px;
+  --sp-7: 48px;
+  --sp-8: 64px;
+
+  /* --- Forma --- */
+  --radius-sm: 6px;
+  --radius-md: 12px;
+  --radius-lg: 20px;
+  --radius-pill: 999px;
+
+  /* --- Sombra --- */
+  --shadow-card: 0 1px 2px rgba(43,39,51,0.05), 0 8px 24px rgba(59,34,73,0.10);
+  --shadow-pop: 0 12px 32px rgba(59,34,73,0.20);
+
+  /* --- Motion --- */
+  --ease: cubic-bezier(.4,0,.2,1);
+  --dur-fast: 140ms;
+  --dur-med: 280ms;
+}
+
+/* Modo alto contraste para el "modo examen" — imita hoja/cuadernillo impreso */
+[data-mode="examen"] {
+  --bg: #FFFFFF;
+  --bg-alt: #F2F0F5;
+}
