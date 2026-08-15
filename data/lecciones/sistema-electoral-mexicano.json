@@ -164,5 +164,30 @@
       "respuesta_correcta": 0,
       "explicacion": "Es 50% cuando hay elección de presidencia, senado y diputaciones juntas, pero solo 30% cuando es exclusivamente de diputaciones."
     }
-  ]
+  ],
+  "tabla_comparativa": {
+    "titulo": "Asunción, atracción y delegación (facultades del INE frente a los OPL)",
+    "columnas": [
+      "Facultad",
+      "¿En qué consiste?",
+      "Votos necesarios en el Consejo General del INE"
+    ],
+    "filas": [
+      [
+        "Asunción",
+        "El INE asume directamente TODAS las actividades de la función electoral de un OPL.",
+        "Al menos 8 votos (solicitada por 4+ consejeros del OPL o su mayoría)"
+      ],
+      [
+        "Atracción",
+        "El INE atrae a su conocimiento un asunto específico de un OPL para fijar un criterio de interpretación.",
+        "Al menos 8 votos, caso por caso"
+      ],
+      [
+        "Delegación",
+        "El INE delega en el OPL atribuciones que originalmente le corresponden a sí mismo.",
+        "Al menos 8 votos; el INE puede reasumir la función en cualquier momento"
+      ]
+    ]
+  }
 }

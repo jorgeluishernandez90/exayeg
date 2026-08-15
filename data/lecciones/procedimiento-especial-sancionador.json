@@ -236,5 +236,40 @@
       "respuesta_correcta": 0,
       "explicacion": "El artículo 114 del RQDIEEG limita al PES a pruebas documental y técnica; el ordinario admite además pericial contable, presuncional e instrumental de actuaciones (Art. 56)."
     }
-  ]
+  ],
+  "tabla_comparativa": {
+    "titulo": "Procedimiento Especial Sancionador vs. Procedimiento Ordinario",
+    "columnas": [
+      "",
+      "Procedimiento Especial Sancionador (PES)",
+      "Procedimiento Ordinario"
+    ],
+    "filas": [
+      [
+        "¿Cuándo aplica?",
+        "Solo dentro del proceso electoral, para conductas específicas (propaganda, actos anticipados, calumnia) o violencia política de género en cualquier momento",
+        "Vía general para las demás infracciones a la normativa electoral"
+      ],
+      [
+        "Plazo de admisión",
+        "No mayor a 24 horas",
+        "5 días"
+      ],
+      [
+        "Plazo de investigación",
+        "No aplica un plazo así (se resuelve por audiencia)",
+        "Hasta 40 días, ampliable por un periodo igual"
+      ],
+      [
+        "Pruebas admitidas",
+        "Solo documental y técnica",
+        "Documentales públicas/privadas, técnicas, pericial contable, presuncional, instrumental"
+      ],
+      [
+        "¿Quién resuelve el fondo?",
+        "El Tribunal Estatal Electoral (el Instituto solo instruye)",
+        "El propio Consejo General del Instituto"
+      ]
+    ]
+  }
 }

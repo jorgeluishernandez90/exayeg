@@ -154,5 +154,30 @@
       "respuesta_correcta": 0,
       "explicacion": "Tanto el artículo 120 (distritales) como el 129 (municipales) de la LIPEEG incluyen la organización de al menos un debate entre candidatos como atribución."
     }
-  ]
+  ],
+  "tabla_comparativa": {
+    "titulo": "Una atribución distintiva de cada nivel de consejo",
+    "columnas": [
+      "Consejo",
+      "Instalación",
+      "Una atribución clave"
+    ],
+    "filas": [
+      [
+        "Consejo General",
+        "1ª semana de septiembre del año previo",
+        "Registrar candidaturas a Gobernador y listas de representación proporcional"
+      ],
+      [
+        "Consejo Distrital",
+        "A más tardar el 15 de octubre del año previo",
+        "Realizar los cómputos distritales de Gobernador y diputaciones"
+      ],
+      [
+        "Consejo Municipal",
+        "A más tardar el 15 de octubre del año previo",
+        "Realizar el cómputo municipal de presidencia, sindicaturas y regidurías"
+      ]
+    ]
+  }
 }

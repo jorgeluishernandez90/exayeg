@@ -150,5 +150,30 @@
       "respuesta_correcta": 0,
       "explicacion": "La LGIPE reconoce ese derecho de vigilancia a los representantes partidistas ante los consejos distritales."
     }
-  ]
+  ],
+  "linea_tiempo": {
+    "titulo": "Línea de tiempo para determinar la ubicación de casillas",
+    "eventos": [
+      {
+        "momento": "15 de enero – 15 de febrero",
+        "descripcion": "Las juntas distritales recorren las secciones buscando lugares que cumplan los requisitos y no incurran en las prohibiciones."
+      },
+      {
+        "momento": "16 – 26 de febrero",
+        "descripcion": "Las juntas presentan al consejo distrital una lista con los lugares propuestos."
+      },
+      {
+        "momento": "Segunda semana de abril",
+        "descripcion": "El consejo distrital, en sesión, aprueba la lista definitiva de ubicación de casillas."
+      },
+      {
+        "momento": "A más tardar el 15 de abril",
+        "descripcion": "El presidente del consejo distrital ordena la publicación de la lista de casillas aprobadas."
+      },
+      {
+        "momento": "15 – 25 de mayo",
+        "descripcion": "Puede ordenarse una segunda publicación con los ajustes necesarios."
+      }
+    ]
+  }
 }

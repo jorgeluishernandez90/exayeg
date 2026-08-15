@@ -163,5 +163,30 @@
       "respuesta_correcta": 0,
       "explicacion": "El artículo 258 de la LIPEEG señala que el Consejo General realiza primero el cómputo de Gobernador y después el de diputados de representación proporcional; los ayuntamientos no se computan a nivel estatal, sino municipal."
     }
-  ]
+  ],
+  "linea_tiempo": {
+    "titulo": "Línea de tiempo: de la jornada a los cómputos",
+    "eventos": [
+      {
+        "momento": "Al cierre de cada casilla",
+        "descripcion": "Los consejos capturan los resultados visibles en el exterior de cada paquete conforme se reciben (base del PREP)."
+      },
+      {
+        "momento": "Miércoles siguiente, 8:00 h",
+        "descripcion": "Cómputo municipal: el consejo municipal suma los resultados de las actas de escrutinio de la elección de ayuntamiento."
+      },
+      {
+        "momento": "Miércoles siguiente, 8:00 h",
+        "descripcion": "Cómputo distrital: el consejo distrital suma los resultados de diputaciones y de Gobernador en su distrito."
+      },
+      {
+        "momento": "Antes del domingo siguiente",
+        "descripcion": "Si procede, se concluye el recuento total de votos (cuando la diferencia entre 1º y 2º lugar es igual o menor a un punto porcentual y hay petición expresa)."
+      },
+      {
+        "momento": "Domingo siguiente, 8:00 h",
+        "descripcion": "Cómputo estatal: el Consejo General suma los cómputos distritales de Gobernador y de representación proporcional."
+      }
+    ]
+  }
 }

@@ -159,5 +159,30 @@
       "respuesta_correcta": 0,
       "explicacion": "La sección debe contar con al menos 100 electores e, idealmente, no exceder los 3,000, aunque en la práctica existen secciones con más ciudadanos."
     }
-  ]
+  ],
+  "tabla_comparativa": {
+    "titulo": "Los 4 tipos de casilla",
+    "columnas": [
+      "Tipo",
+      "¿Cuándo se instala?"
+    ],
+    "filas": [
+      [
+        "Básica",
+        "Una por cada sección electoral, para hasta 750 electores"
+      ],
+      [
+        "Contigua",
+        "Cuando la sección tiene más de 750 electores: una adicional por cada 750 más, junto a la básica"
+      ],
+      [
+        "Extraordinaria",
+        "Cuando la geografía, infraestructura o condiciones socioculturales dificultan que todos lleguen a un mismo sitio"
+      ],
+      [
+        "Especial",
+        "Para electores fuera de su sección el día de la jornada (hasta 10 por distrito)"
+      ]
+    ]
+  }
 }

@@ -203,5 +203,46 @@
       "respuesta_correcta": 0,
       "explicacion": "El Consejo General es un órgano de dirección central (b); las Juntas Ejecutivas son el único órgano desconcentrado (c); y la Secretaría Ejecutiva es un órgano ejecutivo central (a)."
     }
-  ]
+  ],
+  "tabla_comparativa": {
+    "titulo": "Consejo General vs. Consejos Distritales vs. Consejos Municipales",
+    "columnas": [
+      "",
+      "Consejo General",
+      "Consejos Distritales",
+      "Consejos Municipales"
+    ],
+    "filas": [
+      [
+        "Ámbito",
+        "Estatal — todo Guanajuato",
+        "Cada uno de los 15 distritos",
+        "Cada uno de los municipios"
+      ],
+      [
+        "Residencia",
+        "Ciudad de Guanajuato capital",
+        "Cabecera de cada distrito",
+        "Cabecera de cada municipio"
+      ],
+      [
+        "Vigencia",
+        "Permanente",
+        "Solo durante el proceso electoral",
+        "Solo durante el proceso electoral"
+      ],
+      [
+        "Integración",
+        "Presidencia + consejeros electorales + representantes de partidos",
+        "Presidente, secretario, 2 consejeros propietarios + 1 supernumerario + representantes",
+        "Igual que los distritales"
+      ],
+      [
+        "Requisito diferenciado",
+        "Aplican las 11 fracciones del art. 83",
+        "Mismos requisitos, EXCEPTO la fracción XI",
+        "Exceptuados también de edad mínima (30) y título profesional"
+      ]
+    ]
+  }
 }

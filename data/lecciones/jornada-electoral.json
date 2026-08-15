@@ -151,5 +151,30 @@
       "respuesta_correcta": 0,
       "explicacion": "El artículo 223 de la LIPEEG permite esa firma bajo la estricta responsabilidad de dichos representantes."
     }
-  ]
+  ],
+  "linea_tiempo": {
+    "titulo": "Línea de tiempo: de la entrega de boletas a la jornada",
+    "eventos": [
+      {
+        "momento": "Hasta 13 días antes",
+        "descripcion": "Los partidos y candidaturas independientes nombran a sus representantes propietarios y suplentes ante cada mesa directiva de casilla."
+      },
+      {
+        "momento": "4 días antes (o antes)",
+        "descripcion": "Los consejos distritales/municipales entregan a cada presidente de mesa directiva la documentación y material electoral, contra recibo detallado."
+      },
+      {
+        "momento": "5 días antes",
+        "descripcion": "El colegio de notarios publica los nombres y domicilios de sus miembros, quienes deben mantener sus oficinas abiertas el día de la elección."
+      },
+      {
+        "momento": "Día de la elección",
+        "descripcion": "Las autoridades pueden limitar el horario de venta de bebidas embriagantes; solo portan armas los cuerpos de seguridad uniformados encargados del orden."
+      },
+      {
+        "momento": "Durante la jornada",
+        "descripcion": "Los cuerpos de seguridad pública auxilian a las autoridades electorales y a los presidentes de casilla cuando se les requiere."
+      }
+    ]
+  }
 }

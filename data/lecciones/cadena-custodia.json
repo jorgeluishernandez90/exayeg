@@ -160,5 +160,26 @@
       "respuesta_correcta": 0,
       "explicacion": "Esa es una de las tres obligaciones centrales que se reconocen a la autoridad administrativa en materia de cadena de custodia."
     }
-  ]
+  ],
+  "linea_tiempo": {
+    "titulo": "Los 4 momentos de la cadena de custodia",
+    "eventos": [
+      {
+        "momento": "Momento 1 · Antes de la jornada",
+        "descripcion": "Entrega del paquete electoral al ciudadano que actuará como presidente de la mesa directiva de casilla."
+      },
+      {
+        "momento": "Momento 2 · Al concluir la jornada",
+        "descripcion": "Se guarda la documentación en el paquete, se sella con cinta, lo firman funcionarios y representantes, y el consejo documenta hora y estado al recibirlo."
+      },
+      {
+        "momento": "Momento 3 · Sesión de cómputo",
+        "descripcion": "Se hace constar fecha, hora y estado de los sellos de la bodega antes de abrirla, y el estado de cada paquete antes de un nuevo escrutinio."
+      },
+      {
+        "momento": "Momento 4 · Traslado a otra sede (si aplica)",
+        "descripcion": "Se documentan todos los actos del traslado: quiénes participaron, y las circunstancias de tiempo, modo y lugar."
+      }
+    ]
+  }
 }

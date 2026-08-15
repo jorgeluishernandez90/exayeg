@@ -172,5 +172,50 @@
       "respuesta_correcta": 0,
       "explicacion": "El artículo 205 de la LIPEEG fija esa fecha límite para determinar el tope de gastos de campaña."
     }
-  ]
+  ],
+  "linea_tiempo": {
+    "titulo": "Línea de tiempo del proceso electoral",
+    "eventos": [
+      {
+        "momento": "1ª semana de septiembre (año previo)",
+        "descripcion": "Inicia la etapa de Preparación de la elección, con la primera sesión del Consejo General."
+      },
+      {
+        "momento": "1–7 de septiembre",
+        "descripcion": "Los partidos comunican al Consejo General sus procesos internos de selección de candidatos (precampañas)."
+      },
+      {
+        "momento": "8 de octubre",
+        "descripcion": "Inician las precampañas (hasta 60 días para gubernatura, 30 para diputaciones, 40 para ayuntamientos)."
+      },
+      {
+        "momento": "18–24 de febrero",
+        "descripcion": "Registro de candidatura a Gobernador ante el Consejo General."
+      },
+      {
+        "momento": "20–26 de marzo",
+        "descripcion": "Registro de candidaturas a ayuntamientos ante los consejos municipales."
+      },
+      {
+        "momento": "4–10 de abril",
+        "descripcion": "Registro de diputaciones de mayoría relativa ante los consejos distritales."
+      },
+      {
+        "momento": "11–17 de abril",
+        "descripcion": "Registro de diputaciones de representación proporcional ante el Consejo General."
+      },
+      {
+        "momento": "Día siguiente al registro",
+        "descripcion": "Inician las campañas electorales (hasta 90 días para Gobernador, 45 solo diputaciones, 60 ayuntamientos)."
+      },
+      {
+        "momento": "3 días antes de la jornada",
+        "descripcion": "Concluyen las campañas: inicia la veda o silencio electoral."
+      },
+      {
+        "momento": "1er domingo de junio, 8:00 h",
+        "descripcion": "Inicia la Jornada electoral (etapa II)."
+      }
+    ]
+  }
 }
