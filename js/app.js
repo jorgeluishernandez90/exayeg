@@ -242,6 +242,51 @@ function renderDiagrama(leccion) {
     </section>`;
 }
 
+// Tabla comparativa opcional: { titulo, columnas: [...], filas: [[...],[...]] }
+function renderTabla(leccion) {
+  const t = leccion.tabla_comparativa;
+  if (!t || !t.columnas || !t.filas) return '';
+  return `
+    <section class="bloque tabla-comparativa">
+      <h2>${t.titulo || 'Comparativo'}</h2>
+      <div class="table-wrap">
+        <table class="study">
+          <thead><tr>${t.columnas.map(c => `<th>${c}</th>`).join('')}</tr></thead>
+          <tbody>
+            ${t.filas.map(fila => `<tr>${fila.map(c => `<td>${c}</td>`).join('')}</tr>`).join('')}
+          </tbody>
+        </table>
+      </div>
+    </section>`;
+}
+
+// Línea de tiempo opcional: { titulo, eventos: [{momento, descripcion}] }
+function renderLineaTiempo(leccion) {
+  const lt = leccion.linea_tiempo;
+  if (!lt || !lt.eventos) return '';
+  return `
+    <section class="bloque linea-tiempo">
+      <h2>${lt.titulo || 'Línea de tiempo'}</h2>
+      <ol class="timeline">
+        ${lt.eventos.map(e => `
+          <li>
+            <span class="timeline-momento">${e.momento}</span>
+            <span class="timeline-desc">${e.descripcion}</span>
+          </li>`).join('')}
+      </ol>
+    </section>`;
+}
+
+// Callouts opcionales: [{ tipo: "tip"|"legal", titulo, texto }]
+function renderCallouts(leccion) {
+  if (!leccion.callouts || !leccion.callouts.length) return '';
+  return leccion.callouts.map(c => `
+    <div class="callout ${c.tipo || 'tip'}">
+      <span class="label">${c.titulo || (c.tipo === 'legal' ? 'Fundamento legal' : 'Importante')}</span>
+      ${c.texto}
+    </div>`).join('');
+}
+
 // ---------------- Render de una lección ----------------
 async function abrirLeccion(subtemaId) {
   document.querySelectorAll('.subtema-link').forEach(b => b.classList.remove('activo'));
@@ -265,7 +310,11 @@ async function abrirLeccion(subtemaId) {
     <section class="bloque explicacion">
       <h2>Explicación</h2>
       ${leccion.explicacion.map(p => renderPuntoExplicacion(p)).join('')}
+      ${renderCallouts(leccion)}
     </section>
+
+    ${renderTabla(leccion)}
+    ${renderLineaTiempo(leccion)}
 
     <section class="bloque ejemplos">
       <h2>Ejemplos</h2>
