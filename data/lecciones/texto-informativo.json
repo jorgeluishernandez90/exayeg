@@ -10,19 +10,19 @@
   "explicacion": [
     "Propósito: el texto informativo busca dar a conocer hechos, datos o procedimientos de manera objetiva, sin opiniones ni intención de convencer. Responde a las preguntas qué, quién, cuándo, dónde, cómo y por qué.",
     "Idea principal vs ideas secundarias: la idea principal es el dato central que el texto quiere comunicar; las ideas secundarias lo complementan, explican o ejemplifican, pero no son indispensables para entender el mensaje central.",
-    "Estructura: suele organizarse en orden de importancia (de lo más relevante a lo menos relevante, como en una noticia) o en orden cronológico/procedimental (como en un instructivo o comunicado de procedimiento).",
-    "Objetividad: un texto informativo evita adjetivos calificativos con carga de opinión ('un pésimo resultado') y se limita a describir hechos verificables ('el resultado fue de 45%').",
-    "Tema vs asunto: el tema es de qué trata el texto en general (ej. 'el proceso electoral'); el asunto o idea central es lo específico que se dice sobre ese tema en ese texto en particular (ej. 'el consejo aprobó el calendario del proceso electoral 2024')."
+    "Estructura: suele organizarse en orden de importancia (de lo más relevante a lo menos relevante, como en una noticia) o en orden cronológico/procedimental (como en un instructivo o un reglamento de uso).",
+    "Objetividad: un texto informativo evita adjetivos calificativos con carga de opinión ('un concierto decepcionante') y se limita a describir hechos verificables ('el concierto inició cuarenta minutos tarde').",
+    "Tema vs asunto: el tema es de qué trata el texto en general (ej. 'la fauna de los humedales'); el asunto o idea central es lo específico que se dice sobre ese tema en ese texto en particular (ej. 'los biólogos registraron doce especies de aves migratorias este invierno')."
   ],
   "ejemplos": [
     {
-      "incorrecto": "El pésimo desempeño del consejo generó indignación en la ciudadanía.",
-      "correcto": "El consejo concluyó el cómputo con un retraso de tres horas respecto al calendario previsto.",
+      "incorrecto": "El pésimo mantenimiento del parque generó indignación entre los vecinos.",
+      "correcto": "El ayuntamiento reportó que la poda de árboles en el parque tuvo un retraso de tres semanas.",
       "nota": "La primera oración incluye opinión ('pésimo', 'indignación'); la segunda solo describe un hecho verificable."
     },
     {
-      "incorrecto": "Se dice que probablemente el proceso podría tener irregularidades.",
-      "correcto": "El órgano de fiscalización revisará tres actas por presunta inconsistencia en el llenado.",
+      "incorrecto": "Se dice que probablemente el puente podría tener fallas estructurales.",
+      "correcto": "La dirección de obras públicas revisará tres tramos del puente por presunta corrosión en el acero.",
       "nota": "La redacción informativa evita la vaguedad y da datos concretos y verificables."
     }
   ],
@@ -39,22 +39,22 @@
   "preguntas": [
     {
       "formato": "cuestionamiento-directo",
-      "enunciado": "«El Consejo Distrital sesionó el martes a las nueve de la mañana para aprobar el calendario de capacitación electoral. Asistieron los siete consejeros y dos representantes de partido.» ¿Cuál es la idea principal del texto?",
+      "enunciado": "«La biblioteca municipal reabrió el martes a las nueve de la mañana tras dos meses de remodelación. Asistieron el director cultural y una veintena de vecinos.» ¿Cuál es la idea principal del texto?",
       "opciones": [
-        "Los representantes de partido asistieron a la sesión.",
-        "El Consejo Distrital sesionó para aprobar el calendario de capacitación electoral.",
-        "La sesión fue un martes a las nueve de la mañana."
+        "Los vecinos asistieron a la reapertura.",
+        "La biblioteca municipal reabrió tras dos meses de remodelación.",
+        "La reapertura fue un martes a las nueve de la mañana."
       ],
       "respuesta_correcta": 1,
-      "explicacion": "Es el dato central: qué se hizo y para qué; los otros dos son datos secundarios (quiénes asistieron, cuándo)."
+      "explicacion": "Es el dato central: qué pasó y qué lo explica; los otros dos son datos secundarios (quiénes asistieron, cuándo)."
     },
     {
       "formato": "cuestionamiento-directo",
       "enunciado": "¿Cuál de las siguientes oraciones es la más objetiva, propia de un texto informativo?",
       "opciones": [
-        "La sesión fue un fracaso total por la mala organización del consejo.",
-        "La sesión concluyó dos horas después de lo previsto en el calendario.",
-        "Fue una sesión decepcionante que dejó mucho que desear."
+        "El festival fue un fracaso total por la mala organización de los productores.",
+        "El festival concluyó dos horas después de lo previsto en el programa.",
+        "Fue un festival decepcionante que dejó mucho que desear."
       ],
       "respuesta_correcta": 1,
       "explicacion": "Describe un hecho verificable sin adjetivos de opinión."
@@ -72,14 +72,14 @@
     },
     {
       "formato": "cuestionamiento-directo",
-      "enunciado": "«El instituto electoral capacitó a 3,200 funcionarios de casilla entre marzo y mayo. La capacitación incluyó un módulo presencial y otro en línea.» ¿Qué pregunta NO responde este texto?",
+      "enunciado": "«El observatorio astronómico recibió a 3,200 visitantes entre marzo y mayo. El recorrido incluyó una sesión de telescopio y una charla sobre el sistema solar.» ¿Qué pregunta NO responde este texto?",
       "opciones": [
-        "¿Cuántos funcionarios fueron capacitados?",
-        "¿En qué periodo se capacitó?",
-        "¿Por qué se decidió capacitar en dos modalidades?"
+        "¿Cuántos visitantes hubo?",
+        "¿En qué periodo se realizaron las visitas?",
+        "¿Por qué se decidió incluir dos actividades distintas?"
       ],
       "respuesta_correcta": 2,
-      "explicacion": "El texto da el número y el periodo, pero no explica la razón (el porqué) de las dos modalidades."
+      "explicacion": "El texto da el número y el periodo, pero no explica la razón (el porqué) de las dos actividades."
     },
     {
       "formato": "cuestionamiento-directo",
@@ -105,7 +105,7 @@
     },
     {
       "formato": "cuestionamiento-directo",
-      "enunciado": "«Se recomienda a los aspirantes llegar 30 minutos antes de la aplicación del examen y llevar una identificación oficial vigente.» ¿Qué tipo de texto informativo es este fragmento?",
+      "enunciado": "«Se recomienda a los visitantes llegar 30 minutos antes del cierre del museo y llevar una identificación oficial vigente.» ¿Qué tipo de texto informativo es este fragmento?",
       "opciones": [
         "Una noticia",
         "Un instructivo o aviso de procedimiento",
@@ -116,14 +116,14 @@
     },
     {
       "formato": "cuestionamiento-directo",
-      "enunciado": "¿Cuál de las siguientes oraciones contiene una idea secundaria (no la idea principal) respecto al texto: «El consejo aprobó por unanimidad el manual de procedimientos. La sesión se realizó en la sala de juntas del instituto.»?",
+      "enunciado": "¿Cuál de las siguientes oraciones contiene una idea secundaria (no la idea principal) respecto al texto: «El ayuntamiento aprobó por unanimidad el reglamento de reciclaje. La sesión se realizó en el salón de cabildo.»?",
       "opciones": [
-        "El consejo aprobó el manual de procedimientos.",
+        "El ayuntamiento aprobó el reglamento de reciclaje.",
         "La aprobación fue por unanimidad.",
-        "La sesión se realizó en la sala de juntas del instituto."
+        "La sesión se realizó en el salón de cabildo."
       ],
       "respuesta_correcta": 2,
-      "explicacion": "El lugar de la sesión es un dato complementario; la idea principal es la aprobación del manual."
+      "explicacion": "El lugar de la sesión es un dato complementario; la idea principal es la aprobación del reglamento."
     },
     {
       "formato": "cuestionamiento-directo",
@@ -131,7 +131,7 @@
       "opciones": [
         "Lamentablemente",
         "Posiblemente exagerado",
-        "Según el acta circunstanciada"
+        "Según el reporte meteorológico"
       ],
       "respuesta_correcta": 2,
       "explicacion": "Remite a una fuente verificable, propia del lenguaje informativo; las otras dos expresan juicio u opinión."

@@ -16,13 +16,13 @@
   ],
   "ejemplos": [
     {
-      "incorrecto": "El consejo sesionó el martes a las nueve.",
-      "correcto": "El consejo debería sesionar más temprano, ya que así se evitarían los retrasos que afectan a los funcionarios de casilla.",
+      "incorrecto": "La biblioteca abrió el martes a las nueve.",
+      "correcto": "La biblioteca debería abrir más temprano, ya que así se evitarían las filas que afectan a quienes van antes de trabajar.",
       "nota": "La segunda oración plantea una postura (tesis) y una razón (argumento de causa-efecto), a diferencia de la primera, que solo informa."
     },
     {
-      "incorrecto": "Según datos del instituto, aumentó la participación ciudadana.",
-      "correcto": "Como lo demuestran los datos del instituto, la participación ciudadana aumentó gracias a las nuevas casillas, por lo que deben mantenerse en el próximo proceso.",
+      "incorrecto": "Según datos del ayuntamiento, aumentó el uso de las ciclovías.",
+      "correcto": "Como lo demuestran los datos del ayuntamiento, el uso de las ciclovías aumentó gracias a la nueva señalización, por lo que debe extenderse a más calles.",
       "nota": "La versión argumentativa usa el dato (argumento estadístico) para sostener una conclusión y una recomendación."
     }
   ],
@@ -39,18 +39,18 @@
   "preguntas": [
     {
       "formato": "cuestionamiento-directo",
-      "enunciado": "«Los horarios de capacitación deben ampliarse, pues muchos funcionarios de casilla trabajan y no pueden asistir en horario matutino.» ¿Cuál es la tesis de esta oración?",
+      "enunciado": "«Los horarios de la biblioteca deben ampliarse, pues muchos estudiantes trabajan y no pueden asistir en la mañana.» ¿Cuál es la tesis de esta oración?",
       "opciones": [
-        "Muchos funcionarios de casilla trabajan.",
-        "Los horarios de capacitación deben ampliarse.",
-        "La capacitación es en horario matutino."
+        "Muchos estudiantes trabajan.",
+        "Los horarios de la biblioteca deben ampliarse.",
+        "La biblioteca abre en la mañana."
       ],
       "respuesta_correcta": 1,
       "explicacion": "Es la postura que el autor defiende; lo demás es el argumento (la razón) que la sostiene."
     },
     {
       "formato": "cuestionamiento-directo",
-      "enunciado": "¿Qué tipo de argumento se usa en: «Según el Instituto Nacional Electoral, la participación ciudadana aumentó doce puntos porcentuales en el último proceso»?",
+      "enunciado": "¿Qué tipo de argumento se usa en: «Según la Organización Mundial de la Salud, caminar treinta minutos diarios reduce doce por ciento el riesgo cardiovascular»?",
       "opciones": [
         "Argumento de autoridad y estadístico",
         "Argumento por ejemplificación",
@@ -63,12 +63,12 @@
       "formato": "cuestionamiento-directo",
       "enunciado": "¿Cuál de las siguientes oraciones introduce un contraargumento?",
       "opciones": [
-        "El voto electrónico agiliza el conteo de resultados.",
-        "Aunque algunos señalan riesgos de seguridad, el voto electrónico agiliza el conteo de resultados.",
-        "El conteo de resultados tardó cuatro horas en total."
+        "El riego por goteo ahorra agua en los huertos urbanos.",
+        "Aunque algunos señalan que instalarlo es costoso, el riego por goteo ahorra agua en los huertos urbanos.",
+        "El huerto urbano ocupa media hectárea en total."
       ],
       "respuesta_correcta": 1,
-      "explicacion": "Reconoce primero una postura contraria ('riesgos de seguridad') antes de sostener la propia, lo cual es característico del contraargumento."
+      "explicacion": "Reconoce primero una postura contraria ('costoso') antes de sostener la propia, lo cual es característico del contraargumento."
     },
     {
       "formato": "cuestionamiento-directo",
@@ -83,7 +83,7 @@
     },
     {
       "formato": "completamiento",
-      "enunciado": "El paquete electoral llegó completo a la bodega, ______ se procedió a sellar el acta de recepción.",
+      "enunciado": "El envío llegó completo a la bodega, ______ se procedió a sellar el acta de recepción.",
       "opciones": [
         "por lo tanto",
         "sin embargo",
@@ -96,12 +96,12 @@
       "formato": "cuestionamiento-directo",
       "enunciado": "¿Cuál oración presenta un argumento por ejemplificación?",
       "opciones": [
-        "Los consejos deben capacitar mejor a sus funcionarios.",
-        "En el distrito 5, la capacitación reforzada redujo los errores de llenado en un 30%, lo que demuestra su eficacia.",
-        "La capacitación es un tema importante para el instituto."
+        "Las escuelas deben capacitar mejor a sus docentes.",
+        "En la escuela Benito Juárez, la capacitación reforzada redujo el ausentismo docente en un 30%, lo que demuestra su eficacia.",
+        "La capacitación es un tema importante para la educación."
       ],
       "respuesta_correcta": 1,
-      "explicacion": "Usa un caso concreto (el distrito 5) para respaldar la idea general."
+      "explicacion": "Usa un caso concreto (la escuela Benito Juárez) para respaldar la idea general."
     },
     {
       "formato": "cuestionamiento-directo",
@@ -116,9 +116,9 @@
     },
     {
       "formato": "cuestionamiento-directo",
-      "enunciado": "«El nuevo protocolo de conteo, avalado por especialistas en estadística electoral, disminuyó los errores humanos.» ¿Qué elemento hace que esta oración sea argumentativa y no solo informativa?",
+      "enunciado": "«El nuevo protocolo de riego, avalado por especialistas en agronomía, disminuyó el consumo de agua.» ¿Qué elemento hace que esta oración sea argumentativa y no solo informativa?",
       "opciones": [
-        "Menciona un protocolo de conteo.",
+        "Menciona un protocolo de riego.",
         "Usa el respaldo de especialistas (autoridad) para sostener una conclusión valorativa.",
         "Usa la palabra 'protocolo'."
       ],
@@ -140,8 +140,8 @@
       "formato": "cuestionamiento-directo",
       "enunciado": "¿Cuál de las siguientes oraciones es puramente informativa (sin intención argumentativa)?",
       "opciones": [
-        "El consejo debería adoptar el nuevo protocolo cuanto antes.",
-        "El consejo aprobó el nuevo protocolo de conteo el pasado lunes.",
+        "El ayuntamiento debería adoptar el nuevo protocolo cuanto antes.",
+        "El ayuntamiento aprobó el nuevo protocolo de riego el pasado lunes.",
         "Es evidente que el nuevo protocolo es superior al anterior."
       ],
       "respuesta_correcta": 1,

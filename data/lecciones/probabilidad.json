@@ -134,7 +134,7 @@
     },
     {
       "formato": "cuestionamiento-directo",
-      "enunciado": "Una urna tiene 10 papeletas numeradas del 1 al 10. ¿Cuál es la probabilidad de sacar un número múltiplo de 3?",
+      "enunciado": "Una bolsa tiene 10 fichas numeradas del 1 al 10. ¿Cuál es la probabilidad de sacar un número múltiplo de 3?",
       "opciones": [
         "3/10",
         "1/3",

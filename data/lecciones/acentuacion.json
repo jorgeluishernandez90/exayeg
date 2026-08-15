@@ -16,18 +16,18 @@
   ],
   "ejemplos": [
     {
-      "incorrecto": "El consejo definira el calendario electoral.",
-      "correcto": "El consejo definirá el calendario electoral.",
+      "incorrecto": "El comité organizador definira el itinerario del festival.",
+      "correcto": "El comité organizador definirá el itinerario del festival.",
       "nota": "'Definirá' es aguda terminada en vocal, lleva tilde."
     },
     {
-      "incorrecto": "*Solo* el presidente firmo el acta esa noche.",
-      "correcto": "El presidente firmó el acta esa noche.",
+      "incorrecto": "*Solo* el director firmo el contrato esa noche.",
+      "correcto": "El director firmó el contrato esa noche.",
       "nota": "'Firmó' es aguda terminada en vocal; lleva tilde."
     },
     {
-      "incorrecto": "No se si el tramite ya esta listo.",
-      "correcto": "No sé si el trámite ya está listo.",
+      "incorrecto": "No se si el cuento ya esta listo para publicarse.",
+      "correcto": "No sé si el cuento ya está listo para publicarse.",
       "nota": "'Sé' (verbo saber) y 'está' (verbo estar) llevan tilde; 'trámite' es esdrújula."
     }
   ],
@@ -55,7 +55,7 @@
     },
     {
       "formato": "completamiento",
-      "enunciado": "El escrutinio se realizará en la sede del ______ distrital.",
+      "enunciado": "La reunión de vecinos se realizará en la sede del ______ vecinal.",
       "opciones": [
         "consejo",
         "concejo",
@@ -68,16 +68,16 @@
       "formato": "cuestionamiento-directo",
       "enunciado": "¿En qué oración el uso de la tilde diacrítica es correcto?",
       "opciones": [
-        "Tu sabes que él vendrá a la sesión.",
-        "Tú sabes que el vendrá a la sesión.",
-        "Tú sabes que él vendrá a la sesión."
+        "Tu sabes que él vendrá a la reunión de la banda.",
+        "Tú sabes que el vendrá a la reunión de la banda.",
+        "Tú sabes que él vendrá a la reunión de la banda."
       ],
       "respuesta_correcta": 2,
       "explicacion": "'Tú' (pronombre) lleva tilde para distinguirse de 'tu' (posesivo), y 'él' (pronombre) para distinguirse de 'el' (artículo)."
     },
     {
       "formato": "completamiento",
-      "enunciado": "El funcionario explicó el procedimiento con mucha ______.",
+      "enunciado": "La cirujana explicó el procedimiento con mucha ______.",
       "opciones": [
         "claridad",
         "claridád",
@@ -99,7 +99,7 @@
     },
     {
       "formato": "completamiento",
-      "enunciado": "El acta se firmó ______ que concluyera el cómputo.",
+      "enunciado": "El reportaje se publicó ______ que concluyera la investigación.",
       "opciones": [
         "aun antes de",
         "aún antes de",
@@ -112,8 +112,8 @@
       "formato": "cuestionamiento-directo",
       "enunciado": "¿Cuál de las siguientes oraciones está escrita correctamente?",
       "opciones": [
-        "Llegamos rápidamente y con mí apoyo al conteo de votos.",
-        "Conocí a Gabriela cuándo era consejera electoral.",
+        "Llegamos rápidamente y con mí apoyo al final de la carrera.",
+        "Conocí a Gabriela cuándo era reportera del periódico local.",
         "Es uno de los procesos más transparentes que he presenciado."
       ],
       "respuesta_correcta": 2,
@@ -121,7 +121,7 @@
     },
     {
       "formato": "completamiento",
-      "enunciado": "El representante preguntó ______ podía revisar las boletas.",
+      "enunciado": "La bibliotecaria preguntó ______ podía renovar el préstamo.",
       "opciones": [
         "si",
         "sí",
@@ -143,7 +143,7 @@
     },
     {
       "formato": "completamiento",
-      "enunciado": "El consejero quería saber ______ había más observadores registrados.",
+      "enunciado": "El cineasta quería saber ______ había más funciones programadas.",
       "opciones": [
         "cuantos",
         "cuántos",

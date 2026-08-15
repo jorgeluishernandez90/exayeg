@@ -8,27 +8,27 @@
     "svg": "<svg viewBox=\"0 0 900 340\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Arial, sans-serif\">\n<rect width=\"900\" height=\"340\" fill=\"#faf5ff\"/>\n<rect x=\"310.0\" y=\"15\" width=\"280\" height=\"55\" rx=\"10\" fill=\"#6d28d9\"/>\n<text x=\"450.0\" y=\"39\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"15\" font-weight=\"bold\">Buena redacción</text>\n<text x=\"450.0\" y=\"58\" text-anchor=\"middle\" fill=\"#e9d5ff\" font-size=\"10\">la oración dice justo lo que se quiere decir</text>\n<line x1=\"450.0\" y1=\"70\" x2=\"450.0\" y2=\"100\" stroke=\"#ec4899\" stroke-width=\"3\"/>\n<line x1=\"127.5\" y1=\"100\" x2=\"772.5\" y2=\"100\" stroke=\"#ec4899\" stroke-width=\"3\"/>\n<line x1=\"127.5\" y1=\"100\" x2=\"127.5\" y2=\"130\" stroke=\"#ec4899\" stroke-width=\"3\"/>\n<rect x=\"30.0\" y=\"130\" width=\"195.0\" height=\"190\" rx=\"10\" fill=\"#fdf2f8\" stroke=\"#ec4899\" stroke-width=\"2\"/>\n<text x=\"127.5\" y=\"158\" text-anchor=\"middle\" fill=\"#be185d\" font-size=\"13\" font-weight=\"bold\">Concordancia</text>\n<text x=\"127.5\" y=\"182\" text-anchor=\"middle\" fill=\"#374151\" font-size=\"10\">Sujeto-verbo y</text>\n<text x=\"127.5\" y=\"197\" text-anchor=\"middle\" fill=\"#374151\" font-size=\"10\">sustantivo-</text>\n<text x=\"127.5\" y=\"212\" text-anchor=\"middle\" fill=\"#374151\" font-size=\"10\">adjetivo deben</text>\n<text x=\"127.5\" y=\"227\" text-anchor=\"middle\" fill=\"#374151\" font-size=\"10\">coincidir</text>\n<text x=\"127.5\" y=\"242\" text-anchor=\"middle\" fill=\"#374151\" font-size=\"10\">en género, número y</text>\n<text x=\"127.5\" y=\"257\" text-anchor=\"middle\" fill=\"#374151\" font-size=\"10\">persona</text>\n<line x1=\"342.5\" y1=\"100\" x2=\"342.5\" y2=\"130\" stroke=\"#ec4899\" stroke-width=\"3\"/>\n<rect x=\"245.0\" y=\"130\" width=\"195.0\" height=\"190\" rx=\"10\" fill=\"#fdf2f8\" stroke=\"#ec4899\" stroke-width=\"2\"/>\n<text x=\"342.5\" y=\"158\" text-anchor=\"middle\" fill=\"#be185d\" font-size=\"13\" font-weight=\"bold\">Coherencia</text>\n<text x=\"342.5\" y=\"182\" text-anchor=\"middle\" fill=\"#374151\" font-size=\"10\">Las ideas se</text>\n<text x=\"342.5\" y=\"197\" text-anchor=\"middle\" fill=\"#374151\" font-size=\"10\">relacionan</text>\n<text x=\"342.5\" y=\"212\" text-anchor=\"middle\" fill=\"#374151\" font-size=\"10\">lógicamente entre</text>\n<text x=\"342.5\" y=\"227\" text-anchor=\"middle\" fill=\"#374151\" font-size=\"10\">sí,</text>\n<text x=\"342.5\" y=\"242\" text-anchor=\"middle\" fill=\"#374151\" font-size=\"10\">sin saltos de tema</text>\n<line x1=\"557.5\" y1=\"100\" x2=\"557.5\" y2=\"130\" stroke=\"#ec4899\" stroke-width=\"3\"/>\n<rect x=\"460.0\" y=\"130\" width=\"195.0\" height=\"190\" rx=\"10\" fill=\"#fdf2f8\" stroke=\"#ec4899\" stroke-width=\"2\"/>\n<text x=\"557.5\" y=\"158\" text-anchor=\"middle\" fill=\"#be185d\" font-size=\"13\" font-weight=\"bold\">Cohesión</text>\n<text x=\"557.5\" y=\"182\" text-anchor=\"middle\" fill=\"#374151\" font-size=\"10\">Conectores y</text>\n<text x=\"557.5\" y=\"197\" text-anchor=\"middle\" fill=\"#374151\" font-size=\"10\">pronombres</text>\n<text x=\"557.5\" y=\"212\" text-anchor=\"middle\" fill=\"#374151\" font-size=\"10\">enlazan las ideas</text>\n<text x=\"557.5\" y=\"227\" text-anchor=\"middle\" fill=\"#374151\" font-size=\"10\">sin</text>\n<text x=\"557.5\" y=\"242\" text-anchor=\"middle\" fill=\"#374151\" font-size=\"10\">repetir palabras de</text>\n<text x=\"557.5\" y=\"257\" text-anchor=\"middle\" fill=\"#374151\" font-size=\"10\">más</text>\n<line x1=\"772.5\" y1=\"100\" x2=\"772.5\" y2=\"130\" stroke=\"#ec4899\" stroke-width=\"3\"/>\n<rect x=\"675.0\" y=\"130\" width=\"195.0\" height=\"190\" rx=\"10\" fill=\"#fdf2f8\" stroke=\"#ec4899\" stroke-width=\"2\"/>\n<text x=\"772.5\" y=\"158\" text-anchor=\"middle\" fill=\"#be185d\" font-size=\"13\" font-weight=\"bold\">Sin ambigüedad</text>\n<text x=\"772.5\" y=\"182\" text-anchor=\"middle\" fill=\"#374151\" font-size=\"10\">La oración solo</text>\n<text x=\"772.5\" y=\"197\" text-anchor=\"middle\" fill=\"#374151\" font-size=\"10\">admite</text>\n<text x=\"772.5\" y=\"212\" text-anchor=\"middle\" fill=\"#374151\" font-size=\"10\">una interpretación</text>\n<text x=\"772.5\" y=\"227\" text-anchor=\"middle\" fill=\"#374151\" font-size=\"10\">posible</text>\n</svg>"
   },
   "explicacion": [
-    "Concordancia: el sujeto y el verbo deben coincidir en número (singular/plural) y persona; el sustantivo y sus adjetivos deben coincidir en género y número. Un error frecuente es la concordancia a distancia, cuando entre el sujeto y el verbo se mete una frase larga y se pierde la referencia (Ej. incorrecto: 'El grupo de consejeros llegaron tarde', debe ser 'llegó').",
+    "Concordancia: el sujeto y el verbo deben coincidir en número (singular/plural) y persona; el sustantivo y sus adjetivos deben coincidir en género y número. Un error frecuente es la concordancia a distancia, cuando entre el sujeto y el verbo se mete una frase larga y se pierde la referencia (Ej. incorrecto: 'El grupo de músicos llegaron tarde', debe ser 'llegó').",
     "Coherencia: las ideas de una oración o párrafo deben tener una relación lógica entre sí, sin contradicciones ni saltos de tema. Una oración incoherente mezcla ideas que no se conectan naturalmente.",
     "Cohesión: es el uso correcto de conectores (por lo tanto, sin embargo, además, debido a) y de referencias (pronombres, sinónimos) para enlazar las ideas dentro del texto sin repetir palabras innecesariamente ni dejar ideas sueltas.",
-    "Ambigüedad: ocurre cuando una oración puede interpretarse de más de una manera por un orden de palabras confuso o un pronombre sin referente claro (Ej. ambiguo: 'El consejero le dijo al secretario que revisara su acta' — ¿el acta de quién?). La buena redacción elimina esa duda.",
+    "Ambigüedad: ocurre cuando una oración puede interpretarse de más de una manera por un orden de palabras confuso o un pronombre sin referente claro (Ej. ambiguo: 'El editor le dijo al redactor que revisara su artículo' — ¿el artículo de quién?). La buena redacción elimina esa duda.",
     "Orden lógico y economía del lenguaje: la información debe presentarse en un orden que facilite la comprensión (de lo general a lo particular, o en orden cronológico) y sin redundancias ni palabras de más ('subir arriba', 'la fecha exacta en que ocurrió el hecho' cuando basta con 'la fecha')."
   ],
   "ejemplos": [
     {
-      "incorrecto": "El grupo de consejeros llegaron tarde a la sesión.",
-      "correcto": "El grupo de consejeros llegó tarde a la sesión.",
-      "nota": "El sujeto es 'el grupo' (singular), no 'consejeros'; el verbo debe concordar con el sujeto real."
+      "incorrecto": "El grupo de músicos llegaron tarde al ensayo.",
+      "correcto": "El grupo de músicos llegó tarde al ensayo.",
+      "nota": "El sujeto es 'el grupo' (singular), no 'músicos'; el verbo debe concordar con el sujeto real."
     },
     {
-      "incorrecto": "Habiendo terminado el escrutinio, se procedió, una vez que ya se había concluido, a sellar las urnas.",
-      "correcto": "Habiendo terminado el escrutinio, se procedió a sellar las urnas.",
+      "incorrecto": "Habiendo terminado la cosecha, se procedió, una vez que ya se había concluido, a guardar el grano.",
+      "correcto": "Habiendo terminado la cosecha, se procedió a guardar el grano.",
       "nota": "La frase repite la misma idea dos veces ('habiendo terminado' y 'una vez que ya se había concluido')."
     },
     {
-      "incorrecto": "El consejero le dijo al secretario que revisara su acta.",
-      "correcto": "El consejero le dijo al secretario que revisara el acta del consejero.",
-      "nota": "El pronombre 'su' es ambiguo: no queda claro de quién es el acta."
+      "incorrecto": "El editor le dijo al redactor que revisara su artículo.",
+      "correcto": "El editor le dijo al redactor que revisara el artículo del editor.",
+      "nota": "El pronombre 'su' es ambiguo: no queda claro de quién es el artículo."
     }
   ],
   "material_consulta": [
@@ -50,9 +50,9 @@
       "formato": "cuestionamiento-directo",
       "enunciado": "¿Cuál de las siguientes oraciones está mejor redactada?",
       "opciones": [
-        "El grupo de observadores electorales presentaron su informe final.",
-        "El grupo de observadores electorales presentó su informe final.",
-        "El grupo de observadores electorales presento su informe final."
+        "El grupo de investigadores presentaron su informe final.",
+        "El grupo de investigadores presentó su informe final.",
+        "El grupo de investigadores presento su informe final."
       ],
       "respuesta_correcta": 1,
       "explicacion": "El sujeto es 'el grupo' (singular), por lo que el verbo debe ir en singular: 'presentó'."
@@ -61,31 +61,31 @@
       "formato": "cuestionamiento-directo",
       "enunciado": "¿Cuál oración es ambigua, es decir, admite más de una interpretación?",
       "opciones": [
-        "El presidente del consejo distrital firmó el acta de la sesión.",
-        "El consejero le explicó al secretario su función durante el cómputo.",
-        "El secretario técnico entregó el paquete electoral al presidente."
+        "La directora del hospital firmó el acta de la reunión.",
+        "El chef le explicó al aprendiz su función durante el banquete.",
+        "El mensajero entregó el paquete sellado al destinatario."
       ],
       "respuesta_correcta": 1,
-      "explicacion": "No queda claro si 'su función' se refiere al consejero o al secretario; las otras dos oraciones tienen un referente claro."
+      "explicacion": "No queda claro si 'su función' se refiere al chef o al aprendiz; las otras dos oraciones tienen un referente claro."
     },
     {
       "formato": "cuestionamiento-directo",
       "enunciado": "¿Cuál oración presenta un error de concordancia?",
       "opciones": [
-        "Las boletas sobrantes fueron incineradas conforme al procedimiento.",
-        "Las boletas sobrante fue incinerada conforme al procedimiento.",
-        "Las boletas sobrantes se incineraron conforme al procedimiento."
+        "Las hojas sobrantes fueron recicladas conforme al procedimiento.",
+        "Las hojas sobrante fue reciclada conforme al procedimiento.",
+        "Las hojas sobrantes se reciclaron conforme al procedimiento."
       ],
       "respuesta_correcta": 1,
-      "explicacion": "En la opción incorrecta, 'boletas' (plural) no concuerda con 'sobrante' ni con 'fue incinerada' (singular)."
+      "explicacion": "En la opción incorrecta, 'hojas' (plural) no concuerda con 'sobrante' ni con 'fue reciclada' (singular)."
     },
     {
       "formato": "cuestionamiento-directo",
       "enunciado": "¿Cuál de las siguientes oraciones es redundante (repite información innecesaria)?",
       "opciones": [
-        "El consejo sesionó a las nueve de la mañana del día lunes.",
-        "El consejo sesionó a las nueve de la mañana del día de hoy lunes actual.",
-        "El consejo sesionó el lunes por la mañana."
+        "El taller abrió a las nueve de la mañana del día lunes.",
+        "El taller abrió a las nueve de la mañana del día de hoy lunes actual.",
+        "El taller abrió el lunes por la mañana."
       ],
       "respuesta_correcta": 1,
       "explicacion": "'El día de hoy lunes actual' repite tres veces la misma idea de tiempo presente; basta con decir 'hoy' o 'este lunes'."
@@ -94,9 +94,9 @@
       "formato": "cuestionamiento-directo",
       "enunciado": "¿Cuál oración usa el conector adecuado para expresar una consecuencia?",
       "opciones": [
-        "No se presentó el representante de partido, sin embargo, se declaró desierta la vocalía.",
-        "No se presentó el representante de partido, por lo tanto, se declaró desierta la vocalía.",
-        "No se presentó el representante de partido, aunque se declaró desierta la vocalía."
+        "No se presentó el proveedor a tiempo, sin embargo, se declaró cancelado el pedido.",
+        "No se presentó el proveedor a tiempo, por lo tanto, se declaró cancelado el pedido.",
+        "No se presentó el proveedor a tiempo, aunque se declaró cancelado el pedido."
       ],
       "respuesta_correcta": 1,
       "explicacion": "'Por lo tanto' expresa consecuencia lógica, que es la relación real entre las dos ideas; 'sin embargo' y 'aunque' indican contraste, que no aplica aquí."
@@ -105,9 +105,9 @@
       "formato": "cuestionamiento-directo",
       "enunciado": "¿Cuál de las siguientes oraciones mantiene mejor la coherencia entre sus ideas?",
       "opciones": [
-        "El consejo distrital revisó las actas; además, la boleta tiene un tamaño de carta.",
-        "El consejo distrital revisó las actas y, al encontrar inconsistencias, ordenó un nuevo recuento.",
-        "El consejo distrital revisó las actas, pero el clima estuvo soleado ese día."
+        "La editorial revisó el manuscrito; además, la portada tiene un tamaño estándar.",
+        "La editorial revisó el manuscrito y, al encontrar inconsistencias, pidió una nueva revisión.",
+        "La editorial revisó el manuscrito, pero el clima estuvo soleado ese día."
       ],
       "respuesta_correcta": 1,
       "explicacion": "Es la única oración donde ambas ideas están relacionadas lógicamente entre sí; las otras dos combinan ideas sin relación."
@@ -116,31 +116,31 @@
       "formato": "cuestionamiento-directo",
       "enunciado": "¿Cuál oración presenta el orden más claro para comunicar la información?",
       "opciones": [
-        "A las diez, tras revisar el paquete electoral, que llegó completo, el consejo, según lo previsto, sesionó.",
-        "El consejo sesionó a las diez, después de revisar que el paquete electoral hubiera llegado completo.",
-        "Sesionó el consejo, el paquete electoral llegó completo, a las diez, tras revisarlo."
+        "A las diez, tras revisar el inventario, que llegó completo, el almacén, según lo previsto, abrió.",
+        "El almacén abrió a las diez, después de revisar que el inventario hubiera llegado completo.",
+        "Abrió el almacén, el inventario llegó completo, a las diez, tras revisarlo."
       ],
       "respuesta_correcta": 1,
       "explicacion": "Presenta la información en un orden lógico y sin interrupciones que dificulten la lectura."
     },
     {
       "formato": "cuestionamiento-directo",
-      "enunciado": "¿Cuál oración corrige mejor la ambigüedad de: 'El vocal le entregó el acta al presidente en su oficina'?",
+      "enunciado": "¿Cuál oración corrige mejor la ambigüedad de: 'El asistente le entregó el reporte al gerente en su oficina'?",
       "opciones": [
-        "El vocal le entregó el acta al presidente en la oficina del presidente.",
-        "El vocal, en su oficina, le entregó el acta al presidente.",
-        "El vocal le entregó, en su oficina, el acta al presidente."
+        "El asistente le entregó el reporte al gerente en la oficina del gerente.",
+        "El asistente, en su oficina, le entregó el reporte al gerente.",
+        "El asistente le entregó, en su oficina, el reporte al gerente."
       ],
       "respuesta_correcta": 0,
-      "explicacion": "Al especificar de quién es la oficina, se elimina la duda sobre si era la oficina del vocal o la del presidente."
+      "explicacion": "Al especificar de quién es la oficina, se elimina la duda sobre si era la oficina del asistente o la del gerente."
     },
     {
       "formato": "cuestionamiento-directo",
       "enunciado": "¿Cuál de las siguientes oraciones evita la repetición innecesaria de palabras?",
       "opciones": [
-        "El consejo revisó el acta, el consejo firmó el acta y el consejo archivó el acta.",
-        "El consejo revisó, firmó y archivó el acta.",
-        "El consejo revisó el acta y el consejo también firmó el acta y también la archivó."
+        "El comité revisó el informe, el comité firmó el informe y el comité archivó el informe.",
+        "El comité revisó, firmó y archivó el informe.",
+        "El comité revisó el informe y el comité también firmó el informe y también lo archivó."
       ],
       "respuesta_correcta": 1,
       "explicacion": "Al compartir un mismo sujeto y objeto, basta con enumerar los verbos una sola vez: 'revisó, firmó y archivó'."
@@ -149,9 +149,9 @@
       "formato": "cuestionamiento-directo",
       "enunciado": "¿Cuál oración está mejor redactada?",
       "opciones": [
-        "Los paquetes electorales, una vez cerrados, se trasladan a la bodega, la cual está ubicada en el sótano, que es el lugar destinado para resguardar los paquetes.",
-        "Una vez cerrados, los paquetes electorales se trasladan a la bodega ubicada en el sótano.",
-        "Los paquetes, cuando ya están cerrados los paquetes electorales, se trasladan a la bodega del sótano donde se resguardan."
+        "Los paquetes de mercancía, una vez cerrados, se trasladan a la bodega, la cual está ubicada en el sótano, que es el lugar destinado para resguardar los paquetes.",
+        "Una vez cerrados, los paquetes de mercancía se trasladan a la bodega ubicada en el sótano.",
+        "Los paquetes, cuando ya están cerrados los paquetes de mercancía, se trasladan a la bodega del sótano donde se resguardan."
       ],
       "respuesta_correcta": 1,
       "explicacion": "Es la opción más clara y concisa; las otras dos repiten información o tienen una estructura enredada."

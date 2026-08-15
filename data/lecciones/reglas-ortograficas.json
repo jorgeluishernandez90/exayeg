@@ -11,23 +11,23 @@
     "Uso de B y V: se escribe con B después de las sílabas 'al', 'ar' y 'bu-, bur-, bus-' (absoluto, arbusto, buscar); en los pretéritos imperfectos de los verbos terminados en -ar (caminaba) y del verbo ir (iba); y en las terminaciones -bilidad, -bundo, -bunda (amabilidad), salvo civilidad y movilidad. Se escribe con V después de las sílabas 'ad-', 'sub-' y 'ob-' (advertir, subvención) y en los adjetivos terminados en -avo, -ave, -evo, -eve, -ivo (octavo, suave, longevo, leve, activo).",
     "Uso de la H: se escribe H en palabras que empiezan con 'hidr-', 'hosp-', 'hiper-', 'hipo-' y 'herm-' (hidratante, hospital, hipermercado, hipócrita, hermético), y en todas las formas de los verbos haber, hacer, hablar y habitar. También en interjecciones como '¡hola!' y '¡eh!'.",
     "Uso de G y J: se escribe G antes de las combinaciones 'ge' y 'gi' en la mayoría de los casos (general, ágil), salvo excepciones frecuentes como 'jefe', 'jirafa', 'berenjena' o 'garaje'. Los verbos terminados en '-ger' y '-gir' se escriben con G (proteger, dirigir), excepto tejer y crujir.",
-    "Uso de mayúsculas: se escriben con mayúscula inicial los nombres propios, los sustantivos y adjetivos que forman parte del nombre de instituciones, entidades u organismos (Instituto Electoral del Estado de Guanajuato), y la primera palabra de un escrito o después de punto. No se escriben con mayúscula los días de la semana, los meses ni las estaciones del año, salvo que inicien una oración.",
+    "Uso de mayúsculas: se escriben con mayúscula inicial los nombres propios, los sustantivos y adjetivos que forman parte del nombre de instituciones, entidades u organismos (Universidad de Guanajuato, Cruz Roja Mexicana), y la primera palabra de un escrito o después de punto. No se escriben con mayúscula los días de la semana, los meses ni las estaciones del año, salvo que inicien una oración.",
     "Homófonos frecuentes: son palabras que se pronuncian igual pero se escriben distinto y tienen significado diferente, por ejemplo 'ha' (del verbo haber) y 'a' (preposición); 'hay' (del verbo haber), 'ahí' (lugar) y '¡ay!' (interjección); 'vaya' (del verbo ir), 'valla' (cerca) y 'baya' (fruto)."
   ],
   "ejemplos": [
     {
-      "incorrecto": "El comité *aprovó* el dictamen.",
-      "correcto": "El comité aprobó el dictamen.",
+      "incorrecto": "El panadero *aprovó* la nueva receta del pan de muerto.",
+      "correcto": "El panadero aprobó la nueva receta del pan de muerto.",
       "nota": "Aprobar se escribe con B por ser un derivado de 'probar'."
     },
     {
-      "incorrecto": "La sesión fue *echa* pública.",
-      "correcto": "La sesión fue hecha pública.",
+      "incorrecto": "La noticia fue *echa* pública esa misma tarde.",
+      "correcto": "La noticia fue hecha pública esa misma tarde.",
       "nota": "'Hecha' viene del verbo hacer, siempre se escribe con H."
     },
     {
-      "incorrecto": "*Havía* poca luz en la sala.",
-      "correcto": "Había poca luz en la sala.",
+      "incorrecto": "*Havía* poca luz en la biblioteca del pueblo.",
+      "correcto": "Había poca luz en la biblioteca del pueblo.",
       "nota": "Todas las formas del verbo haber se escriben con H."
     }
   ],
@@ -55,11 +55,11 @@
     },
     {
       "formato": "completamiento",
-      "enunciado": "El presidente del Consejo ______ la sesión a las nueve de la mañana.",
+      "enunciado": "La abuela ______ el pan desde antes del amanecer.",
       "opciones": [
-        "havía instalado",
-        "había instalado",
-        "abía instalado"
+        "havía horneado",
+        "había horneado",
+        "abía horneado"
       ],
       "respuesta_correcta": 1,
       "explicacion": "Es una forma del verbo haber, que siempre se escribe con H."
@@ -68,16 +68,16 @@
       "formato": "cuestionamiento-directo",
       "enunciado": "¿Qué opción contiene el uso correcto de mayúsculas?",
       "opciones": [
-        "El Consejo sesionará el Lunes en la sede del Instituto.",
-        "El consejo sesionará el lunes en la sede del Instituto.",
-        "El Consejo sesionará el lunes en la sede del instituto."
+        "El taller de pintura abre el Lunes en la Casa de Cultura.",
+        "El taller de pintura abre el lunes en la Casa de Cultura.",
+        "El taller de pintura abre el lunes en la casa de cultura."
       ],
       "respuesta_correcta": 1,
-      "explicacion": "'Consejo' como parte del nombre de la institución va con mayúscula, pero los días de la semana ('lunes') se escriben con minúscula."
+      "explicacion": "'Casa de Cultura' como nombre propio de una institución va con mayúsculas, pero los días de la semana ('lunes') se escriben con minúscula."
     },
     {
       "formato": "completamiento",
-      "enunciado": "Los representantes de partido ______ ejercer su derecho de réplica durante la jornada.",
+      "enunciado": "Los senderistas ______ terminar la ruta antes de que oscureciera.",
       "opciones": [
         "ban a",
         "van ha",
@@ -90,27 +90,27 @@
       "formato": "cuestionamiento-directo",
       "enunciado": "¿Cuál oración usa correctamente los homófonos?",
       "opciones": [
-        "Hay una valla de opciones para votar, ¡ay que decidir bien!",
-        "Ahí una baya de opciones para votar, ¡hay que decidir bien!",
-        "Hay una gama de opciones para votar, ¡hay que decidir bien!"
+        "Hay una valla publicitaria enorme, ¡ay que verla de noche!",
+        "Ahí una baya silvestre creció junto al camino, ¡hay que probarla!",
+        "Hay una gran variedad de aves en la reserva, ¡hay que visitarla pronto!"
       ],
       "respuesta_correcta": 2,
       "explicacion": "Ambos usos de 'hay' (del verbo haber) son correctos en este contexto; las otras opciones confunden los homófonos."
     },
     {
       "formato": "completamiento",
-      "enunciado": "El presidente del Consejo ______apacita a los funcionarios de casilla para prote______er la boleta y garanti______ar el resguardo de las actas.",
+      "enunciado": "La cronista debía ______apacitarse antes de prote______er su reportaje y garanti______ar que los datos fueran exactos.",
       "opciones": [
         "c, g, z",
         "s, j, s",
         "z, g, s"
       ],
       "respuesta_correcta": 0,
-      "explicacion": "Las formas correctas son 'capacita' (con C), 'proteger' (con G) y 'garantizar' (con Z); las otras combinaciones no existen en español."
+      "explicacion": "Las formas correctas son 'capacitarse' (con C), 'proteger' (con G) y 'garantizar' (con Z); las otras combinaciones no existen en español."
     },
     {
       "formato": "completamiento",
-      "enunciado": "El funcionario debe ______ imparcial durante todo el proceso.",
+      "enunciado": "El guía debe ______ atento a cualquier cambio de clima en la montaña.",
       "opciones": [
         "permanecer",
         "permaneser",
@@ -121,7 +121,7 @@
     },
     {
       "formato": "completamiento",
-      "enunciado": "La ciudadanía ______ acudir a votar el día de la jornada electoral.",
+      "enunciado": "El equipo de rescate ______ llegar antes de que subiera la marea.",
       "opciones": [
         "deve",
         "debe",
@@ -143,7 +143,7 @@
     },
     {
       "formato": "completamiento",
-      "enunciado": "El consejo distrital ______ la totalidad de las actas antes del cómputo.",
+      "enunciado": "El comité editorial ______ el manuscrito completo antes de mandarlo a imprenta.",
       "opciones": [
         "revisó",
         "rebisó",

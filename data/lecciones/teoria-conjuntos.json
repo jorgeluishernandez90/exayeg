@@ -8,12 +8,12 @@
     "svg": "<svg viewBox=\"0 0 700 380\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Arial, sans-serif\">\n<rect width=\"700\" height=\"380\" fill=\"#faf5ff\"/>\n<text x=\"350.0\" y=\"28\" text-anchor=\"middle\" fill=\"#6d28d9\" font-size=\"17\" font-weight=\"bold\">Operaciones con conjuntos (diagrama de Venn)</text>\n<circle cx=\"260.0\" cy=\"210.0\" r=\"140\" fill=\"#9333ea\" opacity=\"0.55\"/>\n<circle cx=\"440.0\" cy=\"210.0\" r=\"140\" fill=\"#ec4899\" opacity=\"0.55\"/>\n<text x=\"190.0\" y=\"90.0\" fill=\"#6d28d9\" font-size=\"14\" font-weight=\"bold\">Conjunto A</text>\n<text x=\"470.0\" y=\"90.0\" fill=\"#be185d\" font-size=\"14\" font-weight=\"bold\">Conjunto B</text>\n<text x=\"190.0\" y=\"210.0\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"12\" font-weight=\"bold\">Solo en A: A − B</text>\n<text x=\"350.0\" y=\"210.0\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"12\" font-weight=\"bold\">En ambos: A ∩ B</text>\n<text x=\"510.0\" y=\"210.0\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"12\" font-weight=\"bold\">Solo en B: B − A</text>\n</svg>"
   },
   "explicacion": [
-    "Notación y elementos: un conjunto se escribe entre llaves { }, y cada cosa que está adentro se llama 'elemento'. Por ejemplo, si A es el conjunto de los consejeros que asistieron el lunes: A = {Juan, María, Pedro}. Para decir que 'María pertenece al conjunto A' se usa el símbolo ∈ (María ∈ A). Si un elemento NO está en el conjunto, se usa ∉.",
-    "Subconjunto: un conjunto B es subconjunto de A (se escribe B ⊂ A) si TODOS los elementos de B también están dentro de A. Ejemplo paso a paso: si A = {Juan, María, Pedro, Ana} son todos los consejeros del distrito, y B = {Juan, María} son los que llegaron temprano, entonces B ⊂ A porque tanto Juan como María también están en A.",
+    "Notación y elementos: un conjunto se escribe entre llaves { }, y cada cosa que está adentro se llama 'elemento'. Por ejemplo, si A es el conjunto de los maestros que asistieron el lunes: A = {Juan, María, Pedro}. Para decir que 'María pertenece al conjunto A' se usa el símbolo ∈ (María ∈ A). Si un elemento NO está en el conjunto, se usa ∉.",
+    "Subconjunto: un conjunto B es subconjunto de A (se escribe B ⊂ A) si TODOS los elementos de B también están dentro de A. Ejemplo paso a paso: si A = {Juan, María, Pedro, Ana} son todos los maestros de la escuela, y B = {Juan, María} son los que llegaron temprano, entonces B ⊂ A porque tanto Juan como María también están en A.",
     "Unión (símbolo ∪): la unión de dos conjuntos junta TODOS los elementos de ambos, sin repetir los que se comparten. Ejemplo paso a paso: si A = {Juan, María, Pedro} (asistieron el lunes) y B = {María, Ana} (asistieron el martes), entonces A ∪ B = {Juan, María, Pedro, Ana}. Nota que 'María' aparece en los dos conjuntos originales, pero en la unión solo se escribe una vez.",
     "Intersección (símbolo ∩): la intersección son SOLO los elementos que están en ambos conjuntos al mismo tiempo. Usando el mismo ejemplo: A ∩ B = {María}, porque María es la única persona que asistió tanto el lunes como el martes.",
     "Diferencia (símbolo −): la diferencia A − B son los elementos que están en A pero NO están en B. Con el mismo ejemplo: A − B = {Juan, Pedro}, porque Juan y Pedro están en A (asistieron el lunes) pero no están en B (no asistieron el martes). Ojo: A − B no es lo mismo que B − A; en este caso B − A = {Ana}, porque Ana está en B pero no en A.",
-    "Complemento (símbolo A'): si existe un 'conjunto universo' U que contiene a todos los elementos posibles, el complemento de A son todos los elementos del universo que NO están en A. Ejemplo paso a paso: si el universo U son los 7 consejeros del distrito, U = {Juan, María, Pedro, Ana, Luis, Carla, Beto}, y A = {Juan, María, Pedro} son los que asistieron, entonces A' = {Ana, Luis, Carla, Beto}, es decir, los que NO asistieron.",
+    "Complemento (símbolo A'): si existe un 'conjunto universo' U que contiene a todos los elementos posibles, el complemento de A son todos los elementos del universo que NO están en A. Ejemplo paso a paso: si el universo U son los 7 maestros de la escuela, U = {Juan, María, Pedro, Ana, Luis, Carla, Beto}, y A = {Juan, María, Pedro} son los que asistieron, entonces A' = {Ana, Luis, Carla, Beto}, es decir, los que NO asistieron.",
     "Cardinalidad: es simplemente el número de elementos que tiene un conjunto, se escribe |A|. Si A = {Juan, María, Pedro}, entonces |A| = 3."
   ],
   "ejemplos": [
@@ -63,7 +63,7 @@
     },
     {
       "formato": "cuestionamiento-directo",
-      "enunciado": "Si C = {consejeros que hablan inglés} y D = {consejeros que hablan francés}, y Juan aparece en ambos conjuntos, ¿en qué operación aparecerá Juan?",
+      "enunciado": "Si C = {maestros que hablan inglés} y D = {maestros que hablan francés}, y Juan aparece en ambos conjuntos, ¿en qué operación aparecerá Juan?",
       "opciones": [
         "Únicamente en C ∪ D",
         "En C ∩ D y también en C ∪ D",
@@ -74,11 +74,11 @@
     },
     {
       "formato": "cuestionamiento-directo",
-      "enunciado": "El consejo distrital tiene 7 integrantes en total (el universo U). Si A = {los 3 que asistieron a la capacitación matutina}, ¿qué representa A'?",
+      "enunciado": "La escuela tiene 7 maestros en total (el universo U). Si A = {los 3 que asistieron al taller matutino}, ¿qué representa A'?",
       "opciones": [
-        "Los 3 que sí asistieron a la capacitación matutina.",
-        "Los 4 integrantes restantes que no asistieron a la capacitación matutina.",
-        "Los 7 integrantes del consejo."
+        "Los 3 que sí asistieron al taller matutino.",
+        "Los 4 integrantes restantes que no asistieron al taller matutino.",
+        "Los 7 maestros de la escuela."
       ],
       "respuesta_correcta": 1,
       "explicacion": "El complemento A' son todos los elementos del universo que no están en A: 7 − 3 = 4 personas."
@@ -96,7 +96,7 @@
     },
     {
       "formato": "cuestionamiento-directo",
-      "enunciado": "Si P = {vocales capacitados} tiene 12 elementos y Q = {vocales certificados} tiene 8 elementos, y 5 vocales están en ambos grupos, ¿cuántos elementos tiene P ∪ Q?",
+      "enunciado": "Si P = {estudiantes inscritos a robótica} tiene 12 elementos y Q = {estudiantes inscritos a ajedrez} tiene 8 elementos, y 5 estudiantes están en ambos grupos, ¿cuántos elementos tiene P ∪ Q?",
       "opciones": [
         "15",
         "20",
@@ -107,7 +107,7 @@
     },
     {
       "formato": "cuestionamiento-directo",
-      "enunciado": "Si E = {representantes que asistieron el lunes} = {Ana, Luis, Coco} y F = {representantes que asistieron el martes} = {Luis, Coco, Rita}, ¿cuál es E − F?",
+      "enunciado": "Si E = {voluntarios que asistieron el lunes} = {Ana, Luis, Coco} y F = {voluntarios que asistieron el martes} = {Luis, Coco, Rita}, ¿cuál es E − F?",
       "opciones": [
         "{Ana}",
         "{Rita}",
@@ -129,14 +129,14 @@
     },
     {
       "formato": "cuestionamiento-directo",
-      "enunciado": "¿Cuál es la cardinalidad (número de elementos) del conjunto A = {actas, boletas, urnas, mamparas}?",
+      "enunciado": "¿Cuál es la cardinalidad (número de elementos) del conjunto A = {libros, cuadernos, lápices, mochilas}?",
       "opciones": [
         "4",
         "3",
         "5"
       ],
       "respuesta_correcta": 0,
-      "explicacion": "El conjunto A tiene cuatro elementos: actas, boletas, urnas y mamparas, así que |A| = 4."
+      "explicacion": "El conjunto A tiene cuatro elementos: libros, cuadernos, lápices y mochilas, así que |A| = 4."
     },
     {
       "formato": "cuestionamiento-directo",

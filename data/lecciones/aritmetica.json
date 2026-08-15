@@ -2,7 +2,7 @@
   "id": "aritmetica",
   "titulo": "Aritmética",
   "area": "Competencia matemática",
-  "introduccion": "Esta subárea evalúa operaciones básicas, fracciones, porcentajes, razones, proporciones y regla de tres, casi siempre planteados como problemas de aplicación práctica (por ejemplo, sobre votos, boletas o listas nominales).",
+  "introduccion": "Esta subárea evalúa operaciones básicas, fracciones, porcentajes, razones, proporciones y regla de tres, casi siempre planteados como problemas de aplicación práctica de la vida cotidiana.",
   "diagrama": {
     "titulo": "Jerarquía de operaciones",
     "svg": "<svg viewBox=\"0 0 700 440\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Arial, sans-serif\">\n<rect width=\"700\" height=\"440\" fill=\"#faf5ff\"/>\n<rect x=\"40\" y=\"15\" width=\"620\" height=\"78\" rx=\"12\" fill=\"#6d28d9\"/>\n<text x=\"65\" y=\"43\" fill=\"#ffffff\" font-size=\"13\" font-weight=\"bold\">1. Paréntesis</text>\n<text x=\"65\" y=\"63\" fill=\"#f3e8ff\" font-size=\"11\">Se resuelve primero todo lo que está dentro de ( ).</text>\n<polygon points=\"340.0,101 360.0,101 350.0,117\" fill=\"#a78bfa\"/>\n<rect x=\"40\" y=\"115\" width=\"620\" height=\"78\" rx=\"12\" fill=\"#9333ea\"/>\n<text x=\"65\" y=\"143\" fill=\"#ffffff\" font-size=\"13\" font-weight=\"bold\">2. Potencias y raíces</text>\n<text x=\"65\" y=\"163\" fill=\"#f3e8ff\" font-size=\"11\">Se calculan después de los paréntesis.</text>\n<polygon points=\"340.0,201 360.0,201 350.0,217\" fill=\"#a78bfa\"/>\n<rect x=\"40\" y=\"215\" width=\"620\" height=\"78\" rx=\"12\" fill=\"#a855f7\"/>\n<text x=\"65\" y=\"243\" fill=\"#ffffff\" font-size=\"13\" font-weight=\"bold\">3. Multiplicación y división</text>\n<text x=\"65\" y=\"263\" fill=\"#f3e8ff\" font-size=\"11\">De izquierda a derecha, según aparezcan.</text>\n<polygon points=\"340.0,301 360.0,301 350.0,317\" fill=\"#a78bfa\"/>\n<rect x=\"40\" y=\"315\" width=\"620\" height=\"78\" rx=\"12\" fill=\"#c026d3\"/>\n<text x=\"65\" y=\"343\" fill=\"#ffffff\" font-size=\"13\" font-weight=\"bold\">4. Suma y resta</text>\n<text x=\"65\" y=\"363\" fill=\"#f3e8ff\" font-size=\"11\">Al final, de izquierda a derecha.</text>\n</svg>"
@@ -12,9 +12,9 @@
     "Fracciones — suma y resta: solo se pueden sumar o restar directamente fracciones que tengan el mismo denominador (el número de abajo). Si los denominadores son distintos, hay que buscar un común denominador (un número que sea múltiplo de ambos) y convertir cada fracción antes de operar. Ejemplo paso a paso: 1/4 + 1/6. El menor número que es múltiplo de 4 y de 6 es 12. Convertimos: 1/4 = 3/12 (multiplicando arriba y abajo por 3) y 1/6 = 2/12 (multiplicando arriba y abajo por 2). Ahora sí se suman: 3/12 + 2/12 = 5/12.",
     "Fracciones — multiplicación y división: para multiplicar fracciones se multiplican los numeradores entre sí y los denominadores entre sí, sin necesidad de buscar común denominador. Ejemplo: 3/5 × 2/7 = (3×2)/(5×7) = 6/35. Para dividir fracciones, se deja la primera igual y se multiplica por el 'recíproco' (la fracción invertida) de la segunda. Ejemplo: 3/4 ÷ 2/5 se convierte en 3/4 × 5/2 = 15/8.",
     "Porcentajes — calcular el 'X% de' una cantidad: se convierte el porcentaje en decimal (dividiendo entre 100) y se multiplica por la cantidad. Ejemplo paso a paso: ¿cuánto es el 20% de 350? Convertimos 20% a decimal: 20 ÷ 100 = 0.20. Multiplicamos: 350 × 0.20 = 70. Entonces el 20% de 350 es 70.",
-    "Porcentajes — encontrar qué porcentaje representa una cantidad de un total: se divide la cantidad (la parte) entre el total, y el resultado se multiplica por 100 para expresarlo en porcentaje. Ejemplo paso a paso: si de 500 votos, 125 fueron nulos, ¿qué porcentaje representan? Dividimos 125 ÷ 500 = 0.25. Multiplicamos por 100: 0.25 × 100 = 25%. Entonces los votos nulos representan el 25% del total.",
-    "Razones y proporciones: una razón compara dos cantidades, por ejemplo 'hay 3 vocales por cada 40 funcionarios' se escribe como la razón 3/40. Una proporción dice que dos razones son iguales (equivalentes), por ejemplo 3/40 = 24/320. Para comprobar si una proporción es correcta, o para encontrar el número que falta, se usa el 'producto cruzado': si a/b = c/d, entonces a×d es igual a b×c.",
-    "Regla de tres simple: se usa cuando dos cantidades son proporcionales (si una sube, la otra sube en la misma medida) y se conocen tres de los cuatro valores. Ejemplo paso a paso: si 100 boletas requieren 2 cajas para guardarse, ¿cuántas cajas se necesitan para 350 boletas? Se acomoda así: 100 boletas − 2 cajas / 350 boletas − x cajas. Se multiplican en cruz los valores conocidos: 350 × 2 = 700, y ese resultado se divide entre el valor que quedó solo, 100: 700 ÷ 100 = 7. Se necesitan 7 cajas."
+    "Porcentajes — encontrar qué porcentaje representa una cantidad de un total: se divide la cantidad (la parte) entre el total, y el resultado se multiplica por 100 para expresarlo en porcentaje. Ejemplo paso a paso: si de 500 galletas horneadas, 125 salieron quemadas, ¿qué porcentaje representan? Dividimos 125 ÷ 500 = 0.25. Multiplicamos por 100: 0.25 × 100 = 25%. Entonces las galletas quemadas representan el 25% del total.",
+    "Razones y proporciones: una razón compara dos cantidades, por ejemplo 'hay 3 maestros por cada 40 alumnos' se escribe como la razón 3/40. Una proporción dice que dos razones son iguales (equivalentes), por ejemplo 3/40 = 24/320. Para comprobar si una proporción es correcta, o para encontrar el número que falta, se usa el 'producto cruzado': si a/b = c/d, entonces a×d es igual a b×c.",
+    "Regla de tres simple: se usa cuando dos cantidades son proporcionales (si una sube, la otra sube en la misma medida) y se conocen tres de los cuatro valores. Ejemplo paso a paso: si 100 libros requieren 2 cajas para guardarse, ¿cuántas cajas se necesitan para 350 libros? Se acomoda así: 100 libros − 2 cajas / 350 libros − x cajas. Se multiplican en cruz los valores conocidos: 350 × 2 = 700, y ese resultado se divide entre el valor que quedó solo, 100: 700 ÷ 100 = 7. Se necesitan 7 cajas."
   ],
   "ejemplos": [
     {
@@ -33,13 +33,13 @@
       "nota": "Nunca se suman fracciones sumando de frente numeradores y denominadores; primero hay que igualar los denominadores."
     },
     {
-      "incorrecto": "El 20% de 350 boletas es 7.",
-      "correcto": "El 20% de 350 boletas es 70 (350 × 0.20 = 70).",
+      "incorrecto": "El 20% de 350 canicas es 7.",
+      "correcto": "El 20% de 350 canicas es 70 (350 × 0.20 = 70).",
       "nota": "Se multiplica por 0.20 (o por 20/100); un error común es dividir entre 20 en lugar de multiplicar."
     },
     {
-      "incorrecto": "Si 100 boletas ocupan 2 cajas, 350 boletas ocupan 3.5 cajas redondeando distinto en cada paso.",
-      "correcto": "350 boletas ocupan 7 cajas: (350 × 2) ÷ 100 = 7.",
+      "incorrecto": "Si 100 libros ocupan 2 cajas, 350 libros ocupan 3.5 cajas redondeando distinto en cada paso.",
+      "correcto": "350 libros ocupan 7 cajas: (350 × 2) ÷ 100 = 7.",
       "nota": "En la regla de tres siempre se multiplican los dos valores 'cruzados' antes de dividir entre el tercero."
     }
   ],
@@ -67,18 +67,18 @@
     },
     {
       "formato": "cuestionamiento-directo",
-      "enunciado": "En una casilla se recibieron 450 boletas. Si el 60% fueron utilizadas, ¿cuántas boletas se usaron?",
+      "enunciado": "En una panadería se hornearon 450 piezas de pan. Si el 60% fueron vendidas antes del mediodía, ¿cuántas piezas se vendieron?",
       "opciones": [
         "270",
         "300",
         "180"
       ],
       "respuesta_correcta": 0,
-      "explicacion": "450 × 0.60 = 270 boletas."
+      "explicacion": "450 × 0.60 = 270 piezas."
     },
     {
       "formato": "cuestionamiento-directo",
-      "enunciado": "Si de 500 votos emitidos, 125 fueron nulos, ¿qué porcentaje de los votos fueron nulos?",
+      "enunciado": "Si de 500 galletas horneadas, 125 salieron quemadas, ¿qué porcentaje de las galletas salieron quemadas?",
       "opciones": [
         "20%",
         "25%",
@@ -89,7 +89,7 @@
     },
     {
       "formato": "cuestionamiento-directo",
-      "enunciado": "Un consejo necesita 3 capacitadores por cada 40 funcionarios de casilla. Si tiene 320 funcionarios, ¿cuántos capacitadores necesita?",
+      "enunciado": "Una escuela necesita 3 maestros por cada 40 alumnos. Si tiene 320 alumnos, ¿cuántos maestros necesita?",
       "opciones": [
         "24",
         "20",
@@ -111,7 +111,7 @@
     },
     {
       "formato": "cuestionamiento-directo",
-      "enunciado": "Si 100 paquetes electorales requieren 4 vehículos para su traslado, ¿cuántos vehículos se requieren para 250 paquetes, manteniendo la misma proporción?",
+      "enunciado": "Si 100 paquetes de mercancía requieren 4 vehículos para su traslado, ¿cuántos vehículos se requieren para 250 paquetes, manteniendo la misma proporción?",
       "opciones": [
         "10",
         "8",
@@ -133,7 +133,7 @@
     },
     {
       "formato": "cuestionamiento-directo",
-      "enunciado": "Un distrito tiene una lista nominal de 80,000 personas. Si la participación fue del 45%, ¿cuántas personas votaron aproximadamente?",
+      "enunciado": "Una fábrica produce 80,000 piezas al mes. Si el 45% son piezas de exportación, ¿cuántas piezas de exportación produce aproximadamente?",
       "opciones": [
         "36,000",
         "45,000",
@@ -155,7 +155,7 @@
     },
     {
       "formato": "cuestionamiento-directo",
-      "enunciado": "Un candidato obtuvo 3 votos por cada 5 votos válidos emitidos en una casilla. Si hubo 400 votos válidos, ¿cuántos votos obtuvo ese candidato?",
+      "enunciado": "Un equipo de futbol gana 3 partidos por cada 5 partidos jugados. Si jugó 400 partidos en su historia, ¿en cuántos ganó?",
       "opciones": [
         "240",
         "200",

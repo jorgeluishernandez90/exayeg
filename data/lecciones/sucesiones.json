@@ -83,7 +83,7 @@
     },
     {
       "formato": "cuestionamiento-directo",
-      "enunciado": "Un consejo recibe cada mes 5 capacitaciones más que el mes anterior, empezando con 10 en enero. Si esto sigue un patrón aritmético, ¿cuántas capacitaciones tendrá en el quinto mes?",
+      "enunciado": "Una biblioteca recibe cada mes 5 libros más que el mes anterior, empezando con 10 en enero. Si esto sigue un patrón aritmético, ¿cuántos libros tendrá en el quinto mes?",
       "opciones": [
         "30",
         "25",
