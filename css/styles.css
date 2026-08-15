@@ -212,12 +212,34 @@ h1.titulo-leccion { font-size: var(--fs-2xl); margin: 6px 0 0; color: var(--vino
 .callout.legal { border-left: 4px solid var(--ink); font-family: var(--font-mono); font-size: var(--fs-sm); }
 .callout .label { font-weight: 700; font-size: var(--fs-xs); text-transform: uppercase; letter-spacing: .06em; color: var(--vino-700); display: block; margin-bottom: 4px; }
 
-/* ---------- Tablas comparativas (para lecciones que las usen) ---------- */
+/* ---------- Tablas comparativas ---------- */
 .table-wrap { overflow-x: auto; margin: var(--sp-5) 0; border-radius: var(--radius-md); border: 1px solid var(--border); }
 table.study { border-collapse: collapse; width: 100%; font-size: var(--fs-sm); }
 table.study th { background: var(--vino-600); color: #fff; text-align: left; padding: 10px 14px; font-family: var(--font-display); font-weight: 600; }
 table.study td { padding: 10px 14px; border-top: 1px solid var(--border); }
 table.study tr:nth-child(even) td { background: var(--bg-alt); }
+
+/* ---------- Línea de tiempo ---------- */
+ol.timeline {
+  list-style: none; margin: var(--sp-5) 0 0; padding: 0 0 0 4px; position: relative;
+}
+ol.timeline li {
+  position: relative; padding: 0 0 var(--sp-5) 32px; margin: 0;
+}
+ol.timeline li::before {
+  content: ""; position: absolute; left: 5px; top: 4px; width: 12px; height: 12px;
+  border-radius: 50%; background: var(--vino-600); border: 2px solid var(--laton-300);
+}
+ol.timeline li::after {
+  content: ""; position: absolute; left: 10px; top: 18px; width: 2px; bottom: 0;
+  background: var(--border);
+}
+ol.timeline li:last-child::after { display: none; }
+.timeline-momento {
+  display: block; font-family: var(--font-mono); font-size: var(--fs-xs);
+  color: var(--vino-600); font-weight: 700; letter-spacing: .03em; margin-bottom: 2px;
+}
+.timeline-desc { display: block; color: var(--ink); }
 
 /* ---------- Quiz ---------- */
 .quiz-intro { display: flex; align-items: center; justify-content: space-between; gap: var(--sp-4); flex-wrap: wrap; }
