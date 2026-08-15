@@ -156,24 +156,31 @@
     "eventos": [
       {
         "momento": "15 de enero – 15 de febrero",
-        "descripcion": "Las juntas distritales recorren las secciones buscando lugares que cumplan los requisitos y no incurran en las prohibiciones."
+        "descripcion": "Las juntas distritales del INE recorren las secciones buscando lugares que cumplan los requisitos y no incurran en las prohibiciones."
       },
       {
         "momento": "16 – 26 de febrero",
-        "descripcion": "Las juntas presentan al consejo distrital una lista con los lugares propuestos."
+        "descripcion": "Las juntas presentan al consejo distrital electoral del INE una lista con los lugares propuestos."
       },
       {
         "momento": "Segunda semana de abril",
-        "descripcion": "El consejo distrital, en sesión, aprueba la lista definitiva de ubicación de casillas."
+        "descripcion": "El consejo distrital electoral del INE, en sesión, aprueba la lista definitiva de ubicación de casillas."
       },
       {
         "momento": "A más tardar el 15 de abril",
-        "descripcion": "El presidente del consejo distrital ordena la publicación de la lista de casillas aprobadas."
+        "descripcion": "El presidente del consejo distrital electoral del INE ordena la publicación de la lista de casillas aprobadas."
       },
       {
         "momento": "15 – 25 de mayo",
         "descripcion": "Puede ordenarse una segunda publicación con los ajustes necesarios."
       }
     ]
-  }
+  },
+  "callouts": [
+    {
+      "tipo": "legal",
+      "titulo": "Ojo: es una función del INE, no del IEEG",
+      "texto": "La ubicación de casillas es una actividad exclusiva del <strong>Instituto Nacional Electoral</strong> (a través de sus juntas y consejos distritales), tanto en procesos federales como locales — conforme a la LGIPE. El IEEG no interviene en esta determinación."
+    }
+  ]
 }

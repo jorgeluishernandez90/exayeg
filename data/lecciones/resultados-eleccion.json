@@ -188,5 +188,12 @@
         "descripcion": "Cómputo estatal: el Consejo General suma los cómputos distritales de Gobernador y de representación proporcional."
       }
     ]
-  }
+  },
+  "callouts": [
+    {
+      "tipo": "legal",
+      "titulo": "Límite de horario de la sesión de cómputos",
+      "texto": "Conforme a los Lineamientos de cómputos del IEEG, la sesión de cómputos tiene como límite las <strong>00:00 horas</strong> para concluir, es decir, un máximo de <strong>40 horas</strong> de sesión."
+    }
+  ]
 }
